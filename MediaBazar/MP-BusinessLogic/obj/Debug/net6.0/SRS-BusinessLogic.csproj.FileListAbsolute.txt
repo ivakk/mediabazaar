@@ -1,0 +1,15 @@
+C:\Users\ivk\Desktop\spaghettiredsauce-62fdd06a66039e121e0634b6e146a94def8119c7\Solution\SRS-Solution\SRS-BusinessLogic\bin\Debug\net6.0\SRS-BusinessLogic.deps.json
+C:\Users\ivk\Desktop\spaghettiredsauce-62fdd06a66039e121e0634b6e146a94def8119c7\Solution\SRS-Solution\SRS-BusinessLogic\bin\Debug\net6.0\SRS-BusinessLogic.dll
+C:\Users\ivk\Desktop\spaghettiredsauce-62fdd06a66039e121e0634b6e146a94def8119c7\Solution\SRS-Solution\SRS-BusinessLogic\bin\Debug\net6.0\SRS-BusinessLogic.pdb
+C:\Users\ivk\Desktop\spaghettiredsauce-62fdd06a66039e121e0634b6e146a94def8119c7\Solution\SRS-Solution\SRS-BusinessLogic\bin\Debug\net6.0\SRS-DataAccess.dll
+C:\Users\ivk\Desktop\spaghettiredsauce-62fdd06a66039e121e0634b6e146a94def8119c7\Solution\SRS-Solution\SRS-BusinessLogic\bin\Debug\net6.0\SRS-DataAccess.pdb
+C:\Users\ivk\Desktop\spaghettiredsauce-62fdd06a66039e121e0634b6e146a94def8119c7\Solution\SRS-Solution\SRS-BusinessLogic\obj\Debug\net6.0\SRS-BusinessLogic.csproj.AssemblyReference.cache
+C:\Users\ivk\Desktop\spaghettiredsauce-62fdd06a66039e121e0634b6e146a94def8119c7\Solution\SRS-Solution\SRS-BusinessLogic\obj\Debug\net6.0\SRS-BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ivk\Desktop\spaghettiredsauce-62fdd06a66039e121e0634b6e146a94def8119c7\Solution\SRS-Solution\SRS-BusinessLogic\obj\Debug\net6.0\SRS-BusinessLogic.AssemblyInfoInputs.cache
+C:\Users\ivk\Desktop\spaghettiredsauce-62fdd06a66039e121e0634b6e146a94def8119c7\Solution\SRS-Solution\SRS-BusinessLogic\obj\Debug\net6.0\SRS-BusinessLogic.AssemblyInfo.cs
+C:\Users\ivk\Desktop\spaghettiredsauce-62fdd06a66039e121e0634b6e146a94def8119c7\Solution\SRS-Solution\SRS-BusinessLogic\obj\Debug\net6.0\SRS-BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\ivk\Desktop\spaghettiredsauce-62fdd06a66039e121e0634b6e146a94def8119c7\Solution\SRS-Solution\SRS-BusinessLogic\obj\Debug\net6.0\SRS-Busi.B052EAC4.Up2Date
+C:\Users\ivk\Desktop\spaghettiredsauce-62fdd06a66039e121e0634b6e146a94def8119c7\Solution\SRS-Solution\SRS-BusinessLogic\obj\Debug\net6.0\SRS-BusinessLogic.dll
+C:\Users\ivk\Desktop\spaghettiredsauce-62fdd06a66039e121e0634b6e146a94def8119c7\Solution\SRS-Solution\SRS-BusinessLogic\obj\Debug\net6.0\refint\SRS-BusinessLogic.dll
+C:\Users\ivk\Desktop\spaghettiredsauce-62fdd06a66039e121e0634b6e146a94def8119c7\Solution\SRS-Solution\SRS-BusinessLogic\obj\Debug\net6.0\SRS-BusinessLogic.pdb
+C:\Users\ivk\Desktop\spaghettiredsauce-62fdd06a66039e121e0634b6e146a94def8119c7\Solution\SRS-Solution\SRS-BusinessLogic\obj\Debug\net6.0\ref\SRS-BusinessLogic.dll
