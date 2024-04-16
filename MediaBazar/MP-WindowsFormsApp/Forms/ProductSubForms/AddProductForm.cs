@@ -1,15 +1,5 @@
 ﻿using MP_BusinessLogic.Services;
 using MP_EntityLibrary;
-using MP_WindowsFormsApp.UserControls;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace MP_WindowsFormsApp.Forms.ProductSubForms
 {
@@ -25,7 +15,7 @@ namespace MP_WindowsFormsApp.Forms.ProductSubForms
         public AddProductForm(ProductsForm productsForm)
         {
             InitializeComponent();
-            
+
             cbBrand.Items.AddRange(brandService.GetAll().ToArray());
             cbCategory.Items.AddRange(categoryService.GetAll().ToArray());
             this.productsForm = productsForm;
@@ -48,9 +38,9 @@ namespace MP_WindowsFormsApp.Forms.ProductSubForms
             SubCategory subCategory = subCategoryService.GetByName(cbSubCategory.Text);
             Brand brand = brandService.GetByName(cbBrand.Text);
             Product product = new Product(productId, category, subCategory, brand, tbModel.Text, tbDescription.Text, nudPrice.Value, 100);
-            if(product.Id == 0 )
+            if (product.Id == 0)
                 productService.Create(product);
-            else 
+            else
                 productService.Update(product);
             this.Hide();
             productsForm.mainForm.ChangeShownForm(productsForm);

@@ -1,0 +1,12 @@
+D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-DataAccess\bin\Debug\net6.0\MP-DataAccess.deps.json
+D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-DataAccess\bin\Debug\net6.0\MP-DataAccess.dll
+D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-DataAccess\bin\Debug\net6.0\MP-DataAccess.pdb
+D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\MP-DataAccess.csproj.AssemblyReference.cache
+D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\MP-DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\MP-DataAccess.AssemblyInfoInputs.cache
+D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\MP-DataAccess.AssemblyInfo.cs
+D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\MP-DataAccess.csproj.CoreCompileInputs.cache
+D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\MP-DataAccess.dll
+D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\refint\MP-DataAccess.dll
+D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\MP-DataAccess.pdb
+D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\ref\MP-DataAccess.dll

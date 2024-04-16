@@ -1,10 +1,5 @@
 ﻿using MP_DataAccess.DALManagers;
 using MP_EntityLibrary;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MP_BusinessLogic.Services
 {
@@ -23,7 +18,7 @@ namespace MP_BusinessLogic.Services
         public List<Product> GetBySearch(string search)
         {
             List<Product> result = new List<Product>();
-            foreach(Product product in GetAll())
+            foreach (Product product in GetAll())
             {
                 if (product.GetObjectString().Contains(search))
                 {

@@ -1,0 +1,15 @@
+D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-BusinessLogic\obj\Debug\net6.0\MP-BusinessLogic.csproj.AssemblyReference.cache
+D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-BusinessLogic\obj\Debug\net6.0\MP-BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-BusinessLogic\obj\Debug\net6.0\MP-BusinessLogic.AssemblyInfoInputs.cache
+D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-BusinessLogic\obj\Debug\net6.0\MP-BusinessLogic.AssemblyInfo.cs
+D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-BusinessLogic\obj\Debug\net6.0\MP-BusinessLogic.csproj.CoreCompileInputs.cache
+D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-BusinessLogic\bin\Debug\net6.0\MP-BusinessLogic.deps.json
+D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-BusinessLogic\bin\Debug\net6.0\MP-BusinessLogic.dll
+D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-BusinessLogic\bin\Debug\net6.0\MP-BusinessLogic.pdb
+D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-BusinessLogic\bin\Debug\net6.0\MP-DataAccess.dll
+D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-BusinessLogic\bin\Debug\net6.0\MP-DataAccess.pdb
+D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-BusinessLogic\obj\Debug\net6.0\MP-BusinessLogic.csproj.CopyComplete
+D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-BusinessLogic\obj\Debug\net6.0\MP-BusinessLogic.dll
+D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-BusinessLogic\obj\Debug\net6.0\refint\MP-BusinessLogic.dll
+D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-BusinessLogic\obj\Debug\net6.0\MP-BusinessLogic.pdb
+D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-BusinessLogic\obj\Debug\net6.0\ref\MP-BusinessLogic.dll

@@ -14,6 +14,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MP_WindowsFormsApp
-build_property.ProjectDir = C:\Users\ivk\Desktop\spaghettiredsauce-62fdd06a66039e121e0634b6e146a94def8119c7\Solution\SRS-Solution\SRS-WindowsFormsApp\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.ProjectDir = D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-WindowsFormsApp\

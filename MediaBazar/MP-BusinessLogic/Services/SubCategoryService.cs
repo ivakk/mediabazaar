@@ -1,10 +1,5 @@
 ﻿using MP_DataAccess.DALManagers;
 using MP_EntityLibrary;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MP_BusinessLogic.Services
 {
@@ -20,10 +15,10 @@ namespace MP_BusinessLogic.Services
         public List<SubCategory> GetForCategory(Category category)
         {
             List<SubCategory> all = GetAll();
-            List < SubCategory > result = new List<SubCategory>();
+            List<SubCategory> result = new List<SubCategory>();
             foreach (SubCategory subCategory in all)
             {
-                if(subCategory.Category.Id == category.Id)
+                if (subCategory.Category.Id == category.Id)
                     result.Add(subCategory);
             }
             return result;
