@@ -5865,19 +5865,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ivk\\.nuget\\packages\\": {}
+    "C:\\Users\\ivayl\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ivk\\Desktop\\cvh\\media-bazzar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj",
+      "projectUniqueName": "D:\\Software-S2\\group prjct\\media-bazzar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj",
       "projectName": "MP-DataAccess",
-      "projectPath": "C:\\Users\\ivk\\Desktop\\cvh\\media-bazzar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj",
-      "packagesPath": "C:\\Users\\ivk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ivk\\Desktop\\cvh\\media-bazzar\\MediaBazar\\MP-DataAccess\\obj\\",
+      "projectPath": "D:\\Software-S2\\group prjct\\media-bazzar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj",
+      "packagesPath": "C:\\Users\\ivayl\\.nuget\\packages\\",
+      "outputPath": "D:\\Software-S2\\group prjct\\media-bazzar\\MediaBazar\\MP-DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ivk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ivayl\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5937,7 +5937,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
