@@ -39,19 +39,19 @@ namespace MP_WindowsFormsApp.Forms
             static_month = month;
             static_year = year;
 
-            DateTime startOfTheMonth = new DateTime(year,month,1);
+            DateTime startOfTheMonth = new DateTime(year, month, 1);
 
-            int days = DateTime.DaysInMonth(year,month);
+            int days = DateTime.DaysInMonth(year, month);
 
-            int dayOfTheWeek = Convert.ToInt32(startOfTheMonth.DayOfWeek.ToString("d")) ;
+            int dayOfTheWeek = Convert.ToInt32(startOfTheMonth.DayOfWeek.ToString("d"));
 
-            for(int i = 1;i <= dayOfTheWeek;i++)
+            for (int i = 1; i <= dayOfTheWeek; i++)
             {
                 UserControlBlank ucblank = new UserControlBlank();
                 dayContainer.Controls.Add(ucblank);
             }
 
-            for(int i = 1; i <= days;i++)
+            for (int i = 1; i <= days; i++)
             {
                 UserControlDays ucDays = new UserControlDays();
                 ucDays.Days(i);
@@ -98,7 +98,7 @@ namespace MP_WindowsFormsApp.Forms
         {
             dayContainer.Controls.Clear();
 
-            month ++;
+            month++;
             string monthName = DateTimeFormatInfo.CurrentInfo.MonthNames[month - 1];
             lblDate.Text = monthName + " " + year;
             if (month > 12)

@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v6.0": {
       "MP-WindowsFormsApp/1.0.0": {
         "dependencies": {
-          "MP-BusinessLogic": "1.0.0"
+          "MP-BusinessLogic": "1.0.0",
+          "MP-DataAccess": "1.0.0"
         },
         "runtime": {
           "MP-WindowsFormsApp.dll": {}

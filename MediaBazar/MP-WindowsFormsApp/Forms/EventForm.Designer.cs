@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             txbDate = new TextBox();
-            txbEvent = new TextBox();
             lblDate = new Label();
             lblEvent = new Label();
             btnSave = new Button();
@@ -40,6 +39,7 @@
             label3 = new Label();
             textBox2 = new TextBox();
             label4 = new Label();
+            comboBoxEventType = new ComboBox();
             SuspendLayout();
             // 
             // txbDate
@@ -50,15 +50,6 @@
             txbDate.Name = "txbDate";
             txbDate.Size = new Size(337, 35);
             txbDate.TabIndex = 0;
-            // 
-            // txbEvent
-            // 
-            txbEvent.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            txbEvent.Location = new Point(304, 109);
-            txbEvent.Multiline = true;
-            txbEvent.Name = "txbEvent";
-            txbEvent.Size = new Size(337, 35);
-            txbEvent.TabIndex = 1;
             // 
             // lblDate
             // 
@@ -101,7 +92,7 @@
             // comboBox1
             // 
             comboBox1.FormattingEnabled = true;
-            comboBox1.Items.AddRange(new object[] { "8-12:30", "12:30-17:00", "17- 23:30" });
+            comboBox1.Items.AddRange(new object[] { "Morning Shift", "Afternoon Shift", "Evening Shift" });
             comboBox1.Location = new Point(84, 109);
             comboBox1.Margin = new Padding(4, 5, 4, 5);
             comboBox1.Name = "comboBox1";
@@ -156,12 +147,23 @@
             label4.TabIndex = 11;
             label4.Text = "Form for Assigning Shifts";
             // 
+            // comboBoxEventType
+            // 
+            comboBoxEventType.FormattingEnabled = true;
+            comboBoxEventType.Items.AddRange(new object[] { "Shift" });
+            comboBoxEventType.Location = new Point(300, 111);
+            comboBoxEventType.Margin = new Padding(4, 5, 4, 5);
+            comboBoxEventType.Name = "comboBoxEventType";
+            comboBoxEventType.Size = new Size(224, 28);
+            comboBoxEventType.TabIndex = 12;
+            // 
             // EventForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ControlLight;
             ClientSize = new Size(784, 585);
+            Controls.Add(comboBoxEventType);
             Controls.Add(label4);
             Controls.Add(textBox2);
             Controls.Add(label3);
@@ -172,7 +174,6 @@
             Controls.Add(btnSave);
             Controls.Add(lblEvent);
             Controls.Add(lblDate);
-            Controls.Add(txbEvent);
             Controls.Add(txbDate);
             Name = "EventForm";
             Text = "EventForm";
@@ -184,7 +185,6 @@
         #endregion
 
         private TextBox txbDate;
-        private TextBox txbEvent;
         private Label lblDate;
         private Label lblEvent;
         private Button btnSave;
@@ -195,5 +195,6 @@
         private Label label3;
         private TextBox textBox2;
         private Label label4;
+        private ComboBox comboBoxEventType;
     }
 }

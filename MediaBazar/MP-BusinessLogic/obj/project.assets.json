@@ -5883,19 +5883,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ivk\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ivk\\Desktop\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj",
+      "projectUniqueName": "D:\\uni\\glaven proekt grupa media bazar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj",
       "projectName": "MP-BusinessLogic",
-      "projectPath": "C:\\Users\\ivk\\Desktop\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj",
-      "packagesPath": "C:\\Users\\ivk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ivk\\Desktop\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\obj\\",
+      "projectPath": "D:\\uni\\glaven proekt grupa media bazar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "D:\\uni\\glaven proekt grupa media bazar\\MediaBazar\\MP-BusinessLogic\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ivk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5909,8 +5909,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\ivk\\Desktop\\media-bazzar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj": {
-              "projectPath": "C:\\Users\\ivk\\Desktop\\media-bazzar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj"
+            "D:\\uni\\glaven proekt grupa media bazar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj": {
+              "projectPath": "D:\\uni\\glaven proekt grupa media bazar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj"
             }
           }
         }
@@ -5919,11 +5919,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -5945,7 +5940,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

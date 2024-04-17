@@ -1,5 +1,4 @@
 D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-WindowsFormsApp\obj\Debug\net6.0-windows\MP-WindowsFormsApp.csproj.AssemblyReference.cache
-D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-WindowsFormsApp\obj\Debug\net6.0-windows\T_and_B.EventForm.resources
 D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-WindowsFormsApp\obj\Debug\net6.0-windows\MP_WindowsFormsApp.Forms.ProductsForm.resources
 D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-WindowsFormsApp\obj\Debug\net6.0-windows\MP_WindowsFormsApp.Forms.ProductSubForms.AddProductForm.resources
 D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-WindowsFormsApp\obj\Debug\net6.0-windows\MP_WindowsFormsApp.Forms.ReplenishmentRequestsForm.resources
@@ -7,9 +6,6 @@ D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-WindowsFormsApp\obj\Debug\n
 D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-WindowsFormsApp\obj\Debug\net6.0-windows\MP_WindowsFormsApp.LoginForm.resources
 D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-WindowsFormsApp\obj\Debug\net6.0-windows\MP_WindowsFormsApp.MainForm.resources
 D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-WindowsFormsApp\obj\Debug\net6.0-windows\MP_WindowsFormsApp.Properties.Resources.resources
-D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-WindowsFormsApp\obj\Debug\net6.0-windows\T_and_B.ScheduleForm.resources
-D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-WindowsFormsApp\obj\Debug\net6.0-windows\T_and_B.UserControlBlank.resources
-D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-WindowsFormsApp\obj\Debug\net6.0-windows\T_and_B.UserControlDays.resources
 D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-WindowsFormsApp\obj\Debug\net6.0-windows\MP_WindowsFormsApp.UserControls.MenuButton.resources
 D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-WindowsFormsApp\obj\Debug\net6.0-windows\MP_WindowsFormsApp.UserControls.ReplenishmentRequestUC.resources
 D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-WindowsFormsApp\obj\Debug\net6.0-windows\MP-WindowsFormsApp.csproj.GenerateResource.cache
@@ -130,3 +126,9 @@ C:\Users\ivk\Desktop\New folder\media-bazzar\MediaBazar\MP-WindowsFormsApp\obj\D
 C:\Users\ivk\Desktop\New folder\media-bazzar\MediaBazar\MP-WindowsFormsApp\obj\Debug\net6.0-windows\MP_WindowsFormsApp.Forms.ScheduleForm.resources
 C:\Users\ivk\Desktop\New folder\media-bazzar\MediaBazar\MP-WindowsFormsApp\obj\Debug\net6.0-windows\MP_WindowsFormsApp.UserControls.UserControlBlank.resources
 C:\Users\ivk\Desktop\New folder\media-bazzar\MediaBazar\MP-WindowsFormsApp\obj\Debug\net6.0-windows\MP_WindowsFormsApp.UserControls.UserControlDays.resources
+D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-WindowsFormsApp\obj\Debug\net6.0-windows\MP_WindowsFormsApp.Forms.EventForm.resources
+D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-WindowsFormsApp\obj\Debug\net6.0-windows\MP_WindowsFormsApp.Forms.ScheduleForm.resources
+D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-WindowsFormsApp\obj\Debug\net6.0-windows\MP_WindowsFormsApp.Forms.UserSubForms.AddUserForm.resources
+D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-WindowsFormsApp\obj\Debug\net6.0-windows\MP_WindowsFormsApp.UserControls.UserControlBlank.resources
+D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-WindowsFormsApp\obj\Debug\net6.0-windows\MP_WindowsFormsApp.UserControls.UserControlDays.resources
+D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-WindowsFormsApp\obj\Debug\net6.0-windows\MP_WindowsFormsApp.UserControls.UsersUC.resources

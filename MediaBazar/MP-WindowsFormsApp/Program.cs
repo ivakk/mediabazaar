@@ -1,5 +1,3 @@
-using T_and_B;
-
 namespace MP_WindowsFormsApp
 {
     internal static class Program

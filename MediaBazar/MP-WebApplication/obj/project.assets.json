@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ivk\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ivk\\Desktop\\media-bazzar\\MediaBazar\\MP-WebApplication\\MP-WebApplication.csproj",
+      "projectUniqueName": "D:\\uni\\glaven proekt grupa media bazar\\MediaBazar\\MP-WebApplication\\MP-WebApplication.csproj",
       "projectName": "MP-WebApplication",
-      "projectPath": "C:\\Users\\ivk\\Desktop\\media-bazzar\\MediaBazar\\MP-WebApplication\\MP-WebApplication.csproj",
-      "packagesPath": "C:\\Users\\ivk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ivk\\Desktop\\media-bazzar\\MediaBazar\\MP-WebApplication\\obj\\",
+      "projectPath": "D:\\uni\\glaven proekt grupa media bazar\\MediaBazar\\MP-WebApplication\\MP-WebApplication.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "D:\\uni\\glaven proekt grupa media bazar\\MediaBazar\\MP-WebApplication\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ivk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -40,11 +40,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -69,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
