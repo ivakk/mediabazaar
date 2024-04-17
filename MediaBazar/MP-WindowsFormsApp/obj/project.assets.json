@@ -5901,19 +5901,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\ivk\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\uni\\glaven proekt grupa media bazar\\MediaBazar\\MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj",
+      "projectUniqueName": "C:\\Users\\ivk\\Desktop\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj",
       "projectName": "MP-WindowsFormsApp",
-      "projectPath": "D:\\uni\\glaven proekt grupa media bazar\\MediaBazar\\MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\uni\\glaven proekt grupa media bazar\\MediaBazar\\MP-WindowsFormsApp\\obj\\",
+      "projectPath": "C:\\Users\\ivk\\Desktop\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj",
+      "packagesPath": "C:\\Users\\ivk\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ivk\\Desktop\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ivk\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5927,8 +5927,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "D:\\uni\\glaven proekt grupa media bazar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj": {
-              "projectPath": "D:\\uni\\glaven proekt grupa media bazar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj"
+            "C:\\Users\\ivk\\Desktop\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj": {
+              "projectPath": "C:\\Users\\ivk\\Desktop\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj"
             }
           }
         }
@@ -5937,6 +5937,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -5961,7 +5966,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

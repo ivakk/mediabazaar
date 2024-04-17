@@ -1,4 +1,6 @@
-﻿namespace MP_WindowsFormsApp
+﻿using MP_EntityLibrary;
+
+namespace MP_WindowsFormsApp
 {
     public partial class LoginForm : Form
     {
@@ -24,12 +26,30 @@
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            if (tbEmail.Text == "1" && tbPassword.Text == "1")
+            string email = tbEmail.Text;
+            string password = tbPassword.Text;
+
+            try
             {
-                MainForm layoutForm = new MainForm(this);
-                layoutForm.ShowDialog();
-            } 
+                User user = new User(email, password);
+                MainForm mainForm = new MainForm(user, this);
+                mainForm.Show();
+                this.Hide();
+            }
+            catch (ArgumentException ex)
+            {
+                if (email == "1" && password == "1")
+                {
+                    MainForm mainForm = new MainForm(null, this);
+                    mainForm.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show(ex.Message, "Incorrect login details", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+            }
         }
     }
 }

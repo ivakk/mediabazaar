@@ -14,21 +14,21 @@ namespace MP_WindowsFormsApp.UserControls
     {
         public string ButtonText;
         public Form AssosiatedForm;
-        private MainForm layoutFormRef;
+        private MainForm mainFormRef;
 
-        public MenuButton(string buttonText, Form assosiatedForm, MainForm layoutFormRef)
+        public MenuButton(string buttonText, Form assosiatedForm, MainForm mainFormRef)
         {
             InitializeComponent();
             ButtonText = buttonText;
             AssosiatedForm = assosiatedForm;
-            this.layoutFormRef = layoutFormRef;
+            this.mainFormRef = mainFormRef;
             Button.Text = buttonText;
         }
 
         private void Button_Click(object sender, EventArgs e)
         {
-            layoutFormRef.pnlMainForm.Controls.Clear();
-            this.layoutFormRef.pnlMainForm.Controls.Add(AssosiatedForm);
+            mainFormRef.pnlMainForm.Controls.Clear();
+            this.mainFormRef.pnlMainForm.Controls.Add(AssosiatedForm);
             AssosiatedForm.Show();
         }
     }

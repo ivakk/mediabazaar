@@ -10,3 +10,15 @@ D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-DataAccess\obj\Debug\net6.0
 D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\refint\MP-DataAccess.dll
 D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\MP-DataAccess.pdb
 D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\ref\MP-DataAccess.dll
+C:\Users\ivk\Desktop\New folder\media-bazzar\MediaBazar\MP-DataAccess\bin\Debug\net6.0\MP-DataAccess.deps.json
+C:\Users\ivk\Desktop\New folder\media-bazzar\MediaBazar\MP-DataAccess\bin\Debug\net6.0\MP-DataAccess.dll
+C:\Users\ivk\Desktop\New folder\media-bazzar\MediaBazar\MP-DataAccess\bin\Debug\net6.0\MP-DataAccess.pdb
+C:\Users\ivk\Desktop\New folder\media-bazzar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\MP-DataAccess.csproj.AssemblyReference.cache
+C:\Users\ivk\Desktop\New folder\media-bazzar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\MP-DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ivk\Desktop\New folder\media-bazzar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\MP-DataAccess.AssemblyInfoInputs.cache
+C:\Users\ivk\Desktop\New folder\media-bazzar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\MP-DataAccess.AssemblyInfo.cs
+C:\Users\ivk\Desktop\New folder\media-bazzar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\MP-DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\ivk\Desktop\New folder\media-bazzar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\MP-DataAccess.dll
+C:\Users\ivk\Desktop\New folder\media-bazzar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\refint\MP-DataAccess.dll
+C:\Users\ivk\Desktop\New folder\media-bazzar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\MP-DataAccess.pdb
+C:\Users\ivk\Desktop\New folder\media-bazzar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\ref\MP-DataAccess.dll

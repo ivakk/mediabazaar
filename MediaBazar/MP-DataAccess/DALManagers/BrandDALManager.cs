@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace MP_DataAccess.DALManagers
 {
-    public class BrandDALManager : Connection, DALManagerBase {
+    public class BrandDALManager : Connection {
         private string tableName = "Brands";
 
         /**
