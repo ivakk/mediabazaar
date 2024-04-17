@@ -2,7 +2,7 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
-    <Compile Update="EventForm.cs">
+    <Compile Update="Forms\EventForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Forms\ProductsForm.cs">
@@ -17,25 +17,31 @@
     <Compile Update="Forms\UsersForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Forms\UserSubForms\AddUserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="ScheduleForm.cs">
+    <Compile Update="Forms\ScheduleForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="UserControlBlank.cs">
+    <Compile Update="UserControls\UserControlBlank.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="UserControlDays.cs">
+    <Compile Update="UserControls\UserControlDays.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="UserControls\MenuButton.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="UserControls\ReplenishmentRequestUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControls\UsersUC.cs">
       <SubType>UserControl</SubType>
     </Compile>
   </ItemGroup>

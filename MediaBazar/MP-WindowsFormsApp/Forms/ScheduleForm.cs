@@ -8,17 +8,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MP_WindowsFormsApp.UserControls;
 
-namespace T_and_B
+namespace MP_WindowsFormsApp.Forms
 {
     public partial class ScheduleForm : Form
     {
         int month, year;
 
         public static int static_month, static_year;
-        public ScheduleForm()
+        public MainForm mainForm;
+        public ScheduleForm(MainForm mainForm)
         {
             InitializeComponent();
+            this.mainForm = mainForm;
         }
         private void Schedule_Load(object sender, EventArgs e)
         {

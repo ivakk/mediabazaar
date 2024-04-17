@@ -7,8 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MP_WindowsFormsApp.Forms;
 
-namespace T_and_B
+namespace MP_WindowsFormsApp.UserControls
 {
     public partial class UserControlDays : UserControl
     {

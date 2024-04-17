@@ -1,4 +1,4 @@
-﻿namespace T_and_B
+﻿namespace MP_WindowsFormsApp.UserControls
 {
     partial class UserControlDays
     {
