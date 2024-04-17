@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace MP_DataAccess.DALManagers
 {
-    public class ProductDALManager : Connection, DALManagerBase
+    public class ProductDALManager : Connection
     {
 
         private string tableName = "Products";

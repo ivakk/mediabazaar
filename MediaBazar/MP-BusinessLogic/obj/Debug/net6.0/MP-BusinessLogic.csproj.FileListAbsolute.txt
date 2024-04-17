@@ -13,3 +13,18 @@ D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-BusinessLogic\obj\Debug\net
 D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-BusinessLogic\obj\Debug\net6.0\refint\MP-BusinessLogic.dll
 D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-BusinessLogic\obj\Debug\net6.0\MP-BusinessLogic.pdb
 D:\uni\glaven proekt grupa media bazar\MediaBazar\MP-BusinessLogic\obj\Debug\net6.0\ref\MP-BusinessLogic.dll
+C:\Users\ivk\Desktop\New folder\media-bazzar\MediaBazar\MP-BusinessLogic\bin\Debug\net6.0\MP-BusinessLogic.deps.json
+C:\Users\ivk\Desktop\New folder\media-bazzar\MediaBazar\MP-BusinessLogic\bin\Debug\net6.0\MP-BusinessLogic.dll
+C:\Users\ivk\Desktop\New folder\media-bazzar\MediaBazar\MP-BusinessLogic\bin\Debug\net6.0\MP-BusinessLogic.pdb
+C:\Users\ivk\Desktop\New folder\media-bazzar\MediaBazar\MP-BusinessLogic\bin\Debug\net6.0\MP-DataAccess.dll
+C:\Users\ivk\Desktop\New folder\media-bazzar\MediaBazar\MP-BusinessLogic\bin\Debug\net6.0\MP-DataAccess.pdb
+C:\Users\ivk\Desktop\New folder\media-bazzar\MediaBazar\MP-BusinessLogic\obj\Debug\net6.0\MP-BusinessLogic.csproj.AssemblyReference.cache
+C:\Users\ivk\Desktop\New folder\media-bazzar\MediaBazar\MP-BusinessLogic\obj\Debug\net6.0\MP-BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ivk\Desktop\New folder\media-bazzar\MediaBazar\MP-BusinessLogic\obj\Debug\net6.0\MP-BusinessLogic.AssemblyInfoInputs.cache
+C:\Users\ivk\Desktop\New folder\media-bazzar\MediaBazar\MP-BusinessLogic\obj\Debug\net6.0\MP-BusinessLogic.AssemblyInfo.cs
+C:\Users\ivk\Desktop\New folder\media-bazzar\MediaBazar\MP-BusinessLogic\obj\Debug\net6.0\MP-BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\ivk\Desktop\New folder\media-bazzar\MediaBazar\MP-BusinessLogic\obj\Debug\net6.0\MP-Busin.9A2BF5E4.Up2Date
+C:\Users\ivk\Desktop\New folder\media-bazzar\MediaBazar\MP-BusinessLogic\obj\Debug\net6.0\MP-BusinessLogic.dll
+C:\Users\ivk\Desktop\New folder\media-bazzar\MediaBazar\MP-BusinessLogic\obj\Debug\net6.0\refint\MP-BusinessLogic.dll
+C:\Users\ivk\Desktop\New folder\media-bazzar\MediaBazar\MP-BusinessLogic\obj\Debug\net6.0\MP-BusinessLogic.pdb
+C:\Users\ivk\Desktop\New folder\media-bazzar\MediaBazar\MP-BusinessLogic\obj\Debug\net6.0\ref\MP-BusinessLogic.dll
