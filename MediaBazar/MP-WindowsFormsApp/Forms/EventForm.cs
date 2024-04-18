@@ -22,10 +22,14 @@ namespace MP_WindowsFormsApp.Forms
             { "Afternoon Shift", Tuple.Create(new TimeSpan(12, 30, 0), new TimeSpan(17, 0, 0)) },
             { "Evening Shift", Tuple.Create(new TimeSpan(17, 0, 0), new TimeSpan(23, 30, 0)) }
         };
+        private ScheduleForm _scheduleForm;
 
-        public EventForm()
+
+        public EventForm(ScheduleForm scheduleForm)
         {
             InitializeComponent();
+           _scheduleForm = scheduleForm;
+
         }
 
         private void btnSave_Click(object sender, EventArgs e)
@@ -56,6 +60,7 @@ namespace MP_WindowsFormsApp.Forms
 
             // Insert event data into the database
             InsertEventData(shiftID, employeeName, eventType, eventDate, comments);
+            _scheduleForm.RefreshSchedule();
 
             MessageBox.Show("Event saved successfully.");
         }

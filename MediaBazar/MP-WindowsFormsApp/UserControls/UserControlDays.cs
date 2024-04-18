@@ -23,17 +23,24 @@ namespace MP_WindowsFormsApp.UserControls
         {
             lblDay.Text = number + "";
         }
-
+                
         private void UserControlDays_Click(object sender, EventArgs e)
         {
             static_day = lblDay.Text;
-            EventForm eventForm = new EventForm();
+            EventForm eventForm = new EventForm(this.ParentForm as ScheduleForm);
             eventForm.Show();
+
         }
         private void displyEvent()
         {
 
         }
-        
+        public void SetShiftInfo(string employeeName, TimeSpan startTime, TimeSpan endTime)
+        {
+            lblEmployeeName.Text = employeeName;
+            lblShiftTime.Text = $"{startTime} - {endTime}";
+        }
+        public int DayNumber => int.TryParse(lblDay.Text, out var day) ? day : 0;
+
     }
 }

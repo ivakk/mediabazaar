@@ -34,3 +34,15 @@ D:\Visual code studio\Fontys\Sem2Software\MediaBazarProject\MediaBazar\MP-DataAc
 D:\Visual code studio\Fontys\Sem2Software\MediaBazarProject\MediaBazar\MP-DataAccess\obj\Debug\net6.0\refint\MP-DataAccess.dll
 D:\Visual code studio\Fontys\Sem2Software\MediaBazarProject\MediaBazar\MP-DataAccess\obj\Debug\net6.0\MP-DataAccess.pdb
 D:\Visual code studio\Fontys\Sem2Software\MediaBazarProject\MediaBazar\MP-DataAccess\obj\Debug\net6.0\ref\MP-DataAccess.dll
+D:\Software-S2\group prjct\media-bazzar\MediaBazar\MP-DataAccess\bin\Debug\net6.0\MP-DataAccess.deps.json
+D:\Software-S2\group prjct\media-bazzar\MediaBazar\MP-DataAccess\bin\Debug\net6.0\MP-DataAccess.dll
+D:\Software-S2\group prjct\media-bazzar\MediaBazar\MP-DataAccess\bin\Debug\net6.0\MP-DataAccess.pdb
+D:\Software-S2\group prjct\media-bazzar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\MP-DataAccess.csproj.AssemblyReference.cache
+D:\Software-S2\group prjct\media-bazzar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\MP-DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Software-S2\group prjct\media-bazzar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\MP-DataAccess.AssemblyInfoInputs.cache
+D:\Software-S2\group prjct\media-bazzar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\MP-DataAccess.AssemblyInfo.cs
+D:\Software-S2\group prjct\media-bazzar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\MP-DataAccess.csproj.CoreCompileInputs.cache
+D:\Software-S2\group prjct\media-bazzar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\MP-DataAccess.dll
+D:\Software-S2\group prjct\media-bazzar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\refint\MP-DataAccess.dll
+D:\Software-S2\group prjct\media-bazzar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\MP-DataAccess.pdb
+D:\Software-S2\group prjct\media-bazzar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\ref\MP-DataAccess.dll

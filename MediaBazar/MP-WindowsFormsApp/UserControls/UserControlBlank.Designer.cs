@@ -28,16 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.SuspendLayout();
+            SuspendLayout();
             // 
             // UserControlBlank
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Name = "UserControlBlank";
-            this.Size = new System.Drawing.Size(189, 147);
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            Margin = new Padding(3, 4, 3, 4);
+            Name = "UserControlBlank";
+            Size = new Size(189, 184);
+            ResumeLayout(false);
         }
 
         #endregion

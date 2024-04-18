@@ -28,46 +28,68 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblDay = new System.Windows.Forms.Label();
-            this.lblEvent = new System.Windows.Forms.Label();
-            this.SuspendLayout();
+            lblDay = new Label();
+            lblEvent = new Label();
+            lblEmployeeName = new Label();
+            lblShiftTime = new Label();
+            SuspendLayout();
             // 
             // lblDay
             // 
-            this.lblDay.AutoSize = true;
-            this.lblDay.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDay.Location = new System.Drawing.Point(14, 14);
-            this.lblDay.Name = "lblDay";
-            this.lblDay.Size = new System.Drawing.Size(34, 25);
-            this.lblDay.TabIndex = 0;
-            this.lblDay.Text = "00";
+            lblDay.AutoSize = true;
+            lblDay.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            lblDay.Location = new Point(14, 18);
+            lblDay.Name = "lblDay";
+            lblDay.Size = new Size(34, 25);
+            lblDay.TabIndex = 0;
+            lblDay.Text = "00";
             // 
             // lblEvent
             // 
-            this.lblEvent.Location = new System.Drawing.Point(3, 79);
-            this.lblEvent.Name = "lblEvent";
-            this.lblEvent.Size = new System.Drawing.Size(181, 66);
-            this.lblEvent.TabIndex = 1;
-            this.lblEvent.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            lblEvent.Location = new Point(3, 99);
+            lblEvent.Name = "lblEvent";
+            lblEvent.Size = new Size(181, 82);
+            lblEvent.TabIndex = 1;
+            lblEvent.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // lblEmployeeName
+            // 
+            lblEmployeeName.AutoSize = true;
+            lblEmployeeName.Location = new Point(23, 67);
+            lblEmployeeName.Name = "lblEmployeeName";
+            lblEmployeeName.Size = new Size(0, 20);
+            lblEmployeeName.TabIndex = 2;
+            // 
+            // lblShiftTime
+            // 
+            lblShiftTime.AutoSize = true;
+            lblShiftTime.Location = new Point(14, 87);
+            lblShiftTime.Name = "lblShiftTime";
+            lblShiftTime.Size = new Size(0, 20);
+            lblShiftTime.TabIndex = 3;
             // 
             // UserControlDays
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Controls.Add(this.lblEvent);
-            this.Controls.Add(this.lblDay);
-            this.Name = "UserControlDays";
-            this.Size = new System.Drawing.Size(187, 145);
-            this.Click += new System.EventHandler(this.UserControlDays_Click);
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BorderStyle = BorderStyle.FixedSingle;
+            Controls.Add(lblShiftTime);
+            Controls.Add(lblEmployeeName);
+            Controls.Add(lblEvent);
+            Controls.Add(lblDay);
+            Margin = new Padding(3, 4, 3, 4);
+            Name = "UserControlDays";
+            Size = new Size(187, 181);
+            Click += UserControlDays_Click;
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
         private System.Windows.Forms.Label lblDay;
         private System.Windows.Forms.Label lblEvent;
+        private Label lblEmployeeName;
+        private Label lblShiftTime;
     }
 }
