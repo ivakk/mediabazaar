@@ -1,20 +1,84 @@
 {
   "format": 1,
   "restore": {
-    "D:\\uni\\glaven proekt grupa media bazar\\MediaBazar\\MP-WebApplication\\MP-WebApplication.csproj": {}
+    "D:\\Visual code studio\\Fontys\\Sem2Software\\MediaBazarProject\\MediaBazar\\MP-WebApplication\\MP-WebApplication.csproj": {}
   },
   "projects": {
-    "D:\\uni\\glaven proekt grupa media bazar\\MediaBazar\\MP-WebApplication\\MP-WebApplication.csproj": {
+    "D:\\Visual code studio\\Fontys\\Sem2Software\\MediaBazarProject\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\uni\\glaven proekt grupa media bazar\\MediaBazar\\MP-WebApplication\\MP-WebApplication.csproj",
-        "projectName": "MP-WebApplication",
-        "projectPath": "D:\\uni\\glaven proekt grupa media bazar\\MediaBazar\\MP-WebApplication\\MP-WebApplication.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\uni\\glaven proekt grupa media bazar\\MediaBazar\\MP-WebApplication\\obj\\",
+        "projectUniqueName": "D:\\Visual code studio\\Fontys\\Sem2Software\\MediaBazarProject\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj",
+        "projectName": "MP-BusinessLogic",
+        "projectPath": "D:\\Visual code studio\\Fontys\\Sem2Software\\MediaBazarProject\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\marto\\.nuget\\packages\\",
+        "outputPath": "D:\\Visual code studio\\Fontys\\Sem2Software\\MediaBazarProject\\MediaBazar\\MP-BusinessLogic\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\marto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Visual code studio\\Fontys\\Sem2Software\\MediaBazarProject\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj": {
+                "projectPath": "D:\\Visual code studio\\Fontys\\Sem2Software\\MediaBazarProject\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Visual code studio\\Fontys\\Sem2Software\\MediaBazarProject\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Visual code studio\\Fontys\\Sem2Software\\MediaBazarProject\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj",
+        "projectName": "MP-DataAccess",
+        "projectPath": "D:\\Visual code studio\\Fontys\\Sem2Software\\MediaBazarProject\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj",
+        "packagesPath": "C:\\Users\\marto\\.nuget\\packages\\",
+        "outputPath": "D:\\Visual code studio\\Fontys\\Sem2Software\\MediaBazarProject\\MediaBazar\\MP-DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\marto\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,6 +98,92 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AWSSDK.Core": {
+              "target": "Package",
+              "version": "[3.7.202.20, )"
+            },
+            "Microsoft.TeamFoundationServer.Client": {
+              "target": "Package",
+              "version": "[16.205.1, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Visual code studio\\Fontys\\Sem2Software\\MediaBazarProject\\MediaBazar\\MP-WebApplication\\MP-WebApplication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Visual code studio\\Fontys\\Sem2Software\\MediaBazarProject\\MediaBazar\\MP-WebApplication\\MP-WebApplication.csproj",
+        "projectName": "MP-WebApplication",
+        "projectPath": "D:\\Visual code studio\\Fontys\\Sem2Software\\MediaBazarProject\\MediaBazar\\MP-WebApplication\\MP-WebApplication.csproj",
+        "packagesPath": "C:\\Users\\marto\\.nuget\\packages\\",
+        "outputPath": "D:\\Visual code studio\\Fontys\\Sem2Software\\MediaBazarProject\\MediaBazar\\MP-WebApplication\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\marto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Visual code studio\\Fontys\\Sem2Software\\MediaBazarProject\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj": {
+                "projectPath": "D:\\Visual code studio\\Fontys\\Sem2Software\\MediaBazarProject\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj"
+              },
+              "D:\\Visual code studio\\Fontys\\Sem2Software\\MediaBazarProject\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj": {
+                "projectPath": "D:\\Visual code studio\\Fontys\\Sem2Software\\MediaBazarProject\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -58,7 +208,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

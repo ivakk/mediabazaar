@@ -238,6 +238,14 @@ namespace MP_DataAccess.DALManagers
         public void DeleteUser(int id)
         {
             // Set up the query
+            string selectQuery = $"SELECT * FROM Users WHERE userId = @userId";
+            string insertQuery = $"INSERT INTO ExEmployees " +
+                           $"(userId,firstName, lastName, email, phoneNumber, position, birthday, passwordHash, passwordSalt, " +
+                           $"departmentId, startContract, endContract, salaryLevel) " +
+                           $"VALUES (@userId, @firstName, @lastName, @email, @phoneNumber, @position, " +
+                           $"@birthday, @passwordHash, @passwordSalt, @departmentId, " +
+                           $"@startContract, @endContract, @salaryLevel)";
+            string deleteQuery = $"DELETE FROM Users WHERE userId = @userId";
             string query = $"DELETE FROM {tableName} WHERE userId = @userId";
 
             // Open the connection
@@ -249,15 +257,55 @@ namespace MP_DataAccess.DALManagers
             // Add the parameters
             command.Parameters.AddWithValue("@userId", id);
 
+            SqlTransaction transaction = connection.BeginTransaction();
+            command.Transaction = transaction;
+
             try
             {
                 // Execute the query and get the data
                 using SqlDataReader reader = command.ExecuteReader();
+                if (reader.Read())
+                {
+                    command.Parameters.Clear(); // Clear previous parameters
+                    command.CommandText = insertQuery;
+                    command.Parameters.AddWithValue("@userId", reader["userId"]);
+                    command.Parameters.AddWithValue("@firstName", reader["firstName"]);
+                    command.Parameters.AddWithValue("@lastName", reader["lastName"]);
+                    command.Parameters.AddWithValue("@email", reader["email"]);
+                    command.Parameters.AddWithValue("@phoneNumber", reader["phoneNumber"]);
+                    command.Parameters.AddWithValue("@position", reader["position"]);
+                    command.Parameters.AddWithValue("@birthday", reader["birthday"]);
+                    command.Parameters.AddWithValue("@passwordHash", reader["passwordHash"]);
+                    command.Parameters.AddWithValue("@passwordSalt", reader["passwordSalt"]);
+                    command.Parameters.AddWithValue("@departmentId", reader["departmentId"]);
+                    command.Parameters.AddWithValue("@startContract", reader["startContract"]);
+                    command.Parameters.AddWithValue("@endContract", reader["endContract"]);
+                    command.Parameters.AddWithValue("@salaryLevel", reader["salaryLevel"]);
+
+                    reader.Close();
+                    command.ExecuteNonQuery();
+
+                    // Delete the user from Users table
+                    command.Parameters.Clear(); // Clear previous parameters
+                    command.CommandText = deleteQuery;
+                    command.Parameters.AddWithValue("@userId", id);
+                    command.ExecuteNonQuery();
+
+                    // Commit the transaction
+                    transaction.Commit();
+                }
+                else
+                {
+                    // If no user found, roll back the transaction
+                    transaction.Rollback();
+                    Console.WriteLine("No user found with the specified ID.");
+                }
             }
             catch (SqlException e)
             {
                 // Handle any errors that may have occurred.
                 Console.WriteLine(e.Message);
+                transaction.Rollback();
             }
             finally
             {

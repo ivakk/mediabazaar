@@ -53,5 +53,14 @@ namespace MP_BusinessLogic.Services
         {
             controller.DeleteUser(id);
         }
+
+        public User GetUserByEmail(string email)
+        {
+            return controller.GetUserByEmail(email);
+        }
+        public bool IsPasswordCorrect(string email,string password)
+        {
+           return controller.IsPasswordCorrect(email, password);
+        }
     }
 }

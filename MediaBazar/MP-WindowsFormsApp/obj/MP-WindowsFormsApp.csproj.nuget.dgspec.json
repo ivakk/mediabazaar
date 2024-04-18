@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\uni\\glaven proekt grupa media bazar\\MediaBazar\\MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj": {}
+    "D:\\Visual code studio\\Fontys\\Sem2Software\\MediaBazarProject\\MediaBazar\\MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj": {}
   },
   "projects": {
-    "D:\\uni\\glaven proekt grupa media bazar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj": {
+    "D:\\Visual code studio\\Fontys\\Sem2Software\\MediaBazarProject\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\uni\\glaven proekt grupa media bazar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj",
+        "projectUniqueName": "D:\\Visual code studio\\Fontys\\Sem2Software\\MediaBazarProject\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj",
         "projectName": "MP-BusinessLogic",
-        "projectPath": "D:\\uni\\glaven proekt grupa media bazar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\uni\\glaven proekt grupa media bazar\\MediaBazar\\MP-BusinessLogic\\obj\\",
+        "projectPath": "D:\\Visual code studio\\Fontys\\Sem2Software\\MediaBazarProject\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\marto\\.nuget\\packages\\",
+        "outputPath": "D:\\Visual code studio\\Fontys\\Sem2Software\\MediaBazarProject\\MediaBazar\\MP-BusinessLogic\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\marto\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\uni\\glaven proekt grupa media bazar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj": {
-                "projectPath": "D:\\uni\\glaven proekt grupa media bazar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj"
+              "D:\\Visual code studio\\Fontys\\Sem2Software\\MediaBazarProject\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj": {
+                "projectPath": "D:\\Visual code studio\\Fontys\\Sem2Software\\MediaBazarProject\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj"
               }
             }
           }
@@ -38,6 +38,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -59,21 +64,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\uni\\glaven proekt grupa media bazar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj": {
+    "D:\\Visual code studio\\Fontys\\Sem2Software\\MediaBazarProject\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\uni\\glaven proekt grupa media bazar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj",
+        "projectUniqueName": "D:\\Visual code studio\\Fontys\\Sem2Software\\MediaBazarProject\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj",
         "projectName": "MP-DataAccess",
-        "projectPath": "D:\\uni\\glaven proekt grupa media bazar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\uni\\glaven proekt grupa media bazar\\MediaBazar\\MP-DataAccess\\obj\\",
+        "projectPath": "D:\\Visual code studio\\Fontys\\Sem2Software\\MediaBazarProject\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj",
+        "packagesPath": "C:\\Users\\marto\\.nuget\\packages\\",
+        "outputPath": "D:\\Visual code studio\\Fontys\\Sem2Software\\MediaBazarProject\\MediaBazar\\MP-DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\marto\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -93,6 +98,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -128,21 +138,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\uni\\glaven proekt grupa media bazar\\MediaBazar\\MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj": {
+    "D:\\Visual code studio\\Fontys\\Sem2Software\\MediaBazarProject\\MediaBazar\\MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\uni\\glaven proekt grupa media bazar\\MediaBazar\\MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj",
+        "projectUniqueName": "D:\\Visual code studio\\Fontys\\Sem2Software\\MediaBazarProject\\MediaBazar\\MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj",
         "projectName": "MP-WindowsFormsApp",
-        "projectPath": "D:\\uni\\glaven proekt grupa media bazar\\MediaBazar\\MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\uni\\glaven proekt grupa media bazar\\MediaBazar\\MP-WindowsFormsApp\\obj\\",
+        "projectPath": "D:\\Visual code studio\\Fontys\\Sem2Software\\MediaBazarProject\\MediaBazar\\MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj",
+        "packagesPath": "C:\\Users\\marto\\.nuget\\packages\\",
+        "outputPath": "D:\\Visual code studio\\Fontys\\Sem2Software\\MediaBazarProject\\MediaBazar\\MP-WindowsFormsApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\marto\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -156,11 +166,11 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "D:\\uni\\glaven proekt grupa media bazar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj": {
-                "projectPath": "D:\\uni\\glaven proekt grupa media bazar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj"
+              "D:\\Visual code studio\\Fontys\\Sem2Software\\MediaBazarProject\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj": {
+                "projectPath": "D:\\Visual code studio\\Fontys\\Sem2Software\\MediaBazarProject\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj"
               },
-              "D:\\uni\\glaven proekt grupa media bazar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj": {
-                "projectPath": "D:\\uni\\glaven proekt grupa media bazar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj"
+              "D:\\Visual code studio\\Fontys\\Sem2Software\\MediaBazarProject\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj": {
+                "projectPath": "D:\\Visual code studio\\Fontys\\Sem2Software\\MediaBazarProject\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj"
               }
             }
           }
@@ -169,6 +179,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -193,7 +208,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

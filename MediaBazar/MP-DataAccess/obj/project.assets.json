@@ -5865,19 +5865,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\marto\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\uni\\glaven proekt grupa media bazar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj",
+      "projectUniqueName": "D:\\Visual code studio\\Fontys\\Sem2Software\\MediaBazarProject\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj",
       "projectName": "MP-DataAccess",
-      "projectPath": "D:\\uni\\glaven proekt grupa media bazar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\uni\\glaven proekt grupa media bazar\\MediaBazar\\MP-DataAccess\\obj\\",
+      "projectPath": "D:\\Visual code studio\\Fontys\\Sem2Software\\MediaBazarProject\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj",
+      "packagesPath": "C:\\Users\\marto\\.nuget\\packages\\",
+      "outputPath": "D:\\Visual code studio\\Fontys\\Sem2Software\\MediaBazarProject\\MediaBazar\\MP-DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\marto\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5897,6 +5897,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -5932,8 +5937,20 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Data.SqlClient' 4.8.5 has a known high severity vulnerability, https://github.com/advisories/GHSA-98g6-xh36-x2p7",
+      "libraryId": "System.Data.SqlClient",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

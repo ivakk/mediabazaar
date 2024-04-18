@@ -7,4 +7,18 @@
     <RootNamespace>MP_WebApplication</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Remove="wwwroot\css\mb-red.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Assests\mb-red.png" />
+    <None Include="wwwroot\css\mb-red.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MP-BusinessLogic\MP-BusinessLogic.csproj" />
+    <ProjectReference Include="..\MP-DataAccess\MP-DataAccess.csproj" />
+  </ItemGroup>
+
 </Project>
