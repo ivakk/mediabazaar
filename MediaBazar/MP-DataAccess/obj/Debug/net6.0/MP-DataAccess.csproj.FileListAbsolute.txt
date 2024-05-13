@@ -46,3 +46,15 @@ D:\Software-S2\group prjct\media-bazzar\MediaBazar\MP-DataAccess\obj\Debug\net6.
 D:\Software-S2\group prjct\media-bazzar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\refint\MP-DataAccess.dll
 D:\Software-S2\group prjct\media-bazzar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\MP-DataAccess.pdb
 D:\Software-S2\group prjct\media-bazzar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\ref\MP-DataAccess.dll
+C:\Users\ivoml\Desktop\hjb\media-bazzar\MediaBazar\MP-DataAccess\bin\Debug\net6.0\MP-DataAccess.deps.json
+C:\Users\ivoml\Desktop\hjb\media-bazzar\MediaBazar\MP-DataAccess\bin\Debug\net6.0\MP-DataAccess.dll
+C:\Users\ivoml\Desktop\hjb\media-bazzar\MediaBazar\MP-DataAccess\bin\Debug\net6.0\MP-DataAccess.pdb
+C:\Users\ivoml\Desktop\hjb\media-bazzar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\MP-DataAccess.csproj.AssemblyReference.cache
+C:\Users\ivoml\Desktop\hjb\media-bazzar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\MP-DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ivoml\Desktop\hjb\media-bazzar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\MP-DataAccess.AssemblyInfoInputs.cache
+C:\Users\ivoml\Desktop\hjb\media-bazzar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\MP-DataAccess.AssemblyInfo.cs
+C:\Users\ivoml\Desktop\hjb\media-bazzar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\MP-DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\ivoml\Desktop\hjb\media-bazzar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\MP-DataAccess.dll
+C:\Users\ivoml\Desktop\hjb\media-bazzar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\refint\MP-DataAccess.dll
+C:\Users\ivoml\Desktop\hjb\media-bazzar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\MP-DataAccess.pdb
+C:\Users\ivoml\Desktop\hjb\media-bazzar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\ref\MP-DataAccess.dll

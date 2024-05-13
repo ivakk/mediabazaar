@@ -58,6 +58,7 @@
             Controls.Add(label1);
             FormBorderStyle = FormBorderStyle.None;
             Name = "ReplenishmentRequestsForm";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "ReplenishmentRequestsForm";
             Load += ReplenishmentRequestsForm_Load;
             ResumeLayout(false);

@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Software-S2\\group prjct\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj": {}
+    "C:\\Users\\ivoml\\Desktop\\hjb\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj": {}
   },
   "projects": {
-    "D:\\Software-S2\\group prjct\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj": {
+    "C:\\Users\\ivoml\\Desktop\\hjb\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Software-S2\\group prjct\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj",
+        "projectUniqueName": "C:\\Users\\ivoml\\Desktop\\hjb\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj",
         "projectName": "MP-BusinessLogic",
-        "projectPath": "D:\\Software-S2\\group prjct\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj",
-        "packagesPath": "C:\\Users\\ivayl\\.nuget\\packages\\",
-        "outputPath": "D:\\Software-S2\\group prjct\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\obj\\",
+        "projectPath": "C:\\Users\\ivoml\\Desktop\\hjb\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\ivoml\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ivoml\\Desktop\\hjb\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ivayl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ivoml\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Software-S2\\group prjct\\media-bazzar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj": {
-                "projectPath": "D:\\Software-S2\\group prjct\\media-bazzar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj"
+              "C:\\Users\\ivoml\\Desktop\\hjb\\media-bazzar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj": {
+                "projectPath": "C:\\Users\\ivoml\\Desktop\\hjb\\media-bazzar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj"
               }
             }
           }
@@ -59,26 +63,44 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Software-S2\\group prjct\\media-bazzar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj": {
+    "C:\\Users\\ivoml\\Desktop\\hjb\\media-bazzar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Software-S2\\group prjct\\media-bazzar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\ivoml\\Desktop\\hjb\\media-bazzar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj",
         "projectName": "MP-DataAccess",
-        "projectPath": "D:\\Software-S2\\group prjct\\media-bazzar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj",
-        "packagesPath": "C:\\Users\\ivayl\\.nuget\\packages\\",
-        "outputPath": "D:\\Software-S2\\group prjct\\media-bazzar\\MediaBazar\\MP-DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\ivoml\\Desktop\\hjb\\media-bazzar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj",
+        "packagesPath": "C:\\Users\\ivoml\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ivoml\\Desktop\\hjb\\media-bazzar\\MediaBazar\\MP-DataAccess\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ivayl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ivoml\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -133,26 +155,44 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Software-S2\\group prjct\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj": {
+    "C:\\Users\\ivoml\\Desktop\\hjb\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Software-S2\\group prjct\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj",
+        "projectUniqueName": "C:\\Users\\ivoml\\Desktop\\hjb\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj",
         "projectName": "MP-WindowsFormsApp",
-        "projectPath": "D:\\Software-S2\\group prjct\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj",
-        "packagesPath": "C:\\Users\\ivayl\\.nuget\\packages\\",
-        "outputPath": "D:\\Software-S2\\group prjct\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\obj\\",
+        "projectPath": "C:\\Users\\ivoml\\Desktop\\hjb\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj",
+        "packagesPath": "C:\\Users\\ivoml\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ivoml\\Desktop\\hjb\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ivayl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ivoml\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -166,11 +206,11 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "D:\\Software-S2\\group prjct\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj": {
-                "projectPath": "D:\\Software-S2\\group prjct\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj"
+              "C:\\Users\\ivoml\\Desktop\\hjb\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj": {
+                "projectPath": "C:\\Users\\ivoml\\Desktop\\hjb\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj"
               },
-              "D:\\Software-S2\\group prjct\\media-bazzar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj": {
-                "projectPath": "D:\\Software-S2\\group prjct\\media-bazzar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj"
+              "C:\\Users\\ivoml\\Desktop\\hjb\\media-bazzar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj": {
+                "projectPath": "C:\\Users\\ivoml\\Desktop\\hjb\\media-bazzar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj"
               }
             }
           }
@@ -200,6 +240,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.27, 6.0.27]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -208,7 +266,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

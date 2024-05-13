@@ -43,16 +43,18 @@
             // 
             // dayContainer
             // 
-            dayContainer.Location = new Point(81, 106);
+            dayContainer.Location = new Point(212, 60);
+            dayContainer.Margin = new Padding(2);
             dayContainer.Name = "dayContainer";
-            dayContainer.Size = new Size(1288, 746);
+            dayContainer.Size = new Size(1030, 859);
             dayContainer.TabIndex = 0;
             // 
             // btnNext
             // 
-            btnNext.Location = new Point(1261, 874);
+            btnNext.Location = new Point(1334, 923);
+            btnNext.Margin = new Padding(2);
             btnNext.Name = "btnNext";
-            btnNext.Size = new Size(128, 40);
+            btnNext.Size = new Size(102, 32);
             btnNext.TabIndex = 1;
             btnNext.Text = "Next";
             btnNext.UseVisualStyleBackColor = true;
@@ -60,9 +62,10 @@
             // 
             // btnPrevious
             // 
-            btnPrevious.Location = new Point(1102, 874);
+            btnPrevious.Location = new Point(1228, 923);
+            btnPrevious.Margin = new Padding(2);
             btnPrevious.Name = "btnPrevious";
-            btnPrevious.Size = new Size(128, 40);
+            btnPrevious.Size = new Size(102, 32);
             btnPrevious.TabIndex = 2;
             btnPrevious.Text = "Previous";
             btnPrevious.UseVisualStyleBackColor = true;
@@ -72,9 +75,10 @@
             // 
             lblSunday.AutoSize = true;
             lblSunday.Font = new Font("Lucida Sans", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            lblSunday.Location = new Point(163, 63);
+            lblSunday.Location = new Point(279, 40);
+            lblSunday.Margin = new Padding(2, 0, 2, 0);
             lblSunday.Name = "lblSunday";
-            lblSunday.Size = new Size(82, 23);
+            lblSunday.Size = new Size(64, 18);
             lblSunday.TabIndex = 3;
             lblSunday.Text = "Sunday";
             // 
@@ -82,9 +86,10 @@
             // 
             lblMonday.AutoSize = true;
             lblMonday.Font = new Font("Lucida Sans", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            lblMonday.Location = new Point(333, 63);
+            lblMonday.Location = new Point(415, 40);
+            lblMonday.Margin = new Padding(2, 0, 2, 0);
             lblMonday.Name = "lblMonday";
-            lblMonday.Size = new Size(87, 23);
+            lblMonday.Size = new Size(69, 18);
             lblMonday.TabIndex = 4;
             lblMonday.Text = "Monday";
             // 
@@ -92,9 +97,10 @@
             // 
             lblWednesday.AutoSize = true;
             lblWednesday.Font = new Font("Lucida Sans", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            lblWednesday.Location = new Point(677, 63);
+            lblWednesday.Location = new Point(691, 40);
+            lblWednesday.Margin = new Padding(2, 0, 2, 0);
             lblWednesday.Name = "lblWednesday";
-            lblWednesday.Size = new Size(122, 23);
+            lblWednesday.Size = new Size(98, 18);
             lblWednesday.TabIndex = 6;
             lblWednesday.Text = "Wednesday";
             // 
@@ -102,9 +108,10 @@
             // 
             lblTuesday.AutoSize = true;
             lblTuesday.Font = new Font("Lucida Sans", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            lblTuesday.Location = new Point(504, 63);
+            lblTuesday.Location = new Point(552, 40);
+            lblTuesday.Margin = new Padding(2, 0, 2, 0);
             lblTuesday.Name = "lblTuesday";
-            lblTuesday.Size = new Size(92, 23);
+            lblTuesday.Size = new Size(72, 18);
             lblTuesday.TabIndex = 5;
             lblTuesday.Text = "Tuesday";
             // 
@@ -112,9 +119,10 @@
             // 
             lblFriday.AutoSize = true;
             lblFriday.Font = new Font("Lucida Sans", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            lblFriday.Location = new Point(1070, 63);
+            lblFriday.Location = new Point(1005, 40);
+            lblFriday.Margin = new Padding(2, 0, 2, 0);
             lblFriday.Name = "lblFriday";
-            lblFriday.Size = new Size(70, 23);
+            lblFriday.Size = new Size(56, 18);
             lblFriday.TabIndex = 8;
             lblFriday.Text = "Friday";
             // 
@@ -122,9 +130,10 @@
             // 
             lblThursday.AutoSize = true;
             lblThursday.Font = new Font("Lucida Sans", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            lblThursday.Location = new Point(872, 63);
+            lblThursday.Location = new Point(847, 40);
+            lblThursday.Margin = new Padding(2, 0, 2, 0);
             lblThursday.Name = "lblThursday";
-            lblThursday.Size = new Size(101, 23);
+            lblThursday.Size = new Size(77, 18);
             lblThursday.TabIndex = 7;
             lblThursday.Text = "Thursday";
             // 
@@ -132,28 +141,30 @@
             // 
             lblSaturday.AutoSize = true;
             lblSaturday.Font = new Font("Lucida Sans", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            lblSaturday.Location = new Point(1239, 63);
+            lblSaturday.Location = new Point(1140, 40);
+            lblSaturday.Margin = new Padding(2, 0, 2, 0);
             lblSaturday.Name = "lblSaturday";
-            lblSaturday.Size = new Size(96, 23);
+            lblSaturday.Size = new Size(74, 18);
             lblSaturday.TabIndex = 9;
             lblSaturday.Text = "Saturday";
             // 
             // lblDate
             // 
             lblDate.Font = new Font("Lucida Sans", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            lblDate.Location = new Point(486, 9);
+            lblDate.Location = new Point(533, 0);
+            lblDate.Margin = new Padding(2, 0, 2, 0);
             lblDate.Name = "lblDate";
-            lblDate.Size = new Size(441, 43);
+            lblDate.Size = new Size(353, 34);
             lblDate.TabIndex = 10;
             lblDate.Text = "MONTH YEAR";
             lblDate.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // ScheduleForm
             // 
-            AutoScaleDimensions = new SizeF(120F, 120F);
+            AutoScaleDimensions = new SizeF(96F, 96F);
             AutoScaleMode = AutoScaleMode.Dpi;
             AutoSize = true;
-            ClientSize = new Size(1383, 918);
+            ClientSize = new Size(1447, 966);
             Controls.Add(lblDate);
             Controls.Add(lblSaturday);
             Controls.Add(lblFriday);
@@ -165,7 +176,6 @@
             Controls.Add(btnPrevious);
             Controls.Add(btnNext);
             Controls.Add(dayContainer);
-            Margin = new Padding(4);
             Name = "ScheduleForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Schedule";
