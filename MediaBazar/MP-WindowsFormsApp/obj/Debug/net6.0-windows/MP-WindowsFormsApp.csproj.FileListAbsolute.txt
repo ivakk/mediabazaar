@@ -434,3 +434,4 @@ D:\Visual code studio\Fontys\Sem2Software\GroupProject\media-bazzar\MediaBazar\M
 D:\Visual code studio\Fontys\Sem2Software\GroupProject\media-bazzar\MediaBazar\MP-WindowsFormsApp\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
 D:\Visual code studio\Fontys\Sem2Software\GroupProject\media-bazzar\MediaBazar\MP-WindowsFormsApp\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll
 D:\Visual code studio\Fontys\Sem2Software\GroupProject\media-bazzar\MediaBazar\MP-WindowsFormsApp\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\Visual code studio\Fontys\Sem2Software\GroupProject\media-bazzar\MediaBazar\MP-WindowsFormsApp\obj\Debug\net6.0-windows\MP_WindowsFormsApp.Forms.ForgotPasswordForm.resources

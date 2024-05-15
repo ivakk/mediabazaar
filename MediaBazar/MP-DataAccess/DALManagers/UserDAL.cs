@@ -1,4 +1,5 @@
 ﻿using Amazon.Auth.AccessControlPolicy;
+using Amazon.Runtime.Internal.Util;
 using Microsoft.TeamFoundation.Build.WebApi;
 using MP_BusinessLogic.InterfacesDal;
 using MP_BusinessLogic.InterfacesLL;
@@ -10,6 +11,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static Microsoft.VisualStudio.Services.Graph.GraphResourceIds;
 
 namespace MP_DataAccess.DALManagers
 {
@@ -524,5 +526,32 @@ namespace MP_DataAccess.DALManagers
                 return false;
             }
         }
+
+        public bool ChangePassword(string email, string newPassword)
+        {
+            //User user = GetUserById(userId);
+            User user = GetUserByEmail(email);
+
+            if (user == null)
+            {
+                throw new ArgumentException("User not found.");
+            }
+            PasswordHashing hashing = new PasswordHashing();
+
+
+            //string passwordSalt = hashing.GenerateRandomSalt(10);
+            //string passwordHash = hashing.GenerateSHA256Hash("MediaBazaar", passwordSalt);
+            // Generate new password hash and salt
+
+            string newSalt = hashing.GenerateRandomSalt(10);
+            string newHashedPassword = hashing.GenerateSHA256Hash(newPassword, newSalt);
+
+            // Update user with new password and salt
+            user.PasswordSalt = newSalt;
+            user.PasswordHash = newHashedPassword;
+
+            return UpdateUser(user);
+        }
+
     }
 }

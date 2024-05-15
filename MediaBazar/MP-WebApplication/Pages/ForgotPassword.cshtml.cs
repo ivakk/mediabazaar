@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using MP_BusinessLogic.InterfacesLL;
 using MP_EntityLibrary;
 using System.ComponentModel.DataAnnotations;
 
@@ -23,12 +24,11 @@ namespace MP_WebApplication.Pages
         [Compare(nameof(NewPassword), ErrorMessage = "The password and confirmation password do not match.")]
         public string? ConfirmPassword { get; set; }
 
-        User user;
-        //private readonly IUserManager userManager;
-        //public ForgotPasswordModel(IUserManager userManager)
-        //{
-        //    this.userManager = userManager;
-        //}
+        private readonly IUserService userService;
+        public ForgotPasswordModel(IUserService userService)
+        {
+            this.userService = userService;
+        }
 
         public async Task<IActionResult> OnPostAsync()
         {
@@ -40,9 +40,9 @@ namespace MP_WebApplication.Pages
 
             try
             {
+               bool IsPasswordUpdated = userService.ChangePassword(Email, NewPassword);
 
-
-                if (user != null)
+                if (IsPasswordUpdated)
                 {
                     //bool IsPasswordChanged = userManager.UpdateUserPassword(user, NewPassword);
                     bool IsPasswordChanged = true;

@@ -1,5 +1,6 @@
 ﻿using MP_BusinessLogic.InterfacesLL;
 using MP_EntityLibrary;
+using MP_WindowsFormsApp.Forms;
 
 namespace MP_WindowsFormsApp
 {
@@ -59,6 +60,14 @@ namespace MP_WindowsFormsApp
                     return;
                 }
             }
+        }
+
+        private void lbForgotPassword_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ForgotPasswordForm forgotPassword = new ForgotPasswordForm();
+            forgotPassword.Closed += (s, args) => this.Close();
+            forgotPassword.Show();
         }
     }
 }

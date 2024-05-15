@@ -55,6 +55,8 @@ namespace MP_BusinessLogic.Services
             return controller.GetUsersByDepartment(departmentId);
         }
 
+        public bool ChangePassword(string email, string newPassword) 
+        { return controller.ChangePassword(email, newPassword); }
         //public List<User> GetBySearch(string search)
         //{
         //    List<User> result = new List<User>();

@@ -37,3 +37,9 @@ body {
         border-bottom-right-radius: .3rem;
     }
 }
+.form-group {
+    padding: 12px;
+}
+.wide-input {
+    width: 100%; /* Full width on larger screens */
+}
