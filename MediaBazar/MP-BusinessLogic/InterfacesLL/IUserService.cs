@@ -18,5 +18,6 @@ namespace MP_BusinessLogic.InterfacesLL
         bool DeleteUser(int id);
         List<User> GetUsersByDepartment(int departmentId);
         bool ChangePassword(string email, string newPassword);
+        User GetUserByUserName(string userName);
     }
 }

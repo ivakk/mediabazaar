@@ -57,27 +57,11 @@ namespace MP_BusinessLogic.Services
 
         public bool ChangePassword(string email, string newPassword) 
         { return controller.ChangePassword(email, newPassword); }
-        //public List<User> GetBySearch(string search)
-        //{
-        //    List<User> result = new List<User>();
-        //    foreach (User User in GetAllUsers())
-        //    {
-        //        if (User.GetObjectString().Contains(search))
-        //        {
-        //            result.Add(User);
-        //        }
-        //    }
-        //    return result;
-        //}
-        //public bool UpdateUser(User user)
-        //{
-        //    return controller.UpdateUser(user);
-        //}
-        //public void DeleteUser(int id)
-        //{
-        //    controller.DeleteUser(id);
-        //}
 
 
+        public User GetUserByUserName(string userName)
+        {
+            return controller.GetUserByUserName(userName);
+        }
     }
 }

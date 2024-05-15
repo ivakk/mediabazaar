@@ -65,10 +65,32 @@ namespace MP_WindowsFormsApp.Forms
         private void btnSearch_Click(object sender, EventArgs e)
         {
             //change to name and last name later
+            string searchFirstName = tbSearch.Text.Trim();
 
-            //FIX
-    
-            LoadUsers(userService.GetAllUsers());
+            // Check if searchFirstName is not empty
+            if (!string.IsNullOrEmpty(searchFirstName))
+            {
+                // Create an instance of UserDAL (assuming it's accessible)
+                UserDAL userDAL = new UserDAL(departmentService);
+
+                // Call GetUserByFirstName to retrieve the user
+                User foundUser = userDAL.GetUserByUserName(searchFirstName);
+
+                if (foundUser != null)
+                {
+                    // User found, display the user details or take appropriate action
+                    LoadUsers(new List<User> { foundUser });
+                }
+                else
+                {
+                    // User not found, show a message or take appropriate action
+                    MessageBox.Show("User not found.");
+                }
+            }
+            else
+            {
+                LoadUsers(userService.GetAllUsers());
+            }
         }
 
         public void LoadUsers(List<User> users)

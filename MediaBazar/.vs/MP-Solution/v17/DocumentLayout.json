@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{55195452-2B62-4C06-9C2A-0E712991D2F0}|MP-BusinessLogic\\MP-BusinessLogic.csproj|D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\mp-businesslogic\\interfacesdal\\iuserdalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55195452-2B62-4C06-9C2A-0E712991D2F0}|MP-BusinessLogic\\MP-BusinessLogic.csproj|solutionrelative:mp-businesslogic\\interfacesdal\\iuserdalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\mp-windowsformsapp\\forms\\usersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|solutionrelative:mp-windowsformsapp\\forms\\usersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\mp-windowsformsapp\\forms\\usersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|solutionrelative:mp-windowsformsapp\\forms\\usersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BC136A8-CDDF-4564-847C-9F44BC243327}|MP-DataAccess\\MP-DataAccess.csproj|D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\mp-dataaccess\\dalmanagers\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BC136A8-CDDF-4564-847C-9F44BC243327}|MP-DataAccess\\MP-DataAccess.csproj|solutionrelative:mp-dataaccess\\dalmanagers\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55195452-2B62-4C06-9C2A-0E712991D2F0}|MP-BusinessLogic\\MP-BusinessLogic.csproj|D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\mp-businesslogic\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55195452-2B62-4C06-9C2A-0E712991D2F0}|MP-BusinessLogic\\MP-BusinessLogic.csproj|solutionrelative:mp-businesslogic\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55195452-2B62-4C06-9C2A-0E712991D2F0}|MP-BusinessLogic\\MP-BusinessLogic.csproj|D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\mp-businesslogic\\interfacesll\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55195452-2B62-4C06-9C2A-0E712991D2F0}|MP-BusinessLogic\\MP-BusinessLogic.csproj|solutionrelative:mp-businesslogic\\interfacesll\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|d:\\visual code studio\\fontys\\sem2software\\groupproject\\media-bazzar\\mediabazar\\mp-windowsformsapp\\forms\\usersubforms\\adduserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|solutionrelative:mp-windowsformsapp\\forms\\usersubforms\\adduserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -11,7 +35,7 @@
       "RelativeMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|solutionrelative:mp-windowsformsapp\\forms\\usersubforms\\adduserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|d:\\visual code studio\\fontys\\sem2software\\groupproject\\media-bazzar\\mediabazar\\mp-windowsformsapp\\forms\\forgotpasswordform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\mp-windowsformsapp\\forms\\forgotpasswordform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|solutionrelative:mp-windowsformsapp\\forms\\forgotpasswordform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -39,24 +63,8 @@
       "RelativeMoniker": "D:0:0:{60CC6C35-5403-41F4-B46F-519267B13D9E}|MP-WebApplication\\MP-WebApplication.csproj|solutionrelative:mp-webapplication\\pages\\forgotpassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BC136A8-CDDF-4564-847C-9F44BC243327}|MP-DataAccess\\MP-DataAccess.csproj|D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\mp-dataaccess\\dalmanagers\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BC136A8-CDDF-4564-847C-9F44BC243327}|MP-DataAccess\\MP-DataAccess.csproj|solutionrelative:mp-dataaccess\\dalmanagers\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55195452-2B62-4C06-9C2A-0E712991D2F0}|MP-BusinessLogic\\MP-BusinessLogic.csproj|D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\mp-businesslogic\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55195452-2B62-4C06-9C2A-0E712991D2F0}|MP-BusinessLogic\\MP-BusinessLogic.csproj|solutionrelative:mp-businesslogic\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{60CC6C35-5403-41F4-B46F-519267B13D9E}|MP-WebApplication\\MP-WebApplication.csproj|D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\mp-webapplication\\pages\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{60CC6C35-5403-41F4-B46F-519267B13D9E}|MP-WebApplication\\MP-WebApplication.csproj|solutionrelative:mp-webapplication\\pages\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55195452-2B62-4C06-9C2A-0E712991D2F0}|MP-BusinessLogic\\MP-BusinessLogic.csproj|D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\mp-businesslogic\\interfacesll\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55195452-2B62-4C06-9C2A-0E712991D2F0}|MP-BusinessLogic\\MP-BusinessLogic.csproj|solutionrelative:mp-businesslogic\\interfacesll\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55195452-2B62-4C06-9C2A-0E712991D2F0}|MP-BusinessLogic\\MP-BusinessLogic.csproj|D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\mp-businesslogic\\interfacesdal\\iuserdalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55195452-2B62-4C06-9C2A-0E712991D2F0}|MP-BusinessLogic\\MP-BusinessLogic.csproj|solutionrelative:mp-businesslogic\\interfacesdal\\iuserdalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{55195452-2B62-4C06-9C2A-0E712991D2F0}|MP-BusinessLogic\\MP-BusinessLogic.csproj|D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\mp-businesslogic\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -131,20 +139,12 @@
       "RelativeMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|solutionrelative:mp-windowsformsapp\\forms\\replenishmentrequestsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\mp-windowsformsapp\\forms\\usersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|solutionrelative:mp-windowsformsapp\\forms\\usersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8BC136A8-CDDF-4564-847C-9F44BC243327}|MP-DataAccess\\MP-DataAccess.csproj|D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\mp-dataaccess\\dalmanagers\\productdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8BC136A8-CDDF-4564-847C-9F44BC243327}|MP-DataAccess\\MP-DataAccess.csproj|solutionrelative:mp-dataaccess\\dalmanagers\\productdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\mp-windowsformsapp\\forms\\scheduleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|solutionrelative:mp-windowsformsapp\\forms\\scheduleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\mp-windowsformsapp\\forms\\usersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|solutionrelative:mp-windowsformsapp\\forms\\usersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8BC136A8-CDDF-4564-847C-9F44BC243327}|MP-DataAccess\\MP-DataAccess.csproj|D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\mp-dataaccess\\dalmanagers\\subcategorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -341,11 +341,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "ProductsForm.cs",
               "DocumentMoniker": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\ProductsForm.cs",
               "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Forms\\ProductsForm.cs",
@@ -358,7 +358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "MainForm.cs",
               "DocumentMoniker": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\MainForm.cs",
               "RelativeDocumentMoniker": "MP-WindowsFormsApp\\MainForm.cs",
@@ -371,7 +371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "LoginForm.cs",
               "DocumentMoniker": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\LoginForm.cs",
               "RelativeDocumentMoniker": "MP-WindowsFormsApp\\LoginForm.cs",
@@ -384,7 +384,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "AddProductForm.cs",
               "DocumentMoniker": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\ProductSubForms\\AddProductForm.cs",
               "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Forms\\ProductSubForms\\AddProductForm.cs",
@@ -397,28 +397,17 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 1,
               "Title": "UsersForm.cs",
               "DocumentMoniker": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\UsersForm.cs",
               "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Forms\\UsersForm.cs",
               "ToolTip": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\UsersForm.cs",
               "RelativeToolTip": "MP-WindowsFormsApp\\Forms\\UsersForm.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAA4wDUAAAA/AAAA",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAcwD0AAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-14T12:09:05.602Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AddUserForm.cs [Design]",
-              "DocumentMoniker": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\UserSubForms\\AddUserForm.cs",
-              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Forms\\UserSubForms\\AddUserForm.cs",
-              "ToolTip": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\UserSubForms\\AddUserForm.cs [Design]",
-              "RelativeToolTip": "MP-WindowsFormsApp\\Forms\\UserSubForms\\AddUserForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T15:21:02.801Z",
-              "EditorCaption": " [Design]"
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -434,7 +423,83 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "UserDAL.cs",
+              "DocumentMoniker": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-DataAccess\\DALManagers\\UserDAL.cs",
+              "RelativeDocumentMoniker": "MP-DataAccess\\DALManagers\\UserDAL.cs",
+              "ToolTip": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-DataAccess\\DALManagers\\UserDAL.cs",
+              "RelativeToolTip": "MP-DataAccess\\DALManagers\\UserDAL.cs",
+              "ViewState": "AQIAAB4CAAAAAAAAAAAAAFICAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T09:48:40.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsersForm.cs [Design]",
+              "DocumentMoniker": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\UsersForm.cs",
+              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Forms\\UsersForm.cs",
+              "ToolTip": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\UsersForm.cs [Design]",
+              "RelativeToolTip": "MP-WindowsFormsApp\\Forms\\UsersForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T16:38:52.303Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IUserDalManager.cs",
+              "DocumentMoniker": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\InterfacesDal\\IUserDalManager.cs",
+              "RelativeDocumentMoniker": "MP-BusinessLogic\\InterfacesDal\\IUserDalManager.cs",
+              "ToolTip": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\InterfacesDal\\IUserDalManager.cs",
+              "RelativeToolTip": "MP-BusinessLogic\\InterfacesDal\\IUserDalManager.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAowBQAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T05:55:25.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "MP-BusinessLogic\\Services\\UserService.cs",
+              "ToolTip": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\Services\\UserService.cs",
+              "RelativeToolTip": "MP-BusinessLogic\\Services\\UserService.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAowD0AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T09:47:00.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\InterfacesLL\\IUserService.cs",
+              "RelativeDocumentMoniker": "MP-BusinessLogic\\InterfacesLL\\IUserService.cs",
+              "ToolTip": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\InterfacesLL\\IUserService.cs",
+              "RelativeToolTip": "MP-BusinessLogic\\InterfacesLL\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T05:54:42.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddUserForm.cs [Design]",
+              "DocumentMoniker": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\UserSubForms\\AddUserForm.cs",
+              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Forms\\UserSubForms\\AddUserForm.cs",
+              "ToolTip": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\UserSubForms\\AddUserForm.cs [Design]",
+              "RelativeToolTip": "MP-WindowsFormsApp\\Forms\\UserSubForms\\AddUserForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T15:21:02.801Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "AddUserForm.cs",
               "DocumentMoniker": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\UserSubForms\\AddUserForm.cs",
               "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Forms\\UserSubForms\\AddUserForm.cs",
@@ -442,21 +507,7 @@
               "RelativeToolTip": "MP-WindowsFormsApp\\Forms\\UserSubForms\\AddUserForm.cs",
               "ViewState": "AQIAAJQAAAAAAAAAAAAuwE4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T10:24:55.185Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ForgotPasswordForm.cs",
-              "DocumentMoniker": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\ForgotPasswordForm.cs",
-              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Forms\\ForgotPasswordForm.cs",
-              "ToolTip": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\ForgotPasswordForm.cs",
-              "RelativeToolTip": "MP-WindowsFormsApp\\Forms\\ForgotPasswordForm.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAAAD4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T15:06:48.923Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-17T10:24:55.185Z"
             },
             {
               "$type": "Bookmark",
@@ -464,7 +515,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
+              "Title": "ForgotPasswordForm.cs",
+              "DocumentMoniker": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\ForgotPasswordForm.cs",
+              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Forms\\ForgotPasswordForm.cs",
+              "ToolTip": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\ForgotPasswordForm.cs",
+              "RelativeToolTip": "MP-WindowsFormsApp\\Forms\\ForgotPasswordForm.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAAAD4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T15:06:48.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "ForgotPasswordForm.cs [Design]",
               "DocumentMoniker": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\ForgotPasswordForm.cs",
               "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Forms\\ForgotPasswordForm.cs",
@@ -475,7 +538,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "LoginForm.cs [Design]",
               "DocumentMoniker": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\LoginForm.cs",
               "RelativeDocumentMoniker": "MP-WindowsFormsApp\\LoginForm.cs",
@@ -486,55 +549,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\InterfacesLL\\IUserService.cs",
-              "RelativeDocumentMoniker": "MP-BusinessLogic\\InterfacesLL\\IUserService.cs",
-              "ToolTip": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\InterfacesLL\\IUserService.cs",
-              "RelativeToolTip": "MP-BusinessLogic\\InterfacesLL\\IUserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T05:54:42.997Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IUserDalManager.cs",
-              "DocumentMoniker": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\InterfacesDal\\IUserDalManager.cs",
-              "RelativeDocumentMoniker": "MP-BusinessLogic\\InterfacesDal\\IUserDalManager.cs",
-              "ToolTip": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\InterfacesDal\\IUserDalManager.cs",
-              "RelativeToolTip": "MP-BusinessLogic\\InterfacesDal\\IUserDalManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBMAAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T05:55:25.533Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "MP-BusinessLogic\\Services\\UserService.cs",
-              "ToolTip": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\Services\\UserService.cs",
-              "RelativeToolTip": "MP-BusinessLogic\\Services\\UserService.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAowEAAAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T09:47:00.311Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UserDAL.cs",
-              "DocumentMoniker": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-DataAccess\\DALManagers\\UserDAL.cs",
-              "RelativeDocumentMoniker": "MP-DataAccess\\DALManagers\\UserDAL.cs",
-              "ToolTip": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-DataAccess\\DALManagers\\UserDAL.cs",
-              "RelativeToolTip": "MP-DataAccess\\DALManagers\\UserDAL.cs",
-              "ViewState": "AQIAAAoCAAAAAAAAAAAAABECAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T09:48:40.048Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\Entities\\User.cs",
               "RelativeDocumentMoniker": "MP-BusinessLogic\\Entities\\User.cs",
@@ -546,7 +561,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "Login.cshtml.cs",
               "DocumentMoniker": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-WebApplication\\Pages\\Login.cshtml.cs",
               "RelativeDocumentMoniker": "MP-WebApplication\\Pages\\Login.cshtml.cs",
@@ -558,7 +573,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "ForgotPassword.cshtml.cs",
               "DocumentMoniker": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-WebApplication\\Pages\\ForgotPassword.cshtml.cs",
               "RelativeDocumentMoniker": "MP-WebApplication\\Pages\\ForgotPassword.cshtml.cs",
@@ -570,7 +585,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "ForgotPassword.cshtml",
               "DocumentMoniker": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-WebApplication\\Pages\\ForgotPassword.cshtml",
               "RelativeDocumentMoniker": "MP-WebApplication\\Pages\\ForgotPassword.cshtml",
@@ -582,7 +597,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "site.css",
               "DocumentMoniker": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-WebApplication\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "MP-WebApplication\\wwwroot\\css\\site.css",
@@ -594,7 +609,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "Logout.cshtml.cs",
               "DocumentMoniker": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-WebApplication\\Pages\\Logout.cshtml.cs",
               "RelativeDocumentMoniker": "MP-WebApplication\\Pages\\Logout.cshtml.cs",
@@ -606,7 +621,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-WebApplication\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "MP-WebApplication\\Pages\\Shared\\_Layout.cshtml",
@@ -618,7 +633,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Logout.cshtml",
               "DocumentMoniker": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-WebApplication\\Pages\\Logout.cshtml",
               "RelativeDocumentMoniker": "MP-WebApplication\\Pages\\Logout.cshtml",
@@ -630,7 +645,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-WebApplication\\Program.cs",
               "RelativeDocumentMoniker": "MP-WebApplication\\Program.cs",
@@ -642,7 +657,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "Login.cshtml",
               "DocumentMoniker": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-WebApplication\\Pages\\Login.cshtml",
               "RelativeDocumentMoniker": "MP-WebApplication\\Pages\\Login.cshtml",
@@ -654,7 +669,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "MenuButton.cs [Design]",
               "DocumentMoniker": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\MenuButton.cs",
               "RelativeDocumentMoniker": "MP-WindowsFormsApp\\UserControls\\MenuButton.cs",
@@ -665,7 +680,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "UserControlBlank.cs",
               "DocumentMoniker": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\UserControlBlank.cs",
               "RelativeDocumentMoniker": "MP-WindowsFormsApp\\UserControls\\UserControlBlank.cs",
@@ -677,7 +692,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "MenuButton.cs",
               "DocumentMoniker": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\MenuButton.cs",
               "RelativeDocumentMoniker": "MP-WindowsFormsApp\\UserControls\\MenuButton.cs",
@@ -689,7 +704,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\Entities\\Product.cs",
               "RelativeDocumentMoniker": "MP-BusinessLogic\\Entities\\Product.cs",
@@ -701,7 +716,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "SubCategory.cs",
               "DocumentMoniker": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\Entities\\SubCategory.cs",
               "RelativeDocumentMoniker": "MP-BusinessLogic\\Entities\\SubCategory.cs",
@@ -713,7 +728,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "UsersUC.cs",
               "DocumentMoniker": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\UsersUC.cs",
               "RelativeDocumentMoniker": "MP-WindowsFormsApp\\UserControls\\UsersUC.cs",
@@ -725,7 +740,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "AddProductForm.cs [Design]",
               "DocumentMoniker": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\ProductSubForms\\AddProductForm.cs",
               "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Forms\\ProductSubForms\\AddProductForm.cs",
@@ -736,7 +751,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "ScheduleForm.cs",
               "DocumentMoniker": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\ScheduleForm.cs",
               "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Forms\\ScheduleForm.cs",
@@ -748,7 +763,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "ReplenishmentRequestsForm.cs",
               "DocumentMoniker": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\ReplenishmentRequestsForm.cs",
               "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Forms\\ReplenishmentRequestsForm.cs",
@@ -760,7 +775,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Program.cs",
               "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Program.cs",
@@ -772,18 +787,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "UsersForm.cs [Design]",
-              "DocumentMoniker": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\UsersForm.cs",
-              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Forms\\UsersForm.cs",
-              "ToolTip": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\UsersForm.cs [Design]",
-              "RelativeToolTip": "MP-WindowsFormsApp\\Forms\\UsersForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T16:38:52.303Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "ProductDAL.cs",
               "DocumentMoniker": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-DataAccess\\DALManagers\\ProductDAL.cs",
               "RelativeDocumentMoniker": "MP-DataAccess\\DALManagers\\ProductDAL.cs",

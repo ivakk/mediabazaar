@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MP-WindowsFormsApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1be295dba38f9249154b61e1ad8edc07c78412e7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0189b8ae85bf4feec9f1f677659a683f0afc0ca1")]
 [assembly: System.Reflection.AssemblyProductAttribute("MP-WindowsFormsApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MP-WindowsFormsApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -553,5 +553,45 @@ namespace MP_DataAccess.DALManagers
             return UpdateUser(user);
         }
 
+        public User GetUserByUserName(string firstName)
+        {
+            string query = $"SELECT * FROM Users WHERE firstName = @firstName";
+            User foundUser = null;
+
+            // Open the connection
+            connection.Open();
+
+            SqlCommand command = new SqlCommand(query, base.connection);
+
+            try
+            {
+                // Add the parameters
+                command.Parameters.AddWithValue("@firstName", firstName);
+
+                // Execute the query and get the data
+                using SqlDataReader reader = command.ExecuteReader();
+                while (reader.Read())
+                {
+                    foundUser = new User((int)reader.GetValue(0), (string)reader.GetValue(1),
+                        (string)reader.GetValue(2), (string)reader.GetValue(3),
+                        (string)reader.GetValue(4), (string)reader.GetValue(5),
+                        (DateTime)reader.GetValue(6), (string)reader.GetValue(7),
+                        (string)reader.GetValue(8), departmentService.GetDepartmentById((int)reader.GetValue(9)),
+                        (DateTime)reader.GetValue(10), (DateTime)reader.GetValue(11),
+                        (int)reader.GetValue(12));
+                }
+            }
+            catch (SqlException e)
+            {
+                // Handle any errors that may have occurred.
+                Console.WriteLine(e.Message);
+            }
+            finally
+            {
+                connection.Close();
+            }
+            return foundUser;
+
+        }
     }
 }
