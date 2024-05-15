@@ -58,3 +58,18 @@ C:\Users\ivoml\Desktop\hjb\media-bazzar\MediaBazar\MP-DataAccess\obj\Debug\net6.
 C:\Users\ivoml\Desktop\hjb\media-bazzar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\refint\MP-DataAccess.dll
 C:\Users\ivoml\Desktop\hjb\media-bazzar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\MP-DataAccess.pdb
 C:\Users\ivoml\Desktop\hjb\media-bazzar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\ref\MP-DataAccess.dll
+D:\Visual code studio\Fontys\Sem2Software\GroupProject\media-bazzar\MediaBazar\MP-DataAccess\bin\Debug\net6.0\MP-DataAccess.deps.json
+D:\Visual code studio\Fontys\Sem2Software\GroupProject\media-bazzar\MediaBazar\MP-DataAccess\bin\Debug\net6.0\MP-DataAccess.dll
+D:\Visual code studio\Fontys\Sem2Software\GroupProject\media-bazzar\MediaBazar\MP-DataAccess\bin\Debug\net6.0\MP-DataAccess.pdb
+D:\Visual code studio\Fontys\Sem2Software\GroupProject\media-bazzar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\MP-DataAccess.csproj.AssemblyReference.cache
+D:\Visual code studio\Fontys\Sem2Software\GroupProject\media-bazzar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\MP-DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual code studio\Fontys\Sem2Software\GroupProject\media-bazzar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\MP-DataAccess.AssemblyInfoInputs.cache
+D:\Visual code studio\Fontys\Sem2Software\GroupProject\media-bazzar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\MP-DataAccess.AssemblyInfo.cs
+D:\Visual code studio\Fontys\Sem2Software\GroupProject\media-bazzar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\MP-DataAccess.csproj.CoreCompileInputs.cache
+D:\Visual code studio\Fontys\Sem2Software\GroupProject\media-bazzar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\MP-DataAccess.dll
+D:\Visual code studio\Fontys\Sem2Software\GroupProject\media-bazzar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\refint\MP-DataAccess.dll
+D:\Visual code studio\Fontys\Sem2Software\GroupProject\media-bazzar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\MP-DataAccess.pdb
+D:\Visual code studio\Fontys\Sem2Software\GroupProject\media-bazzar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\ref\MP-DataAccess.dll
+D:\Visual code studio\Fontys\Sem2Software\GroupProject\media-bazzar\MediaBazar\MP-DataAccess\bin\Debug\net6.0\MP-BusinessLogic.dll
+D:\Visual code studio\Fontys\Sem2Software\GroupProject\media-bazzar\MediaBazar\MP-DataAccess\bin\Debug\net6.0\MP-BusinessLogic.pdb
+D:\Visual code studio\Fontys\Sem2Software\GroupProject\media-bazzar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\MP-DataA.0E1D0004.Up2Date

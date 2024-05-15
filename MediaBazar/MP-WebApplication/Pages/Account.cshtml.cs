@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using MP_BusinessLogic.InterfacesLL;
 using MP_BusinessLogic.Services;
 using MP_DataAccess;
 using MP_EntityLibrary;
@@ -12,7 +13,7 @@ namespace MP_WebApplication.Pages
     [Authorize]
     public class AccountModel : PageModel
     {
-        UserService userService = new UserService();
+        //UserService userService = new UserService();
        
         User ? UserLogic;
 
@@ -36,6 +37,14 @@ namespace MP_WebApplication.Pages
         [Compare(nameof(NewPassword), ErrorMessage = "The password and confirmation password do not match.")]
         public string? ConfirmPassword { get; set; }
 
+        private readonly IUserService userService;
+        //private readonly UserService userService;
+        User user;
+        public AccountModel(IUserService userService)
+        {
+            this.userService = userService;
+        }
+  
         public void OnGet()
         {
             try
@@ -62,19 +71,18 @@ namespace MP_WebApplication.Pages
 
                 try
                 {
-                    new User(UserLogic.Email, CurrentPassword);
+                    //new User(UserLogic.Email, CurrentPassword);
 
                     PasswordHashing passwordHasher = new PasswordHashing();
 
                     string newSalt = passwordHasher.GenerateRandomSalt(16);
                     string newHash = passwordHasher.GenerateSHA256Hash(NewPassword, newSalt);
 
-                    UserService usersManager = new UserService();
-                    User newUser = usersManager.GetUserById(UserLogic.Id);
+                    User newUser = userService.GetUserById(UserLogic.Id);
                     newUser.PasswordHash = newHash;
                     newUser.PasswordSalt = newSalt;
 
-                    usersManager.UpdateUser(newUser);
+                    userService.UpdateUser(newUser);
 
                     ViewData["Success"] = "Password changed successfully";
                 }

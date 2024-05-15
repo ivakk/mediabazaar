@@ -1,4 +1,6 @@
-﻿using MP_BusinessLogic.Services;
+﻿using MP_BusinessLogic.InterfacesLL;
+using MP_BusinessLogic.Services;
+using MP_DataAccess.DALManagers;
 using MP_EntityLibrary;
 using MP_WindowsFormsApp.Forms.ProductSubForms;
 using System;
@@ -18,14 +20,19 @@ namespace MP_WindowsFormsApp.Forms
         public MainForm mainForm;
         AddProductForm addProductForm;
 
-        ProductService productService = new ProductService();
-        BrandService brandService = new BrandService();
-        CategoryService categoryService = new CategoryService();
-        SubCategoryService subCategoryService = new SubCategoryService();
 
-        public ProductsForm(MainForm mainForm)
+        private readonly IProductService productService;
+        private readonly IBrandService brandService;
+        private readonly ICategoryService categoryService;
+        private readonly ISubCategoryService subCategoryService;
+
+        public ProductsForm(MainForm mainForm )
         {
             InitializeComponent();
+            productService = new ProductService(new ProductDAL());
+            brandService = new BrandService(new BrandDAL());
+            categoryService = new CategoryService(new CategoryDAL());
+            productService = new ProductService(new ProductDAL());
             addProductForm = new AddProductForm(this) { Dock = DockStyle.Fill, TopLevel = false, TopMost = true, FormBorderStyle = FormBorderStyle.None };
             this.mainForm = mainForm;
 
@@ -35,6 +42,7 @@ namespace MP_WindowsFormsApp.Forms
 
         private void ProductsForm_Load(object sender, EventArgs e)
         {
+
             dgvProducts.DataSource = productService.GetAll();
         }
         private void cbCategory_SelectedIndexChanged(object sender, EventArgs e)

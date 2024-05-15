@@ -46,3 +46,16 @@ button.accept-policy[b-bz9jsniy3f] {
   white-space: nowrap;
   line-height: 60px;
 }
+#forgotPassword[b-bz9jsniy3f] {
+    max-width: 500px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.form-group[b-bz9jsniy3f] {
+    padding: 12px;
+}

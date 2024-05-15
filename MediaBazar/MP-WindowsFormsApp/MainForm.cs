@@ -13,12 +13,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MP_EntityLibrary;
+using MP_BusinessLogic.InterfacesLL;
+using MP_DataAccess.DALManagers;
 
 namespace MP_WindowsFormsApp
 {
     public partial class MainForm : Form
     {
-        UserService userService = new UserService();
+        private readonly IUserService userService;
+        private readonly IProductService productService;
+        private readonly IBrandService brandService;
+        private readonly ICategoryService categoryService;
+        private readonly IDepartmentService departmentService;
 
         LoginForm loginForm;
         public User loggedInUser;
@@ -33,14 +39,20 @@ namespace MP_WindowsFormsApp
         public Dictionary<string, object> accessForms;
         public MainForm(User user, LoginForm loginForm)
         {
+
             InitializeComponent();
-            productForm = new ProductsForm(this) { Dock = DockStyle.Fill, TopLevel = false, TopMost = true, FormBorderStyle = FormBorderStyle.None };
+            departmentService = new DepartmentService(new DepartmentDAL());
+            userService = new UserService(new UserDAL(departmentService));
+            productService = new ProductService(new ProductDAL());
+            brandService = new BrandService(new BrandDAL());
+            categoryService = new CategoryService(new CategoryDAL());
+            productForm = new ProductsForm(this ){ Dock = DockStyle.Fill, TopLevel = false, TopMost = true, FormBorderStyle = FormBorderStyle.None };
             this.loginForm = loginForm;
             this.loggedInUser = user;
 
             //Loading buttons
             productForm = new ProductsForm(this) { Dock = DockStyle.Fill, TopLevel = false, TopMost = true, FormBorderStyle = FormBorderStyle.None };
-            userForm = new UsersForm(this) { Dock = DockStyle.Fill, TopLevel = false, TopMost = true, FormBorderStyle = FormBorderStyle.None };
+            userForm = new UsersForm(this,userService, departmentService) { Dock = DockStyle.Fill, TopLevel = false, TopMost = true, FormBorderStyle = FormBorderStyle.None };
             scheduleForm = new ScheduleForm(this) { Dock = DockStyle.Fill, TopLevel = false, TopMost = true, FormBorderStyle = FormBorderStyle.None };
             menuButtons.Add(new MenuButton("Users", userForm, this));
             menuButtons.Add(new MenuButton("Products", productForm, this));

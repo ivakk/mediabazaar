@@ -1,0 +1,44 @@
+﻿@page
+@model MP_WebApplication.Pages.StatisticModel
+@{
+    ViewData["HiredCounts"] = new int[] { 5, 10, 15, 14 }; // Example data
+    ViewData["FiredCounts"] = new int[] { 3, 7, 9, 4 };    // Example data
+    ViewData["Months"] = new string[] { "January", "February", "March", "April" };
+
+    <canvas id="employeeChart" height="35vh" width="80vw"></canvas>
+
+}
+
+@section Scripts {
+    <script>
+        var ctx = document.getElementById('employeeChart').getContext('2d');
+        var myChart = new Chart(ctx, {
+            type: 'line', // or 'bar', 'pie', etc.
+            data: {
+                labels: @Html.Raw(Json.Serialize(ViewData["Months"])),
+                datasets: [{
+                    label: 'Hired',
+                    data: @Html.Raw(Json.Serialize(ViewData["HiredCounts"])),
+                    borderColor: 'rgb(75, 192, 192)',
+                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                },
+                {
+                    label: 'Fired',
+                    data: @Html.Raw(Json.Serialize(ViewData["FiredCounts"])),
+                    borderColor: 'rgb(255, 99, 132)',
+                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+
+
+
+}

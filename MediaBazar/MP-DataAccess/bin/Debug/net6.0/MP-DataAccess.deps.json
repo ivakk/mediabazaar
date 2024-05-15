@@ -9,6 +9,7 @@
       "MP-DataAccess/1.0.0": {
         "dependencies": {
           "AWSSDK.Core": "3.7.202.20",
+          "MP-BusinessLogic": "1.0.0",
           "Microsoft.TeamFoundationServer.Client": "16.205.1",
           "System.Data.SqlClient": "4.8.5"
         },
@@ -961,6 +962,11 @@
             "fileVersion": "4.6.24705.1"
           }
         }
+      },
+      "MP-BusinessLogic/1.0.0": {
+        "runtime": {
+          "MP-BusinessLogic.dll": {}
+        }
       }
     }
   },
@@ -1627,6 +1633,11 @@
       "sha512": "sha512-A/uxsWi/Ifzkmd4ArTLISMbfFs6XpRPsXZonrIqyTY70xi8t+mDtvSM5Os0RqyRDobjMBwIDHDL4NOIbkDwf7A==",
       "path": "system.xml.xpath.xmldocument/4.3.0",
       "hashPath": "system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
+    },
+    "MP-BusinessLogic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

@@ -1,12 +1,15 @@
-﻿using MP_EntityLibrary;
+﻿using MP_BusinessLogic.InterfacesLL;
+using MP_EntityLibrary;
 
 namespace MP_WindowsFormsApp
 {
     public partial class LoginForm : Form
     {
-        public LoginForm()
+        private readonly IUserService userService;
+        public LoginForm(IUserService userService)
         {
             InitializeComponent();
+            this.userService = userService;
         }
 
         private void Login_Load(object sender, EventArgs e)
@@ -31,7 +34,13 @@ namespace MP_WindowsFormsApp
 
             try
             {
-                User user = new User(email, password);
+                User user = userService.GetUserByEmail(email);
+                bool isPasswordCorrect = userService.IsPasswordCorrect(email, password);
+                if (!isPasswordCorrect)
+                {
+                    MessageBox.Show("Incorrect password", "Incorrect login details", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
                 MainForm mainForm = new MainForm(user, this);
                 mainForm.Show();
                 this.Hide();

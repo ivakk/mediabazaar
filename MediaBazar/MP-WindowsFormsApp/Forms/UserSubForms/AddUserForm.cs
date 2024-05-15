@@ -1,5 +1,7 @@
-﻿using MP_BusinessLogic.Services;
+﻿using MP_BusinessLogic.InterfacesLL;
+using MP_BusinessLogic.Services;
 using MP_DataAccess;
+using MP_DataAccess.DALManagers;
 using MP_EntityLibrary;
 using MP_WindowsFormsApp.Forms;
 using System;
@@ -17,7 +19,16 @@ namespace MP_WindowsFormsApp.Forms.UserSubForms
 {
     public partial class AddUserForm : Form
     {
-        UserService userService = new UserService();
+        private readonly IUserService userService;
+        private readonly IDepartmentService departmentService;
+        //private readonly UserService userService;
+        User user;
+        //public AddUserForm(IUserService userService, IDepartmentService departmentService)
+        //{
+        //    this.userService = userService;
+        //    this.departmentService = departmentService;
+        //}
+        //UserService userService = new UserService();
         PasswordHashing hashing = new PasswordHashing();
 
         //In case it is in edit mode
@@ -25,16 +36,19 @@ namespace MP_WindowsFormsApp.Forms.UserSubForms
 
         UsersForm usersForm;
 
-        DepartmentService departmentService = new DepartmentService();
         public AddUserForm(UsersForm usersForm)
         {
             InitializeComponent();
+            this.departmentService = new DepartmentService(new DepartmentDAL());
+            this.userService = new UserService(new UserDAL(departmentService));
             this.usersForm = usersForm;
         }
 
         public AddUserForm(UsersForm usersForm, User user)
         {
             InitializeComponent();
+            this.departmentService = new DepartmentService(new DepartmentDAL());
+            this.userService = new UserService(new UserDAL(departmentService));
             this.usersForm = usersForm;
             this.User = user;
         }
@@ -84,7 +98,7 @@ namespace MP_WindowsFormsApp.Forms.UserSubForms
                     dtpContractEnd.Value,
                     cbSalaryLevel.SelectedIndex);
 
-                bool success = userService.CreateUser(user);
+                bool success = userService.InsertUser(user);
                 if (success)
                 {
                     usersForm.mainForm.ChangeShownForm(usersForm);

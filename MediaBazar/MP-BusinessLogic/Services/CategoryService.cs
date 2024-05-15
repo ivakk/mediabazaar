@@ -1,26 +1,33 @@
-﻿using MP_DataAccess.DALManagers;
+﻿using MP_BusinessLogic.InterfacesDal;
+using MP_BusinessLogic.InterfacesLL;
 using MP_EntityLibrary;
 
 namespace MP_BusinessLogic.Services
 {
-    public class CategoryService
+    public class CategoryService : ICategoryService
     {
-        private CategoryDALManager dalManager = new CategoryDALManager();
+        ICategoryDalManager controller;
+
+        public CategoryService(ICategoryDalManager controller)
+        {
+            this.controller = controller;
+        }
 
         public List<Category> GetAll()
         {
-            return (List<Category>)dalManager.GetAll();
+            return controller.GetAll();
         }
         public Category GetByName(string Name)
         {
-            foreach (Category category in GetAll())
-            {
-                if (category.Name == Name)
-                {
-                    return category;
-                }
-            }
-            return null;
+            return controller.GetByName(Name);
+            //foreach (Category category in GetAll())
+            //{
+            //    if (category.Name == Name)
+            //    {
+            //        return category;
+            //    }
+            //}
+            //return null;
         }
     }
 }
