@@ -12,17 +12,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MP_BusinessLogic.InterfacesLL;
+using MP_DataAccess.DALManagers;
 
 namespace MP_WindowsFormsApp.UserControls
 {
     public partial class UsersUC : UserControl
     {
-        UserService userService = new UserService();
+        private readonly IUserService userService;
+        private readonly IDepartmentService departmentService;
+        
+        //UserService userService = new UserService();
         UsersForm usersForm;
         public User User { get; set; }
         public UsersUC(User user, UsersForm usersForm)
         {
             InitializeComponent();
+            departmentService = new DepartmentService(new DepartmentDAL());
+            this.userService = new UserService(new UserDAL(departmentService));
             this.User = user;
             this.usersForm = usersForm;
         }

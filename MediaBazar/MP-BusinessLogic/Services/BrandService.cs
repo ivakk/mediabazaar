@@ -1,24 +1,32 @@
-﻿using MP_DataAccess.DALManagers;
+﻿using MP_BusinessLogic.InterfacesDal;
+using MP_BusinessLogic.InterfacesLL;
 using MP_EntityLibrary;
 
 namespace MP_BusinessLogic.Services
 {
-    public class BrandService
+    public class BrandService : IBrandService
     {
-        private BrandDALManager dalManager = new BrandDALManager();
+        IBrandDalManager controller;
 
+        public BrandService(IBrandDalManager controller)
+        {
+            this.controller = controller;
+        }
+        
         public List<Brand> GetAll()
         {
-            return (List<Brand>)dalManager.GetAll();
+            return controller.GetAll();
         }
+
         public Brand GetByName(string Name)
         {
-            foreach (Brand brand in GetAll())
-            {
-                if (brand.Name == Name)
-                    return brand;
-            }
-            return null;
+            return controller.GetByName(Name);
+            //foreach (Brand brand in GetAll())
+            //{
+            //    if (brand.Name == Name)
+            //        return brand;
+            //}
+            //return null;
         }
     }
 }

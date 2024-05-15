@@ -9,6 +9,8 @@ using System.ComponentModel.DataAnnotations;
 using System.Security.Claims;
 using MP_EntityLibrary;
 using System.Net.Mail;
+using MP_BusinessLogic.InterfacesDal;
+using MP_BusinessLogic.InterfacesLL;
 
 namespace MP_WebApplication.Pages
 {
@@ -24,10 +26,11 @@ namespace MP_WebApplication.Pages
         public string? Password { get; set; }
 
         List<Claim> claims = new List<Claim>();
-       
-        private readonly UserService userService;
+
+        private readonly IUserService userService;
+        //private readonly UserService userService;
         User user;
-        public LoginModel(UserService userService)
+        public LoginModel(IUserService userService)
         {
             this.userService = userService;
         }
@@ -53,7 +56,16 @@ namespace MP_WebApplication.Pages
 
             try
             {
-                User user = new User(Email, Password);
+                //User user = new User(Email, Password);
+                User user = userService.GetUserByEmail(Email);
+                bool isPasswordCorrect = userService.IsPasswordCorrect(Email, Password);
+
+                if(!isPasswordCorrect)
+                {
+                    ViewData["Error"] = "Invalid email or password";
+                    return;
+                }
+                
 
                 var claims = new List<Claim>
                 {

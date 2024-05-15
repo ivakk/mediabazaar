@@ -1,4 +1,6 @@
-﻿using MP_BusinessLogic.Services;
+﻿using MP_BusinessLogic.InterfacesLL;
+using MP_BusinessLogic.Services;
+using MP_DataAccess.DALManagers;
 using MP_EntityLibrary;
 using MP_WindowsFormsApp.Forms.ProductSubForms;
 using MP_WindowsFormsApp.Forms.UserSubForms;
@@ -17,14 +19,26 @@ namespace MP_WindowsFormsApp.Forms
 {
     public partial class UsersForm : Form
     {
-        UserService userService = new UserService();
-        DepartmentService departmentService = new DepartmentService();
+        private readonly IUserService userService;
+        private readonly IDepartmentService departmentService;
+        //public UsersForm(IUserService userService, IDepartmentService departmentService)
+        //{
+        //    InitializeComponent();
+        //    this.userService = userService;
+        //    departmentService = new DepartmentService(new DepartmentDAL());
+
+        //}
+        //UserService userService = new UserService();
+        //DepartmentService departmentService = new DepartmentService();
 
         public MainForm mainForm;
         AddUserForm addUserForm;
-        public UsersForm(MainForm mainForm)
+        public UsersForm(MainForm mainForm, IUserService userService, IDepartmentService departmentService)
         {
             InitializeComponent();
+            this.userService = userService;
+            this.departmentService = departmentService;
+            //departmentService = new DepartmentService(new DepartmentDAL());
             this.mainForm = mainForm;
 
             addUserForm = new AddUserForm(this) { Dock = DockStyle.Fill, TopLevel = false, TopMost = true, FormBorderStyle = FormBorderStyle.None };
@@ -50,7 +64,11 @@ namespace MP_WindowsFormsApp.Forms
 
         private void btnSearch_Click(object sender, EventArgs e)
         {
-            LoadUsers(userService.GetBySearch(tbSearch.Text));
+            //change to name and last name later
+
+            //FIX
+    
+            LoadUsers(userService.GetAllUsers());
         }
 
         public void LoadUsers(List<User> users)
@@ -67,6 +85,7 @@ namespace MP_WindowsFormsApp.Forms
         private void cbDepartment_SelectedIndexChanged(object sender, EventArgs e)
         {
             Department dep = (Department)cbDepartment.SelectedItem;
+
             LoadUsers(userService.GetUsersByDepartment(dep.Id));
         }
     }

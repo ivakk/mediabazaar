@@ -1,21 +1,39 @@
-﻿using MP_BusinessLogic.Services;
+﻿using MP_BusinessLogic.InterfacesLL;
+using MP_BusinessLogic.Services;
+using MP_DataAccess.DALManagers;
 using MP_EntityLibrary;
 
 namespace MP_WindowsFormsApp.Forms.ProductSubForms
 {
     public partial class AddProductForm : Form
     {
-        ProductService productService = new ProductService();
-        BrandService brandService = new BrandService();
-        CategoryService categoryService = new CategoryService();
-        SubCategoryService subCategoryService = new SubCategoryService();
+        private readonly IProductService productService;
+        private readonly IBrandService brandService;
+        private readonly ICategoryService categoryService;
+        private readonly ISubCategoryService subCategoryService;
+
+        //public AddProductForm(IProductService productService, IBrandService brandService, ICategoryService categoryService, ISubCategoryService subCategoryService)
+        //{
+        //    InitializeComponent();
+        //    this.productService = productService;
+        //    this.brandService = brandService;
+        //    this.categoryService = categoryService;
+        //    this.subCategoryService = subCategoryService;
+        //}
+        //ProductService productService = new ProductService();
+        //BrandService brandService = new BrandService();
+        //CategoryService categoryService = new CategoryService();
+        //SubCategoryService subCategoryService = new SubCategoryService();
         ProductsForm productsForm;
 
         private int productId = 0;
-        public AddProductForm(ProductsForm productsForm)
+        public AddProductForm(ProductsForm productsForm )
         {
             InitializeComponent();
-
+            productService = new ProductService(new ProductDAL());
+            brandService = new BrandService(new BrandDAL());
+            categoryService = new CategoryService(new CategoryDAL());
+            subCategoryService = new SubCategoryService(new SubCategoryDAL());
             cbBrand.Items.AddRange(brandService.GetAll().ToArray());
             cbCategory.Items.AddRange(categoryService.GetAll().ToArray());
             this.productsForm = productsForm;

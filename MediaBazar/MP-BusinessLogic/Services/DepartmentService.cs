@@ -1,31 +1,58 @@
 ﻿using MP_EntityLibrary;
-using MP_DataAccess.DALManagers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MP_BusinessLogic.InterfacesLL;
+using MP_BusinessLogic.InterfacesDal;
 
 namespace MP_BusinessLogic.Services
 {
-    public class DepartmentService
+    public class DepartmentService : IDepartmentService
     {
-        DepartmentDALManager controller = new DepartmentDALManager();
+        IDepartmentDalManager controller;
+
+        public DepartmentService(IDepartmentDalManager controller)
+        {
+            this.controller = controller;
+        }
+
         public List<Department> GetAllDepartments()
         {
             return controller.GetAllDepartments();
         }
-        public void CreateDepartment(Department department)
+        public bool CreateDepartment(Department department)
         {
-            controller.InsertDepartment(department);
+            return controller.CreateDepartment(department);
         }
-        public void UpdateDepartment(Department department)
+        public bool UpdateDepartment(Department department)
         {
-            controller.UpdateDepartment(department);
+            return controller.UpdateDepartment(department);
         }
-        public void DeleteDepartment(int id)
+        public bool DeleteDepartment(int id)
         {
-            controller.DeleteDepartment(id);
+            return controller.DeleteDepartment(id);
         }
+        public Department GetDepartmentById(int id)
+        {
+            return controller.GetDepartmentById(id);
+        }
+        //public List<Department> GetAllDepartments()
+        //{
+        //    return controller.GetAllDepartments();
+        //}
+        //public void CreateDepartment(Department department)
+        //{
+        //    controller.InsertDepartment(department);
+        //}
+        //public void UpdateDepartment(Department department)
+        //{
+        //    controller.UpdateDepartment(department);
+        //}
+        //public void DeleteDepartment(int id)
+        //{
+        //    controller.DeleteDepartment(id);
+        //}
     }
 }

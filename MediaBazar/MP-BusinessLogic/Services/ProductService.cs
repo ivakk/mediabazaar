@@ -1,44 +1,88 @@
-﻿using MP_DataAccess.DALManagers;
+﻿using MP_BusinessLogic.InterfacesDal;
+using MP_BusinessLogic.InterfacesLL;
 using MP_EntityLibrary;
 
 namespace MP_BusinessLogic.Services
 {
-    public class ProductService
+    public class ProductService : IProductService
     {
-        ProductDALManager dalManager = new ProductDALManager();
+        IProductDalManager controller;
+
+        public ProductService(IProductDalManager controller)
+        {
+            this.controller = controller;
+        }
         public List<Product> GetAll()
         {
-            return (List<Product>)dalManager.GetAll();
+            return controller.GetAll();
         }
         public Product GetById(int id)
         {
-            return (Product)dalManager.Get(id);
+            return controller.GetById(id);
         }
 
         public List<Product> GetBySearch(string search)
         {
-            List<Product> result = new List<Product>();
-            foreach (Product product in GetAll())
-            {
-                if (product.GetObjectString().Contains(search))
-                {
-                    result.Add(product);
-                }
-            }
-            return result;
+            return controller.GetBySearch(search);
+            //List<Product> result = new List<Product>();
+            //foreach (Product product in GetAll())
+            //{
+            //    if (product.GetObjectString().Contains(search))
+            //    {
+            //        result.Add(product);
+            //    }
+            //}
+            //return result;
         }
-        public void Create(Product product)
+        public bool Create(Product product)
         {
-            dalManager.Create(product);
+            return controller.Create(product);
+            //dalManager.Create(product);
         }
-        public void Update(Product product)
+        public bool Update(Product product)
         {
-            dalManager.Update(product);
+            return controller.Update(product);
+            //dalManager.Update(product);
         }
-        public void Delete(int id)
+        public bool Delete(int id)
         {
-            dalManager.Delete(id);
+            return controller.Delete(id);
+            //dalManager.Delete(id);
         }
 
+        //ProductDALManager dalManager = new ProductDALManager();
+        //public List<Product> GetAll()
+        //{
+        //    return (List<Product>)dalManager.GetAll();
+        //}
+        //public Product GetById(int id)
+        //{
+        //    return (Product)dalManager.Get(id);
+        //}
+
+        //public List<Product> GetBySearch(string search)
+        //{
+        //    List<Product> result = new List<Product>();
+        //    foreach (Product product in GetAll())
+        //    {
+        //        if (product.GetObjectString().Contains(search))
+        //        {
+        //            result.Add(product);
+        //        }
+        //    }
+        //    return result;
+        //}
+        //public void Create(Product product)
+        //{
+        //    dalManager.Create(product);
+        //}
+        //public void Update(Product product)
+        //{
+        //    dalManager.Update(product);
+        //}
+        //public void Delete(int id)
+        //{
+        //    dalManager.Delete(id);
+        //}
     }
 }

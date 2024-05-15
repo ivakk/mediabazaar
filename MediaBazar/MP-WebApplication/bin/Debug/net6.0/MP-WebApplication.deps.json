@@ -962,9 +962,6 @@
         }
       },
       "MP-BusinessLogic/1.0.0": {
-        "dependencies": {
-          "MP-DataAccess": "1.0.0"
-        },
         "runtime": {
           "MP-BusinessLogic.dll": {}
         }
@@ -972,6 +969,7 @@
       "MP-DataAccess/1.0.0": {
         "dependencies": {
           "AWSSDK.Core": "3.7.202.20",
+          "MP-BusinessLogic": "1.0.0",
           "Microsoft.TeamFoundationServer.Client": "16.205.1",
           "System.Data.SqlClient": "4.8.5"
         },

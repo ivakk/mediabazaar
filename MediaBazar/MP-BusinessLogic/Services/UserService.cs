@@ -1,6 +1,5 @@
-﻿using Microsoft.TeamFoundation.Test.WebApi;
-using MP_DataAccess;
-using MP_DataAccess.DALManagers;
+﻿using MP_BusinessLogic.InterfacesDal;
+using MP_BusinessLogic.InterfacesLL;
 using MP_EntityLibrary;
 using System;
 using System.Collections.Generic;
@@ -10,57 +9,73 @@ using System.Threading.Tasks;
 
 namespace MP_BusinessLogic.Services
 {
-    public class UserService
+    public class UserService: IUserService
+
     {
-        UserDALManager controller = new UserDALManager();
-        public List<User> GetAllUsers()
+        IUserDalManager controller;
+
+        public UserService(IUserDalManager controller)
         {
-            return controller.GetAll();
+            this.controller = controller;
         }
 
-        public User GetUserById(int id)
+        public bool IsPasswordCorrect(string email, string password)
         {
-            return controller.GetUserById(id);
-        }
-        
-        public bool CreateUser(User user)
-        {
-            return controller.InsertUser(user);
-        }
-
-        public List<User> GetUsersByDepartment(int departmentId)
-        {
-            return controller.GetUserByDepartment(departmentId);
-        }
-
-        public List<User> GetBySearch(string search)
-        {
-            List<User> result = new List<User>();
-            foreach (User User in GetAllUsers())
-            {
-                if (User.GetObjectString().Contains(search))
-                {
-                    result.Add(User);
-                }
-            }
-            return result;
-        }
-        public bool UpdateUser(User user)
-        {
-            return controller.UpdateUser(user);
-        }
-        public void DeleteUser(int id)
-        {
-            controller.DeleteUser(id);
+            return controller.IsPasswordCorrect(email, password);
         }
 
         public User GetUserByEmail(string email)
         {
             return controller.GetUserByEmail(email);
         }
-        public bool IsPasswordCorrect(string email,string password)
+        public bool InsertUser(User newUser)
         {
-           return controller.IsPasswordCorrect(email, password);
+            return controller.InsertUser(newUser);
         }
+        public User GetUserById(int id)
+        {
+            return controller.GetUserById(id);
+        }
+
+        public bool UpdateUser(User newUser)
+        {
+            return controller.UpdateUser(newUser);
+        }
+        public List<User> GetAllUsers()
+        {
+            return controller.GetAllUsers();
+        }
+        public bool DeleteUser(int id)
+        {
+            return controller.DeleteUser(id);
+        }
+
+        public List<User> GetUsersByDepartment(int departmentId)
+        {
+            return controller.GetUsersByDepartment(departmentId);
+        }
+
+        //public List<User> GetBySearch(string search)
+        //{
+        //    List<User> result = new List<User>();
+        //    foreach (User User in GetAllUsers())
+        //    {
+        //        if (User.GetObjectString().Contains(search))
+        //        {
+        //            result.Add(User);
+        //        }
+        //    }
+        //    return result;
+        //}
+        //public bool UpdateUser(User user)
+        //{
+        //    return controller.UpdateUser(user);
+        //}
+        //public void DeleteUser(int id)
+        //{
+        //    controller.DeleteUser(id);
+        //}
+
+
     }
 }

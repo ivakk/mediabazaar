@@ -9,55 +9,63 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MP_WebApplication
 build_property.RootNamespace = MP_WebApplication
-build_property.ProjectDir = C:\Users\ivoml\Desktop\hjb\media-bazzar\MediaBazar\MP-WebApplication\
+build_property.ProjectDir = D:\Visual code studio\Fontys\Sem2Software\GroupProject\media-bazzar\MediaBazar\MP-WebApplication\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\ivoml\Desktop\hjb\media-bazzar\MediaBazar\MP-WebApplication
+build_property.MSBuildProjectDirectory = D:\Visual code studio\Fontys\Sem2Software\GroupProject\media-bazzar\MediaBazar\MP-WebApplication
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/ivoml/Desktop/hjb/media-bazzar/MediaBazar/MP-WebApplication/Pages/AccessDenied.cshtml]
+[D:/Visual code studio/Fontys/Sem2Software/GroupProject/media-bazzar/MediaBazar/MP-WebApplication/Pages/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjZXNzRGVuaWVkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ivoml/Desktop/hjb/media-bazzar/MediaBazar/MP-WebApplication/Pages/Account.cshtml]
+[D:/Visual code studio/Fontys/Sem2Software/GroupProject/media-bazzar/MediaBazar/MP-WebApplication/Pages/Account.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ivoml/Desktop/hjb/media-bazzar/MediaBazar/MP-WebApplication/Pages/Error.cshtml]
+[D:/Visual code studio/Fontys/Sem2Software/GroupProject/media-bazzar/MediaBazar/MP-WebApplication/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ivoml/Desktop/hjb/media-bazzar/MediaBazar/MP-WebApplication/Pages/Index.cshtml]
+[D:/Visual code studio/Fontys/Sem2Software/GroupProject/media-bazzar/MediaBazar/MP-WebApplication/Pages/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9yZ290UGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual code studio/Fontys/Sem2Software/GroupProject/media-bazzar/MediaBazar/MP-WebApplication/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ivoml/Desktop/hjb/media-bazzar/MediaBazar/MP-WebApplication/Pages/Login.cshtml]
+[D:/Visual code studio/Fontys/Sem2Software/GroupProject/media-bazzar/MediaBazar/MP-WebApplication/Pages/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ivoml/Desktop/hjb/media-bazzar/MediaBazar/MP-WebApplication/Pages/Privacy.cshtml]
+[D:/Visual code studio/Fontys/Sem2Software/GroupProject/media-bazzar/MediaBazar/MP-WebApplication/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ivoml/Desktop/hjb/media-bazzar/MediaBazar/MP-WebApplication/Pages/Profile.cshtml]
+[D:/Visual code studio/Fontys/Sem2Software/GroupProject/media-bazzar/MediaBazar/MP-WebApplication/Pages/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ivoml/Desktop/hjb/media-bazzar/MediaBazar/MP-WebApplication/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Visual code studio/Fontys/Sem2Software/GroupProject/media-bazzar/MediaBazar/MP-WebApplication/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ivoml/Desktop/hjb/media-bazzar/MediaBazar/MP-WebApplication/Pages/_ViewImports.cshtml]
+[D:/Visual code studio/Fontys/Sem2Software/GroupProject/media-bazzar/MediaBazar/MP-WebApplication/Pages/Statistic.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhdGlzdGljLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual code studio/Fontys/Sem2Software/GroupProject/media-bazzar/MediaBazar/MP-WebApplication/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ivoml/Desktop/hjb/media-bazzar/MediaBazar/MP-WebApplication/Pages/_ViewStart.cshtml]
+[D:/Visual code studio/Fontys/Sem2Software/GroupProject/media-bazzar/MediaBazar/MP-WebApplication/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ivoml/Desktop/hjb/media-bazzar/MediaBazar/MP-WebApplication/Pages/Shared/_Layout.cshtml]
+[D:/Visual code studio/Fontys/Sem2Software/GroupProject/media-bazzar/MediaBazar/MP-WebApplication/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-bz9jsniy3f
