@@ -55,7 +55,7 @@ namespace MP_WindowsFormsApp.Forms.UserSubForms
 
         private void AddUserForm_Load(object sender, EventArgs e)
         {
-
+            
             List<Department> departmentList = departmentService.GetAllDepartments();
             foreach (Department department in departmentList)
             {
@@ -79,7 +79,12 @@ namespace MP_WindowsFormsApp.Forms.UserSubForms
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            if(User == null)
+            if (!ValidateInputs())
+            {
+                MessageBox.Show("Please check your inputs and try again.", "Input Validation Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            if (User == null)
             {
                 string passwordSalt = hashing.GenerateRandomSalt(10);
                 string passwordHash = hashing.GenerateSHA256Hash("MediaBazar", passwordSalt);
@@ -127,6 +132,72 @@ namespace MP_WindowsFormsApp.Forms.UserSubForms
                 }
             }
             usersForm.LoadUsers(userService.GetAllUsers());
+        }
+
+
+        private bool ValidateInputs()
+        {
+            // Validate Name
+            if (string.IsNullOrWhiteSpace(tbFirstName.Text) || string.IsNullOrWhiteSpace(tbLastName.Text))
+            {
+                MessageBox.Show("Name fields must not be empty.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+
+            // Validate Email
+            if (!IsValidEmail(tbEmail.Text))
+            {
+                MessageBox.Show("Enter a valid email address.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+
+            // Validate Phone
+            if (!IsValidPhone(tbPhoneNumber.Text))
+            {
+                MessageBox.Show("Enter a valid phone number.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+
+            // Validate Department
+            if (cbDepartment.SelectedItem == null)
+            {
+                MessageBox.Show("Please select a department.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+
+            // Validate Birthdate (Example: not in the future)
+            if (dtpbirthday.Value.Date >= DateTime.Now.Date)
+            {
+                MessageBox.Show("Birthdate must be in the past.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+
+            // Validate Contract Dates
+            if (dtpContractStart.Value.Date > dtpContractEnd.Value.Date)
+            {
+                MessageBox.Show("Contract start date must be before the end date.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+
+            return true;
+        }
+
+        private bool IsValidEmail(string email)
+        {
+            try
+            {
+                var addr = new System.Net.Mail.MailAddress(email);
+                return addr.Address == email;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
+        private bool IsValidPhone(string phone)
+        {
+            return System.Text.RegularExpressions.Regex.IsMatch(phone, @"^\+[1-9]{1}[0-9]{3,14}$");
         }
     }
 }
