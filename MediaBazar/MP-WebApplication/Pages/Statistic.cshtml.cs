@@ -1,15 +1,25 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using MP_BusinessLogic.InterfacesLL;
 
 namespace MP_WebApplication.Pages
 {
     public class StatisticModel : PageModel
     {
+        private readonly IUserService userService;
+        public StatisticModel(IUserService userService)
+        {
+            this.userService = userService;
+        }
+
         public void OnGet()
         {
-            ViewData["HiredCounts"] = new int[] { 5, 10, 15, 20 }; // Example data
-            ViewData["FiredCounts"] = new int[] { 3, 7, 9, 4 };    // Example data
-            ViewData["Months"] = new string[] { "January", "February", "March", "April" };
+            var hiredStats = userService.GetMonthlyHireStatistics();
+            var firedStats = userService.GetMonthlyExEmployeeStatistics();
+
+            ViewData["HiredCounts"] = hiredStats.Values.ToArray();
+            ViewData["FiredCounts"] = firedStats.Values.ToArray();
+            ViewData["Months"] = hiredStats.Keys.Select(date => date.ToString("MMMM")).ToArray();
         }
     }
 }

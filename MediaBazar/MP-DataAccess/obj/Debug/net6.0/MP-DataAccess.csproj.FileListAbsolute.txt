@@ -73,3 +73,18 @@ D:\Visual code studio\Fontys\Sem2Software\GroupProject\media-bazzar\MediaBazar\M
 D:\Visual code studio\Fontys\Sem2Software\GroupProject\media-bazzar\MediaBazar\MP-DataAccess\bin\Debug\net6.0\MP-BusinessLogic.dll
 D:\Visual code studio\Fontys\Sem2Software\GroupProject\media-bazzar\MediaBazar\MP-DataAccess\bin\Debug\net6.0\MP-BusinessLogic.pdb
 D:\Visual code studio\Fontys\Sem2Software\GroupProject\media-bazzar\MediaBazar\MP-DataAccess\obj\Debug\net6.0\MP-DataA.0E1D0004.Up2Date
+D:\Software-S2\media-bazzarNew\MediaBazar\MP-DataAccess\bin\Debug\net6.0\MP-DataAccess.deps.json
+D:\Software-S2\media-bazzarNew\MediaBazar\MP-DataAccess\bin\Debug\net6.0\MP-DataAccess.dll
+D:\Software-S2\media-bazzarNew\MediaBazar\MP-DataAccess\bin\Debug\net6.0\MP-DataAccess.pdb
+D:\Software-S2\media-bazzarNew\MediaBazar\MP-DataAccess\bin\Debug\net6.0\MP-BusinessLogic.dll
+D:\Software-S2\media-bazzarNew\MediaBazar\MP-DataAccess\bin\Debug\net6.0\MP-BusinessLogic.pdb
+D:\Software-S2\media-bazzarNew\MediaBazar\MP-DataAccess\obj\Debug\net6.0\MP-DataAccess.csproj.AssemblyReference.cache
+D:\Software-S2\media-bazzarNew\MediaBazar\MP-DataAccess\obj\Debug\net6.0\MP-DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Software-S2\media-bazzarNew\MediaBazar\MP-DataAccess\obj\Debug\net6.0\MP-DataAccess.AssemblyInfoInputs.cache
+D:\Software-S2\media-bazzarNew\MediaBazar\MP-DataAccess\obj\Debug\net6.0\MP-DataAccess.AssemblyInfo.cs
+D:\Software-S2\media-bazzarNew\MediaBazar\MP-DataAccess\obj\Debug\net6.0\MP-DataAccess.csproj.CoreCompileInputs.cache
+D:\Software-S2\media-bazzarNew\MediaBazar\MP-DataAccess\obj\Debug\net6.0\MP-DataA.0E1D0004.Up2Date
+D:\Software-S2\media-bazzarNew\MediaBazar\MP-DataAccess\obj\Debug\net6.0\MP-DataAccess.dll
+D:\Software-S2\media-bazzarNew\MediaBazar\MP-DataAccess\obj\Debug\net6.0\refint\MP-DataAccess.dll
+D:\Software-S2\media-bazzarNew\MediaBazar\MP-DataAccess\obj\Debug\net6.0\MP-DataAccess.pdb
+D:\Software-S2\media-bazzarNew\MediaBazar\MP-DataAccess\obj\Debug\net6.0\ref\MP-DataAccess.dll

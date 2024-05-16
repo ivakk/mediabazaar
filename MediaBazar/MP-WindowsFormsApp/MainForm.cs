@@ -30,46 +30,46 @@ namespace MP_WindowsFormsApp
         public User loggedInUser;
         List<MenuButton> menuButtons = new List<MenuButton>();
 
-        //Loading forms for buttons
+        // Loading forms for buttons
         private ProductsForm productForm;
         private UsersForm userForm;
         private ScheduleForm scheduleForm;
         private ReplenishmentRequestsForm replenishmentRequestsForm = new ReplenishmentRequestsForm { Dock = DockStyle.Fill, TopLevel = false, TopMost = true, FormBorderStyle = FormBorderStyle.None };
 
         public Dictionary<string, object> accessForms;
+
         public MainForm(User user, LoginForm loginForm)
         {
-
             InitializeComponent();
             departmentService = new DepartmentService(new DepartmentDAL());
             userService = new UserService(new UserDAL(departmentService));
             productService = new ProductService(new ProductDAL());
             brandService = new BrandService(new BrandDAL());
             categoryService = new CategoryService(new CategoryDAL());
-            productForm = new ProductsForm(this ){ Dock = DockStyle.Fill, TopLevel = false, TopMost = true, FormBorderStyle = FormBorderStyle.None };
+            productForm = new ProductsForm(this) { Dock = DockStyle.Fill, TopLevel = false, TopMost = true, FormBorderStyle = FormBorderStyle.None };
             this.loginForm = loginForm;
             this.loggedInUser = user;
 
-            //Loading buttons
+            // Loading buttons
             productForm = new ProductsForm(this) { Dock = DockStyle.Fill, TopLevel = false, TopMost = true, FormBorderStyle = FormBorderStyle.None };
-            userForm = new UsersForm(this,userService, departmentService) { Dock = DockStyle.Fill, TopLevel = false, TopMost = true, FormBorderStyle = FormBorderStyle.None };
+            userForm = new UsersForm(this, userService, departmentService, loggedInUser) { Dock = DockStyle.Fill, TopLevel = false, TopMost = true, FormBorderStyle = FormBorderStyle.None }; // Pass logged-in user
             scheduleForm = new ScheduleForm(this) { Dock = DockStyle.Fill, TopLevel = false, TopMost = true, FormBorderStyle = FormBorderStyle.None };
             menuButtons.Add(new MenuButton("Users", userForm, this));
             menuButtons.Add(new MenuButton("Products", productForm, this));
             menuButtons.Add(new MenuButton("Replenishment", replenishmentRequestsForm, this));
             menuButtons.Add(new MenuButton("Scheduling", scheduleForm, this));
 
-
-
             foreach (MenuButton button in menuButtons)
             {
                 flpMenu.Controls.Add(button);
             }
-            //Setting up form access
-            accessForms = new Dictionary<string, object>() {
-            { "Products", productForm },
-            { "Users", userForm },
-            { "Scheduling", scheduleForm }
+
+            // Setting up form access
+            accessForms = new Dictionary<string, object>()
+            {
+                { "Products", productForm },
+                { "Users", userForm },
+                { "Scheduling", scheduleForm }
             };
         }
 
@@ -88,14 +88,14 @@ namespace MP_WindowsFormsApp
             flpMenu.Controls.Clear();
             loggedInUser = userService.GetUserById(loggedInUser.Id);
 
-            //foreach (KeyValuePair<string, object> entry in accessForms)
-            //{
-            //    if (loggedInUser.Department.accessString.Contains(entry.Key) || loggedInUser == null)
-            //    {
-            //        menuButtons.Add(new MenuButton(entry.Key, (Form)entry.Value, this));
-            //        flpMenu.Controls.Add(menuButtons[menuButtons.Count - 1]);
-            //    }
-            //}
+            // foreach (KeyValuePair<string, object> entry in accessForms)
+            // {
+            //     if (loggedInUser.Department.accessString.Contains(entry.Key) || loggedInUser == null)
+            //     {
+            //         menuButtons.Add(new MenuButton(entry.Key, (Form)entry.Value, this));
+            //         flpMenu.Controls.Add(menuButtons[menuButtons.Count - 1]);
+            //     }
+            // }
         }
 
         public void ChangeShownForm(Form form)

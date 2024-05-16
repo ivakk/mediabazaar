@@ -19,5 +19,7 @@ namespace MP_BusinessLogic.InterfacesLL
         List<User> GetUsersByDepartment(int departmentId);
         bool ChangePassword(string email, string newPassword);
         User GetUserByUserName(string userName);
+        Dictionary<DateTime, int> GetMonthlyExEmployeeStatistics();
+        Dictionary<DateTime, int> GetMonthlyHireStatistics();
     }
 }

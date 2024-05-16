@@ -18,7 +18,7 @@ namespace MP_DataAccess.DALManagers
     public class UserDAL: Connection , IUserDalManager
     {
         IDepartmentService departmentService;
-        private readonly string tableName = "Users";
+        private readonly string tableName = "Employees";
         public UserDAL(IDepartmentService departmentService)
         {
             this.departmentService = departmentService;
@@ -593,5 +593,51 @@ namespace MP_DataAccess.DALManagers
             return foundUser;
 
         }
+        public Dictionary<DateTime, int> GetMonthlyHireStatistics()
+        {
+            string query = @"SELECT YEAR(startContract) AS Year, MONTH(startContract) AS Month, COUNT(*) AS Count
+                     FROM Employees
+                     GROUP BY YEAR(startContract), MONTH(startContract)
+                     ORDER BY Year, Month;";
+            Dictionary<DateTime, int> stats = new Dictionary<DateTime, int>();
+            using (SqlCommand command = new SqlCommand(query, connection))
+            {
+                connection.Open();
+                using (SqlDataReader reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        DateTime date = new DateTime((int)reader["Year"], (int)reader["Month"], 1);
+                        stats[date] = (int)reader["Count"];
+                    }
+                }
+                connection.Close();
+            }
+            return stats;
+        }
+
+        public Dictionary<DateTime, int> GetMonthlyExEmployeeStatistics()
+        {
+            string query = @"SELECT YEAR(endContract) AS Year, MONTH(endContract) AS Month, COUNT(*) AS Count
+                     FROM ExEmployees
+                     GROUP BY YEAR(endContract), MONTH(endContract)
+                     ORDER BY Year, Month;";
+            Dictionary<DateTime, int> stats = new Dictionary<DateTime, int>();
+            using (SqlCommand command = new SqlCommand(query, connection))
+            {
+                connection.Open();
+                using (SqlDataReader reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        DateTime date = new DateTime((int)reader["Year"], (int)reader["Month"], 1);
+                        stats[date] = (int)reader["Count"];
+                    }
+                }
+                connection.Close();
+            }
+            return stats;
+        }
+
     }
 }

@@ -21,6 +21,7 @@ namespace MP_WindowsFormsApp.Forms.UserSubForms
     {
         private readonly IUserService userService;
         private readonly IDepartmentService departmentService;
+        private User loggedInUser;
         //private readonly UserService userService;
         User user;
         //public AddUserForm(IUserService userService, IDepartmentService departmentService)
@@ -36,33 +37,38 @@ namespace MP_WindowsFormsApp.Forms.UserSubForms
 
         UsersForm usersForm;
 
-        public AddUserForm(UsersForm usersForm)
+        public AddUserForm(UsersForm usersForm, User loggedInUser)
         {
             InitializeComponent();
             this.departmentService = new DepartmentService(new DepartmentDAL());
             this.userService = new UserService(new UserDAL(departmentService));
             this.usersForm = usersForm;
+            this.loggedInUser = loggedInUser; 
         }
 
-        public AddUserForm(UsersForm usersForm, User user)
+        public AddUserForm(UsersForm usersForm, User user, User loggedInUser)
         {
             InitializeComponent();
             this.departmentService = new DepartmentService(new DepartmentDAL());
             this.userService = new UserService(new UserDAL(departmentService));
             this.usersForm = usersForm;
-            this.User = user;
+            this.user = user;
+            this.loggedInUser = loggedInUser; 
         }
 
         private void AddUserForm_Load(object sender, EventArgs e)
         {
-            
+            string currentUserDepartment = loggedInUser.Department.Name;
             List<Department> departmentList = departmentService.GetAllDepartments();
             foreach (Department department in departmentList)
             {
                 cbDepartment.Items.Add(department);
             }
-
-            if(User != null)
+            if (!(currentUserDepartment == "ADMIN" || currentUserDepartment == "HR"))
+            {
+                btnAdd.Visible = false;
+            }
+            if (User != null)
             {
                 tbFirstName.Text = User.FirstName;
                 tbLastName.Text = User.LastName;
