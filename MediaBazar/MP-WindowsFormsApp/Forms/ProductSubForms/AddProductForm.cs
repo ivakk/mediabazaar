@@ -49,13 +49,17 @@ namespace MP_WindowsFormsApp.Forms.ProductSubForms
             cbSubCategory.Text = product.SubCategory.Name;
             tbDescription.Text = product.Desciption;
             nudPrice.Value = product.Price;
+            tbUPCcode.Text = product.UPCcode;
+            nudWeight.Value = product.Weight;
+            nudHeight.Value = product.Height;
+            nudWidth.Value = product.Width;
         }
         private void btnAdd_Click(object sender, EventArgs e)
         {
             Category category = categoryService.GetByName(cbCategory.Text);
             SubCategory subCategory = subCategoryService.GetByName(cbSubCategory.Text);
             Brand brand = brandService.GetByName(cbBrand.Text);
-            Product product = new Product(productId, category, subCategory, brand, tbModel.Text, tbDescription.Text, nudPrice.Value, 100);
+            Product product = new Product(productId, category, subCategory, brand, tbModel.Text, tbDescription.Text, nudPrice.Value, 100, tbUPCcode.Text, 17, nudWeight.Value, nudHeight.Value, nudWidth.Value);
             if (product.Id == 0)
                 productService.Create(product);
             else

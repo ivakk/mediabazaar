@@ -215,5 +215,37 @@ namespace MP_DataAccess.DALManagers
         //    connection.Close();
         //    return null;
         //}
+        public Brand GetBrandById(int id)
+        {
+            string query = $"SELECT * FROM {tableName} WHERE brandId = @brandId";
+
+            // Open the connection
+            connection.Open();
+
+            SqlCommand command = new SqlCommand(query, base.connection);
+
+            try
+            {
+                // Add the parameters
+                command.Parameters.AddWithValue("@brandId", id);
+
+                // Execute the query and get the data
+                using SqlDataReader reader = command.ExecuteReader();
+                while (reader.Read())
+                {
+                    return new Brand((int)reader.GetValue(0), (string)reader.GetValue(1));
+                }
+            }
+            catch (SqlException e)
+            {
+                // Handle any errors that may have occurred.
+                Console.WriteLine(e.Message);
+            }
+            finally
+            {
+                connection.Close();
+            }
+            return new Brand();
+        }
     }
 }

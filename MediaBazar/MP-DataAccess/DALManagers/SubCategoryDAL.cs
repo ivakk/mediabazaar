@@ -12,6 +12,7 @@ namespace MP_DataAccess.DALManagers
     public class SubCategoryDAL : Connection, ISubCategoryDalManager {
 
         private string tableName = "SubCategories";
+        private CategoryDAL categoryDAL = new CategoryDAL();
 
         public SubCategoryDAL()
         {
@@ -186,6 +187,39 @@ namespace MP_DataAccess.DALManagers
             }
             connection.Close();
             return false;
+        }
+        public SubCategory GetSubCategoryById(int id)
+        {
+            string query = $"SELECT * FROM {tableName} WHERE subCategoryId = @subCategoryId";
+
+            // Open the connection
+            connection.Open();
+
+            SqlCommand command = new SqlCommand(query, base.connection);
+
+            try
+            {
+                // Add the parameters
+                command.Parameters.AddWithValue("@subCategoryId", id);
+
+                // Execute the query and get the data
+                using SqlDataReader reader = command.ExecuteReader();
+                while (reader.Read())
+                {
+                    return new SubCategory((int)reader.GetValue(0), categoryDAL.GetCategoryById((int)reader.GetValue(1)),
+                        (string)reader.GetValue(2));
+                }
+            }
+            catch (SqlException e)
+            {
+                // Handle any errors that may have occurred.
+                Console.WriteLine(e.Message);
+            }
+            finally
+            {
+                connection.Close();
+            }
+            return new SubCategory();
         }
     }
 }
