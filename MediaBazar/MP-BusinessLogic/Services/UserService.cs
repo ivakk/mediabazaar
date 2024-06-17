@@ -23,7 +23,14 @@ namespace MP_BusinessLogic.Services
         {
             return controller.IsPasswordCorrect(email, password);
         }
-
+        public Dictionary<DateTime, int> GetMonthlyExEmployeeStatistics()
+        {
+            return controller.GetMonthlyExEmployeeStatistics();
+        }
+        public Dictionary<DateTime, int> GetMonthlyHireStatistics()
+        {
+            return controller.GetMonthlyHireStatistics();
+        }
         public User GetUserByEmail(string email)
         {
             return controller.GetUserByEmail(email);

@@ -178,5 +178,37 @@ namespace MP_DataAccess.DALManagers
             connection.Close();
             return false;
         }
+        public Category GetCategoryById(int id)
+        {
+            string query = $"SELECT * FROM {tableName} WHERE categoryId = @categoryId";
+
+            // Open the connection
+            connection.Open();
+
+            SqlCommand command = new SqlCommand(query, base.connection);
+
+            try
+            {
+                // Add the parameters
+                command.Parameters.AddWithValue("@categoryId", id);
+
+                // Execute the query and get the data
+                using SqlDataReader reader = command.ExecuteReader();
+                while (reader.Read())
+                {
+                    return new Category((int)reader.GetValue(0), (string)reader.GetValue(1));
+                }
+            }
+            catch (SqlException e)
+            {
+                // Handle any errors that may have occurred.
+                Console.WriteLine(e.Message);
+            }
+            finally
+            {
+                connection.Close();
+            }
+            return new Category();
+        }
     }
 }

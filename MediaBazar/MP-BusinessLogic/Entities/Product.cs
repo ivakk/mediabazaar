@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -17,6 +19,12 @@ namespace MP_EntityLibrary
         public string Desciption { get; private set; }
         public decimal Price { get; private set; }
         public int WarehouseQuantity { get; private set; }
+        public int StoreQuantity { get; set; }
+        public string UPCcode { get; set; }
+        public decimal Weight { get; set;}
+        public decimal Height { get; set;}
+        public decimal Width { get; set;}
+
 
 
         public Product(int id)
@@ -24,7 +32,7 @@ namespace MP_EntityLibrary
             
         }
 
-        public Product(int id, Category category, SubCategory subCategory, Brand brand, string model, string desciption, decimal price, int warehouseQuantity)
+        public Product(int id, Category category, SubCategory subCategory, Brand brand, string model, string desciption, decimal price, int warehouseQuantity, string upccode, int storequantity, decimal weight, decimal height, decimal width)
         {
             Id = id;
             Category = category;
@@ -34,6 +42,11 @@ namespace MP_EntityLibrary
             Desciption = desciption;
             Price = price;
             WarehouseQuantity = warehouseQuantity;
+            UPCcode = upccode;
+            StoreQuantity = storequantity;
+            Weight = weight;
+            Height = height;
+            Width = width;
         }
 
         public Product()

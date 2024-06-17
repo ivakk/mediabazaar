@@ -20,6 +20,8 @@ namespace MP_EntityLibrary
             Name = name;
         }
 
+        public SubCategory() { }
+
         public override string ToString()
         {
             return Name;

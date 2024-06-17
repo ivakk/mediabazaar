@@ -21,27 +21,19 @@ namespace MP_WindowsFormsApp.Forms
     {
         private readonly IUserService userService;
         private readonly IDepartmentService departmentService;
-        //public UsersForm(IUserService userService, IDepartmentService departmentService)
-        //{
-        //    InitializeComponent();
-        //    this.userService = userService;
-        //    departmentService = new DepartmentService(new DepartmentDAL());
-
-        //}
-        //UserService userService = new UserService();
-        //DepartmentService departmentService = new DepartmentService();
-
         public MainForm mainForm;
+        private User loggedInUser; // Add this property
         AddUserForm addUserForm;
-        public UsersForm(MainForm mainForm, IUserService userService, IDepartmentService departmentService)
+
+        public UsersForm(MainForm mainForm, IUserService userService, IDepartmentService departmentService, User loggedInUser)
         {
             InitializeComponent();
             this.userService = userService;
             this.departmentService = departmentService;
-            //departmentService = new DepartmentService(new DepartmentDAL());
             this.mainForm = mainForm;
+            this.loggedInUser = loggedInUser; // Initialize the logged-in user
 
-            addUserForm = new AddUserForm(this) { Dock = DockStyle.Fill, TopLevel = false, TopMost = true, FormBorderStyle = FormBorderStyle.None };
+            addUserForm = new AddUserForm(this, loggedInUser) { Dock = DockStyle.Fill, TopLevel = false, TopMost = true, FormBorderStyle = FormBorderStyle.None };
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
@@ -58,32 +50,24 @@ namespace MP_WindowsFormsApp.Forms
                 cbDepartment.Items.Add(dep);
             }
 
-
             LoadUsers(userService.GetAllUsers());
         }
 
         private void btnSearch_Click(object sender, EventArgs e)
         {
-            //change to name and last name later
             string searchFirstName = tbSearch.Text.Trim();
 
-            // Check if searchFirstName is not empty
             if (!string.IsNullOrEmpty(searchFirstName))
             {
-                // Create an instance of UserDAL (assuming it's accessible)
                 UserDAL userDAL = new UserDAL(departmentService);
-
-                // Call GetUserByFirstName to retrieve the user
                 User foundUser = userDAL.GetUserByUserName(searchFirstName);
 
                 if (foundUser != null)
                 {
-                    // User found, display the user details or take appropriate action
                     LoadUsers(new List<User> { foundUser });
                 }
                 else
                 {
-                    // User not found, show a message or take appropriate action
                     MessageBox.Show("User not found.");
                 }
             }
@@ -107,7 +91,6 @@ namespace MP_WindowsFormsApp.Forms
         private void cbDepartment_SelectedIndexChanged(object sender, EventArgs e)
         {
             Department dep = (Department)cbDepartment.SelectedItem;
-
             LoadUsers(userService.GetUsersByDepartment(dep.Id));
         }
     }

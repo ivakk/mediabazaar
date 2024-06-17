@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-WebApplication\\MP-WebApplication.csproj": {}
+    "C:\\Users\\ivk\\Desktop\\m\\MediaBazar\\MP-WebApplication\\MP-WebApplication.csproj": {}
   },
   "projects": {
-    "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj": {
+    "C:\\Users\\ivk\\Desktop\\m\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj",
+        "projectUniqueName": "C:\\Users\\ivk\\Desktop\\m\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj",
         "projectName": "MP-BusinessLogic",
-        "projectPath": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj",
-        "packagesPath": "C:\\Users\\marto\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\obj\\",
+        "projectPath": "C:\\Users\\ivk\\Desktop\\m\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\ivk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ivk\\Desktop\\m\\MediaBazar\\MP-BusinessLogic\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\marto\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\ivk\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -65,25 +60,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj": {
+    "C:\\Users\\ivk\\Desktop\\m\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\ivk\\Desktop\\m\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj",
         "projectName": "MP-DataAccess",
-        "projectPath": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj",
-        "packagesPath": "C:\\Users\\marto\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\ivk\\Desktop\\m\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj",
+        "packagesPath": "C:\\Users\\ivk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ivk\\Desktop\\m\\MediaBazar\\MP-DataAccess\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\marto\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\ivk\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -91,15 +82,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj": {
-                "projectPath": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj"
+              "C:\\Users\\ivk\\Desktop\\m\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj": {
+                "projectPath": "C:\\Users\\ivk\\Desktop\\m\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj"
               }
             }
           }
@@ -148,25 +138,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-WebApplication\\MP-WebApplication.csproj": {
+    "C:\\Users\\ivk\\Desktop\\m\\MediaBazar\\MP-WebApplication\\MP-WebApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-WebApplication\\MP-WebApplication.csproj",
+        "projectUniqueName": "C:\\Users\\ivk\\Desktop\\m\\MediaBazar\\MP-WebApplication\\MP-WebApplication.csproj",
         "projectName": "MP-WebApplication",
-        "projectPath": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-WebApplication\\MP-WebApplication.csproj",
-        "packagesPath": "C:\\Users\\marto\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-WebApplication\\obj\\",
+        "projectPath": "C:\\Users\\ivk\\Desktop\\m\\MediaBazar\\MP-WebApplication\\MP-WebApplication.csproj",
+        "packagesPath": "C:\\Users\\ivk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ivk\\Desktop\\m\\MediaBazar\\MP-WebApplication\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\marto\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\ivk\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -174,18 +160,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj": {
-                "projectPath": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj"
+              "C:\\Users\\ivk\\Desktop\\m\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj": {
+                "projectPath": "C:\\Users\\ivk\\Desktop\\m\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj"
               },
-              "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj": {
-                "projectPath": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj"
+              "C:\\Users\\ivk\\Desktop\\m\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj": {
+                "projectPath": "C:\\Users\\ivk\\Desktop\\m\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj"
               }
             }
           }
@@ -241,7 +226,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

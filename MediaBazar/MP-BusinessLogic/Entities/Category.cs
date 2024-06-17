@@ -16,6 +16,7 @@ namespace MP_EntityLibrary
             this.Id = id;
             this.Name = name;
         }
+        public Category() { }
 
         public override string ToString()
         {

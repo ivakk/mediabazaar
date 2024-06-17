@@ -14,6 +14,9 @@ namespace MP_DataAccess.DALManagers
     {
 
         private string tableName = "Products";
+        private SubCategoryDAL subCategoryDAL = new SubCategoryDAL();
+        private CategoryDAL categoryDAL = new CategoryDAL();
+        private BrandDAL brandDAL = new BrandDAL();
 
         public ProductDAL()
         {
@@ -41,15 +44,12 @@ namespace MP_DataAccess.DALManagers
                 while (reader.Read())
                 {
 
-                    CategoryDAL CategoryGet = new CategoryDAL();
-                    Category Category = (Category)CategoryGet.Get((int)reader.GetValue(1));
-                    SubCategoryDAL subCategoryGet = new SubCategoryDAL();
-                    SubCategory subCategory = (SubCategory)subCategoryGet.Get((int)reader.GetValue(1));
-                    BrandDAL brandGet = new BrandDAL();
-                    Brand brand = (Brand)brandGet.Get((int)reader.GetValue(2));
-
-                    product =  new Product((int)reader.GetValue(0), Category, subCategory, brand,(string) reader.GetValue(3),
-                        (string)reader.GetValue(4), (decimal)reader.GetValue(5), (int)reader.GetValue(6));
+                    SubCategory subCategory = (SubCategory)subCategoryDAL.GetSubCategoryById((int)reader.GetValue(1));
+                    Category category = (Category)categoryDAL.GetCategoryById(subCategory.Category.Id);
+                    Brand brand = (Brand)brandDAL.GetBrandById((int)reader.GetValue(2));
+                    return new Product((int)reader.GetValue(0), category, subCategory, brand, (string)reader.GetValue(3),
+                        (string)reader.GetValue(4), (decimal)reader.GetValue(5), (int)reader.GetValue(6), (string)reader.GetValue(7),
+                        (int)reader.GetValue(8), (decimal)reader.GetValue(9), (decimal)reader.GetValue(10), (decimal)reader.GetValue(11));
                     return product;
                 }
             }
@@ -86,14 +86,12 @@ namespace MP_DataAccess.DALManagers
                 List<Product> products = new List<Product>();
                 while (reader.Read())
                 {
-                    CategoryDAL CategoryGet = new CategoryDAL();
-                    Category Category = (Category)CategoryGet.Get((int)reader.GetValue(1));
-                    SubCategoryDAL subCategoryGet = new SubCategoryDAL();
-                    SubCategory subCategory = (SubCategory)subCategoryGet.Get((int)reader.GetValue(1));
-                    BrandDAL brandGet = new BrandDAL();
-                    Brand brand = (Brand)brandGet.Get((int)reader.GetValue(2));
-                    products.Add(new Product((int)reader.GetValue(0), Category, subCategory, brand, (string)reader.GetValue(3),
-                        (string)reader.GetValue(4), (decimal)reader.GetValue(5), (int)reader.GetValue(6)));
+                    SubCategory subCategory = (SubCategory)subCategoryDAL.GetSubCategoryById((int)reader.GetValue(1));
+                    Category category = (Category)categoryDAL.GetCategoryById(subCategory.Category.Id);
+                    Brand brand = (Brand)brandDAL.GetBrandById((int)reader.GetValue(2));
+                    products.Add(new Product((int)reader.GetValue(0), category, subCategory, brand, (string)reader.GetValue(3),
+                        (string)reader.GetValue(4), (decimal)reader.GetValue(5), (int)reader.GetValue(6), (string)reader.GetValue(7),
+                        (int)reader.GetValue(8), (decimal)reader.GetValue(9), (decimal)reader.GetValue(10), (decimal)reader.GetValue(11)));
                 }
                 connection.Close();
                 return products;
@@ -117,8 +115,8 @@ namespace MP_DataAccess.DALManagers
         {
             Product newProduct = product;
             string query =
-                $"INSERT INTO {tableName} (subCategoryId, brandId, model, description, price, warehouseQuantity)" +
-                $"VALUES (@subCategoryId, @brandId, @model, @description, @price, @warehouseQuantity)";
+                $"INSERT INTO {tableName} (subCategoryId, brandId, model, description, price, warehouseQuantity, UPCcode, storeQuantity, weight, height, width)" +
+                $"VALUES (@subCategoryId, @brandId, @model, @description, @price, @warehouseQuantity, @upcCode, @storeQuantity, @weight, @height, @width)";
 
             // Open the connection
             try
@@ -137,6 +135,11 @@ namespace MP_DataAccess.DALManagers
             command.Parameters.AddWithValue("@description", newProduct.Desciption);
             command.Parameters.AddWithValue("@price", newProduct.Price);
             command.Parameters.AddWithValue("@warehouseQuantity", newProduct.WarehouseQuantity);
+            command.Parameters.AddWithValue("@upcCode", newProduct.UPCcode);
+            command.Parameters.AddWithValue("@storeQuantity", newProduct.StoreQuantity);
+            command.Parameters.AddWithValue("@weight", newProduct.Weight);
+            command.Parameters.AddWithValue("@height", newProduct.Height);
+            command.Parameters.AddWithValue("@width", newProduct.Width);
 
             try
             {
@@ -172,6 +175,11 @@ namespace MP_DataAccess.DALManagers
                 $"description = @description, " +
                 $"price = @price, " +
                 $"warehouseQuantity = @warehouseQuantity " +
+                $"UPCcode = @upcCode " +
+                $"storeQuantity = @storeQuantity " +
+                $"weight = @weight " +
+                $"height = @height " +
+                $"width = @width " +
                 $"WHERE productId = @id";
 
             // Open the connection
@@ -191,6 +199,12 @@ namespace MP_DataAccess.DALManagers
             command.Parameters.AddWithValue("@description", newProduct.Desciption);
             command.Parameters.AddWithValue("@price", newProduct.Price);
             command.Parameters.AddWithValue("@warehouseQuantity", newProduct.WarehouseQuantity);
+            command.Parameters.AddWithValue("@upcCode", newProduct.UPCcode);
+            command.Parameters.AddWithValue("@storeQuantity", newProduct.StoreQuantity);
+            command.Parameters.AddWithValue("@weight", newProduct.Weight);
+            command.Parameters.AddWithValue("@height", newProduct.Height);
+            command.Parameters.AddWithValue("@width", newProduct.Width);
+
 
             try
             {
