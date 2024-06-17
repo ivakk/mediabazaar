@@ -63,5 +63,14 @@ namespace MP_BusinessLogic.Services
         {
             return controller.GetUserByUserName(userName);
         }
+
+        public Dictionary<DateTime, int> GetMonthlyExEmployeeStatistics()
+        {
+            return controller.GetMonthlyExEmployeeStatistics();
+        }
+        public Dictionary<DateTime, int> GetMonthlyHireStatistics()
+        {
+            return controller.GetMonthlyHireStatistics();
+        }
     }
 }

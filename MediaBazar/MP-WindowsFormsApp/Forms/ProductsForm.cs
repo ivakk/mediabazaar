@@ -33,6 +33,7 @@ namespace MP_WindowsFormsApp.Forms
             brandService = new BrandService(new BrandDAL());
             categoryService = new CategoryService(new CategoryDAL());
             productService = new ProductService(new ProductDAL());
+            subCategoryService = new SubCategoryService(new SubCategoryDAL());
             addProductForm = new AddProductForm(this) { Dock = DockStyle.Fill, TopLevel = false, TopMost = true, FormBorderStyle = FormBorderStyle.None };
             this.mainForm = mainForm;
 

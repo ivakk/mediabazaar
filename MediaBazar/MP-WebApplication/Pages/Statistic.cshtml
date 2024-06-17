@@ -1,19 +1,20 @@
 ﻿@page
 @model MP_WebApplication.Pages.StatisticModel
 @{
-    ViewData["HiredCounts"] = new int[] { 5, 10, 15, 14 }; // Example data
-    ViewData["FiredCounts"] = new int[] { 3, 7, 9, 4 };    // Example data
-    ViewData["Months"] = new string[] { "January", "February", "March", "April" };
-
     <canvas id="employeeChart" height="35vh" width="80vw"></canvas>
-
 }
 
+<form id="pdfForm" method="post" asp-page-handler="ExportToPdf">
+    <button type="button" class="btn btn-primary" onclick="exportChartToPdf()">Export to PDF</button>
+</form>
+
 @section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.min.js"></script>
     <script>
         var ctx = document.getElementById('employeeChart').getContext('2d');
         var myChart = new Chart(ctx, {
-            type: 'line', // or 'bar', 'pie', etc.
+            type: 'line',
             data: {
                 labels: @Html.Raw(Json.Serialize(ViewData["Months"])),
                 datasets: [{
@@ -32,13 +33,21 @@
             options: {
                 scales: {
                     y: {
-                        beginAtZero: true
+                        ticks: {
+                            precision: 0
+                        }
                     }
                 }
             }
         });
+
+        function exportChartToPdf() {
+            html2canvas(document.getElementById('employeeChart')).then(canvas => {
+                var imgData = canvas.toDataURL('image/png');
+                var pdf = new jsPDF();
+                pdf.addImage(imgData, 'PNG', 10, 10);
+                pdf.save('Statistics.pdf');
+            });
+        }
     </script>
-
-
-
 }

@@ -17,6 +17,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="BouncyCastle" Version="1.8.9" />
+    <PackageReference Include="itext7" Version="8.0.4" />
+    <PackageReference Include="itext7.bouncy-castle-adapter" Version="8.0.4" />
+    <PackageReference Include="Portable.BouncyCastle" Version="1.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\MP-BusinessLogic\MP-BusinessLogic.csproj" />
     <ProjectReference Include="..\MP-DataAccess\MP-DataAccess.csproj" />
   </ItemGroup>
