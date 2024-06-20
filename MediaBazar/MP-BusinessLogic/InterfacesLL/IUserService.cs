@@ -24,5 +24,8 @@ namespace MP_BusinessLogic.InterfacesLL
         public Dictionary<int, string> GetAllDepartments();
         public int GetEmployeeCountByDepartment(int departmentId);
         public Dictionary<int, int> GetAllDepartmentEmployeeCounts();
+        public void CheckIn(int userId);
+        public void CheckOut(int userId);
+        public bool? GetLatestCheckStatus(int userId);
     }
 }

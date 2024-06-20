@@ -843,3 +843,6 @@ D:\uni\bvcxza\MediaBazar\MP-WindowsFormsApp\obj\Debug\net6.0-windows\refint\MP-W
 D:\uni\bvcxza\MediaBazar\MP-WindowsFormsApp\obj\Debug\net6.0-windows\MP-WindowsFormsApp.pdb
 D:\uni\bvcxza\MediaBazar\MP-WindowsFormsApp\obj\Debug\net6.0-windows\MP-WindowsFormsApp.genruntimeconfig.cache
 D:\uni\bvcxza\MediaBazar\MP-WindowsFormsApp\obj\Debug\net6.0-windows\ref\MP-WindowsFormsApp.dll
+D:\Software-S2\media-bazzarNew\MediaBazar\MP-WindowsFormsApp\obj\Debug\net6.0-windows\MP_WindowsFormsApp.Forms.DepartmentForm.resources
+D:\Software-S2\media-bazzarNew\MediaBazar\MP-WindowsFormsApp\obj\Debug\net6.0-windows\MP_WindowsFormsApp.Forms.AddDepartmentForm.resources
+D:\Software-S2\media-bazzarNew\MediaBazar\MP-WindowsFormsApp\obj\Debug\net6.0-windows\MP_WindowsFormsApp.Forms.UpdateDepartmentForm.resources

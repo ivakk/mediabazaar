@@ -1,0 +1,11 @@
+D:\Software-S2\media-bazzarNew\MediaBazar\MP-BusinessLogic\bin\Release\net6.0\MP-BusinessLogic.deps.json
+D:\Software-S2\media-bazzarNew\MediaBazar\MP-BusinessLogic\bin\Release\net6.0\MP-BusinessLogic.dll
+D:\Software-S2\media-bazzarNew\MediaBazar\MP-BusinessLogic\bin\Release\net6.0\MP-BusinessLogic.pdb
+D:\Software-S2\media-bazzarNew\MediaBazar\MP-BusinessLogic\obj\Release\net6.0\MP-BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+D:\Software-S2\media-bazzarNew\MediaBazar\MP-BusinessLogic\obj\Release\net6.0\MP-BusinessLogic.AssemblyInfoInputs.cache
+D:\Software-S2\media-bazzarNew\MediaBazar\MP-BusinessLogic\obj\Release\net6.0\MP-BusinessLogic.AssemblyInfo.cs
+D:\Software-S2\media-bazzarNew\MediaBazar\MP-BusinessLogic\obj\Release\net6.0\MP-BusinessLogic.csproj.CoreCompileInputs.cache
+D:\Software-S2\media-bazzarNew\MediaBazar\MP-BusinessLogic\obj\Release\net6.0\MP-BusinessLogic.dll
+D:\Software-S2\media-bazzarNew\MediaBazar\MP-BusinessLogic\obj\Release\net6.0\refint\MP-BusinessLogic.dll
+D:\Software-S2\media-bazzarNew\MediaBazar\MP-BusinessLogic\obj\Release\net6.0\MP-BusinessLogic.pdb
+D:\Software-S2\media-bazzarNew\MediaBazar\MP-BusinessLogic\obj\Release\net6.0\ref\MP-BusinessLogic.dll

@@ -2,6 +2,15 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
+    <Compile Update="Forms\DepartmentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\DepartmentSubForms\AddDepartmentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\DepartmentSubForms\UpdateDepartmentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Forms\EventForm.cs">
       <SubType>Form</SubType>
     </Compile>
