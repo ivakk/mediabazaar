@@ -593,7 +593,6 @@ namespace MP_DataAccess.DALManagers
             return foundUser;
 
         }
-
         public Dictionary<DateTime, int> GetMonthlyHireStatistics()
         {
             string query = @"SELECT YEAR(startContract) AS Year, MONTH(startContract) AS Month, COUNT(*) AS Count
@@ -633,6 +632,66 @@ namespace MP_DataAccess.DALManagers
                     {
                         DateTime date = new DateTime((int)reader["Year"], (int)reader["Month"], 1);
                         stats[date] = (int)reader["Count"];
+                    }
+                }
+                connection.Close();
+            }
+            return stats;
+        }
+
+        public Dictionary<int, string> GetAllDepartments()
+        {
+            string query = "SELECT departmentId, name FROM Departments";
+            Dictionary<int, string> departments = new Dictionary<int, string>();
+            using (SqlCommand command = new SqlCommand(query, connection))
+            {
+                connection.Open();
+                using (SqlDataReader reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        int id = (int)reader["departmentId"];
+                        string name = (string)reader["name"];
+                        departments[id] = name;
+                    }
+                }
+                connection.Close();
+            }
+            return departments;
+        }
+
+        public int GetEmployeeCountByDepartment(int departmentId)
+        {
+            string query = @"SELECT COUNT(*) AS Count
+                     FROM Employees
+                     WHERE departmentId = @departmentId";
+            int count = 0;
+            using (SqlCommand command = new SqlCommand(query, connection))
+            {
+                command.Parameters.AddWithValue("@departmentId", departmentId);
+                connection.Open();
+                count = (int)command.ExecuteScalar();
+                connection.Close();
+            }
+            return count;
+        }
+
+        public Dictionary<int, int> GetAllDepartmentEmployeeCounts()
+        {
+            string query = @"SELECT departmentId, COUNT(*) AS Count
+                     FROM Employees
+                     GROUP BY departmentId;";
+            Dictionary<int, int> stats = new Dictionary<int, int>();
+            using (SqlCommand command = new SqlCommand(query, connection))
+            {
+                connection.Open();
+                using (SqlDataReader reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        int departmentId = (int)reader["departmentId"];
+                        int count = (int)reader["Count"];
+                        stats[departmentId] = count;
                     }
                 }
                 connection.Close();

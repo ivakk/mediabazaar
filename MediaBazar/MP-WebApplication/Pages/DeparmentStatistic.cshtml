@@ -1,0 +1,66 @@
+﻿@page
+@model MP_WebApplication.Pages.DeparmentStatisticModel
+@{
+	ViewData["Title"] = "Department Statistics";
+}
+<h1>Department Statistics</h1>
+
+<button type="button" class="btn btn-primary"> <a class="nav-link text-dark" asp-area="" asp-page="/Statistic">Statistic</a></button>
+
+<button type="button" class="btn btn-primary">
+    <a class="nav-link text-dark" asp-area="" asp-page="/StockStatistic">Stock Statistic</a>
+</button>
+<canvas id="departmentChart" height="35vh" width="80vw"></canvas>
+
+
+<form method="post">
+    <div class="form-group">
+        <label for="departmentSelect">Select Department</label>
+        <select asp-for="SelectedDepartmentId" class="form-control" id="departmentSelect">
+            @foreach (var dept in Model.Departments)
+            {
+                <option value="@dept.Key">@dept.Value</option>
+            }
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Get Statistics</button>
+</form>
+
+@if (Model.EmployeeCount > 0)
+{
+    <h2>Employee Count: @Model.EmployeeCount</h2>
+}
+else if (Model.EmployeeCount == 0)
+{
+    <h2>No employees found in the selected department.</h2>
+}
+
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+    <script>
+        var ctx = document.getElementById('departmentChart').getContext('2d');
+        var departmentChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: @Html.Raw(Json.Serialize(Model.DepartmentNames)),
+                datasets: [{
+                    label: 'Employee Count',
+                    data: @Html.Raw(Json.Serialize(Model.EmployeeCounts)),
+                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                    borderColor: 'rgb(75, 192, 192)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero: true,
+                            precision: 0
+                        }
+                    }]
+                }
+            }
+        });
+    </script>
+}

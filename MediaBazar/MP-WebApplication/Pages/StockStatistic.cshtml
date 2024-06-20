@@ -1,0 +1,105 @@
+﻿@page
+@model MP_WebApplication.Pages.StockStatisticModel
+@{
+	ViewData["Title"] = "Stock Statistics";
+}
+
+<h1>Stock Statistics</h1>
+
+<button type="button" class="btn btn-primary"> <a class="nav-link text-dark" asp-area="" asp-page="/Statistic">Statistic</a></button>
+
+<button type="button" class="btn btn-primary">
+    <a class="nav-link text-dark" asp-area="" asp-page="/DeparmentStatistic">Department statistic</a>
+</button>
+<canvas id="departmentChart" height="35vh" width="80vw"></canvas>
+
+
+<canvas id="stockQuantityChart" height="35vh" width="80vw"></canvas>
+<canvas id="stockValueChart" height="35vh" width="80vw"></canvas>
+<canvas id="warehouseStoreChart" height="35vh" width="80vw"></canvas>
+
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+    <script>
+        var quantityCtx = document.getElementById('stockQuantityChart').getContext('2d');
+        var stockQuantityChart = new Chart(quantityCtx, {
+            type: 'bar',
+            data: {
+                labels: @Html.Raw(Json.Serialize(Model.ProductModels)),
+                datasets: [{
+                    label: 'Total Stock Quantity',
+                    data: @Html.Raw(Json.Serialize(Model.StockQuantities)),
+                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                    borderColor: 'rgb(75, 192, 192)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero: true,
+                            precision: 0
+                        }
+                    }]
+                }
+            }
+        });
+
+        var valueCtx = document.getElementById('stockValueChart').getContext('2d');
+        var stockValueChart = new Chart(valueCtx, {
+            type: 'bar',
+            data: {
+                labels: @Html.Raw(Json.Serialize(Model.ProductModels)),
+                datasets: [{
+                    label: 'Total Stock Value (€)',
+                    data: @Html.Raw(Json.Serialize(Model.StockValues)),
+                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                    borderColor: 'rgb(255, 99, 132)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero: true,
+                            precision: 0
+                        }
+                    }]
+                }
+            }
+        });
+
+        var warehouseStoreCtx = document.getElementById('warehouseStoreChart').getContext('2d');
+        var warehouseStoreChart = new Chart(warehouseStoreCtx, {
+            type: 'bar',
+            data: {
+                labels: @Html.Raw(Json.Serialize(Model.ProductModels)),
+                datasets: [{
+                    label: 'Store Quantity',
+                    data: @Html.Raw(Json.Serialize(Model.StoreQuantities)),
+                    backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                    borderColor: 'rgb(54, 162, 235)',
+                    borderWidth: 1
+                }, {
+                    label: 'Warehouse Quantity',
+                    data: @Html.Raw(Json.Serialize(Model.WarehouseQuantities)),
+                    backgroundColor: 'rgba(255, 206, 86, 0.2)',
+                    borderColor: 'rgb(255, 206, 86)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero: true,
+                            precision: 0
+                        }
+                    }]
+                }
+            }
+        });
+    </script>
+}

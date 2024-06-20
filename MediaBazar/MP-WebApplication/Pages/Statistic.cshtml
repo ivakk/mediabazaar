@@ -1,8 +1,18 @@
 ﻿@page
 @model MP_WebApplication.Pages.StatisticModel
 @{
-    <canvas id="employeeChart" height="35vh" width="80vw"></canvas>
+
 }
+
+<button type="button" class="btn btn-primary">
+    <a class="nav-link text-dark" asp-area="" asp-page="/DeparmentStatistic">Department statistic</a>
+</button>
+
+<button type="button" class="btn btn-primary">
+    <a class="nav-link text-dark" asp-area="" asp-page="/StockStatistic">Stock Statistic</a>
+</button>
+
+<canvas id="employeeChart" height="35vh" width="80vw"></canvas>
 
 <form id="pdfForm" method="post" asp-page-handler="ExportToPdf">
     <button type="button" class="btn btn-primary" onclick="exportChartToPdf()">Export to PDF</button>
@@ -42,11 +52,27 @@
         });
 
         function exportChartToPdf() {
-            html2canvas(document.getElementById('employeeChart')).then(canvas => {
+            var canvas = document.getElementById('employeeChart');
+            var originalWidth = canvas.width;
+            var originalHeight = canvas.height;
+
+            // Set the canvas size to match the PDF page size
+            canvas.width = 1122; // A4 size width in pixels at 96dpi
+            canvas.height = 793; // A4 size height in pixels at 96dpi
+
+            // Re-draw the chart with the new size
+            myChart.resize();
+
+            html2canvas(canvas).then(canvas => {
                 var imgData = canvas.toDataURL('image/png');
-                var pdf = new jsPDF();
-                pdf.addImage(imgData, 'PNG', 10, 10);
+                var pdf = new jsPDF('landscape');
+                pdf.addImage(imgData, 'PNG', 10, 10, 280, 200);
                 pdf.save('Statistics.pdf');
+
+                // Reset the canvas size back to the original size
+                canvas.width = originalWidth;
+                canvas.height = originalHeight;
+                myChart.resize();
             });
         }
     </script>

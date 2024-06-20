@@ -50,6 +50,17 @@ namespace MP_BusinessLogic.Services
             //dalManager.Delete(id);
         }
 
+        public Dictionary<string, int> GetTotalStockQuantity()
+        {
+            return controller.GetTotalStockQuantity();
+        }
+
+        public Dictionary<string, decimal> GetTotalStockValue()
+        {
+            return controller.GetTotalStockValue();
+        }
+
+        public Dictionary<string, (int Store, int Warehouse)> GetWarehouseStoreQuantities() { return controller.GetWarehouseStoreQuantities(); }
         //ProductDALManager dalManager = new ProductDALManager();
         //public List<Product> GetAll()
         //{

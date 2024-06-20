@@ -23,14 +23,6 @@ namespace MP_BusinessLogic.Services
         {
             return controller.IsPasswordCorrect(email, password);
         }
-        public Dictionary<DateTime, int> GetMonthlyExEmployeeStatistics()
-        {
-            return controller.GetMonthlyExEmployeeStatistics();
-        }
-        public Dictionary<DateTime, int> GetMonthlyHireStatistics()
-        {
-            return controller.GetMonthlyHireStatistics();
-        }
         public User GetUserByEmail(string email)
         {
             return controller.GetUserByEmail(email);
@@ -79,5 +71,10 @@ namespace MP_BusinessLogic.Services
         {
             return controller.GetMonthlyHireStatistics();
         }
+        public Dictionary<int, string> GetAllDepartments() { return controller.GetAllDepartments(); }
+
+        public int GetEmployeeCountByDepartment(int departmentId) { return controller.GetEmployeeCountByDepartment(departmentId); }
+
+        public Dictionary<int, int> GetAllDepartmentEmployeeCounts() { return controller.GetAllDepartmentEmployeeCounts(); }
     }
 }

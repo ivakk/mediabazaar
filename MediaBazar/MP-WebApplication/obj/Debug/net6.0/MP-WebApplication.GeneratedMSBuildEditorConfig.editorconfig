@@ -30,6 +30,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FsZW5kYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Visual code studio/Fontys/Sem2Software/GroupProject/media-bazzar/MediaBazar/MP-WebApplication/Pages/DeparmentStatistic.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVwYXJtZW50U3RhdGlzdGljLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Visual code studio/Fontys/Sem2Software/GroupProject/media-bazzar/MediaBazar/MP-WebApplication/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -64,6 +68,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Visual code studio/Fontys/Sem2Software/GroupProject/media-bazzar/MediaBazar/MP-WebApplication/Pages/Statistic.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhdGlzdGljLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual code studio/Fontys/Sem2Software/GroupProject/media-bazzar/MediaBazar/MP-WebApplication/Pages/StockStatistic.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RvY2tTdGF0aXN0aWMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Visual code studio/Fontys/Sem2Software/GroupProject/media-bazzar/MediaBazar/MP-WebApplication/Pages/_ViewImports.cshtml]

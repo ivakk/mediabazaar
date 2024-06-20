@@ -21,5 +21,8 @@ namespace MP_BusinessLogic.InterfacesLL
         User GetUserByUserName(string userName);
         public Dictionary<DateTime, int> GetMonthlyHireStatistics();
         public Dictionary<DateTime, int> GetMonthlyExEmployeeStatistics();
+        public Dictionary<int, string> GetAllDepartments();
+        public int GetEmployeeCountByDepartment(int departmentId);
+        public Dictionary<int, int> GetAllDepartmentEmployeeCounts();
     }
 }

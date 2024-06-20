@@ -274,5 +274,75 @@ namespace MP_DataAccess.DALManagers
             }
             return result;
         }
+
+        public Dictionary<string, int> GetTotalStockQuantity()
+        {
+            string query = @"SELECT model, SUM(storeQuantity + warehouseQuantity) AS TotalStock
+                         FROM Products
+                         GROUP BY model";
+            Dictionary<string, int> stats = new Dictionary<string, int>();
+            using (SqlCommand command = new SqlCommand(query, connection))
+            {
+                connection.Open();
+                using (SqlDataReader reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        string model = reader["model"].ToString();
+                        int totalStock = (int)reader["TotalStock"];
+                        stats[model] = totalStock;
+                    }
+                }
+                connection.Close();
+            }
+            return stats;
+        }
+
+        public Dictionary<string, decimal> GetTotalStockValue()
+        {
+            string query = @"SELECT model, SUM(price * (storeQuantity + warehouseQuantity)) AS TotalValue
+                         FROM Products
+                         GROUP BY model";
+            Dictionary<string, decimal> stats = new Dictionary<string, decimal>();
+            using (SqlCommand command = new SqlCommand(query, connection))
+            {
+                connection.Open();
+                using (SqlDataReader reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        string model = reader["model"].ToString();
+                        decimal totalValue = (decimal)reader["TotalValue"];
+                        stats[model] = totalValue;
+                    }
+                }
+                connection.Close();
+            }
+            return stats;
+        }
+
+        public Dictionary<string, (int Store, int Warehouse)> GetWarehouseStoreQuantities()
+        {
+            string query = @"SELECT model, SUM(storeQuantity) AS Store, SUM(warehouseQuantity) AS Warehouse
+                         FROM Products
+                         GROUP BY model";
+            Dictionary<string, (int Store, int Warehouse)> stats = new Dictionary<string, (int Store, int Warehouse)>();
+            using (SqlCommand command = new SqlCommand(query, connection))
+            {
+                connection.Open();
+                using (SqlDataReader reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        string model = reader["model"].ToString();
+                        int storeQuantity = (int)reader["Store"];
+                        int warehouseQuantity = (int)reader["Warehouse"];
+                        stats[model] = (storeQuantity, warehouseQuantity);
+                    }
+                }
+                connection.Close();
+            }
+            return stats;
+        }
     }
 }

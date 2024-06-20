@@ -15,5 +15,9 @@ namespace MP_BusinessLogic.InterfacesLL
         bool Create(Product product);
         bool Update(Product product);
         bool Delete(int id);
+
+        public Dictionary<string, int> GetTotalStockQuantity();
+        public Dictionary<string, decimal> GetTotalStockValue();
+        public Dictionary<string, (int Store, int Warehouse)> GetWarehouseStoreQuantities();
     }
 }
