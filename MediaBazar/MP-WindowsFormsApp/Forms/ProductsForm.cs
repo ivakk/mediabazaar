@@ -32,13 +32,27 @@ namespace MP_WindowsFormsApp.Forms
             productService = new ProductService(new ProductDAL());
             brandService = new BrandService(new BrandDAL());
             categoryService = new CategoryService(new CategoryDAL());
-            productService = new ProductService(new ProductDAL());
             subCategoryService = new SubCategoryService(new SubCategoryDAL());
             addProductForm = new AddProductForm(this) { Dock = DockStyle.Fill, TopLevel = false, TopMost = true, FormBorderStyle = FormBorderStyle.None };
             this.mainForm = mainForm;
 
             cbBrand.Items.AddRange(brandService.GetAll().ToArray());
             cbCategory.Items.AddRange(categoryService.GetAll().ToArray());
+            
+            
+            // Check if the logged-in user is a worker in the depot department
+            var loggedInUser = mainForm.loggedInUser;
+            
+            MessageBox.Show(loggedInUser.Position);
+
+            if (loggedInUser != null &&
+                loggedInUser.Position.ToLower().Trim() == "worker" &&
+                loggedInUser.Department.Name.ToLower().Trim() == "depot")
+            {
+                btnEdit.Visible = false; // Hide the Edit button
+                btnAdd.Visible = false; // Hide the Add button
+                btnDelete.Visible = false; // Hide the Delete button
+            }
         }
 
         private void ProductsForm_Load(object sender, EventArgs e)

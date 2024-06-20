@@ -117,3 +117,14 @@ C:\Users\ivk\Desktop\m\MediaBazar\MP-BusinessLogic\obj\Debug\net6.0\MP-BusinessL
 C:\Users\ivk\Desktop\m\MediaBazar\MP-BusinessLogic\obj\Debug\net6.0\refint\MP-BusinessLogic.dll
 C:\Users\ivk\Desktop\m\MediaBazar\MP-BusinessLogic\obj\Debug\net6.0\MP-BusinessLogic.pdb
 C:\Users\ivk\Desktop\m\MediaBazar\MP-BusinessLogic\obj\Debug\net6.0\ref\MP-BusinessLogic.dll
+D:\uni\bvcxza\MediaBazar\MP-BusinessLogic\bin\Debug\net6.0\MP-BusinessLogic.deps.json
+D:\uni\bvcxza\MediaBazar\MP-BusinessLogic\bin\Debug\net6.0\MP-BusinessLogic.dll
+D:\uni\bvcxza\MediaBazar\MP-BusinessLogic\bin\Debug\net6.0\MP-BusinessLogic.pdb
+D:\uni\bvcxza\MediaBazar\MP-BusinessLogic\obj\Debug\net6.0\MP-BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+D:\uni\bvcxza\MediaBazar\MP-BusinessLogic\obj\Debug\net6.0\MP-BusinessLogic.AssemblyInfoInputs.cache
+D:\uni\bvcxza\MediaBazar\MP-BusinessLogic\obj\Debug\net6.0\MP-BusinessLogic.AssemblyInfo.cs
+D:\uni\bvcxza\MediaBazar\MP-BusinessLogic\obj\Debug\net6.0\MP-BusinessLogic.csproj.CoreCompileInputs.cache
+D:\uni\bvcxza\MediaBazar\MP-BusinessLogic\obj\Debug\net6.0\MP-BusinessLogic.dll
+D:\uni\bvcxza\MediaBazar\MP-BusinessLogic\obj\Debug\net6.0\refint\MP-BusinessLogic.dll
+D:\uni\bvcxza\MediaBazar\MP-BusinessLogic\obj\Debug\net6.0\MP-BusinessLogic.pdb
+D:\uni\bvcxza\MediaBazar\MP-BusinessLogic\obj\Debug\net6.0\ref\MP-BusinessLogic.dll
