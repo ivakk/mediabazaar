@@ -164,3 +164,18 @@ footer {
 .btn-link:hover {
     color: #ff1a1a; /* Darker red on hover for button links */
 }
+.wrapper.bg-white h2 {
+    color: black !important;
+}
+
+/* Custom CSS for centering the form */
+.wrapper.bg-white .d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper.bg-white form {
+    max-width: 600px; /* Adjust width as needed */
+    width: 100%;
+}
