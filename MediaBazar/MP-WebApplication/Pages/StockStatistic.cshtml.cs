@@ -29,25 +29,8 @@ namespace MP_WebApplication.Pages
         public int[] StoreQuantities { get; set; }
         public int[] WarehouseQuantities { get; set; }
 
-        /* To be removed*/
-        public Dictionary<string, int> TotalStockQuantity { get; set; }
-        public Dictionary<string, decimal> TotalStockValue { get; set; }
-        public Dictionary<string, (int Store, int Warehouse)> WarehouseStoreQuantities { get; set; }
-
-
         public void OnGet(string category = null, string brand = null, string diagramType = null)
         {
-            TotalStockQuantity = productService.GetTotalStockQuantity();
-            TotalStockValue = productService.GetTotalStockValue();
-            WarehouseStoreQuantities = productService.GetWarehouseStoreQuantities();
-
-            ProductModels = TotalStockQuantity.Keys.ToArray();
-            StockQuantities = TotalStockQuantity.Values.ToArray();
-            StockValues = TotalStockValue.Values.ToArray();
-            StoreQuantities = WarehouseStoreQuantities.Values.Select(q => q.Store).ToArray();
-            WarehouseQuantities = WarehouseStoreQuantities.Values.Select(q => q.Warehouse).ToArray();
-
-
             Categories = categoryService.GetAll();
             Brands = brandService.GetAll();
             DiagramType = diagramType;
@@ -75,6 +58,19 @@ namespace MP_WebApplication.Pages
                         WarehouseQuantities = warehouseStoreQuantities.Values.Select(q => q.Warehouse).ToArray();
                         break;
                 }
+            }
+            else
+            {
+                // Load default data
+                var totalStockQuantity = productService.GetTotalStockQuantity();
+                var totalStockValue = productService.GetTotalStockValue();
+                var warehouseStoreQuantities = productService.GetWarehouseStoreQuantities();
+
+                ProductModels = totalStockQuantity.Keys.ToArray();
+                StockQuantities = totalStockQuantity.Values.ToArray();
+                StockValues = totalStockValue.Values.ToArray();
+                StoreQuantities = warehouseStoreQuantities.Values.Select(q => q.Store).ToArray();
+                WarehouseQuantities = warehouseStoreQuantities.Values.Select(q => q.Warehouse).ToArray();
             }
         }
     }

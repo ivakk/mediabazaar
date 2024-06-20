@@ -29,27 +29,41 @@
         <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
             <h1>Stock Statistics</h1>
 
-            <div class="form-group">
-                <select id="brandSelect" class="form-control">
-                    <option value="" disabled selected>Select Brand</option>
-                    @foreach (var brand in Model.Brands)
-                    {
-                        <option value="@brand.Name">@brand.Name</option>
-                    }
-                </select>
-            </div>
+            <form method="get">
+                <div class="form-group">
+                    <label for="categorySelect">Select Category:</label>
+                    <select id="categorySelect" name="category" class="form-control" onchange="this.form.submit()">
+                        <option value="" disabled selected>Select Category</option>
+                        @foreach (var category in Model.Categories)
+                        {
+                            <option value="@category.Name">@category.Name</option>
+                        }
+                    </select>
+                </div>
 
-            <div class="form-group">
-                <label for="diagramType">Select Diagram Type:</label><br>
-                <input type="radio" id="quantity" name="diagramType" value="TotalStockQuantity">
-                <label for="quantity">Total Stock Quantity</label><br>
-                <input type="radio" id="value" name="diagramType" value="TotalStockValue">
-                <label for="value">Total Stock Value</label><br>
-                <input type="radio" id="warehouse" name="diagramType" value="WarehouseStoreQuantities">
-                <label for="warehouse">Warehouse Store Quantities</label>
-            </div>
+                <div class="form-group">
+                    <label for="brandSelect">Select Brand:</label>
+                    <select id="brandSelect" name="brand" class="form-control">
+                        <option value="" disabled selected>Select Brand</option>
+                        @foreach (var brand in Model.Brands)
+                        {
+                            <option value="@brand.Name">@brand.Name</option>
+                        }
+                    </select>
+                </div>
 
-            <button id="loadStatistics" class="btn btn-primary mb-3">Load Statistics</button>
+                <div class="form-group">
+                    <label for="diagramType">Select Diagram Type:</label><br>
+                    <input type="radio" id="quantity" name="diagramType" value="TotalStockQuantity">
+                    <label for="quantity">Total Stock Quantity</label><br>
+                    <input type="radio" id="value" name="diagramType" value="TotalStockValue">
+                    <label for="value">Total Stock Value</label><br>
+                    <input type="radio" id="warehouse" name="diagramType" value="WarehouseStoreQuantities">
+                    <label for="warehouse">Warehouse Store Quantities</label>
+                </div>
+
+                <button type="submit" class="btn btn-primary mb-3">Load Statistics</button>
+            </form>
 
             @if (Model.ProductModels != null && Model.ProductModels.Length > 0)
             {
@@ -59,186 +73,70 @@
     </div>
 </div>
 
-<canvas id="stockQuantityChart" height="35vh" width="80vw"></canvas>
-<canvas id="stockValueChart" height="35vh" width="80vw"></canvas>
-<canvas id="warehouseStoreChart" height="35vh" width="80vw"></canvas>
-
 @section Scripts {
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
-            var selectedCategory = '';
+            var ctx = document.getElementById('statisticsChart').getContext('2d');
 
-        @if (Model.ProductModels != null && Model.ProductModels.Length > 0)
-        {
-            
-        }
-        var ctx = document.getElementById('statisticsChart').getContext('2d');
-        var quantityCtx = document.getElementById('stockQuantityChart').getContext('2d');
-        var stockQuantityChart = new Chart(quantityCtx, {
-            type: 'bar',
-            data: {
+            var chartData = {
                 labels: @Html.Raw(Json.Serialize(Model.ProductModels)),
-                datasets: [{
-                    label: 'Total Stock Quantity',
-                    data: @Html.Raw(Json.Serialize(Model.StockQuantities)),
-                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
-                    borderColor: 'rgb(75, 192, 192)',
-                    borderWidth: 1
-                }]
-            },
-            options: {
-                scales: {
-                    yAxes: [{
-                        ticks: {
-                            beginAtZero: true,
-                            precision: 0
-                        }
-                    }]
-                }
-            }
-        });
+                datasets: []
+            };
 
-        var valueCtx = document.getElementById('stockValueChart').getContext('2d');
-        var stockValueChart = new Chart(valueCtx, {
-            type: 'bar',
-            data: {
-                labels: @Html.Raw(Json.Serialize(Model.ProductModels)),
-                datasets: [{
-                    label: 'Total Stock Value (€)',
-                    data: @Html.Raw(Json.Serialize(Model.StockValues)),
-                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
-                    borderColor: 'rgb(255, 99, 132)',
-                    borderWidth: 1
-                }]
-            },
-            options: {
-                scales: {
-                    yAxes: [{
-                        ticks: {
-                            beginAtZero: true,
-                            precision: 0
-                        }
-                    }]
-                }
-            }
-        });
+            switch ('@Model.DiagramType') {
+                case 'TotalStockQuantity':
+                    chartData.datasets.push({
+                        label: 'Total Stock Quantity',
+                        data: @Html.Raw(Json.Serialize(Model.StockQuantities)),
+                        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                        borderColor: 'rgb(75, 192, 192)',
+                        borderWidth: 1
+                    });
+                    break;
 
-        var warehouseStoreCtx = document.getElementById('warehouseStoreChart').getContext('2d');
-        var warehouseStoreChart = new Chart(warehouseStoreCtx, {
-            type: 'bar',
-            data: {
-                labels: @Html.Raw(Json.Serialize(Model.ProductModels)),
-                datasets: [{
-                    label: 'Store Quantity',
-                    data: @Html.Raw(Json.Serialize(Model.StoreQuantities)),
-                    backgroundColor: 'rgba(54, 162, 235, 0.2)',
-                    borderColor: 'rgb(54, 162, 235)',
-                    borderWidth: 1
-                }, {
-                    label: 'Warehouse Quantity',
-                    data: @Html.Raw(Json.Serialize(Model.WarehouseQuantities)),
-                    backgroundColor: 'rgba(255, 206, 86, 0.2)',
-                    borderColor: 'rgb(255, 206, 86)',
-                    borderWidth: 1
-                }]
-            },
-            options: {
-                scales: {
-                    yAxes: [{
-                        ticks: {
-                            beginAtZero: true,
-                            precision: 0
-                        }
-                    }]
-                }
+                case 'TotalStockValue':
+                    chartData.datasets.push({
+                        label: 'Total Stock Value (€)',
+                        data: @Html.Raw(Json.Serialize(Model.StockValues)),
+                        backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                        borderColor: 'rgb(255, 99, 132)',
+                        borderWidth: 1
+                    });
+                    break;
+
+                case 'WarehouseStoreQuantities':
+                    chartData.datasets.push({
+                        label: 'Store Quantity',
+                        data: @Html.Raw(Json.Serialize(Model.StoreQuantities)),
+                        backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                        borderColor: 'rgb(54, 162, 235)',
+                        borderWidth: 1
+                    });
+                    chartData.datasets.push({
+                        label: 'Warehouse Quantity',
+                        data: @Html.Raw(Json.Serialize(Model.WarehouseQuantities)),
+                        backgroundColor: 'rgba(255, 206, 86, 0.2)',
+                        borderColor: 'rgb(255, 206, 86)',
+                        borderWidth: 1
+                    });
+                    break;
             }
+
+            var statisticsChart = new Chart(ctx, {
+                type: 'bar',
+                data: chartData,
+                options: {
+                    scales: {
+                        yAxes: [{
+                            ticks: {
+                                beginAtZero: true,
+                                precision: 0
+                            }
+                        }]
+                    }
+                }
+            });
         });
     </script>
-
-    <!-- To be removed !-->
-    <script>
-        var quantityCtx = document.getElementById('stockQuantityChart').getContext('2d');
-        var stockQuantityChart = new Chart(quantityCtx, {
-            type: 'bar',
-            data: {
-                labels: @Html.Raw(Json.Serialize(Model.ProductModels)),
-                datasets: [{
-                    label: 'Total Stock Quantity',
-                    data: @Html.Raw(Json.Serialize(Model.StockQuantities)),
-                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
-                    borderColor: 'rgb(75, 192, 192)',
-                    borderWidth: 1
-                }]
-            },
-            options: {
-                scales: {
-                    yAxes: [{
-                        ticks: {
-                            beginAtZero: true,
-                            precision: 0
-                        }
-                    }]
-                }
-            }
-        });
-
-        var valueCtx = document.getElementById('stockValueChart').getContext('2d');
-        var stockValueChart = new Chart(valueCtx, {
-            type: 'bar',
-            data: {
-                labels: @Html.Raw(Json.Serialize(Model.ProductModels)),
-                datasets: [{
-                    label: 'Total Stock Value (€)',
-                    data: @Html.Raw(Json.Serialize(Model.StockValues)),
-                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
-                    borderColor: 'rgb(255, 99, 132)',
-                    borderWidth: 1
-                }]
-            },
-            options: {
-                scales: {
-                    yAxes: [{
-                        ticks: {
-                            beginAtZero: true,
-                            precision: 0
-                        }
-                    }]
-                }
-            }
-        });
-
-        var warehouseStoreCtx = document.getElementById('warehouseStoreChart').getContext('2d');
-        var warehouseStoreChart = new Chart(warehouseStoreCtx, {
-            type: 'bar',
-            data: {
-                labels: @Html.Raw(Json.Serialize(Model.ProductModels)),
-                datasets: [{
-                    label: 'Store Quantity',
-                    data: @Html.Raw(Json.Serialize(Model.StoreQuantities)),
-                    backgroundColor: 'rgba(54, 162, 235, 0.2)',
-                    borderColor: 'rgb(54, 162, 235)',
-                    borderWidth: 1
-                }, {
-                    label: 'Warehouse Quantity',
-                    data: @Html.Raw(Json.Serialize(Model.WarehouseQuantities)),
-                    backgroundColor: 'rgba(255, 206, 86, 0.2)',
-                    borderColor: 'rgb(255, 206, 86)',
-                    borderWidth: 1
-                }]
-            },
-            options: {
-                scales: {
-                    yAxes: [{
-                        ticks: {
-                            beginAtZero: true,
-                            precision: 0
-                        }
-                    }]
-                }
-            }
-        });
-    </script>
-
 }
-

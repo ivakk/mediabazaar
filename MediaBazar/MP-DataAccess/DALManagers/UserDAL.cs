@@ -1,6 +1,4 @@
-﻿using Amazon.Auth.AccessControlPolicy;
-using Amazon.Runtime.Internal.Util;
-using Microsoft.TeamFoundation.Build.WebApi;
+﻿
 using MP_BusinessLogic.InterfacesDal;
 using MP_BusinessLogic.InterfacesLL;
 using MP_EntityLibrary;
@@ -11,7 +9,6 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static Microsoft.VisualStudio.Services.Graph.GraphResourceIds;
 
 namespace MP_DataAccess.DALManagers
 {
