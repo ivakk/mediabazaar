@@ -20,7 +20,7 @@ namespace MP_WindowsFormsApp
 {
     public partial class MainForm : Form
     {
-        private readonly IUserService userService;
+        protected readonly IUserService userService;
         private readonly IProductService productService;
         private readonly IBrandService brandService;
         private readonly ICategoryService categoryService;
@@ -28,7 +28,7 @@ namespace MP_WindowsFormsApp
 
         LoginForm loginForm;
         public User loggedInUser;
-        List<MenuButton> menuButtons = new List<MenuButton>();
+        protected List<MenuButton> menuButtons = new List<MenuButton>();
 
         // Loading forms for buttons
         private ProductsForm productForm;
@@ -46,23 +46,28 @@ namespace MP_WindowsFormsApp
             productService = new ProductService(new ProductDAL());
             brandService = new BrandService(new BrandDAL());
             categoryService = new CategoryService(new CategoryDAL());
-            productForm = new ProductsForm(this) { Dock = DockStyle.Fill, TopLevel = false, TopMost = true, FormBorderStyle = FormBorderStyle.None };
+
             this.loginForm = loginForm;
             this.loggedInUser = user;
 
             // Loading buttons
             productForm = new ProductsForm(this) { Dock = DockStyle.Fill, TopLevel = false, TopMost = true, FormBorderStyle = FormBorderStyle.None };
-            userForm = new UsersForm(this, userService, departmentService, loggedInUser) { Dock = DockStyle.Fill, TopLevel = false, TopMost = true, FormBorderStyle = FormBorderStyle.None }; // Pass logged-in user
+
+            userForm = new UsersForm(this, userService, departmentService, loggedInUser) { Dock = DockStyle.Fill, TopLevel = false, TopMost = true, FormBorderStyle = FormBorderStyle.None };
             scheduleForm = new ScheduleForm(this) { Dock = DockStyle.Fill, TopLevel = false, TopMost = true, FormBorderStyle = FormBorderStyle.None };
-            menuButtons.Add(new MenuButton("Users", userForm, this));
+
+
+            // Check if the logged-in user is not a worker in the depot department before adding the Users button
+            if (!(loggedInUser.Position.ToLower().Trim() == "worker" && loggedInUser.Department.Name.ToLower().Trim() == "depot"))
+            {
+                menuButtons.Add(new MenuButton("Users", userForm, this));
+            }
+
             menuButtons.Add(new MenuButton("Products", productForm, this));
             menuButtons.Add(new MenuButton("Replenishment", replenishmentRequestsForm, this));
             menuButtons.Add(new MenuButton("Scheduling", scheduleForm, this));
 
-            foreach (MenuButton button in menuButtons)
-            {
-                flpMenu.Controls.Add(button);
-            }
+            LoadMenuButtons();
 
             // Setting up form access
             accessForms = new Dictionary<string, object>()
@@ -87,6 +92,17 @@ namespace MP_WindowsFormsApp
         {
             flpMenu.Controls.Clear();
             loggedInUser = userService.GetUserById(loggedInUser.Id);
+
+            MessageBox.Show("User position is " + loggedInUser.Position.ToString() + loggedInUser.Department.ToString() );
+
+            foreach (MenuButton button in menuButtons)
+            {
+                // Add the button to the flow layout panel if it passes the access check
+                if (button.Text != "Users" || !(loggedInUser.Position == "worker" && loggedInUser.Department.Name == "depot"))
+                {
+                    flpMenu.Controls.Add(button);
+                }
+            }
 
             // foreach (KeyValuePair<string, object> entry in accessForms)
             // {

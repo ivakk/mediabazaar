@@ -42,9 +42,11 @@ namespace MP_WindowsFormsApp
                     MessageBox.Show("Incorrect password", "Incorrect login details", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
+
                 MainForm mainForm = new MainForm(user, this);
                 mainForm.Show();
                 this.Hide();
+                
             }
             catch (ArgumentException ex)
             {
