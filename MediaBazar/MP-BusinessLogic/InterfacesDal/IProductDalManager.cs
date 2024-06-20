@@ -18,5 +18,8 @@ namespace MP_BusinessLogic.InterfacesDal
         public Dictionary<string, int> GetTotalStockQuantity();
         public Dictionary<string, decimal> GetTotalStockValue();
         public Dictionary<string, (int Store, int Warehouse)> GetWarehouseStoreQuantities();
+        public Dictionary<string, (int Store, int Warehouse)> GetWarehouseStoreQuantitiesByCategoryAndBrand(string category, string brand);
+        public Dictionary<string, decimal> GetTotalStockValueByCategoryAndBrand(string category, string brand);
+        public Dictionary<string, int> GetTotalStockQuantityByCategoryAndBrand(string category, string brand);
     }
 }
