@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "g962RjVWyi771Goy/YrNwcuEhR3OwW5b4Fe4dG2D5OUyTpW80ToLgyE42/zFckX7ln6kUttxUfq+2RZ0C6HKWg==",
+  "dgSpecHash": "86pzTw3LaMyuXTKqeKMqad18y7o793FIpB5vAl+64H2THcoja+SAFE/cZY/7UxQv8dpmupiEjmXFtSiGs4CLPg==",
   "success": true,
-  "projectFilePath": "D:\\Software-S2\\media-bazzarNew\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\ivoml\\Desktop\\p\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ivoml\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\ivoml\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\ivoml\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512"
+  ],
   "logs": []
 }

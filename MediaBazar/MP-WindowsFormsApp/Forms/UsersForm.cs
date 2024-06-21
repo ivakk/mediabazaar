@@ -1,4 +1,5 @@
-﻿using MP_BusinessLogic.InterfacesLL;
+﻿using CsvHelper;
+using MP_BusinessLogic.InterfacesLL;
 using MP_BusinessLogic.Services;
 using MP_DataAccess.DALManagers;
 using MP_EntityLibrary;
@@ -10,6 +11,8 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Formats.Asn1;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -92,6 +95,88 @@ namespace MP_WindowsFormsApp.Forms
         {
             Department dep = (Department)cbDepartment.SelectedItem;
             LoadUsers(userService.GetUsersByDepartment(dep.Id));
+        }
+        private void SaveChangesToCsv(List<DownUser> changeRecords)
+        {
+            // Create a Reports folder on the Desktop if it doesn't exist
+            string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+            string reportsFolderPath = Path.Combine(desktopPath, "users");
+
+            if (!Directory.Exists(reportsFolderPath))
+            {
+                Directory.CreateDirectory(reportsFolderPath);
+            }
+
+            // Create a CSV file path
+            string csvFilePath = Path.Combine(reportsFolderPath, $"Daily Report - {DateTime.Now:yyyy-MM-dd}.csv");
+
+            // Write changes to the CSV file
+            using (var writer = new StreamWriter(csvFilePath))
+            using (var csv = new CsvWriter(writer, CultureInfo.InvariantCulture))
+            {
+                csv.WriteRecords(changeRecords);
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            UserService userService = new UserService(new UserDAL(new DepartmentService(new DepartmentDAL())));
+            List<User> allUsers = userService.GetAllUsers();
+            List<DownUser> downUsers = new List<DownUser>();
+
+            foreach (var user in allUsers)
+            {
+                downUsers.Add(new DownUser(
+                    user.Id,
+                    user.FirstName,
+                    user.LastName,
+                    user.Email,
+                    user.PhoneNumber,
+                    user.PhoneNumber, // Assuming PhoneNumber1 and PhoneNumber2 are the same
+                    user.Birthdate,
+                    user.Department,
+                    user.StartContract,
+                    user.EndContract,
+                    user.SalaryLevel,
+                    user.HoursWorked
+                ));
+            }
+
+            // Save downUsers to CSV
+            SaveChangesToCsv(downUsers);
+        }
+
+        private class DownUser
+        {
+            public int Id { get; }
+            public string FirstName { get; set; }
+            public string LastName { get; set; }
+            public string Email { get; set; }
+            public string PhoneNumber { get; set; }
+            public string Position { get; set; }
+            public DateTime Birthdate { get; set; }
+            public Department Department { get; set; }
+            public DateTime StartContract { get; set; }
+            public DateTime EndContract { get; set; }
+            public int SalaryLevel { get; set; }
+            public int HoursWorked { get; set; }
+
+            public DownUser() { }
+            public DownUser( int id, string firstName, string lastName, string email, string phoneNumber, string position, DateTime birthdate, Department department, DateTime startContract, DateTime endContract, int salaryLevel, int hoursWorked ) 
+            {
+                id = Id;
+                FirstName = firstName;
+                LastName = lastName;
+                Email = email;
+                PhoneNumber = phoneNumber;
+                Position = position;
+                Birthdate = birthdate;
+                Department = department;
+                StartContract = startContract;
+                EndContract = endContract;
+                SalaryLevel = salaryLevel;
+                HoursWorked = hoursWorked;
+            }
         }
     }
 }
