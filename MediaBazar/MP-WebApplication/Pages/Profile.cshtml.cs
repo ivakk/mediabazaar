@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -8,73 +9,96 @@ using System.Security.Claims;
 
 namespace MP_WebApplication.Pages
 {
+    [Authorize]
     public class ProfileModel : PageModel
     {
-
         [BindProperty]
-        public User NewUser { get; set; }/* = new User();*/
+        public string FirstName { get; set; }
+        [BindProperty]
+        public string LastName { get; set; }
+        [BindProperty]
+        public string Email { get; set; }
+        [BindProperty]
+        public string PhoneNumber { get; set; }
         public User UserLogic { get; set; }
         [BindProperty]
         public DateTime BirthDay { get; set; }
 
         private readonly IUserService userService;
-        //private readonly UserService userService;
-        User user;
+
         public ProfileModel(IUserService userService)
         {
             this.userService = userService;
         }
 
-            public void OnGet()
+        public IActionResult OnGet()
+        {
+            try
             {
-                try
+                var userClaims = HttpContext.User.Claims;
+                var userEmailClaim = userClaims.FirstOrDefault(c => c.Type == ClaimTypes.Name);
+
+                if (userEmailClaim == null)
                 {
-                    // Retrieve the authenticated user's claims
-                    var userClaims = HttpContext.User.Claims;
-
-                    var userEmailClaim = userClaims.FirstOrDefault(c => c.Type == ClaimTypes.Name);
-
-                    if (userEmailClaim == null)
-                    {
-
-                        RedirectToPage("/Login");
-
-                    }
-                    else
-                    {
-                        UserLogic = userService.GetUserById(int.Parse(User.FindFirst("id").Value));
-                        DateTime dateTime = UserLogic.Birthdate;
-                        BirthDay = dateTime;
-                    }
+                    return RedirectToPage("/Login");
                 }
-                catch (NullReferenceException)
+
+                UserLogic = userService.GetUserById(int.Parse(User.FindFirst("id").Value));
+
+                if (UserLogic == null)
                 {
-                    Response.Redirect("/Account/Login");
-                    return;
+                    return RedirectToPage("/Login");
                 }
+
+                FirstName = UserLogic.FirstName;
+                LastName = UserLogic.LastName;
+                Email = UserLogic.Email;
+                PhoneNumber = UserLogic.PhoneNumber;
+                BirthDay = UserLogic.Birthdate;
+
+                return Page();
             }
-        public void OnPost()
+            catch (Exception)
+            {
+                return RedirectToPage("/Account/Login");
+            }
+        }
+
+        public IActionResult OnPostEdit()
         {
             try
             {
                 UserLogic = userService.GetUserById(int.Parse(User.FindFirst("id").Value));
-            }
-            catch (NullReferenceException)
-            {
-                Response.Redirect("/Account/Login");
-                return;
-            }
-            try
-            {
-                UserLogic.PhoneNumber = NewUser.PhoneNumber;
+                if (UserLogic == null)
+                {
+                    return RedirectToPage("/Login");
+                }
+
+                if (!string.IsNullOrEmpty(FirstName) && FirstName != UserLogic.FirstName)
+                {
+                    UserLogic.FirstName = FirstName;
+                }
+                if (!string.IsNullOrEmpty(LastName) && LastName != UserLogic.LastName)
+                {
+                    UserLogic.LastName = LastName;
+                }
+                if (!string.IsNullOrEmpty(Email) && Email != UserLogic.Email)
+                {
+                    UserLogic.Email = Email;
+                }
+                if (!string.IsNullOrEmpty(PhoneNumber) && PhoneNumber != UserLogic.PhoneNumber)
+                {
+                    UserLogic.PhoneNumber = PhoneNumber;
+                }
+
                 userService.UpdateUser(UserLogic);
-                Response.Redirect("/Profile");
+                return RedirectToPage("/Profile");
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 ViewData["Error"] = "Please input valid data!";
+                return Page();
             }
         }
-
     }
 }

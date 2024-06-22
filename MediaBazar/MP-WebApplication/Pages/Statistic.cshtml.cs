@@ -2,6 +2,7 @@ using iText.Kernel.Pdf;
 using iText.Layout;
 using iText.Layout.Element;
 using iText.Layout.Properties;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using MP_BusinessLogic.InterfacesLL;
@@ -10,6 +11,7 @@ using System.IO;
 
 namespace MP_WebApplication.Pages
 {
+    [Authorize(Roles = "admin,manager")]
     public class StatisticModel : PageModel
     {
         private readonly IUserService userService;

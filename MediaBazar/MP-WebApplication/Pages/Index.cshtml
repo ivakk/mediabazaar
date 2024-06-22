@@ -1,10 +1,48 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container mt-5">
+    <div class="text-center">
+        <h1 class="display-4">Welcome to Media Bazaar Staff Portal</h1>
+        <p class="lead">Your gateway to managing your work life at Media Bazaar.</p>
+        <p>Access your profile, check your schedule, view company statistics, and more.</p>
+        <hr class="my-4">
+        <p>Navigate through the portal to find the resources you need:</p>
+    </div>
+
+    <div class="row text-center">
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <img src="~/css/edit-profile-icon.png" class="card-img-top" alt="Profile">
+                <div class="card-body">
+                    <h5 class="card-title">Your Profile</h5>
+                    <p class="card-text">View and update your personal information.</p>
+                    <a href="Profile" class="btn btn-primary">Go to Profile</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <img src="~/css/work-schedules-header-banner.png" class="card-img-top" alt="Schedule">
+                <div class="card-body">
+                    <h5 class="card-title">Schedule</h5>
+                    <p class="card-text">Check your work schedule and upcoming shifts.</p>
+                    <a href="Calendar" class="btn btn-primary">View Schedule</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <img src="~/css/Stitstic.png" class="card-img-top" alt="Statistics">
+                <div class="card-body">
+                    <h5 class="card-title">Company Statistics</h5>
+                    <p class="card-text">Access performance statistics and reports.</p>
+                    <a href="Statistic" class="btn btn-primary">View Statistics</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

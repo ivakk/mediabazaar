@@ -9,8 +9,28 @@
       "PackagePath": "staticwebassets\\Assests\\mb-red.png"
     },
     {
+      "Id": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-WebApplication\\wwwroot\\css\\Stitstic.png",
+      "PackagePath": "staticwebassets\\css\\Stitstic.png"
+    },
+    {
+      "Id": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-WebApplication\\wwwroot\\css\\edit-profile-icon.jpg",
+      "PackagePath": "staticwebassets\\css\\edit-profile-icon.jpg"
+    },
+    {
+      "Id": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-WebApplication\\wwwroot\\css\\edit-profile-icon.png",
+      "PackagePath": "staticwebassets\\css\\edit-profile-icon.png"
+    },
+    {
+      "Id": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-WebApplication\\wwwroot\\css\\logo.png",
+      "PackagePath": "staticwebassets\\css\\logo.png"
+    },
+    {
       "Id": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-WebApplication\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-WebApplication\\wwwroot\\css\\work-schedules-header-banner.png",
+      "PackagePath": "staticwebassets\\css\\work-schedules-header-banner.png"
     },
     {
       "Id": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-WebApplication\\wwwroot\\favicon.ico",

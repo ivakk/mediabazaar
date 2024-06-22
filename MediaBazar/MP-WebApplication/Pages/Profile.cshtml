@@ -6,40 +6,40 @@
 <div class="wrapper bg-white mt-sm-5">
     <h2 class="pb-4 border-bottom text-black text-center">Account settings</h2>
     <div class="d-flex justify-content-center py-2">
-        <form asp-page-handler="Edit" class="w-75">
+        <form method="post" asp-page-handler="Edit" class="w-75">
             <div asp-validation-summary="All" class="text-danger"></div>
             <div class="row py-2">
                 <div class="col-md-6 offset-md-3">
                     <label for="firstname">First Name</label>
-                    <input type="text" class="bg-light form-control" placeholder="@Model.UserLogic.FirstName" maxlength="20">
+                    <input asp-for="FirstName" class="bg-light form-control" maxlength="20">
                 </div>
             </div>
             <div class="row py-2">
                 <div class="col-md-6 offset-md-3">
                     <label for="lastname">Last Name</label>
-                    <input type="text" class="bg-light form-control" placeholder="@Model.UserLogic.LastName" maxlength="20">
+                    <input asp-for="LastName" class="bg-light form-control" maxlength="20">
                 </div>
             </div>
             <div class="row py-2">
                 <div class="col-md-6 offset-md-3">
                     <label for="email">Email</label>
-                    <input type="text" class="bg-light form-control" placeholder="@Model.UserLogic.Email" maxlength="20">
+                    <input asp-for="Email" class="bg-light form-control">
                 </div>
             </div>
             <div class="row py-2">
                 <div class="col-md-6 offset-md-3">
                     <label for="phone">Phone Number</label>
-                    <input asp-for="NewUser.PhoneNumber" type="text" class="bg-light form-control" placeholder="@Model.UserLogic.PhoneNumber" maxlength="20">
+                    <input asp-for="PhoneNumber" class="bg-light form-control" maxlength="12">
                 </div>
             </div>
             <div class="row py-2">
                 <div class="col-md-6 offset-md-3">
                     <label for="birthday">Birth Day</label>
-                    <input asp-for="NewUser.Birthdate" type="text" class="bg-light form-control" placeholder="@Model.BirthDay" maxlength="20" readonly>
+                    <input asp-for="BirthDay" type="text" class="bg-light form-control" value="@Model.BirthDay.ToString("dd-MM-yyyy")" readonly>
                 </div>
             </div>
             <div class="py-3 pb-4 border-bottom text-center">
-                <button class="btn btn-primary mr-3">Save Changes</button>
+                <button type="submit" class="btn btn-primary mr-3">Save Changes</button>
             </div>
         </form>
     </div>

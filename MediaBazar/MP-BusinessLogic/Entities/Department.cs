@@ -11,15 +11,29 @@ namespace MP_EntityLibrary
         public int Id { get; }
         public string Name { get; set; }
 
-        public string accessString { get; set; }
+        public string AccessString { get; set; }
+        public string Description { get; set; }  // New property
+        public int RequiredPersonnel { get; set; }  // New property
+        public string Positions { get; set; }  // New property
+        public string PointOfContact { get; set; }  // New property
 
         public Department(int id, string name, string accessString)
         {
             Id = id;
             Name = name;
-            this.accessString = accessString;
+            this.AccessString = accessString;
         }
 
+        public Department(int id, string name, string accessString, string description = "", int requiredPersonnel = 0, string positions = "", string pointOfContact = "")
+        {
+            Id = id;
+            Name = name;
+            accessString = accessString;
+            Description = description;
+            RequiredPersonnel = requiredPersonnel;
+            Positions = positions;
+            PointOfContact = pointOfContact;
+        }
         //public Department()
         //{
         //}
@@ -32,7 +46,7 @@ namespace MP_EntityLibrary
 
         //    this.Id = dep.Id;
         //    this.Name = dep.Name;
-        //    this.accessString = dep.accessString;
+        //    this.AccessString = dep.AccessString;
         //}
 
         public override string ToString()

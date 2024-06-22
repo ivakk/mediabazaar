@@ -76,5 +76,19 @@ namespace MP_BusinessLogic.Services
         public int GetEmployeeCountByDepartment(int departmentId) { return controller.GetEmployeeCountByDepartment(departmentId); }
 
         public Dictionary<int, int> GetAllDepartmentEmployeeCounts() { return controller.GetAllDepartmentEmployeeCounts(); }
+        public void CheckIn(int userId)
+        {
+            controller.InsertCheckRecord(userId, true);
+        }
+
+        public void CheckOut(int userId)
+        {
+            controller.InsertCheckRecord(userId, false);
+        }
+
+        public bool? GetLatestCheckStatus(int userId)
+        {
+            return controller.GetLatestCheckStatus(userId);
+        }
     }
 }

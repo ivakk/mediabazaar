@@ -25,10 +25,7 @@ namespace MP_WebApplication.Pages
         [Required(AllowEmptyStrings = false, ErrorMessage = "Password is required!")]
         public string? Password { get; set; }
 
-        List<Claim> claims = new List<Claim>();
-
         private readonly IUserService userService;
-        //private readonly UserService userService;
         User user;
         public LoginModel(IUserService userService)
         {
@@ -39,53 +36,55 @@ namespace MP_WebApplication.Pages
         {
             if (User.Identity != null && User.Identity.IsAuthenticated)
             {
-
                 Response.Redirect("/Account");
                 return;
             }
-
         }
 
-        public void OnPost()
+        public async Task<IActionResult> OnPostAsync()
         {
             if (!ModelState.IsValid)
             {
                 ViewData["Error"] = "Please fill in all fields";
-                return;
+                return Page();
             }
 
             try
             {
-                //User user = new User(Email, Password);
                 User user = userService.GetUserByEmail(Email);
                 bool isPasswordCorrect = userService.IsPasswordCorrect(Email, Password);
 
-                if(!isPasswordCorrect)
+                if (!isPasswordCorrect)
                 {
                     ViewData["Error"] = "Invalid email or password";
-                    return;
+                    return Page();
                 }
-                
 
                 var claims = new List<Claim>
                 {
                     new Claim(ClaimTypes.Name, user.Email.ToLower()),
+                    new Claim(ClaimTypes.Email, user.Email),
+                    new Claim(ClaimTypes.Role, user.Position),
                     new Claim("id", user.Id.ToString()),
                 };
 
                 var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
-                HttpContext.SignInAsync(new ClaimsPrincipal(identity));
+                await HttpContext.SignInAsync(new ClaimsPrincipal(identity));
 
-                Response.Redirect("/Account");
+                if (user.Position == "admin" || user.Position == "manager")
+                {
+                    return RedirectToPage("/Statistic");
+                }
+                else
+                {
+                    return RedirectToPage("/Account");
+                }
             }
             catch (ArgumentException ex)
             {
                 ViewData["Error"] = ex.Message;
+                return Page();
             }
-
         }
-
     }
-
-    
 }

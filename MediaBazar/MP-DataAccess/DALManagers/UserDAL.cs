@@ -89,7 +89,7 @@ namespace MP_DataAccess.DALManagers
                 {
                     foundUser = new User((int)reader.GetValue(0), (string)reader.GetValue(1),
                         (string)reader.GetValue(2), (string)reader.GetValue(3),
-                        (string)reader.GetValue(4), (string)reader.GetValue(5),
+                        (string)reader.GetValue(4), ((string)reader.GetValue(5)).Trim(),
                         (DateTime)reader.GetValue(6), (string)reader.GetValue(7),
                         (string)reader.GetValue(8), departmentService.GetDepartmentById((int)reader.GetValue(9)),
                         (DateTime)reader.GetValue(10), (DateTime)reader.GetValue(11),
@@ -694,6 +694,61 @@ namespace MP_DataAccess.DALManagers
                 connection.Close();
             }
             return stats;
+        }
+        public bool InsertCheckRecord(int userId, bool isCheckIn)
+        {
+            string query = "INSERT INTO EmployeeCheckRecords (UserId, CheckTime, IsCheckIn) VALUES (@userId, @checkTime, @isCheckIn)";
+            using (SqlCommand command = new SqlCommand(query, connection))
+            {
+                command.Parameters.AddWithValue("@userId", userId);
+                command.Parameters.AddWithValue("@checkTime", DateTime.Now);
+                command.Parameters.AddWithValue("@isCheckIn", isCheckIn);
+
+                connection.Open();
+                try
+                {
+                    command.ExecuteNonQuery();
+                    return true;
+                }
+                catch (SqlException e)
+                {
+                    Console.WriteLine(e.Message);
+                    return false;
+                }
+                finally
+                {
+                    connection.Close();
+                }
+            }
+        }
+
+        public bool? GetLatestCheckStatus(int userId)
+        {
+            string query = "SELECT TOP 1 IsCheckIn FROM EmployeeCheckRecords WHERE UserId = @userId ORDER BY CheckTime DESC";
+            using (SqlCommand command = new SqlCommand(query, connection))
+            {
+                command.Parameters.AddWithValue("@userId", userId);
+
+                connection.Open();
+                try
+                {
+                    var result = command.ExecuteScalar();
+                    if (result != null)
+                    {
+                        return (bool)result;
+                    }
+                    return null;
+                }
+                catch (SqlException e)
+                {
+                    Console.WriteLine(e.Message);
+                    return null;
+                }
+                finally
+                {
+                    connection.Close();
+                }
+            }
         }
 
     }

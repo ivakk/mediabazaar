@@ -1,0 +1,22 @@
+﻿@page
+@model CheckModel
+@{
+    ViewData["Title"] = "Check";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Check</h1>
+
+    @if (Model.IsCheckedIn)
+    {
+        <form method="post" asp-page-handler="CheckOut">
+            <button type="submit" class="btn btn-danger">Check Out</button>
+        </form>
+    }
+    else
+    {
+        <form method="post" asp-page-handler="CheckIn">
+            <button type="submit" class="btn btn-success">Check In</button>
+        </form>
+    }
+</div>
