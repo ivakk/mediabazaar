@@ -952,3 +952,7 @@ C:\Users\ivoml\Desktop\p\media-bazzar\MediaBazar\MP-WindowsFormsApp\obj\Debug\ne
 C:\Users\ivoml\Desktop\p\media-bazzar\MediaBazar\MP-WindowsFormsApp\obj\Debug\net6.0-windows\MP-WindowsFormsApp.pdb
 C:\Users\ivoml\Desktop\p\media-bazzar\MediaBazar\MP-WindowsFormsApp\obj\Debug\net6.0-windows\MP-WindowsFormsApp.genruntimeconfig.cache
 C:\Users\ivoml\Desktop\p\media-bazzar\MediaBazar\MP-WindowsFormsApp\obj\Debug\net6.0-windows\ref\MP-WindowsFormsApp.dll
+D:\uni\bvcxza\MediaBazar\MP-WindowsFormsApp\bin\Debug\net6.0-windows\CsvHelper.dll
+D:\uni\bvcxza\MediaBazar\MP-WindowsFormsApp\obj\Debug\net6.0-windows\MP_WindowsFormsApp.Forms.DepartmentForm.resources
+D:\uni\bvcxza\MediaBazar\MP-WindowsFormsApp\obj\Debug\net6.0-windows\MP_WindowsFormsApp.Forms.AddDepartmentForm.resources
+D:\uni\bvcxza\MediaBazar\MP-WindowsFormsApp\obj\Debug\net6.0-windows\MP_WindowsFormsApp.Forms.UpdateDepartmentForm.resources

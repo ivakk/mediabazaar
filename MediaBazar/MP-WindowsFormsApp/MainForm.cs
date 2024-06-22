@@ -58,7 +58,7 @@ namespace MP_WindowsFormsApp
             departmentForm = new DepartmentForm(departmentService, loggedInUser) { Dock = DockStyle.Fill, TopLevel = false, TopMost = true, FormBorderStyle = FormBorderStyle.None };
 
             // Check if the logged-in user is not a worker in the depot department before adding the Users button
-            if (!(loggedInUser.Position.ToLower().Trim() == "worker" && loggedInUser.Department.Name.ToLower().Trim() == "depot"))
+            if (!(loggedInUser.Position.ToLower().Trim() == "worker" && loggedInUser.Department.Name.ToLower().Trim() == "depot" || loggedInUser.Department.Name.ToLower().Trim() == "sales"))
             {
                 menuButtons.Add(new MenuButton("Users", userForm, this));
             }

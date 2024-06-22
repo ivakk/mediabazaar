@@ -46,7 +46,7 @@ namespace MP_WindowsFormsApp
                 MainForm mainForm = new MainForm(user, this);
                 mainForm.Show();
                 this.Hide();
-                
+
             }
             catch (ArgumentException ex)
             {

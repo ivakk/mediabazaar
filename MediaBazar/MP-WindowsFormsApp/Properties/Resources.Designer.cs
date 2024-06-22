@@ -73,6 +73,16 @@ namespace MP_WindowsFormsApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap mb_red__1_ {
+            get {
+                object obj = ResourceManager.GetObject("mb-red (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap mb_red_square {
             get {
                 object obj = ResourceManager.GetObject("mb-red-square", resourceCulture);
