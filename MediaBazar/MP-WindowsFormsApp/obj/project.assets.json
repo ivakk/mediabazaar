@@ -7685,24 +7685,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ivoml\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ivoml\\Desktop\\p\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj",
+      "projectUniqueName": "D:\\uni\\bvcxza\\MediaBazar\\MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj",
       "projectName": "MP-WindowsFormsApp",
-      "projectPath": "C:\\Users\\ivoml\\Desktop\\p\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj",
-      "packagesPath": "C:\\Users\\ivoml\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ivoml\\Desktop\\p\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\obj\\",
+      "projectPath": "D:\\uni\\bvcxza\\MediaBazar\\MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "D:\\uni\\bvcxza\\MediaBazar\\MP-WindowsFormsApp\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\ivoml\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7716,11 +7711,11 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\ivoml\\Desktop\\p\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj": {
-              "projectPath": "C:\\Users\\ivoml\\Desktop\\p\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj"
+            "D:\\uni\\bvcxza\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj": {
+              "projectPath": "D:\\uni\\bvcxza\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj"
             },
-            "C:\\Users\\ivoml\\Desktop\\p\\media-bazzar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj": {
-              "projectPath": "C:\\Users\\ivoml\\Desktop\\p\\media-bazzar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj"
+            "D:\\uni\\bvcxza\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj": {
+              "projectPath": "D:\\uni\\bvcxza\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj"
             }
           }
         }
@@ -7729,11 +7724,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -7764,24 +7754,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.27, 6.0.27]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[6.0.27, 6.0.27]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.27, 6.0.27]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.27, 6.0.27]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -7790,7 +7762,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
