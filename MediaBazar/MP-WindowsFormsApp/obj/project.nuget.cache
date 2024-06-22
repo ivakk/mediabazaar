@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Z7WfuVQI34Z+mqu1kHGvABoT23yiWw/D6kxDKy0egzfa5sJxTMV4p+i99feF2g+P6mwvVrODRIl29argVsMgnw==",
+  "dgSpecHash": "qnxOdjZ4e7EKJcH8j3hO82SVfdifym5uPfzsVKqSWnRKjxyt17ofUMXSAwVWEdRnbGList+1rrJYtopDu2vQlQ==",
   "success": true,
   "projectFilePath": "D:\\Visual code studio\\Fontys\\Sem2Software\\GroupProject\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marto\\.nuget\\packages\\awssdk.core\\3.7.202.20\\awssdk.core.3.7.202.20.nupkg.sha512",
+    "C:\\Users\\marto\\.nuget\\packages\\csvhelper\\33.0.1\\csvhelper.33.0.1.nupkg.sha512",
     "C:\\Users\\marto\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
     "C:\\Users\\marto\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\marto\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",

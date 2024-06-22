@@ -42,7 +42,7 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = Properties.Resources.mb_red;
+            pictureBox1.Image = Properties.Resources.mb_red__1_;
             pictureBox1.InitialImage = Properties.Resources.mb_red;
             pictureBox1.Location = new Point(175, 32);
             pictureBox1.Margin = new Padding(3, 4, 3, 4);
