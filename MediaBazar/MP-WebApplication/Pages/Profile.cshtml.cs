@@ -1,8 +1,10 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using MP_BusinessLogic.InterfacesLL;
 using MP_BusinessLogic.Services;
 using MP_EntityLibrary;
+using System.Security.Claims;
 
 namespace MP_WebApplication.Pages
 {
@@ -24,19 +26,33 @@ namespace MP_WebApplication.Pages
         }
 
             public void OnGet()
-        {
-            try
             {
-                UserLogic = userService.GetUserById(int.Parse(User.FindFirst("id").Value));
-                DateTime dateTime = UserLogic.Birthdate;
-                BirthDay = dateTime;
+                try
+                {
+                    // Retrieve the authenticated user's claims
+                    var userClaims = HttpContext.User.Claims;
+
+                    var userEmailClaim = userClaims.FirstOrDefault(c => c.Type == ClaimTypes.Name);
+
+                    if (userEmailClaim == null)
+                    {
+
+                        RedirectToPage("/Login");
+
+                    }
+                    else
+                    {
+                        UserLogic = userService.GetUserById(int.Parse(User.FindFirst("id").Value));
+                        DateTime dateTime = UserLogic.Birthdate;
+                        BirthDay = dateTime;
+                    }
+                }
+                catch (NullReferenceException)
+                {
+                    Response.Redirect("/Account/Login");
+                    return;
+                }
             }
-            catch (NullReferenceException)
-            {
-                Response.Redirect("/Account/Login");
-                return;
-            }
-        }
         public void OnPost()
         {
             try

@@ -34,6 +34,7 @@ namespace MP_WindowsFormsApp
         private ProductsForm productForm;
         private UsersForm userForm;
         private ScheduleForm scheduleForm;
+        private DepartmentForm departmentForm;
         private ReplenishmentRequestsForm replenishmentRequestsForm = new ReplenishmentRequestsForm { Dock = DockStyle.Fill, TopLevel = false, TopMost = true, FormBorderStyle = FormBorderStyle.None };
 
         public Dictionary<string, object> accessForms;
@@ -52,10 +53,9 @@ namespace MP_WindowsFormsApp
 
             // Loading buttons
             productForm = new ProductsForm(this) { Dock = DockStyle.Fill, TopLevel = false, TopMost = true, FormBorderStyle = FormBorderStyle.None };
-
             userForm = new UsersForm(this, userService, departmentService, loggedInUser) { Dock = DockStyle.Fill, TopLevel = false, TopMost = true, FormBorderStyle = FormBorderStyle.None };
             scheduleForm = new ScheduleForm(this) { Dock = DockStyle.Fill, TopLevel = false, TopMost = true, FormBorderStyle = FormBorderStyle.None };
-
+            departmentForm = new DepartmentForm(departmentService, loggedInUser) { Dock = DockStyle.Fill, TopLevel = false, TopMost = true, FormBorderStyle = FormBorderStyle.None };
 
             // Check if the logged-in user is not a worker in the depot department before adding the Users button
             if (!(loggedInUser.Position.ToLower().Trim() == "worker" && loggedInUser.Department.Name.ToLower().Trim() == "depot"))
@@ -66,6 +66,9 @@ namespace MP_WindowsFormsApp
             menuButtons.Add(new MenuButton("Products", productForm, this));
             menuButtons.Add(new MenuButton("Replenishment", replenishmentRequestsForm, this));
             menuButtons.Add(new MenuButton("Scheduling", scheduleForm, this));
+            menuButtons.Add(new MenuButton("Departments", departmentForm, this));
+
+
 
             LoadMenuButtons();
 
@@ -74,7 +77,8 @@ namespace MP_WindowsFormsApp
             {
                 { "Products", productForm },
                 { "Users", userForm },
-                { "Scheduling", scheduleForm }
+                { "Scheduling", scheduleForm },
+                { "Departments", departmentForm }
             };
         }
 
@@ -102,16 +106,15 @@ namespace MP_WindowsFormsApp
                 {
                     flpMenu.Controls.Add(button);
                 }
+                // foreach (KeyValuePair<string, object> entry in accessForms)
+                // {
+                //     if (loggedInUser.Department.AccessString.Contains(entry.Key) || loggedInUser == null)
+                //     {
+                //         menuButtons.Add(new MenuButton(entry.Key, (Form)entry.Value, this));
+                //         flpMenu.Controls.Add(menuButtons[menuButtons.Count - 1]);
+                //     }
+                // }
             }
-
-            // foreach (KeyValuePair<string, object> entry in accessForms)
-            // {
-            //     if (loggedInUser.Department.accessString.Contains(entry.Key) || loggedInUser == null)
-            //     {
-            //         menuButtons.Add(new MenuButton(entry.Key, (Form)entry.Value, this));
-            //         flpMenu.Controls.Add(menuButtons[menuButtons.Count - 1]);
-            //     }
-            // }
         }
 
         public void ChangeShownForm(Form form)

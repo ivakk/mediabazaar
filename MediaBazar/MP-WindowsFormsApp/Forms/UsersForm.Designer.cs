@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             groupBox1 = new GroupBox();
+            button1 = new Button();
             btnAdd = new Button();
             cbDepartment = new ComboBox();
             lblBrand = new Label();
@@ -41,6 +42,7 @@
             // groupBox1
             // 
             groupBox1.BackColor = Color.LightGray;
+            groupBox1.Controls.Add(button1);
             groupBox1.Controls.Add(btnAdd);
             groupBox1.Controls.Add(cbDepartment);
             groupBox1.Controls.Add(lblBrand);
@@ -53,6 +55,17 @@
             groupBox1.TabIndex = 11;
             groupBox1.TabStop = false;
             groupBox1.Text = "SEARCH";
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.Red;
+            button1.Location = new Point(1240, 123);
+            button1.Name = "button1";
+            button1.Size = new Size(155, 44);
+            button1.TabIndex = 12;
+            button1.Text = "Save Users";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // btnAdd
             // 
@@ -141,5 +154,6 @@
         private Button btnSearch;
         private TextBox tbSearch;
         private FlowLayoutPanel flpUsers;
+        public Button button1;
     }
 }

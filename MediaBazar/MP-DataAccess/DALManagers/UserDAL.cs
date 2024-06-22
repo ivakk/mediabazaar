@@ -1,6 +1,4 @@
-﻿using Amazon.Auth.AccessControlPolicy;
-using Amazon.Runtime.Internal.Util;
-using Microsoft.TeamFoundation.Build.WebApi;
+﻿
 using MP_BusinessLogic.InterfacesDal;
 using MP_BusinessLogic.InterfacesLL;
 using MP_EntityLibrary;
@@ -11,7 +9,6 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static Microsoft.VisualStudio.Services.Graph.GraphResourceIds;
 
 namespace MP_DataAccess.DALManagers
 {
@@ -697,6 +694,61 @@ namespace MP_DataAccess.DALManagers
                 connection.Close();
             }
             return stats;
+        }
+        public bool InsertCheckRecord(int userId, bool isCheckIn)
+        {
+            string query = "INSERT INTO EmployeeCheckRecords (UserId, CheckTime, IsCheckIn) VALUES (@userId, @checkTime, @isCheckIn)";
+            using (SqlCommand command = new SqlCommand(query, connection))
+            {
+                command.Parameters.AddWithValue("@userId", userId);
+                command.Parameters.AddWithValue("@checkTime", DateTime.Now);
+                command.Parameters.AddWithValue("@isCheckIn", isCheckIn);
+
+                connection.Open();
+                try
+                {
+                    command.ExecuteNonQuery();
+                    return true;
+                }
+                catch (SqlException e)
+                {
+                    Console.WriteLine(e.Message);
+                    return false;
+                }
+                finally
+                {
+                    connection.Close();
+                }
+            }
+        }
+
+        public bool? GetLatestCheckStatus(int userId)
+        {
+            string query = "SELECT TOP 1 IsCheckIn FROM EmployeeCheckRecords WHERE UserId = @userId ORDER BY CheckTime DESC";
+            using (SqlCommand command = new SqlCommand(query, connection))
+            {
+                command.Parameters.AddWithValue("@userId", userId);
+
+                connection.Open();
+                try
+                {
+                    var result = command.ExecuteScalar();
+                    if (result != null)
+                    {
+                        return (bool)result;
+                    }
+                    return null;
+                }
+                catch (SqlException e)
+                {
+                    Console.WriteLine(e.Message);
+                    return null;
+                }
+                finally
+                {
+                    connection.Close();
+                }
+            }
         }
 
     }

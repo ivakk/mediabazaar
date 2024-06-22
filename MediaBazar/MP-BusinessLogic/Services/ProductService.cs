@@ -61,6 +61,11 @@ namespace MP_BusinessLogic.Services
         }
 
         public Dictionary<string, (int Store, int Warehouse)> GetWarehouseStoreQuantities() { return controller.GetWarehouseStoreQuantities(); }
+
+        public Dictionary<string, (int Store, int Warehouse)> GetWarehouseStoreQuantitiesByCategoryAndBrand(string category, string brand) { return controller.GetWarehouseStoreQuantitiesByCategoryAndBrand(category, brand); }
+        public Dictionary<string, decimal> GetTotalStockValueByCategoryAndBrand(string category, string brand) { return controller.GetTotalStockValueByCategoryAndBrand(category, brand); }
+        public Dictionary<string, int> GetTotalStockQuantityByCategoryAndBrand(string category, string brand) { return controller.GetTotalStockQuantityByCategoryAndBrand(category, brand); }
+
         //ProductDALManager dalManager = new ProductDALManager();
         //public List<Product> GetAll()
         //{

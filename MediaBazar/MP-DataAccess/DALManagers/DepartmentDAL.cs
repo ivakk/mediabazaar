@@ -36,7 +36,15 @@ namespace MP_DataAccess.DALManagers
                 using SqlDataReader reader = command.ExecuteReader();
                 while (reader.Read())
                 {
-                    return new Department((int)reader.GetValue(0), (string)reader.GetValue(1), (string)reader.GetValue(2));
+                    department = new Department(
+                        (int)reader["departmentId"],
+                        reader["name"] as string ?? string.Empty,
+                        reader["accessString"] as string ?? string.Empty, // Ensure correct field name
+                        reader["Description"] as string ?? string.Empty,
+                        reader["RequiredPersonnel"] != DBNull.Value ? (int)reader["RequiredPersonnel"] : 0,
+                        reader["Positions"] as string ?? string.Empty,
+                        reader["PointOfContact"] as string ?? string.Empty
+                    );
                 }
             }
             catch (SqlException e)
@@ -72,7 +80,15 @@ namespace MP_DataAccess.DALManagers
 
                 while (reader.Read())
                 {
-                    departments.Add(new Department((int)reader.GetValue(0), (string)reader.GetValue(1), (string)reader.GetValue(2)));
+                    departments.Add(new Department(
+                        (int)reader["departmentId"],
+                        reader["name"] as string ?? string.Empty,
+                        reader["accessString"] as string ?? string.Empty, // Ensure correct field name
+                        reader["Description"] as string ?? string.Empty,
+                        reader["RequiredPersonnel"] != DBNull.Value ? (int)reader["RequiredPersonnel"] : 0,
+                        reader["Positions"] as string ?? string.Empty,
+                        reader["PointOfContact"] as string ?? string.Empty
+                    ));
                 }
                 return departments;
             }
@@ -95,7 +111,8 @@ namespace MP_DataAccess.DALManagers
         {
             string query =
                 $"UPDATE {tableName} " +
-                $"SET name = @name, accessString = @accessString " +
+                $"SET name = @name, accessString = @accessString, Description = @description, " +
+                $"RequiredPersonnel = @requiredPersonnel, Positions = @positions, PointOfContact = @pointOfContact " +
                 $"WHERE departmentId = @departmentId";
 
             // Open the connection
@@ -108,8 +125,12 @@ namespace MP_DataAccess.DALManagers
             {
                 // Add the parameters
                 command.Parameters.AddWithValue("@departmentId", newDepartment.Id);
-                command.Parameters.AddWithValue("@name", newDepartment.Name);
-                command.Parameters.AddWithValue("@accessString", newDepartment.accessString);
+                command.Parameters.AddWithValue("@name", newDepartment.Name ?? (object)DBNull.Value);
+                command.Parameters.AddWithValue("@accessString", newDepartment.AccessString ?? (object)DBNull.Value);
+                command.Parameters.AddWithValue("@description", newDepartment.Description ?? (object)DBNull.Value);
+                command.Parameters.AddWithValue("@requiredPersonnel", newDepartment.RequiredPersonnel);
+                command.Parameters.AddWithValue("@positions", newDepartment.Positions ?? (object)DBNull.Value);
+                command.Parameters.AddWithValue("@pointOfContact", newDepartment.PointOfContact ?? (object)DBNull.Value);
 
                 // Execute the query and get the data
                 using SqlDataReader reader = command.ExecuteReader();
@@ -170,8 +191,8 @@ namespace MP_DataAccess.DALManagers
         public bool CreateDepartment(Department newDepartment)
         {
             // Set up the query
-            string query = $"INSERT INTO {tableName} (name, accessString) " +
-                           $"VALUES (@name, @accessString)";
+            string query = $"INSERT INTO {tableName} (name, accessString, Description, RequiredPersonnel, Positions, PointOfContact) " +
+                           $"VALUES (@name, @accessString, @description, @requiredPersonnel, @positions, @pointOfContact)";
 
             // Open the connection
             connection.Open();
@@ -179,9 +200,13 @@ namespace MP_DataAccess.DALManagers
             // Creating Command string to combine the query and the connection String
             SqlCommand command = new SqlCommand(query, base.connection);
 
-            // Add the parameters
-            command.Parameters.AddWithValue("@name", newDepartment.Name);
-            command.Parameters.AddWithValue("@accessString", newDepartment.accessString);
+            // Add the parameters with explicit handling for null values
+            command.Parameters.AddWithValue("@name", newDepartment.Name ?? (object)DBNull.Value);
+            command.Parameters.AddWithValue("@accessString", newDepartment.AccessString ?? (object)DBNull.Value);
+            command.Parameters.AddWithValue("@description", newDepartment.Description ?? (object)DBNull.Value);
+            command.Parameters.AddWithValue("@requiredPersonnel", newDepartment.RequiredPersonnel);
+            command.Parameters.AddWithValue("@positions", newDepartment.Positions ?? (object)DBNull.Value);
+            command.Parameters.AddWithValue("@pointOfContact", newDepartment.PointOfContact ?? (object)DBNull.Value);
 
             try
             {
@@ -203,4 +228,3 @@ namespace MP_DataAccess.DALManagers
         }
     }
 }
-
