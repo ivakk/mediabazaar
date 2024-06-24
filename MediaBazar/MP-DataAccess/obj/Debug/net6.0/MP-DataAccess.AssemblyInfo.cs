@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MP-DataAccess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+88dc4c15cf2428776f3465a8fb32397b20735e53")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b6c8d7e68fd6840fe91687663b9c2836f40b7fd")]
 [assembly: System.Reflection.AssemblyProductAttribute("MP-DataAccess")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MP-DataAccess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

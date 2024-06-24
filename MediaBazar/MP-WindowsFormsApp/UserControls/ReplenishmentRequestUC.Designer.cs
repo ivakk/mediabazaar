@@ -41,61 +41,61 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 30F);
+            label1.Font = new Font("Segoe UI", 20F);
             label1.Location = new Point(3, 0);
             label1.Name = "label1";
-            label1.Size = new Size(185, 54);
+            label1.Size = new Size(140, 37);
             label1.TabIndex = 0;
-            label1.Text = "Samsung";
+            label1.Text = "Brand";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 30F);
+            label2.Font = new Font("Segoe UI", 20F);
             label2.Location = new Point(225, 0);
             label2.Name = "label2";
-            label2.Size = new Size(184, 54);
+            label2.Size = new Size(140, 37);
             label2.TabIndex = 1;
-            label2.Text = "S23 Ultra";
+            label2.Text = "Model";
             label2.Click += label2_Click;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 20F);
-            label3.Location = new Point(0, 113);
+            label3.Font = new Font("Segoe UI", 15F);
+            label3.Location = new Point(0, 50);
             label3.Name = "label3";
-            label3.Size = new Size(125, 37);
+            label3.Size = new Size(95, 28);
             label3.TabIndex = 2;
             label3.Text = "Category";
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Font = new Font("Segoe UI", 20F);
-            label4.Location = new Point(144, 113);
+            label4.Font = new Font("Segoe UI", 15F);
+            label4.Location = new Point(144, 50);
             label4.Name = "label4";
-            label4.Size = new Size(181, 37);
+            label4.Size = new Size(124, 28);
             label4.TabIndex = 3;
             label4.Text = "Sub-Category";
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Font = new Font("Segoe UI", 20F);
-            label5.Location = new Point(3, 54);
+            label5.Font = new Font("Segoe UI", 15F);
+            label5.Location = new Point(3, 88);
             label5.Name = "label5";
-            label5.Size = new Size(183, 37);
+            label5.Size = new Size(113, 28);
             label5.TabIndex = 4;
-            label5.Text = "Price: 1299.99";
+            label5.Text = "Price: 0.00";
             // 
             // btnStatus
             // 
             btnStatus.BackColor = Color.Red;
             btnStatus.FlatStyle = FlatStyle.Flat;
-            btnStatus.Font = new Font("Segoe UI", 25F, FontStyle.Bold);
+            btnStatus.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
             btnStatus.ForeColor = Color.Black;
-            btnStatus.Location = new Point(492, 71);
+            btnStatus.Location = new Point(492, 50);
             btnStatus.Name = "btnStatus";
             btnStatus.Size = new Size(176, 58);
             btnStatus.TabIndex = 12;
@@ -106,22 +106,22 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Font = new Font("Segoe UI", 20F);
-            label6.Location = new Point(392, 84);
+            label6.Font = new Font("Segoe UI", 15F);
+            label6.Location = new Point(392, 64);
             label6.Name = "label6";
-            label6.Size = new Size(94, 37);
+            label6.Size = new Size(70, 28);
             label6.TabIndex = 13;
             label6.Text = "Status:";
             // 
             // label7
             // 
             label7.AutoSize = true;
-            label7.Font = new Font("Segoe UI", 20F);
+            label7.Font = new Font("Segoe UI", 15F);
             label7.Location = new Point(492, 17);
             label7.Name = "label7";
-            label7.Size = new Size(155, 37);
+            label7.Size = new Size(103, 28);
             label7.TabIndex = 14;
-            label7.Text = "Amount: 10";
+            label7.Text = "Amount: 0";
             // 
             // ReplenishmentRequestUC
             // 

@@ -56,7 +56,11 @@ namespace MP_EntityLibrary
 
         public string GetObjectString()
         {
-            return Id.ToString() + Category.Name + Brand.Name + SubCategory.Name +Model + Price.ToString();
+            return Id.ToString() + Category.Name + Brand.Name + SubCategory.Name + Model + Price.ToString();
+        }
+        public bool IsBelowThreshold(int threshold)
+        {
+            return StoreQuantity < threshold;
         }
     }
 }
