@@ -40,11 +40,13 @@ namespace MP_WindowsFormsApp.Forms
             {
                 btnAddDepartment.Enabled = true;
                 btnUpdateDepartment.Enabled = true;
+                btnDeleteDepartment.Enabled = true;
             }
             else
             {
                 btnAddDepartment.Enabled = false;
                 btnUpdateDepartment.Enabled = false;
+                btnDeleteDepartment.Enabled = false;
             }
         }
 
@@ -70,5 +72,24 @@ namespace MP_WindowsFormsApp.Forms
                 MessageBox.Show("Please select a department to update.", "Update Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void btnDeleteDepartment_Click_1(object sender, EventArgs e)
+        {
+            if (dgvDepartments.SelectedRows.Count > 0)
+            {
+                var selectedDepartment = (Department)dgvDepartments.SelectedRows[0].DataBoundItem;
+                var result = MessageBox.Show($"Are you sure you want to delete the department {selectedDepartment.Name}?", "Delete Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                if (result == DialogResult.Yes)
+                {
+                    departmentService.DeleteDepartment(selectedDepartment.Id);
+                    LoadDepartments(); // Refresh the list after deleting
+                }
+            }
+            else
+            {
+                MessageBox.Show("Please select a department to delete.", "Delete Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
     }
 }
+    

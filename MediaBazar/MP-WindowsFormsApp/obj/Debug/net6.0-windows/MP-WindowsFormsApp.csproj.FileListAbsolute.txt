@@ -849,3 +849,4 @@ D:\Software-S2\media-bazzarNew\MediaBazar\MP-WindowsFormsApp\obj\Debug\net6.0-wi
 D:\Visual code studio\Fontys\Sem2Software\GroupProject\media-bazzar\MediaBazar\MP-WindowsFormsApp\obj\Debug\net6.0-windows\MP_WindowsFormsApp.Forms.DepartmentForm.resources
 D:\Visual code studio\Fontys\Sem2Software\GroupProject\media-bazzar\MediaBazar\MP-WindowsFormsApp\obj\Debug\net6.0-windows\MP_WindowsFormsApp.Forms.AddDepartmentForm.resources
 D:\Visual code studio\Fontys\Sem2Software\GroupProject\media-bazzar\MediaBazar\MP-WindowsFormsApp\obj\Debug\net6.0-windows\MP_WindowsFormsApp.Forms.UpdateDepartmentForm.resources
+D:\Software-S2\media-bazzarNew\MediaBazar\MP-WindowsFormsApp\bin\Debug\net6.0-windows\CsvHelper.dll
