@@ -31,7 +31,7 @@ namespace MP_WindowsFormsApp.Forms
         }
         public void RefreshSchedule()
         {
-            dispalyDays(); 
+            dispalyDays();
         }
         private void dispalyDays()
         {
@@ -181,7 +181,7 @@ namespace MP_WindowsFormsApp.Forms
         }
         private Tuple<TimeSpan, TimeSpan> GetShiftTimes(int shiftId)
         {
-            
+
             return shiftId switch
             {
                 1 => Tuple.Create(new TimeSpan(8, 0, 0), new TimeSpan(12, 0, 0)),
@@ -189,6 +189,10 @@ namespace MP_WindowsFormsApp.Forms
                 3 => Tuple.Create(new TimeSpan(16, 0, 0), new TimeSpan(20, 0, 0)),
                 _ => Tuple.Create(new TimeSpan(0, 0, 0), new TimeSpan(0, 0, 0)),
             };
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
         }
     }
 }

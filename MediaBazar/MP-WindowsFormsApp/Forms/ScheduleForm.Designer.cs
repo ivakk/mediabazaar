@@ -39,6 +39,7 @@
             lblThursday = new Label();
             lblSaturday = new Label();
             lblDate = new Label();
+            button1 = new Button();
             SuspendLayout();
             // 
             // dayContainer
@@ -159,12 +160,24 @@
             lblDate.Text = "MONTH YEAR";
             lblDate.TextAlign = ContentAlignment.MiddleCenter;
             // 
+            // button1
+            // 
+            button1.Location = new Point(212, 923);
+            button1.Margin = new Padding(2);
+            button1.Name = "button1";
+            button1.Size = new Size(102, 32);
+            button1.TabIndex = 11;
+            button1.Text = "Auto";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
             // ScheduleForm
             // 
             AutoScaleDimensions = new SizeF(96F, 96F);
             AutoScaleMode = AutoScaleMode.Dpi;
             AutoSize = true;
             ClientSize = new Size(1447, 966);
+            Controls.Add(button1);
             Controls.Add(lblDate);
             Controls.Add(lblSaturday);
             Controls.Add(lblFriday);
@@ -197,5 +210,6 @@
         private Label lblThursday;
         private Label lblSaturday;
         private Label lblDate;
+        private Button button1;
     }
 }

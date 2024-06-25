@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Software-S2\\media-bazzarNew\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj": {}
+    "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj": {}
   },
   "projects": {
-    "D:\\Software-S2\\media-bazzarNew\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj": {
+    "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Software-S2\\media-bazzarNew\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj",
+        "projectUniqueName": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj",
         "projectName": "MP-BusinessLogic",
-        "projectPath": "D:\\Software-S2\\media-bazzarNew\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj",
-        "packagesPath": "C:\\Users\\ivayl\\.nuget\\packages\\",
-        "outputPath": "D:\\Software-S2\\media-bazzarNew\\MediaBazar\\MP-BusinessLogic\\obj\\",
+        "projectPath": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\ivk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ivayl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ivk\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -60,21 +60,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Software-S2\\media-bazzarNew\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj": {
+    "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Software-S2\\media-bazzarNew\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj",
         "projectName": "MP-DataAccess",
-        "projectPath": "D:\\Software-S2\\media-bazzarNew\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj",
-        "packagesPath": "C:\\Users\\ivayl\\.nuget\\packages\\",
-        "outputPath": "D:\\Software-S2\\media-bazzarNew\\MediaBazar\\MP-DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj",
+        "packagesPath": "C:\\Users\\ivk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ivayl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ivk\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -88,8 +88,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Software-S2\\media-bazzarNew\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj": {
-                "projectPath": "D:\\Software-S2\\media-bazzarNew\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj"
+              "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj": {
+                "projectPath": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj"
               }
             }
           }
@@ -138,7 +138,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

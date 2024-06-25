@@ -38,6 +38,11 @@ namespace MP_BusinessLogic.Services
         {
             return controller.GetDepartmentById(id);
         }
+
+        public Department GetDepartmentByName(string name)
+        {
+            return controller.GetDepartmentByName(name);
+        }
         //public List<Department> GetAllDepartments()
         //{
         //    return controller.GetAllDepartments();
@@ -54,5 +59,6 @@ namespace MP_BusinessLogic.Services
         //{
         //    controller.DeleteDepartment(id);
         //}
+
     }
 }

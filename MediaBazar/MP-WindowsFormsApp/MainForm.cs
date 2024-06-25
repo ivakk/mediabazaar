@@ -52,7 +52,7 @@ namespace MP_WindowsFormsApp
 
             if (!(loggedInUser.Position.ToLower().Trim() == "worker" && loggedInUser.Department.Name.ToLower().Trim() == "depot" || loggedInUser.Department.Name.ToLower().Trim() == "sales"))
             {
-                menuButtons.Add(new MenuButton("Users", userForm, this));
+                menuButtons.Add(new MenuButton("Employees", userForm, this));
             }
 
             menuButtons.Add(new MenuButton("Products", productForm, this));
@@ -65,7 +65,7 @@ namespace MP_WindowsFormsApp
             accessForms = new Dictionary<string, object>()
             {
                 { "Products", productForm },
-                { "Users", userForm },
+                { "Employees", userForm },
                 { "Scheduling", scheduleForm },
                 { "Departments", departmentForm }
             };
@@ -90,7 +90,7 @@ namespace MP_WindowsFormsApp
 
             foreach (MenuButton button in menuButtons)
             {
-                if (button.Text != "Users" || !(loggedInUser.Position == "worker" && loggedInUser.Department.Name == "depot"))
+                if (button.Text != "Employees" || !(loggedInUser.Position == "worker" && loggedInUser.Department.Name == "depot"))
                 {
                     flpMenu.Controls.Add(button);
                 }

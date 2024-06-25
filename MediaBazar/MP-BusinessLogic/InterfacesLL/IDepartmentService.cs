@@ -14,5 +14,6 @@ namespace MP_BusinessLogic.InterfacesLL
         bool UpdateDepartment(Department department);
         bool DeleteDepartment(int id);
         Department GetDepartmentById(int id);
+        Department GetDepartmentByName(string name);
     }
 }

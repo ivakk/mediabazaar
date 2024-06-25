@@ -226,5 +226,45 @@ namespace MP_DataAccess.DALManagers
                 connection.Close();
             }
         }
+        public Department GetDepartmentByName(string name)
+        {
+            string query = $"SELECT * FROM {tableName} WHERE name = @name";
+            Department department = null;
+            // Open the connection
+            connection.Open();
+
+            SqlCommand command = new SqlCommand(query, base.connection);
+
+            try
+            {
+                // Add the parameters
+                command.Parameters.AddWithValue("@name", name);
+
+                // Execute the query and get the data
+                using SqlDataReader reader = command.ExecuteReader();
+                while (reader.Read())
+                {
+                    department = new Department(
+                        (int)reader["departmentId"],
+                        reader["name"] as string ?? string.Empty,
+                        reader["accessString"] as string ?? string.Empty, // Ensure correct field name
+                        reader["Description"] as string ?? string.Empty,
+                        reader["RequiredPersonnel"] != DBNull.Value ? (int)reader["RequiredPersonnel"] : 0,
+                        reader["Positions"] as string ?? string.Empty,
+                        reader["PointOfContact"] as string ?? string.Empty
+                    );
+                }
+            }
+            catch (SqlException e)
+            {
+                // Handle any errors that may have occurred.
+                Console.WriteLine(e.Message);
+            }
+            finally
+            {
+                connection.Close();
+            }
+            return department;
+        }
     }
 }
