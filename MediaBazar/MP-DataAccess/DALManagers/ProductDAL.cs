@@ -174,11 +174,11 @@ namespace MP_DataAccess.DALManagers
                 $"model = @model, " +
                 $"description = @description, " +
                 $"price = @price, " +
-                $"warehouseQuantity = @warehouseQuantity " +
-                $"UPCcode = @upcCode " +
-                $"storeQuantity = @storeQuantity " +
-                $"weight = @weight " +
-                $"height = @height " +
+                $"warehouseQuantity = @warehouseQuantity, " +
+                $"UPCcode = @upcCode, " +
+                $"storeQuantity = @storeQuantity, " +
+                $"weight = @weight, " +
+                $"height = @height, " +
                 $"width = @width " +
                 $"WHERE productId = @id";
 

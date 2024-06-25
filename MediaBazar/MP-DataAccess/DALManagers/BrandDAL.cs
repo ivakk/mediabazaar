@@ -79,7 +79,11 @@ namespace MP_DataAccess.DALManagers
                 // Handle any errors that may have occurred.
                 Console.WriteLine(e.Message);
             }
-            connection.Close();
+            finally
+            {
+                connection.Close();
+            }
+            
             return null;
         }
         public object? Get(int id)

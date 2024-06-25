@@ -43,6 +43,7 @@ namespace MP_WindowsFormsApp.Forms.ProductSubForms
         {
             this.productId = productId;
             Product product = productService.GetById(productId);
+            productId = product.Id;
             cbBrand.Text = product.Brand.Name;
             tbModel.Text = product.Model;
             cbCategory.Text = product.Category.Name;

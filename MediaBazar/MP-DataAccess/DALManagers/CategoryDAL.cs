@@ -79,6 +79,10 @@ namespace MP_DataAccess.DALManagers
                 // Handle any errors that may have occurred.
                 Console.WriteLine(e.Message);
             }
+            finally
+            {
+                connection.Close();
+            }
 
             // Close the connection
             connection.Close();
@@ -110,7 +114,10 @@ namespace MP_DataAccess.DALManagers
                 // Handle any errors that may have occurred.
                 Console.WriteLine(e.Message);
             }
-            connection.Close();
+            finally
+            {
+                connection.Close();
+            }
             return null;
         }
         /**
@@ -142,7 +149,10 @@ namespace MP_DataAccess.DALManagers
                 // Handle any errors that may have occurred.
                 Console.WriteLine(e.Message);
             }
-            connection.Close();
+            finally
+            {
+                connection.Close();
+            }
             return null;
         }
 
@@ -175,7 +185,10 @@ namespace MP_DataAccess.DALManagers
                 // Handle any errors that may have occurred.
                 Console.WriteLine(e.Message);
             }
-            connection.Close();
+            finally
+            {
+                connection.Close();
+            }
             return false;
         }
         public Category GetCategoryById(int id)

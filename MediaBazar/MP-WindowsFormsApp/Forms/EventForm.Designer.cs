@@ -172,7 +172,7 @@
             buttonAutoSchedule.TabIndex = 14;
             buttonAutoSchedule.Text = "Auto Schedule";
             buttonAutoSchedule.UseVisualStyleBackColor = true;
-            buttonAutoSchedule.Click += buttonAutoSchedule_Click;
+            buttonAutoSchedule.Click += btnAutoSchedule_Click;
             // 
             // EventForm
             // 

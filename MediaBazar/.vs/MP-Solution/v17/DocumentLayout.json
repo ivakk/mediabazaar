@@ -3,16 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\mp-windowsformsapp\\forms\\eventform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|solutionrelative:mp-windowsformsapp\\forms\\eventform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\mp-windowsformsapp\\forms\\productsubforms\\addproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|solutionrelative:mp-windowsformsapp\\forms\\productsubforms\\addproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\mp-windowsformsapp\\forms\\scheduleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|solutionrelative:mp-windowsformsapp\\forms\\scheduleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8BC136A8-CDDF-4564-847C-9F44BC243327}|MP-DataAccess\\MP-DataAccess.csproj|C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\mp-dataaccess\\dalmanagers\\branddal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BC136A8-CDDF-4564-847C-9F44BC243327}|MP-DataAccess\\MP-DataAccess.csproj|solutionrelative:mp-dataaccess\\dalmanagers\\branddal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BC136A8-CDDF-4564-847C-9F44BC243327}|MP-DataAccess\\MP-DataAccess.csproj|C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\mp-dataaccess\\dalmanagers\\categorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BC136A8-CDDF-4564-847C-9F44BC243327}|MP-DataAccess\\MP-DataAccess.csproj|solutionrelative:mp-dataaccess\\dalmanagers\\categorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\mp-windowsformsapp\\forms\\productsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|solutionrelative:mp-windowsformsapp\\forms\\productsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BC136A8-CDDF-4564-847C-9F44BC243327}|MP-DataAccess\\MP-DataAccess.csproj|C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\mp-dataaccess\\dalmanagers\\productdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BC136A8-CDDF-4564-847C-9F44BC243327}|MP-DataAccess\\MP-DataAccess.csproj|solutionrelative:mp-dataaccess\\dalmanagers\\productdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8BC136A8-CDDF-4564-847C-9F44BC243327}|MP-DataAccess\\MP-DataAccess.csproj|C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\mp-dataaccess\\dalmanagers\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8BC136A8-CDDF-4564-847C-9F44BC243327}|MP-DataAccess\\MP-DataAccess.csproj|solutionrelative:mp-dataaccess\\dalmanagers\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\mp-windowsformsapp\\forms\\eventform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|solutionrelative:mp-windowsformsapp\\forms\\eventform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\mp-windowsformsapp\\forms\\departmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|solutionrelative:mp-windowsformsapp\\forms\\departmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\mp-windowsformsapp\\forms\\eventform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|solutionrelative:mp-windowsformsapp\\forms\\eventform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55195452-2B62-4C06-9C2A-0E712991D2F0}|MP-BusinessLogic\\MP-BusinessLogic.csproj|C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\mp-businesslogic\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55195452-2B62-4C06-9C2A-0E712991D2F0}|MP-BusinessLogic\\MP-BusinessLogic.csproj|solutionrelative:mp-businesslogic\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55195452-2B62-4C06-9C2A-0E712991D2F0}|MP-BusinessLogic\\MP-BusinessLogic.csproj|C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\mp-businesslogic\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55195452-2B62-4C06-9C2A-0E712991D2F0}|MP-BusinessLogic\\MP-BusinessLogic.csproj|solutionrelative:mp-businesslogic\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\mp-windowsformsapp\\forms\\scheduleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|solutionrelative:mp-windowsformsapp\\forms\\scheduleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\mp-windowsformsapp\\forms\\eventform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -35,10 +71,6 @@
       "RelativeMoniker": "D:0:0:{55195452-2B62-4C06-9C2A-0E712991D2F0}|MP-BusinessLogic\\MP-BusinessLogic.csproj|solutionrelative:mp-businesslogic\\services\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55195452-2B62-4C06-9C2A-0E712991D2F0}|MP-BusinessLogic\\MP-BusinessLogic.csproj|C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\mp-businesslogic\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55195452-2B62-4C06-9C2A-0E712991D2F0}|MP-BusinessLogic\\MP-BusinessLogic.csproj|solutionrelative:mp-businesslogic\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{55195452-2B62-4C06-9C2A-0E712991D2F0}|MP-BusinessLogic\\MP-BusinessLogic.csproj|C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\mp-businesslogic\\services\\subcategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55195452-2B62-4C06-9C2A-0E712991D2F0}|MP-BusinessLogic\\MP-BusinessLogic.csproj|solutionrelative:mp-businesslogic\\services\\subcategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -59,24 +91,12 @@
       "RelativeMoniker": "D:0:0:{8BC136A8-CDDF-4564-847C-9F44BC243327}|MP-DataAccess\\MP-DataAccess.csproj|solutionrelative:mp-dataaccess\\dalmanagers\\subcategorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BC136A8-CDDF-4564-847C-9F44BC243327}|MP-DataAccess\\MP-DataAccess.csproj|C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\mp-dataaccess\\dalmanagers\\productdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BC136A8-CDDF-4564-847C-9F44BC243327}|MP-DataAccess\\MP-DataAccess.csproj|solutionrelative:mp-dataaccess\\dalmanagers\\productdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8BC136A8-CDDF-4564-847C-9F44BC243327}|MP-DataAccess\\MP-DataAccess.csproj|C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\mp-dataaccess\\dalmanagers\\categorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BC136A8-CDDF-4564-847C-9F44BC243327}|MP-DataAccess\\MP-DataAccess.csproj|solutionrelative:mp-dataaccess\\dalmanagers\\categorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8BC136A8-CDDF-4564-847C-9F44BC243327}|MP-DataAccess\\MP-DataAccess.csproj|C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\mp-dataaccess\\dalmanagers\\replenishmentrequestdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8BC136A8-CDDF-4564-847C-9F44BC243327}|MP-DataAccess\\MP-DataAccess.csproj|solutionrelative:mp-dataaccess\\dalmanagers\\replenishmentrequestdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{55195452-2B62-4C06-9C2A-0E712991D2F0}|MP-BusinessLogic\\MP-BusinessLogic.csproj|C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\mp-businesslogic\\interfacesll\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55195452-2B62-4C06-9C2A-0E712991D2F0}|MP-BusinessLogic\\MP-BusinessLogic.csproj|solutionrelative:mp-businesslogic\\interfacesll\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8BC136A8-CDDF-4564-847C-9F44BC243327}|MP-DataAccess\\MP-DataAccess.csproj|C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\mp-dataaccess\\dalmanagers\\branddal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BC136A8-CDDF-4564-847C-9F44BC243327}|MP-DataAccess\\MP-DataAccess.csproj|solutionrelative:mp-dataaccess\\dalmanagers\\branddal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8BC136A8-CDDF-4564-847C-9F44BC243327}|MP-DataAccess\\MP-DataAccess.csproj|C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\mp-dataaccess\\dalmanagers\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -89,10 +109,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\mp-windowsformsapp\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|solutionrelative:mp-windowsformsapp\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\mp-windowsformsapp\\forms\\productsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|solutionrelative:mp-windowsformsapp\\forms\\productsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\mp-windowsformsapp\\usercontrols\\replenishmentrequestuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -139,10 +155,6 @@
       "RelativeMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|solutionrelative:mp-windowsformsapp\\forms\\productsform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\mp-windowsformsapp\\forms\\productsubforms\\addproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|solutionrelative:mp-windowsformsapp\\forms\\productsubforms\\addproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\mp-windowsformsapp\\forms\\productsubforms\\addproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|solutionrelative:mp-windowsformsapp\\forms\\productsubforms\\addproductform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -169,10 +181,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\mp-windowsformsapp\\forms\\replenishmentrequestsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|solutionrelative:mp-windowsformsapp\\forms\\replenishmentrequestsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\mp-windowsformsapp\\forms\\departmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|solutionrelative:mp-windowsformsapp\\forms\\departmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\mp-windowsformsapp\\forms\\departmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -209,10 +217,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{60CC6C35-5403-41F4-B46F-519267B13D9E}|MP-WebApplication\\MP-WebApplication.csproj|C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\mp-webapplication\\pages\\stockstatistic.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{60CC6C35-5403-41F4-B46F-519267B13D9E}|MP-WebApplication\\MP-WebApplication.csproj|solutionrelative:mp-webapplication\\pages\\stockstatistic.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55195452-2B62-4C06-9C2A-0E712991D2F0}|MP-BusinessLogic\\MP-BusinessLogic.csproj|C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\mp-businesslogic\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55195452-2B62-4C06-9C2A-0E712991D2F0}|MP-BusinessLogic\\MP-BusinessLogic.csproj|solutionrelative:mp-businesslogic\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{55195452-2B62-4C06-9C2A-0E712991D2F0}|MP-BusinessLogic\\MP-BusinessLogic.csproj|C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\mp-businesslogic\\entities\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -418,10 +422,6 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.204\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\mp-windowsformsapp\\forms\\eventform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|solutionrelative:mp-windowsformsapp\\forms\\eventform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\mp-windowsformsapp\\usercontrols\\usercontroldays.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|solutionrelative:mp-windowsformsapp\\usercontrols\\usercontroldays.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -445,11 +445,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 3,
               "Title": "ProductsForm.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\ProductsForm.cs",
               "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Forms\\ProductsForm.cs",
@@ -463,7 +463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 13,
               "Title": "MainForm.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\MainForm.cs",
               "RelativeDocumentMoniker": "MP-WindowsFormsApp\\MainForm.cs",
@@ -477,7 +477,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "LoginForm.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\LoginForm.cs",
               "RelativeDocumentMoniker": "MP-WindowsFormsApp\\LoginForm.cs",
@@ -491,13 +491,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 0,
               "Title": "AddProductForm.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\ProductSubForms\\AddProductForm.cs",
               "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Forms\\ProductSubForms\\AddProductForm.cs",
               "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\ProductSubForms\\AddProductForm.cs",
               "RelativeToolTip": "MP-WindowsFormsApp\\Forms\\ProductSubForms\\AddProductForm.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAIBJwEYAAABQAAAA",
+              "ViewState": "AQIAACUAAAAAAAAAAAAQwDcAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-14T13:28:18.279Z",
               "IsPinned": true,
@@ -505,7 +505,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 68,
               "Title": "UsersForm.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\UsersForm.cs",
               "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Forms\\UsersForm.cs",
@@ -519,7 +519,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 67,
               "Title": "StockStatistic.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WebApplication\\Pages\\StockStatistic.cshtml.cs",
               "RelativeDocumentMoniker": "MP-WebApplication\\Pages\\StockStatistic.cshtml.cs",
@@ -533,7 +533,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 53,
               "Title": "StockStatistic.cshtml",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WebApplication\\Pages\\StockStatistic.cshtml",
               "RelativeDocumentMoniker": "MP-WebApplication\\Pages\\StockStatistic.cshtml",
@@ -547,7 +547,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 49,
               "Title": "Profile.cshtml",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WebApplication\\Pages\\Profile.cshtml",
               "RelativeDocumentMoniker": "MP-WebApplication\\Pages\\Profile.cshtml",
@@ -561,7 +561,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 50,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WebApplication\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "MP-WebApplication\\wwwroot\\css\\site.css",
@@ -575,83 +575,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EventForm.cs",
-              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\EventForm.cs",
-              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Forms\\EventForm.cs",
-              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\EventForm.cs*",
-              "RelativeToolTip": "MP-WindowsFormsApp\\Forms\\EventForm.cs*",
-              "ViewState": "AQIAAKMAAAAAAAAAAAAkwLcAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T11:09:02.247Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ScheduleForm.cs",
-              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\ScheduleForm.cs",
-              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Forms\\ScheduleForm.cs",
-              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\ScheduleForm.cs",
-              "RelativeToolTip": "MP-WindowsFormsApp\\Forms\\ScheduleForm.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAADwvxUAAAAhAAAA",
+              "Title": "BrandDAL.cs",
+              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-DataAccess\\DALManagers\\BrandDAL.cs",
+              "RelativeDocumentMoniker": "MP-DataAccess\\DALManagers\\BrandDAL.cs",
+              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-DataAccess\\DALManagers\\BrandDAL.cs",
+              "RelativeToolTip": "MP-DataAccess\\DALManagers\\BrandDAL.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAiwFMAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T11:02:45.144Z",
+              "WhenOpened": "2024-04-17T09:56:51.731Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UserDAL.cs",
-              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-DataAccess\\DALManagers\\UserDAL.cs",
-              "RelativeDocumentMoniker": "MP-DataAccess\\DALManagers\\UserDAL.cs",
-              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-DataAccess\\DALManagers\\UserDAL.cs",
-              "RelativeToolTip": "MP-DataAccess\\DALManagers\\UserDAL.cs",
-              "ViewState": "AQIAAEMAAAAAAAAAAAAAAFkAAAApAAAA",
+              "Title": "CategoryDAL.cs",
+              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-DataAccess\\DALManagers\\CategoryDAL.cs",
+              "RelativeDocumentMoniker": "MP-DataAccess\\DALManagers\\CategoryDAL.cs",
+              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-DataAccess\\DALManagers\\CategoryDAL.cs",
+              "RelativeToolTip": "MP-DataAccess\\DALManagers\\CategoryDAL.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAADwv1MAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T09:48:40.048Z",
+              "WhenOpened": "2024-04-17T09:56:57.726Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EventForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\EventForm.cs",
-              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Forms\\EventForm.cs",
-              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\EventForm.cs [Design]*",
-              "RelativeToolTip": "MP-WindowsFormsApp\\Forms\\EventForm.cs [Design]*",
+              "DocumentIndex": 4,
+              "Title": "ProductDAL.cs",
+              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-DataAccess\\DALManagers\\ProductDAL.cs",
+              "RelativeDocumentMoniker": "MP-DataAccess\\DALManagers\\ProductDAL.cs",
+              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-DataAccess\\DALManagers\\ProductDAL.cs",
+              "RelativeToolTip": "MP-DataAccess\\DALManagers\\ProductDAL.cs",
+              "ViewState": "AQIAAKkAAAAAAAAAAAAAwLUAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T08:56:52.759Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ScheduleForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\ScheduleForm.cs",
-              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Forms\\ScheduleForm.cs",
-              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\ScheduleForm.cs [Design]",
-              "RelativeToolTip": "MP-WindowsFormsApp\\Forms\\ScheduleForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T12:35:31.791Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DepartmentDAL.cs",
-              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-DataAccess\\DALManagers\\DepartmentDAL.cs",
-              "RelativeDocumentMoniker": "MP-DataAccess\\DALManagers\\DepartmentDAL.cs",
-              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-DataAccess\\DALManagers\\DepartmentDAL.cs",
-              "RelativeToolTip": "MP-DataAccess\\DALManagers\\DepartmentDAL.cs",
-              "ViewState": "AQIAAN8AAAAAAAAAAAAkwPAAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T09:57:45.635Z",
+              "WhenOpened": "2024-04-17T09:57:03.423Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 16,
               "Title": "DepartmentService.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\Services\\DepartmentService.cs",
               "RelativeDocumentMoniker": "MP-BusinessLogic\\Services\\DepartmentService.cs",
@@ -664,7 +627,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
+              "Title": "EventForm.cs",
+              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\EventForm.cs",
+              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Forms\\EventForm.cs",
+              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\EventForm.cs",
+              "RelativeToolTip": "MP-WindowsFormsApp\\Forms\\EventForm.cs",
+              "ViewState": "AQIAAGUAAAAAAAAAAADwvysAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T11:09:02.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ScheduleForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\ScheduleForm.cs",
+              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Forms\\ScheduleForm.cs",
+              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\ScheduleForm.cs [Design]",
+              "RelativeToolTip": "MP-WindowsFormsApp\\Forms\\ScheduleForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T12:35:31.791Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "MP-BusinessLogic\\Services\\UserService.cs",
@@ -677,413 +665,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SubCategoryService.cs",
-              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\Services\\SubCategoryService.cs",
-              "RelativeDocumentMoniker": "MP-BusinessLogic\\Services\\SubCategoryService.cs",
-              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\Services\\SubCategoryService.cs",
-              "RelativeToolTip": "MP-BusinessLogic\\Services\\SubCategoryService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T05:58:00.389Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\Services\\ProductService.cs",
-              "RelativeDocumentMoniker": "MP-BusinessLogic\\Services\\ProductService.cs",
-              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\Services\\ProductService.cs",
-              "RelativeToolTip": "MP-BusinessLogic\\Services\\ProductService.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAAwEMAAAAAAAAA",
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "MP-BusinessLogic\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\Entities\\User.cs",
+              "RelativeToolTip": "MP-BusinessLogic\\Entities\\User.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAkwAwAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T10:14:16.549Z",
+              "WhenOpened": "2024-05-14T07:24:44.476Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IDepartmentDalManager.cs",
-              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\InterfacesDal\\IDepartmentDalManager.cs",
-              "RelativeDocumentMoniker": "MP-BusinessLogic\\InterfacesDal\\IDepartmentDalManager.cs",
-              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\InterfacesDal\\IDepartmentDalManager.cs",
-              "RelativeToolTip": "MP-BusinessLogic\\InterfacesDal\\IDepartmentDalManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
+              "DocumentIndex": 8,
+              "Title": "EventForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\EventForm.Designer.cs",
+              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Forms\\EventForm.Designer.cs",
+              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\EventForm.Designer.cs",
+              "RelativeToolTip": "MP-WindowsFormsApp\\Forms\\EventForm.Designer.cs",
+              "ViewState": "AQIAAJwAAAAAAAAAAAAmwK4AAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T10:14:16.231Z",
+              "WhenOpened": "2024-04-17T11:09:27.875Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IDepartmentService.cs",
-              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\InterfacesLL\\IDepartmentService.cs",
-              "RelativeDocumentMoniker": "MP-BusinessLogic\\InterfacesLL\\IDepartmentService.cs",
-              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\InterfacesLL\\IDepartmentService.cs",
-              "RelativeToolTip": "MP-BusinessLogic\\InterfacesLL\\IDepartmentService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T10:14:16.195Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "SubCategoryDAL.cs",
-              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-DataAccess\\DALManagers\\SubCategoryDAL.cs",
-              "RelativeDocumentMoniker": "MP-DataAccess\\DALManagers\\SubCategoryDAL.cs",
-              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-DataAccess\\DALManagers\\SubCategoryDAL.cs",
-              "RelativeToolTip": "MP-DataAccess\\DALManagers\\SubCategoryDAL.cs",
-              "ViewState": "AQIAAM4AAAAAAAAAAAAtwN0AAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T09:57:08.681Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ProductDAL.cs",
-              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-DataAccess\\DALManagers\\ProductDAL.cs",
-              "RelativeDocumentMoniker": "MP-DataAccess\\DALManagers\\ProductDAL.cs",
-              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-DataAccess\\DALManagers\\ProductDAL.cs",
-              "RelativeToolTip": "MP-DataAccess\\DALManagers\\ProductDAL.cs",
-              "ViewState": "AQIAAIIBAAAAAAAAAAAuwJABAACKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T09:57:03.423Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CategoryDAL.cs",
-              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-DataAccess\\DALManagers\\CategoryDAL.cs",
-              "RelativeDocumentMoniker": "MP-DataAccess\\DALManagers\\CategoryDAL.cs",
-              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-DataAccess\\DALManagers\\CategoryDAL.cs",
-              "RelativeToolTip": "MP-DataAccess\\DALManagers\\CategoryDAL.cs",
-              "ViewState": "AQIAAMMAAAAAAAAAAAAtwNIAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T09:56:57.726Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ReplenishmentRequestDAL.cs",
-              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-DataAccess\\DALManagers\\ReplenishmentRequestDAL.cs",
-              "RelativeDocumentMoniker": "MP-DataAccess\\DALManagers\\ReplenishmentRequestDAL.cs",
-              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-DataAccess\\DALManagers\\ReplenishmentRequestDAL.cs",
-              "RelativeToolTip": "MP-DataAccess\\DALManagers\\ReplenishmentRequestDAL.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAYwEcAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T09:18:23.564Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\InterfacesLL\\IUserService.cs",
-              "RelativeDocumentMoniker": "MP-BusinessLogic\\InterfacesLL\\IUserService.cs",
-              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\InterfacesLL\\IUserService.cs",
-              "RelativeToolTip": "MP-BusinessLogic\\InterfacesLL\\IUserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T05:54:42.997Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "BrandDAL.cs",
-              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-DataAccess\\DALManagers\\BrandDAL.cs",
-              "RelativeDocumentMoniker": "MP-DataAccess\\DALManagers\\BrandDAL.cs",
-              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-DataAccess\\DALManagers\\BrandDAL.cs",
-              "RelativeToolTip": "MP-DataAccess\\DALManagers\\BrandDAL.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T09:56:51.731Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Connection.cs",
-              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-DataAccess\\DALManagers\\Connection.cs",
-              "RelativeDocumentMoniker": "MP-DataAccess\\DALManagers\\Connection.cs",
-              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-DataAccess\\DALManagers\\Connection.cs",
-              "RelativeToolTip": "MP-DataAccess\\DALManagers\\Connection.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T09:56:55.942Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "LoginForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\LoginForm.cs",
-              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\LoginForm.cs",
-              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\LoginForm.cs [Design]",
-              "RelativeToolTip": "MP-WindowsFormsApp\\LoginForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T11:11:18.294Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "ReplenishmentRequestService.cs",
-              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\Services\\ReplenishmentRequestService.cs",
-              "RelativeDocumentMoniker": "MP-BusinessLogic\\Services\\ReplenishmentRequestService.cs",
-              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\Services\\ReplenishmentRequestService.cs",
-              "RelativeToolTip": "MP-BusinessLogic\\Services\\ReplenishmentRequestService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBYAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T09:22:14.32Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "ReplenishmentRequestsForm.cs",
-              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\ReplenishmentRequestsForm.cs",
-              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Forms\\ReplenishmentRequestsForm.cs",
-              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\ReplenishmentRequestsForm.cs",
-              "RelativeToolTip": "MP-WindowsFormsApp\\Forms\\ReplenishmentRequestsForm.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T11:05:17.904Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ReplenishmentRequestUC.cs",
-              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\ReplenishmentRequestUC.cs",
-              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\UserControls\\ReplenishmentRequestUC.cs",
-              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\ReplenishmentRequestUC.cs",
-              "RelativeToolTip": "MP-WindowsFormsApp\\UserControls\\ReplenishmentRequestUC.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAcwE0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T03:44:39.858Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "IReplenishmentRequestService.cs",
-              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\InterfacesLL\\IReplenishmentRequestService.cs",
-              "RelativeDocumentMoniker": "MP-BusinessLogic\\InterfacesLL\\IReplenishmentRequestService.cs",
-              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\InterfacesLL\\IReplenishmentRequestService.cs",
-              "RelativeToolTip": "MP-BusinessLogic\\InterfacesLL\\IReplenishmentRequestService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T09:23:39.32Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "IReplenishmentRequestDAL.cs",
-              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\InterfacesDal\\IReplenishmentRequestDAL.cs",
-              "RelativeDocumentMoniker": "MP-BusinessLogic\\InterfacesDal\\IReplenishmentRequestDAL.cs",
-              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\InterfacesDal\\IReplenishmentRequestDAL.cs",
-              "RelativeToolTip": "MP-BusinessLogic\\InterfacesDal\\IReplenishmentRequestDAL.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T09:24:38.997Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "ReplenishmentRequestUC.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\ReplenishmentRequestUC.Designer.cs",
-              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\UserControls\\ReplenishmentRequestUC.Designer.cs",
-              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\ReplenishmentRequestUC.Designer.cs",
-              "RelativeToolTip": "MP-WindowsFormsApp\\UserControls\\ReplenishmentRequestUC.Designer.cs",
-              "ViewState": "AQIAAJoAAAAAAAAAAABRwJ0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T03:45:00.89Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "ReplenishmentRequest.cs",
-              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\Entities\\ReplenishmentRequest.cs",
-              "RelativeDocumentMoniker": "MP-BusinessLogic\\Entities\\ReplenishmentRequest.cs",
-              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\Entities\\ReplenishmentRequest.cs",
-              "RelativeToolTip": "MP-BusinessLogic\\Entities\\ReplenishmentRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T09:14:19.497Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "MP-BusinessLogic\\Entities\\Product.cs",
-              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\Entities\\Product.cs",
-              "RelativeToolTip": "MP-BusinessLogic\\Entities\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAIBJwBwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T08:07:29.916Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "ReplenishmentRequestUC.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\ReplenishmentRequestUC.cs",
-              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\UserControls\\ReplenishmentRequestUC.cs",
-              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\ReplenishmentRequestUC.cs [Design]",
-              "RelativeToolTip": "MP-WindowsFormsApp\\UserControls\\ReplenishmentRequestUC.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T03:44:35.98Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "ProductsForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\ProductsForm.cs",
-              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Forms\\ProductsForm.cs",
-              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\ProductsForm.cs [Design]",
-              "RelativeToolTip": "MP-WindowsFormsApp\\Forms\\ProductsForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T08:14:51.314Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "ProductsForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\ProductsForm.Designer.cs",
-              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Forms\\ProductsForm.Designer.cs",
-              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\ProductsForm.Designer.cs",
-              "RelativeToolTip": "MP-WindowsFormsApp\\Forms\\ProductsForm.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAxwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T08:54:22.846Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "UserControlDays.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\UserControlDays.cs",
-              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\UserControls\\UserControlDays.cs",
-              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\UserControlDays.cs [Design]",
-              "RelativeToolTip": "MP-WindowsFormsApp\\UserControls\\UserControlDays.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T12:36:32.195Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "UsersUC.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\UsersUC.cs",
-              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\UserControls\\UsersUC.cs",
-              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\UsersUC.cs [Design]",
-              "RelativeToolTip": "MP-WindowsFormsApp\\UserControls\\UsersUC.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T09:42:54.988Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "AddProductForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\ProductSubForms\\AddProductForm.cs",
-              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Forms\\ProductSubForms\\AddProductForm.cs",
-              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\ProductSubForms\\AddProductForm.cs [Design]",
-              "RelativeToolTip": "MP-WindowsFormsApp\\Forms\\ProductSubForms\\AddProductForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T07:42:00.934Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "UserControlBlank.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\UserControlBlank.cs",
-              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\UserControls\\UserControlBlank.cs",
-              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\UserControlBlank.cs [Design]",
-              "RelativeToolTip": "MP-WindowsFormsApp\\UserControls\\UserControlBlank.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T08:53:25.484Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "AccessDenied.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WebApplication\\Pages\\AccessDenied.cshtml.cs",
-              "RelativeDocumentMoniker": "MP-WebApplication\\Pages\\AccessDenied.cshtml.cs",
-              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WebApplication\\Pages\\AccessDenied.cshtml.cs",
-              "RelativeToolTip": "MP-WebApplication\\Pages\\AccessDenied.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T16:48:28.056Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "MenuButton.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\MenuButton.cs",
-              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\UserControls\\MenuButton.cs",
-              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\MenuButton.cs [Design]",
-              "RelativeToolTip": "MP-WindowsFormsApp\\UserControls\\MenuButton.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T07:30:27.868Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "ReplenishmentRequestUC.resx",
-              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\ReplenishmentRequestUC.resx",
-              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\UserControls\\ReplenishmentRequestUC.resx",
-              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\ReplenishmentRequestUC.resx",
-              "RelativeToolTip": "MP-WindowsFormsApp\\UserControls\\ReplenishmentRequestUC.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-06-24T03:46:58.663Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "ReplenishmentRequestsForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\ReplenishmentRequestsForm.cs",
-              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Forms\\ReplenishmentRequestsForm.cs",
-              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\ReplenishmentRequestsForm.cs [Design]",
-              "RelativeToolTip": "MP-WindowsFormsApp\\Forms\\ReplenishmentRequestsForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T12:52:24.905Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WebApplication\\Pages\\Login.cshtml",
-              "RelativeDocumentMoniker": "MP-WebApplication\\Pages\\Login.cshtml",
-              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WebApplication\\Pages\\Login.cshtml",
-              "RelativeToolTip": "MP-WebApplication\\Pages\\Login.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAIBJwBoAAABKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-15T12:45:52.078Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 7,
               "Title": "DepartmentForm.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\DepartmentForm.cs",
               "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Forms\\DepartmentForm.cs",
@@ -1096,7 +704,425 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserDAL.cs",
+              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-DataAccess\\DALManagers\\UserDAL.cs",
+              "RelativeDocumentMoniker": "MP-DataAccess\\DALManagers\\UserDAL.cs",
+              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-DataAccess\\DALManagers\\UserDAL.cs",
+              "RelativeToolTip": "MP-DataAccess\\DALManagers\\UserDAL.cs",
+              "ViewState": "AQIAACICAAAAAAAAAAAcwEECAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T09:48:40.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DepartmentDAL.cs",
+              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-DataAccess\\DALManagers\\DepartmentDAL.cs",
+              "RelativeDocumentMoniker": "MP-DataAccess\\DALManagers\\DepartmentDAL.cs",
+              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-DataAccess\\DALManagers\\DepartmentDAL.cs",
+              "RelativeToolTip": "MP-DataAccess\\DALManagers\\DepartmentDAL.cs",
+              "ViewState": "AQIAAN8AAAAAAAAAAAAkwPAAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T09:57:45.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EventForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\EventForm.cs",
+              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Forms\\EventForm.cs",
+              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\EventForm.cs [Design]",
+              "RelativeToolTip": "MP-WindowsFormsApp\\Forms\\EventForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T08:56:52.759Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ScheduleForm.cs",
+              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\ScheduleForm.cs",
+              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Forms\\ScheduleForm.cs",
+              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\ScheduleForm.cs",
+              "RelativeToolTip": "MP-WindowsFormsApp\\Forms\\ScheduleForm.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAADwvxUAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T11:02:45.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SubCategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\Services\\SubCategoryService.cs",
+              "RelativeDocumentMoniker": "MP-BusinessLogic\\Services\\SubCategoryService.cs",
+              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\Services\\SubCategoryService.cs",
+              "RelativeToolTip": "MP-BusinessLogic\\Services\\SubCategoryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T05:58:00.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "MP-BusinessLogic\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\Services\\ProductService.cs",
+              "RelativeToolTip": "MP-BusinessLogic\\Services\\ProductService.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAwEMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T10:14:16.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IDepartmentDalManager.cs",
+              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\InterfacesDal\\IDepartmentDalManager.cs",
+              "RelativeDocumentMoniker": "MP-BusinessLogic\\InterfacesDal\\IDepartmentDalManager.cs",
+              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\InterfacesDal\\IDepartmentDalManager.cs",
+              "RelativeToolTip": "MP-BusinessLogic\\InterfacesDal\\IDepartmentDalManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T10:14:16.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IDepartmentService.cs",
+              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\InterfacesLL\\IDepartmentService.cs",
+              "RelativeDocumentMoniker": "MP-BusinessLogic\\InterfacesLL\\IDepartmentService.cs",
+              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\InterfacesLL\\IDepartmentService.cs",
+              "RelativeToolTip": "MP-BusinessLogic\\InterfacesLL\\IDepartmentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T10:14:16.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SubCategoryDAL.cs",
+              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-DataAccess\\DALManagers\\SubCategoryDAL.cs",
+              "RelativeDocumentMoniker": "MP-DataAccess\\DALManagers\\SubCategoryDAL.cs",
+              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-DataAccess\\DALManagers\\SubCategoryDAL.cs",
+              "RelativeToolTip": "MP-DataAccess\\DALManagers\\SubCategoryDAL.cs",
+              "ViewState": "AQIAAM4AAAAAAAAAAAAtwN0AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T09:57:08.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ReplenishmentRequestDAL.cs",
+              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-DataAccess\\DALManagers\\ReplenishmentRequestDAL.cs",
+              "RelativeDocumentMoniker": "MP-DataAccess\\DALManagers\\ReplenishmentRequestDAL.cs",
+              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-DataAccess\\DALManagers\\ReplenishmentRequestDAL.cs",
+              "RelativeToolTip": "MP-DataAccess\\DALManagers\\ReplenishmentRequestDAL.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAYwEcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T09:18:23.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\InterfacesLL\\IUserService.cs",
+              "RelativeDocumentMoniker": "MP-BusinessLogic\\InterfacesLL\\IUserService.cs",
+              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\InterfacesLL\\IUserService.cs",
+              "RelativeToolTip": "MP-BusinessLogic\\InterfacesLL\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T05:54:42.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Connection.cs",
+              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-DataAccess\\DALManagers\\Connection.cs",
+              "RelativeDocumentMoniker": "MP-DataAccess\\DALManagers\\Connection.cs",
+              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-DataAccess\\DALManagers\\Connection.cs",
+              "RelativeToolTip": "MP-DataAccess\\DALManagers\\Connection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T09:56:55.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\LoginForm.cs",
+              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\LoginForm.cs [Design]",
+              "RelativeToolTip": "MP-WindowsFormsApp\\LoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T11:11:18.294Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ReplenishmentRequestService.cs",
+              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\Services\\ReplenishmentRequestService.cs",
+              "RelativeDocumentMoniker": "MP-BusinessLogic\\Services\\ReplenishmentRequestService.cs",
+              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\Services\\ReplenishmentRequestService.cs",
+              "RelativeToolTip": "MP-BusinessLogic\\Services\\ReplenishmentRequestService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T09:22:14.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ReplenishmentRequestsForm.cs",
+              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\ReplenishmentRequestsForm.cs",
+              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Forms\\ReplenishmentRequestsForm.cs",
+              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\ReplenishmentRequestsForm.cs",
+              "RelativeToolTip": "MP-WindowsFormsApp\\Forms\\ReplenishmentRequestsForm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T11:05:17.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ReplenishmentRequestUC.cs",
+              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\ReplenishmentRequestUC.cs",
+              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\UserControls\\ReplenishmentRequestUC.cs",
+              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\ReplenishmentRequestUC.cs",
+              "RelativeToolTip": "MP-WindowsFormsApp\\UserControls\\ReplenishmentRequestUC.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAcwE0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T03:44:39.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IReplenishmentRequestService.cs",
+              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\InterfacesLL\\IReplenishmentRequestService.cs",
+              "RelativeDocumentMoniker": "MP-BusinessLogic\\InterfacesLL\\IReplenishmentRequestService.cs",
+              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\InterfacesLL\\IReplenishmentRequestService.cs",
+              "RelativeToolTip": "MP-BusinessLogic\\InterfacesLL\\IReplenishmentRequestService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T09:23:39.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IReplenishmentRequestDAL.cs",
+              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\InterfacesDal\\IReplenishmentRequestDAL.cs",
+              "RelativeDocumentMoniker": "MP-BusinessLogic\\InterfacesDal\\IReplenishmentRequestDAL.cs",
+              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\InterfacesDal\\IReplenishmentRequestDAL.cs",
+              "RelativeToolTip": "MP-BusinessLogic\\InterfacesDal\\IReplenishmentRequestDAL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T09:24:38.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ReplenishmentRequestUC.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\ReplenishmentRequestUC.Designer.cs",
+              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\UserControls\\ReplenishmentRequestUC.Designer.cs",
+              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\ReplenishmentRequestUC.Designer.cs",
+              "RelativeToolTip": "MP-WindowsFormsApp\\UserControls\\ReplenishmentRequestUC.Designer.cs",
+              "ViewState": "AQIAAJoAAAAAAAAAAABRwJ0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T03:45:00.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ReplenishmentRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\Entities\\ReplenishmentRequest.cs",
+              "RelativeDocumentMoniker": "MP-BusinessLogic\\Entities\\ReplenishmentRequest.cs",
+              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\Entities\\ReplenishmentRequest.cs",
+              "RelativeToolTip": "MP-BusinessLogic\\Entities\\ReplenishmentRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T09:14:19.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "MP-BusinessLogic\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\Entities\\Product.cs",
+              "RelativeToolTip": "MP-BusinessLogic\\Entities\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T08:07:29.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ReplenishmentRequestUC.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\ReplenishmentRequestUC.cs",
+              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\UserControls\\ReplenishmentRequestUC.cs",
+              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\ReplenishmentRequestUC.cs [Design]",
+              "RelativeToolTip": "MP-WindowsFormsApp\\UserControls\\ReplenishmentRequestUC.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T03:44:35.98Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ProductsForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\ProductsForm.cs",
+              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Forms\\ProductsForm.cs",
+              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\ProductsForm.cs [Design]",
+              "RelativeToolTip": "MP-WindowsFormsApp\\Forms\\ProductsForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T08:14:51.314Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ProductsForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\ProductsForm.Designer.cs",
+              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Forms\\ProductsForm.Designer.cs",
+              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\ProductsForm.Designer.cs",
+              "RelativeToolTip": "MP-WindowsFormsApp\\Forms\\ProductsForm.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T08:54:22.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "UserControlDays.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\UserControlDays.cs",
+              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\UserControls\\UserControlDays.cs",
+              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\UserControlDays.cs [Design]",
+              "RelativeToolTip": "MP-WindowsFormsApp\\UserControls\\UserControlDays.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T12:36:32.195Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "UsersUC.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\UsersUC.cs",
+              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\UserControls\\UsersUC.cs",
+              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\UsersUC.cs [Design]",
+              "RelativeToolTip": "MP-WindowsFormsApp\\UserControls\\UsersUC.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T09:42:54.988Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "AddProductForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\ProductSubForms\\AddProductForm.cs",
+              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Forms\\ProductSubForms\\AddProductForm.cs",
+              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\ProductSubForms\\AddProductForm.cs [Design]",
+              "RelativeToolTip": "MP-WindowsFormsApp\\Forms\\ProductSubForms\\AddProductForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T07:42:00.934Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "UserControlBlank.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\UserControlBlank.cs",
+              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\UserControls\\UserControlBlank.cs",
+              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\UserControlBlank.cs [Design]",
+              "RelativeToolTip": "MP-WindowsFormsApp\\UserControls\\UserControlBlank.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T08:53:25.484Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "AccessDenied.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WebApplication\\Pages\\AccessDenied.cshtml.cs",
+              "RelativeDocumentMoniker": "MP-WebApplication\\Pages\\AccessDenied.cshtml.cs",
+              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WebApplication\\Pages\\AccessDenied.cshtml.cs",
+              "RelativeToolTip": "MP-WebApplication\\Pages\\AccessDenied.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T16:48:28.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "MenuButton.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\MenuButton.cs",
+              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\UserControls\\MenuButton.cs",
+              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\MenuButton.cs [Design]",
+              "RelativeToolTip": "MP-WindowsFormsApp\\UserControls\\MenuButton.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T07:30:27.868Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ReplenishmentRequestUC.resx",
+              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\ReplenishmentRequestUC.resx",
+              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\UserControls\\ReplenishmentRequestUC.resx",
+              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\ReplenishmentRequestUC.resx",
+              "RelativeToolTip": "MP-WindowsFormsApp\\UserControls\\ReplenishmentRequestUC.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-06-24T03:46:58.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 44,
+              "Title": "ReplenishmentRequestsForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\ReplenishmentRequestsForm.cs",
+              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Forms\\ReplenishmentRequestsForm.cs",
+              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\ReplenishmentRequestsForm.cs [Design]",
+              "RelativeToolTip": "MP-WindowsFormsApp\\Forms\\ReplenishmentRequestsForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T12:52:24.905Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WebApplication\\Pages\\Login.cshtml",
+              "RelativeDocumentMoniker": "MP-WebApplication\\Pages\\Login.cshtml",
+              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WebApplication\\Pages\\Login.cshtml",
+              "RelativeToolTip": "MP-WebApplication\\Pages\\Login.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAIBJwBoAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T12:45:52.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
               "Title": "DepartmentForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\DepartmentForm.Designer.cs",
               "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Forms\\DepartmentForm.Designer.cs",
@@ -1109,7 +1135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 45,
               "Title": "DepartmentForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\DepartmentForm.cs",
               "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Forms\\DepartmentForm.cs",
@@ -1121,20 +1147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "MP-BusinessLogic\\Entities\\User.cs",
-              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\Entities\\User.cs",
-              "RelativeToolTip": "MP-BusinessLogic\\Entities\\User.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAuwCsAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T07:24:44.476Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 48,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WebApplication\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "MP-WebApplication\\Pages\\Index.cshtml",
@@ -1147,7 +1160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 52,
               "Title": "Profile.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WebApplication\\Pages\\Profile.cshtml.cs",
               "RelativeDocumentMoniker": "MP-WebApplication\\Pages\\Profile.cshtml.cs",
@@ -1160,7 +1173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 54,
               "Title": "Department.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\Entities\\Department.cs",
               "RelativeDocumentMoniker": "MP-BusinessLogic\\Entities\\Department.cs",
@@ -1173,7 +1186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 55,
               "Title": "Login.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WebApplication\\Pages\\Login.cshtml.cs",
               "RelativeDocumentMoniker": "MP-WebApplication\\Pages\\Login.cshtml.cs",
@@ -1186,7 +1199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 56,
               "Title": "Account.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WebApplication\\Pages\\Account.cshtml.cs",
               "RelativeDocumentMoniker": "MP-WebApplication\\Pages\\Account.cshtml.cs",
@@ -1199,7 +1212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 57,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WebApplication\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "MP-WebApplication\\Pages\\Shared\\_Layout.cshtml",
@@ -1212,7 +1225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 58,
               "Title": "AccessDenied.cshtml",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WebApplication\\Pages\\AccessDenied.cshtml",
               "RelativeDocumentMoniker": "MP-WebApplication\\Pages\\AccessDenied.cshtml",
@@ -1225,7 +1238,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 59,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WebApplication\\Pages\\Error.cshtml",
               "RelativeDocumentMoniker": "MP-WebApplication\\Pages\\Error.cshtml",
@@ -1238,7 +1251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 60,
               "Title": "Error.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WebApplication\\Pages\\Error.cshtml.cs",
               "RelativeDocumentMoniker": "MP-WebApplication\\Pages\\Error.cshtml.cs",
@@ -1251,7 +1264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 63,
               "Title": "Logout.cshtml",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WebApplication\\Pages\\Logout.cshtml",
               "RelativeDocumentMoniker": "MP-WebApplication\\Pages\\Logout.cshtml",
@@ -1264,7 +1277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 62,
               "Title": "Statistic.cshtml",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WebApplication\\Pages\\Statistic.cshtml",
               "RelativeDocumentMoniker": "MP-WebApplication\\Pages\\Statistic.cshtml",
@@ -1277,7 +1290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 61,
               "Title": "Statistic.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WebApplication\\Pages\\Statistic.cshtml.cs",
               "RelativeDocumentMoniker": "MP-WebApplication\\Pages\\Statistic.cshtml.cs",
@@ -1290,7 +1303,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 64,
               "Title": "Logout.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WebApplication\\Pages\\Logout.cshtml.cs",
               "RelativeDocumentMoniker": "MP-WebApplication\\Pages\\Logout.cshtml.cs",
@@ -1303,7 +1316,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 65,
               "Title": "IUserDalManager.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\InterfacesDal\\IUserDalManager.cs",
               "RelativeDocumentMoniker": "MP-BusinessLogic\\InterfacesDal\\IUserDalManager.cs",
@@ -1316,7 +1329,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 66,
               "Title": "MainForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\MainForm.cs",
               "RelativeDocumentMoniker": "MP-WindowsFormsApp\\MainForm.cs",
@@ -1328,7 +1341,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 69,
               "Title": "DeparmentStatistic.cshtml",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WebApplication\\Pages\\DeparmentStatistic.cshtml",
               "RelativeDocumentMoniker": "MP-WebApplication\\Pages\\DeparmentStatistic.cshtml",
@@ -1341,7 +1354,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 70,
               "Title": "ICategoryService.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\InterfacesLL\\ICategoryService.cs",
               "RelativeDocumentMoniker": "MP-BusinessLogic\\InterfacesLL\\ICategoryService.cs",
@@ -1354,7 +1367,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 71,
               "Title": "IBrandService.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\InterfacesLL\\IBrandService.cs",
               "RelativeDocumentMoniker": "MP-BusinessLogic\\InterfacesLL\\IBrandService.cs",
@@ -1367,7 +1380,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 72,
               "Title": "IProductService.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\InterfacesLL\\IProductService.cs",
               "RelativeDocumentMoniker": "MP-BusinessLogic\\InterfacesLL\\IProductService.cs",
@@ -1380,7 +1393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 73,
               "Title": "IProductDalManager.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\InterfacesDal\\IProductDalManager.cs",
               "RelativeDocumentMoniker": "MP-BusinessLogic\\InterfacesDal\\IProductDalManager.cs",
@@ -1393,7 +1406,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 74,
               "Title": "_Layout.cshtml.css",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WebApplication\\Pages\\Shared\\_Layout.cshtml.css",
               "RelativeDocumentMoniker": "MP-WebApplication\\Pages\\Shared\\_Layout.cshtml.css",
@@ -1406,7 +1419,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 75,
               "Title": "DeparmentStatistic.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WebApplication\\Pages\\DeparmentStatistic.cshtml.cs",
               "RelativeDocumentMoniker": "MP-WebApplication\\Pages\\DeparmentStatistic.cshtml.cs",
@@ -1419,7 +1432,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 76,
               "Title": "Calendar.cshtml",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WebApplication\\Pages\\Calendar.cshtml",
               "RelativeDocumentMoniker": "MP-WebApplication\\Pages\\Calendar.cshtml",
@@ -1432,7 +1445,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 77,
               "Title": "Calendar.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WebApplication\\Pages\\Calendar.cshtml.cs",
               "RelativeDocumentMoniker": "MP-WebApplication\\Pages\\Calendar.cshtml.cs",
@@ -1445,7 +1458,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 78,
               "Title": "site.js",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WebApplication\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "MP-WebApplication\\wwwroot\\js\\site.js",
@@ -1458,7 +1471,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 79,
               "Title": "ForgotPassword.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WebApplication\\Pages\\ForgotPassword.cshtml.cs",
               "RelativeDocumentMoniker": "MP-WebApplication\\Pages\\ForgotPassword.cshtml.cs",
@@ -1471,7 +1484,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 81,
               "Title": "BrandService.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\Services\\BrandService.cs",
               "RelativeDocumentMoniker": "MP-BusinessLogic\\Services\\BrandService.cs",
@@ -1484,7 +1497,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 80,
               "Title": "CategoryService.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\Services\\CategoryService.cs",
               "RelativeDocumentMoniker": "MP-BusinessLogic\\Services\\CategoryService.cs",
@@ -1497,7 +1510,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 82,
               "Title": "AddUserForm.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\UserSubForms\\AddUserForm.cs",
               "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Forms\\UserSubForms\\AddUserForm.cs",
@@ -1510,7 +1523,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 83,
               "Title": "AddUserForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\UserSubForms\\AddUserForm.cs",
               "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Forms\\UserSubForms\\AddUserForm.cs",
@@ -1522,7 +1535,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 84,
               "Title": "UsersForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\UsersForm.cs",
               "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Forms\\UsersForm.cs",
@@ -1534,7 +1547,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 85,
               "Title": "ForgotPasswordForm.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\ForgotPasswordForm.cs",
               "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Forms\\ForgotPasswordForm.cs",
@@ -1547,7 +1560,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 86,
               "Title": "ForgotPasswordForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\ForgotPasswordForm.cs",
               "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Forms\\ForgotPasswordForm.cs",
@@ -1559,7 +1572,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 87,
               "Title": "ForgotPassword.cshtml",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WebApplication\\Pages\\ForgotPassword.cshtml",
               "RelativeDocumentMoniker": "MP-WebApplication\\Pages\\ForgotPassword.cshtml",
@@ -1572,7 +1585,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 88,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WebApplication\\Program.cs",
               "RelativeDocumentMoniker": "MP-WebApplication\\Program.cs",
@@ -1585,7 +1598,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 92,
               "Title": "UserControlBlank.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\UserControlBlank.cs",
               "RelativeDocumentMoniker": "MP-WindowsFormsApp\\UserControls\\UserControlBlank.cs",
@@ -1598,7 +1611,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 90,
               "Title": "MenuButton.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\MenuButton.cs",
               "RelativeDocumentMoniker": "MP-WindowsFormsApp\\UserControls\\MenuButton.cs",
@@ -1611,7 +1624,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 89,
               "Title": "SubCategory.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\Entities\\SubCategory.cs",
               "RelativeDocumentMoniker": "MP-BusinessLogic\\Entities\\SubCategory.cs",
@@ -1624,7 +1637,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 91,
               "Title": "UsersUC.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\UsersUC.cs",
               "RelativeDocumentMoniker": "MP-WindowsFormsApp\\UserControls\\UsersUC.cs",
@@ -1637,7 +1650,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 93,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Program.cs",
               "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Program.cs",
@@ -1650,7 +1663,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 94,
               "Title": "ISubCategoryDalManager.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\InterfacesDal\\ISubCategoryDalManager.cs",
               "RelativeDocumentMoniker": "MP-BusinessLogic\\InterfacesDal\\ISubCategoryDalManager.cs",
@@ -1663,7 +1676,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 94,
+              "DocumentIndex": 95,
               "Title": "Schedule.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\Entities\\Schedule.cs",
               "RelativeDocumentMoniker": "MP-BusinessLogic\\Entities\\Schedule.cs",
@@ -1676,7 +1689,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 95,
+              "DocumentIndex": 96,
               "Title": "IScheduleDalManager.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\InterfacesDal\\IScheduleDalManager.cs",
               "RelativeDocumentMoniker": "MP-BusinessLogic\\InterfacesDal\\IScheduleDalManager.cs",
@@ -1689,7 +1702,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 97,
+              "DocumentIndex": 98,
               "Title": "ISchedule.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\InterfacesLL\\ISchedule.cs",
               "RelativeDocumentMoniker": "MP-BusinessLogic\\InterfacesLL\\ISchedule.cs",
@@ -1702,7 +1715,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 96,
+              "DocumentIndex": 97,
               "Title": "ISubCategoryService.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\InterfacesLL\\ISubCategoryService.cs",
               "RelativeDocumentMoniker": "MP-BusinessLogic\\InterfacesLL\\ISubCategoryService.cs",
@@ -1715,7 +1728,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 98,
+              "DocumentIndex": 99,
               "Title": "ICategoryDalManager.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\InterfacesDal\\ICategoryDalManager.cs",
               "RelativeDocumentMoniker": "MP-BusinessLogic\\InterfacesDal\\ICategoryDalManager.cs",
@@ -1728,7 +1741,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 99,
+              "DocumentIndex": 100,
               "Title": "IBrandDalManager.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\InterfacesDal\\IBrandDalManager.cs",
               "RelativeDocumentMoniker": "MP-BusinessLogic\\InterfacesDal\\IBrandDalManager.cs",
@@ -1741,7 +1754,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 100,
+              "DocumentIndex": 101,
               "Title": "UserControlDays.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\UserControlDays.cs",
               "RelativeDocumentMoniker": "MP-WindowsFormsApp\\UserControls\\UserControlDays.cs",
@@ -1754,7 +1767,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 101,
+              "DocumentIndex": 102,
               "Title": "Event.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Event.cs",
               "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Event.cs",
@@ -1767,7 +1780,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 102,
+              "DocumentIndex": 103,
               "Title": "Account.cshtml",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WebApplication\\Pages\\Account.cshtml",
               "RelativeDocumentMoniker": "MP-WebApplication\\Pages\\Account.cshtml",
@@ -1780,7 +1793,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 103,
+              "DocumentIndex": 104,
               "Title": "Microsoft.PackageDependencyResolution.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.204\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
@@ -1802,19 +1815,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-17T11:06:56.769Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 104,
-              "Title": "EventForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\EventForm.Designer.cs",
-              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Forms\\EventForm.Designer.cs",
-              "ToolTip": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\EventForm.Designer.cs",
-              "RelativeToolTip": "MP-WindowsFormsApp\\Forms\\EventForm.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T11:09:27.875Z",
               "EditorCaption": ""
             },
             {
