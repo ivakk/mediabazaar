@@ -2,6 +2,9 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
+    <Compile Update="Forms\AutoSchedulingPreview.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Forms\DepartmentForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -24,6 +27,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Forms\ReplenishmentRequestsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\ShiftManagement.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Forms\UsersForm.cs">
@@ -51,6 +57,12 @@
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="UserControls\ReplenishmentRequestUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControls\UserControlShift.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControls\UserControlShiftPreview.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="UserControls\UsersUC.cs">

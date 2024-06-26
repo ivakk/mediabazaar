@@ -1,0 +1,150 @@
+﻿@page
+@model SchedulingModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<link rel="stylesheet" href="~/css/Calendar.css" asp-append-version="true" />
+<script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.7/index.global.min.js'></script>
+
+<script>
+    var events = [];
+</script>
+
+@*Getting the events for the calendar*@
+@if(Model.Shifts != null)
+{
+    @foreach (var shift in Model.Shifts)
+    {
+        @if (shift.Type == "Leave")
+        {
+            //Pending
+            @if (shift.State == 0)
+            {
+                <script>
+                    events.push({
+                        title: 'Leave Requested - @shift.Description',
+                        start: '@shift.StartTime.ToString("yyyy-MM-ddTHH:mm:ss")',
+                        end: '@shift.EndTime.ToString("yyyy-MM-ddTHH:mm:ss")',
+                        color: 'LightCoral'
+                    });
+                </script>
+            }
+            //Accepted
+            else if(shift.State == 1)
+            {
+                <script>
+                    events.push({
+                        title: 'Leave - @shift.Description',
+                        start: '@shift.StartTime.ToString("yyyy-MM-ddTHH:mm:ss")',
+                        end: '@shift.EndTime.ToString("yyyy-MM-ddTHH:mm:ss")',
+                        color: 'red'
+                    });
+                </script>
+            }
+            //Denied
+            else if (shift.State == 2)
+            {
+                <script>
+                    events.push({
+                        title: 'Leave Denied - @shift.Description',
+                        start: '@shift.StartTime.ToString("yyyy-MM-ddTHH:mm:ss")',
+                        end: '@shift.EndTime.ToString("yyyy-MM-ddTHH:mm:ss")',
+                        color: 'LightCoral'
+                    });
+                </script>
+            }
+        }
+
+        @if (@shift.Type == "Availability")
+        {
+            <script>
+                events.push({
+                    title: 'Available',
+                    start: '@shift.StartTime.ToString("yyyy-MM-ddTHH:mm:ss")',
+                    end: '@shift.EndTime.ToString("yyyy-MM-ddTHH:mm:ss")',
+                    color: 'LightGreen'
+                });
+            </script>
+        }
+        @if (@shift.Type == "Shift")
+        {
+            <script>
+                events.push({
+                    title: 'Shift',
+                    start: '@shift.StartTime.ToString("yyyy-MM-ddTHH:mm:ss")',
+                    end: '@shift.EndTime.ToString("yyyy-MM-ddTHH:mm:ss")',
+                    color: 'green'
+                });
+            </script>
+        }
+    }
+}
+
+
+
+<div class="text-center">
+    <h1 class="display-4">Welcome @ViewData["FirstName"]</h1>
+
+    <!-- Error box -->
+    <div class="alert alert-danger" role="alert" runat="server" id="errorDiv"
+    @if (string.IsNullOrEmpty(ViewData["Error"] as string))
+    {
+        <text>style="display:none;"</text>
+    }>
+        @ViewData["Error"]
+        </div>
+    <div id='calendar'></div>
+
+    <form method="post">
+        <div class="content-box">
+            <h1>Availability and Leave</h1>
+            <div class="row_box hidden">
+                <input type="datetime-local" asp-for="NewShift.StartTime" class="hidden" id="start-time" required>
+                <input type="datetime-local" asp-for="NewShift.EndTime" class="hidden" id="end-time" required>
+                <input type="text" asp-for="NewShift.Type" class="hidden" id="event-type" required>
+            </div>
+
+            <div class="row_box">
+                <!--AVAILABILITY BUTTON-->
+                <button type="button" class="btn" id="availability">Availability</button>
+                <!--LEAVE BUTTON-->
+                <button type="button" class="btn" id="leave">Leave</button>
+            </div>
+
+            <div class="row_box hidden" id="leave_description_box">
+                <input type="text" class="input hidden" id="leave_text" value="Leave reason:" readonly/>
+                <select  class="input hidden" id="leave_description" asp-for="NewShift.Description">
+                    <option value="Holidays">Holidays</option>
+                    <option value="Medical leave">Medical leave</option>
+                    <option value="Paid leave">Paid leave</option>
+                    <option value="Unpaid leave">Unpaid leave</option>
+                </select>
+            </div>
+
+            <!--SUBMIT BUTTON-->
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+
+
+        <!-- Error box -->
+        <div class="alert alert-danger" role="alert" runat="server" id="errorDiv"
+        @if (string.IsNullOrEmpty(ViewData["Error"] as string))
+        {
+            <text>style="display:none;"</text>
+        }>
+            @ViewData["Error"]
+        </div>
+
+        <!-- Success box -->
+        <div class="alert alert-success" role="alert" runat="server" id="successDiv"
+        @if (string.IsNullOrEmpty(ViewData["Success"] as string))
+        {
+            <text>style="display:none;"</text>
+        }>
+            @ViewData["Success"]
+            </div>
+    </form>
+</div>
+
+<script src='~/js/Calendar.js'></script>

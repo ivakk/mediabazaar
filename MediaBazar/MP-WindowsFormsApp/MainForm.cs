@@ -21,13 +21,14 @@ namespace MP_WindowsFormsApp
 
         LoginForm loginForm;
         public User loggedInUser;
-        protected List<MenuButton> menuButtons = new List<MenuButton>();
+        public List<MenuButton> menuButtons = new List<MenuButton>();
 
         private ProductsForm productForm;
         private UsersForm userForm;
         private ScheduleForm scheduleForm;
         private DepartmentForm departmentForm;
         private ReplenishmentRequestsForm replenishmentRequestsForm;
+        public ShiftManagement shiftManagementForm;
 
         public Dictionary<string, object> accessForms;
 
@@ -49,6 +50,7 @@ namespace MP_WindowsFormsApp
             scheduleForm = new ScheduleForm(this) { Dock = DockStyle.Fill, TopLevel = false, TopMost = true, FormBorderStyle = FormBorderStyle.None };
             departmentForm = new DepartmentForm(departmentService, loggedInUser) { Dock = DockStyle.Fill, TopLevel = false, TopMost = true, FormBorderStyle = FormBorderStyle.None };
             replenishmentRequestsForm = new ReplenishmentRequestsForm(productService, replenishmentRequestService) { Dock = DockStyle.Fill, TopLevel = false, TopMost = true, FormBorderStyle = FormBorderStyle.None };
+            shiftManagementForm = new ShiftManagement(this) { Dock = DockStyle.Fill, TopLevel = false, TopMost = true, FormBorderStyle = FormBorderStyle.None };
 
             if (!(loggedInUser.Position.ToLower().Trim() == "worker" && loggedInUser.Department.Name.ToLower().Trim() == "depot" || loggedInUser.Department.Name.ToLower().Trim() == "sales"))
             {

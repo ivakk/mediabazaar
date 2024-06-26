@@ -42,6 +42,10 @@ namespace MP_EntityLibrary
             EndContract = endContract;
             SalaryLevel = salaryLevel;
         }
+        public User()
+        {
+
+        }
 
         //public User()
         //{

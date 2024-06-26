@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WebApplication\\MP-WebApplication.csproj": {}
+    "C:\\Users\\ivk\\Desktop\\n\\media-bazzar\\MediaBazar\\MP-WebApplication\\MP-WebApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj": {
+    "C:\\Users\\ivk\\Desktop\\n\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj",
+        "projectUniqueName": "C:\\Users\\ivk\\Desktop\\n\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj",
         "projectName": "MP-BusinessLogic",
-        "projectPath": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj",
+        "projectPath": "C:\\Users\\ivk\\Desktop\\n\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj",
         "packagesPath": "C:\\Users\\ivk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\obj\\",
+        "outputPath": "C:\\Users\\ivk\\Desktop\\n\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ivk\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -64,14 +64,14 @@
         }
       }
     },
-    "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj": {
+    "C:\\Users\\ivk\\Desktop\\n\\media-bazzar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\ivk\\Desktop\\n\\media-bazzar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj",
         "projectName": "MP-DataAccess",
-        "projectPath": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj",
+        "projectPath": "C:\\Users\\ivk\\Desktop\\n\\media-bazzar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj",
         "packagesPath": "C:\\Users\\ivk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\ivk\\Desktop\\n\\media-bazzar\\MediaBazar\\MP-DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ivk\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -88,8 +88,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj": {
-                "projectPath": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj"
+              "C:\\Users\\ivk\\Desktop\\n\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj": {
+                "projectPath": "C:\\Users\\ivk\\Desktop\\n\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj"
               }
             }
           }
@@ -142,14 +142,88 @@
         }
       }
     },
-    "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WebApplication\\MP-WebApplication.csproj": {
+    "C:\\Users\\ivk\\Desktop\\n\\media-bazzar\\MediaBazar\\MP-SchedulingDAL\\MP-SchedulingDAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WebApplication\\MP-WebApplication.csproj",
-        "projectName": "MP-WebApplication",
-        "projectPath": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WebApplication\\MP-WebApplication.csproj",
+        "projectUniqueName": "C:\\Users\\ivk\\Desktop\\n\\media-bazzar\\MediaBazar\\MP-SchedulingDAL\\MP-SchedulingDAL.csproj",
+        "projectName": "MP-SchedulingDAL",
+        "projectPath": "C:\\Users\\ivk\\Desktop\\n\\media-bazzar\\MediaBazar\\MP-SchedulingDAL\\MP-SchedulingDAL.csproj",
         "packagesPath": "C:\\Users\\ivk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-WebApplication\\obj\\",
+        "outputPath": "C:\\Users\\ivk\\Desktop\\n\\media-bazzar\\MediaBazar\\MP-SchedulingDAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ivk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AWSSDK.Core": {
+              "target": "Package",
+              "version": "[3.7.304.20, )"
+            },
+            "Microsoft.TeamFoundationServer.Client": {
+              "target": "Package",
+              "version": "[19.225.1, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ivk\\Desktop\\n\\media-bazzar\\MediaBazar\\MP-SchedulingService\\MP-SchedulingService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ivk\\Desktop\\n\\media-bazzar\\MediaBazar\\MP-SchedulingService\\MP-SchedulingService.csproj",
+        "projectName": "MP-SchedulingService",
+        "projectPath": "C:\\Users\\ivk\\Desktop\\n\\media-bazzar\\MediaBazar\\MP-SchedulingService\\MP-SchedulingService.csproj",
+        "packagesPath": "C:\\Users\\ivk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ivk\\Desktop\\n\\media-bazzar\\MediaBazar\\MP-SchedulingService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ivk\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -166,11 +240,87 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj": {
-                "projectPath": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj"
+              "C:\\Users\\ivk\\Desktop\\n\\media-bazzar\\MediaBazar\\MP-SchedulingDAL\\MP-SchedulingDAL.csproj": {
+                "projectPath": "C:\\Users\\ivk\\Desktop\\n\\media-bazzar\\MediaBazar\\MP-SchedulingDAL\\MP-SchedulingDAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.TeamFoundationServer.Client": {
+              "target": "Package",
+              "version": "[19.225.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ivk\\Desktop\\n\\media-bazzar\\MediaBazar\\MP-WebApplication\\MP-WebApplication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ivk\\Desktop\\n\\media-bazzar\\MediaBazar\\MP-WebApplication\\MP-WebApplication.csproj",
+        "projectName": "MP-WebApplication",
+        "projectPath": "C:\\Users\\ivk\\Desktop\\n\\media-bazzar\\MediaBazar\\MP-WebApplication\\MP-WebApplication.csproj",
+        "packagesPath": "C:\\Users\\ivk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ivk\\Desktop\\n\\media-bazzar\\MediaBazar\\MP-WebApplication\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ivk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\ivk\\Desktop\\n\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj": {
+                "projectPath": "C:\\Users\\ivk\\Desktop\\n\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj"
               },
-              "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj": {
-                "projectPath": "C:\\Users\\ivk\\Desktop\\e\\media-bazzar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj"
+              "C:\\Users\\ivk\\Desktop\\n\\media-bazzar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj": {
+                "projectPath": "C:\\Users\\ivk\\Desktop\\n\\media-bazzar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj"
+              },
+              "C:\\Users\\ivk\\Desktop\\n\\media-bazzar\\MediaBazar\\MP-SchedulingDAL\\MP-SchedulingDAL.csproj": {
+                "projectPath": "C:\\Users\\ivk\\Desktop\\n\\media-bazzar\\MediaBazar\\MP-SchedulingDAL\\MP-SchedulingDAL.csproj"
+              },
+              "C:\\Users\\ivk\\Desktop\\n\\media-bazzar\\MediaBazar\\MP-SchedulingService\\MP-SchedulingService.csproj": {
+                "projectPath": "C:\\Users\\ivk\\Desktop\\n\\media-bazzar\\MediaBazar\\MP-SchedulingService\\MP-SchedulingService.csproj"
               }
             }
           }

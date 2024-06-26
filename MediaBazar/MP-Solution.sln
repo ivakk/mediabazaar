@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MP-BusinessLogic", "MP-BusinessLogic\MP-BusinessLogic.csproj", "{55195452-2B62-4C06-9C2A-0E712991D2F0}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MP-WindowsFormsApp", "MP-WindowsFormsApp\MP-WindowsFormsApp.csproj", "{AF6E30D4-B34E-4E70-A700-5062AEE5E122}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MP-WebApplication", "MP-WebApplication\MP-WebApplication.csproj", "{60CC6C35-5403-41F4-B46F-519267B13D9E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MP-DataAccess", "MP-DataAccess\MP-DataAccess.csproj", "{8BC136A8-CDDF-4564-847C-9F44BC243327}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MP-SchedulingDAL", "MP-SchedulingDAL\MP-SchedulingDAL.csproj", "{DCF277C3-9C3A-40B4-B52D-C8FC0AAB11CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MP-SchedulingService", "MP-SchedulingService\MP-SchedulingService.csproj", "{9B094EAD-9561-47A2-B591-1392CBBB6540}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MP-BusinessLogic", "MP-BusinessLogic\MP-BusinessLogic.csproj", "{B4BC146C-7AE5-4267-9FF7-8B69E03A24B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{55195452-2B62-4C06-9C2A-0E712991D2F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{55195452-2B62-4C06-9C2A-0E712991D2F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{55195452-2B62-4C06-9C2A-0E712991D2F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{55195452-2B62-4C06-9C2A-0E712991D2F0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AF6E30D4-B34E-4E70-A700-5062AEE5E122}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AF6E30D4-B34E-4E70-A700-5062AEE5E122}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF6E30D4-B34E-4E70-A700-5062AEE5E122}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +33,18 @@ Global
 		{8BC136A8-CDDF-4564-847C-9F44BC243327}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BC136A8-CDDF-4564-847C-9F44BC243327}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BC136A8-CDDF-4564-847C-9F44BC243327}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCF277C3-9C3A-40B4-B52D-C8FC0AAB11CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCF277C3-9C3A-40B4-B52D-C8FC0AAB11CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCF277C3-9C3A-40B4-B52D-C8FC0AAB11CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCF277C3-9C3A-40B4-B52D-C8FC0AAB11CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B094EAD-9561-47A2-B591-1392CBBB6540}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B094EAD-9561-47A2-B591-1392CBBB6540}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B094EAD-9561-47A2-B591-1392CBBB6540}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B094EAD-9561-47A2-B591-1392CBBB6540}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4BC146C-7AE5-4267-9FF7-8B69E03A24B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4BC146C-7AE5-4267-9FF7-8B69E03A24B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4BC146C-7AE5-4267-9FF7-8B69E03A24B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4BC146C-7AE5-4267-9FF7-8B69E03A24B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

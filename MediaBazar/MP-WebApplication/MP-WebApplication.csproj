@@ -26,6 +26,8 @@
   <ItemGroup>
     <ProjectReference Include="..\MP-BusinessLogic\MP-BusinessLogic.csproj" />
     <ProjectReference Include="..\MP-DataAccess\MP-DataAccess.csproj" />
+    <ProjectReference Include="..\MP-SchedulingDAL\MP-SchedulingDAL.csproj" />
+    <ProjectReference Include="..\MP-SchedulingService\MP-SchedulingService.csproj" />
   </ItemGroup>
 
 </Project>

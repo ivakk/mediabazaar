@@ -25,7 +25,7 @@ namespace MP_WindowsFormsApp.UserControls
             Button.Text = buttonText;
         }
 
-        private void Button_Click(object sender, EventArgs e)
+        public void Button_Click(object sender, EventArgs e)
         {
             mainFormRef.pnlMainForm.Controls.Clear();
             this.mainFormRef.pnlMainForm.Controls.Add(AssosiatedForm);
