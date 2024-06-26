@@ -82,7 +82,7 @@ namespace MP_WindowsFormsApp.UserControls
 			button1.Text = "\n";
 			foreach(Shift shift in this.shifts)
 			{
-				if(shift.Type == "Shift")
+				if(shift.State == 1)
 				{
 					button1.Text += $"{shift.User.FirstName} {shift.User.LastName}\n";
 				}else if (shift.Type == "Availability")
