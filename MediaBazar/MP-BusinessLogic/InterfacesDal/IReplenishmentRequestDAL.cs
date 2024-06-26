@@ -9,7 +9,9 @@ namespace MP_BusinessLogic.InterfacesDal
 {
     public interface IReplenishmentRequestDAL
     {
+        public List<ReplenishmentRequest> GetRequestsByProductId(int productId);
         List<ReplenishmentRequest> GetAllRequests();
-        public void CreateRequest(ReplenishmentRequest request);
+        void CreateRequest(ReplenishmentRequest replenishmentRequest);
+        void UpdateRequest(ReplenishmentRequest replenishmentRequest);
     }
 }

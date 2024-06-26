@@ -1,4 +1,5 @@
-﻿using MP_EntityLibrary;
+﻿using MP_BusinessLogic.Entities;
+using MP_EntityLibrary;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,6 +27,6 @@ namespace MP_BusinessLogic.InterfacesLL
         public Dictionary<int, int> GetAllDepartmentEmployeeCounts();
         public void CheckIn(int userId);
         public void CheckOut(int userId);
-        public bool? GetLatestCheckStatus(int userId);
+        public CheckStatus GetLatestCheckStatus(int userId);
     }
 }

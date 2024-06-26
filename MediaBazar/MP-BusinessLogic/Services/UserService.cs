@@ -1,4 +1,5 @@
-﻿using MP_BusinessLogic.InterfacesDal;
+﻿using MP_BusinessLogic.Entities;
+using MP_BusinessLogic.InterfacesDal;
 using MP_BusinessLogic.InterfacesLL;
 using MP_EntityLibrary;
 using System;
@@ -86,7 +87,7 @@ namespace MP_BusinessLogic.Services
             controller.InsertCheckRecord(userId, false);
         }
 
-        public bool? GetLatestCheckStatus(int userId)
+        public CheckStatus GetLatestCheckStatus(int userId)
         {
             return controller.GetLatestCheckStatus(userId);
         }

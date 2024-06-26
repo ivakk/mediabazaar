@@ -470,7 +470,6 @@ D:\Software-S2\media-bazzarNew\MediaBazar\MP-WebApplication\bin\Debug\net6.0\run
 D:\Software-S2\media-bazzarNew\MediaBazar\MP-WebApplication\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
 D:\Software-S2\media-bazzarNew\MediaBazar\MP-WebApplication\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\Software-S2\media-bazzarNew\MediaBazar\MP-WebApplication\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-D:\Software-S2\media-bazzarNew\MediaBazar\MP-WebApplication\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 D:\Software-S2\media-bazzarNew\MediaBazar\MP-WebApplication\bin\Debug\net6.0\MP-BusinessLogic.dll
 D:\Software-S2\media-bazzarNew\MediaBazar\MP-WebApplication\bin\Debug\net6.0\MP-DataAccess.dll
 D:\Software-S2\media-bazzarNew\MediaBazar\MP-WebApplication\bin\Debug\net6.0\MP-BusinessLogic.pdb
@@ -499,3 +498,16 @@ D:\Software-S2\media-bazzarNew\MediaBazar\MP-WebApplication\obj\Debug\net6.0\ref
 D:\Software-S2\media-bazzarNew\MediaBazar\MP-WebApplication\obj\Debug\net6.0\MP-WebApplication.pdb
 D:\Software-S2\media-bazzarNew\MediaBazar\MP-WebApplication\obj\Debug\net6.0\MP-WebApplication.genruntimeconfig.cache
 D:\Software-S2\media-bazzarNew\MediaBazar\MP-WebApplication\obj\Debug\net6.0\ref\MP-WebApplication.dll
+D:\Software-S2\media-bazzarNew\MediaBazar\MP-WebApplication\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Software-S2\media-bazzarNew\MediaBazar\MP-WebApplication\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Software-S2\media-bazzarNew\MediaBazar\MP-WebApplication\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Software-S2\media-bazzarNew\MediaBazar\MP-WebApplication\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Software-S2\media-bazzarNew\MediaBazar\MP-WebApplication\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Software-S2\media-bazzarNew\MediaBazar\MP-WebApplication\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Software-S2\media-bazzarNew\MediaBazar\MP-WebApplication\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Software-S2\media-bazzarNew\MediaBazar\MP-WebApplication\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Software-S2\media-bazzarNew\MediaBazar\MP-WebApplication\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Software-S2\media-bazzarNew\MediaBazar\MP-WebApplication\bin\Debug\net6.0\MP-SchedulingDAL.dll
+D:\Software-S2\media-bazzarNew\MediaBazar\MP-WebApplication\bin\Debug\net6.0\MP-SchedulingService.dll
+D:\Software-S2\media-bazzarNew\MediaBazar\MP-WebApplication\bin\Debug\net6.0\MP-SchedulingDAL.pdb
+D:\Software-S2\media-bazzarNew\MediaBazar\MP-WebApplication\bin\Debug\net6.0\MP-SchedulingService.pdb

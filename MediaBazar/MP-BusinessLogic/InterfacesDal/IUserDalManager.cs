@@ -1,4 +1,5 @@
-﻿using MP_EntityLibrary;
+﻿using MP_BusinessLogic.Entities;
+using MP_EntityLibrary;
 using System;
 using System.Collections.Generic;
 
@@ -22,6 +23,7 @@ namespace MP_BusinessLogic.InterfacesDal
         int GetEmployeeCountByDepartment(int departmentId);
         Dictionary<int, int> GetAllDepartmentEmployeeCounts();
         bool InsertCheckRecord(int userId, bool isCheckIn);
-        bool? GetLatestCheckStatus(int userId);
+        public CheckStatus GetLatestCheckStatus(int userId);
+
     }
 }

@@ -10,7 +10,9 @@ namespace MP_BusinessLogic.InterfacesLL
     public interface IReplenishmentRequestService
     {
         void CreateRequest(ReplenishmentRequest request);
+        void UpdateRequest(ReplenishmentRequest request);
         List<ReplenishmentRequest> GetAllRequests();
+        List<ReplenishmentRequest> GetRequestsByProductId(int productId);
 
     }
 }

@@ -956,3 +956,12 @@ C:\Users\ivk\Desktop\e\media-bazzar\MediaBazar\MP-WindowsFormsApp\obj\Debug\net6
 C:\Users\ivk\Desktop\e\media-bazzar\MediaBazar\MP-WindowsFormsApp\obj\Debug\net6.0-windows\MP-WindowsFormsApp.pdb
 C:\Users\ivk\Desktop\e\media-bazzar\MediaBazar\MP-WindowsFormsApp\obj\Debug\net6.0-windows\MP-WindowsFormsApp.genruntimeconfig.cache
 C:\Users\ivk\Desktop\e\media-bazzar\MediaBazar\MP-WindowsFormsApp\obj\Debug\net6.0-windows\ref\MP-WindowsFormsApp.dll
+D:\Software-S2\media-bazzarNew\MediaBazar\MP-WindowsFormsApp\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+D:\Software-S2\media-bazzarNew\MediaBazar\MP-WindowsFormsApp\bin\Debug\net6.0-windows\MP-SchedulingDAL.dll
+D:\Software-S2\media-bazzarNew\MediaBazar\MP-WindowsFormsApp\bin\Debug\net6.0-windows\MP-SchedulingService.dll
+D:\Software-S2\media-bazzarNew\MediaBazar\MP-WindowsFormsApp\bin\Debug\net6.0-windows\MP-SchedulingDAL.pdb
+D:\Software-S2\media-bazzarNew\MediaBazar\MP-WindowsFormsApp\bin\Debug\net6.0-windows\MP-SchedulingService.pdb
+D:\Software-S2\media-bazzarNew\MediaBazar\MP-WindowsFormsApp\obj\Debug\net6.0-windows\MP_WindowsFormsApp.Forms.AutoSchedulingPreview.resources
+D:\Software-S2\media-bazzarNew\MediaBazar\MP-WindowsFormsApp\obj\Debug\net6.0-windows\MP_WindowsFormsApp.Forms.ShiftManagement.resources
+D:\Software-S2\media-bazzarNew\MediaBazar\MP-WindowsFormsApp\obj\Debug\net6.0-windows\MP_WindowsFormsApp.UserControls.UserControlShift.resources
+D:\Software-S2\media-bazzarNew\MediaBazar\MP-WindowsFormsApp\obj\Debug\net6.0-windows\MP_WindowsFormsApp.UserControls.UserControlShiftPreview.resources

@@ -1,5 +1,6 @@
-﻿using MP_EntityLibrary;
-using MP_BusinessLogic.Entities;
+﻿using MP_BusinessLogic.Entities;
+using MP_BusinessLogic.InterfacesLL;
+using MP_EntityLibrary;
 using System;
 using System.Drawing;
 using System.Windows.Forms;
@@ -9,14 +10,21 @@ namespace MP_WindowsFormsApp.UserControls
     public partial class ReplenishmentRequestUC : UserControl
     {
         private readonly Product product;
+        private readonly User loggedInUser;
+        private readonly IReplenishmentRequestService replenishmentRequestService;
+        private readonly IProductService productService;
         private readonly ReplenishmentRequest replenishmentRequest;
 
-        public ReplenishmentRequestUC(Product product, ReplenishmentRequest replenishmentRequest)
+        public ReplenishmentRequestUC(Product product, User loggedInUser, IReplenishmentRequestService replenishmentRequestService, IProductService productService, ReplenishmentRequest replenishmentRequest)
         {
             InitializeComponent();
             this.product = product;
+            this.loggedInUser = loggedInUser;
+            this.replenishmentRequestService = replenishmentRequestService;
+            this.productService = productService;
             this.replenishmentRequest = replenishmentRequest;
             InitializeProductDetails();
+            SetModifyPermissions();
         }
 
         private void InitializeProductDetails()
@@ -27,43 +35,65 @@ namespace MP_WindowsFormsApp.UserControls
             label4.Text = "Sub-Category: " + product.SubCategory.Name;
             label5.Text = "Price: $" + product.Price.ToString("F2");
             label7.Text = "Amount: " + replenishmentRequest.RequestedQuantity;
-            btnStatus.Text = replenishmentRequest.Status;
-            btnStatus.BackColor = GetStatusColor(replenishmentRequest.Status);
+            label6.Text = "Status: " + replenishmentRequest.Status;
+            SetButtonVisibility();
         }
 
-        private Color GetStatusColor(string status)
+        private void SetModifyPermissions()
         {
-            switch (status.ToUpper())
+            if (loggedInUser.Department.Id == 1 || (loggedInUser.Position.ToLower() == "manager" && loggedInUser.Department.Name.ToLower() == "depot"))
             {
-                case "OPEN":
-                    return Color.Red;
-                case "CLOSED":
-                    return Color.Green;
-                case "DECLINED":
-                    return Color.DarkRed;
-                default:
-                    return Color.Gray;
+                btnApprove.Enabled = true;
+                btnReject.Enabled = true;
+            }
+            else
+            {
+                btnApprove.Enabled = false;
+                btnReject.Enabled = false;
             }
         }
 
-        private void btnAdd_Click(object sender, EventArgs e)
+        private void SetButtonVisibility()
         {
-            switch (btnStatus.Text)
+            btnApprove.Visible = replenishmentRequest.Status == "OPEN";
+            btnReject.Visible = replenishmentRequest.Status == "OPEN";
+            btnRemove.Visible = replenishmentRequest.Status == "CLOSED" || replenishmentRequest.Status == "DECLINED";
+        }
+
+        private void btnApprove_Click(object sender, EventArgs e)
+        {
+            if (product.WarehouseQuantity < replenishmentRequest.RequestedQuantity)
             {
-                case "OPEN":
-                    btnStatus.Text = "CLOSED";
-                    btnStatus.BackColor = Color.Green;
-                    break;
-                case "CLOSED":
-                    btnStatus.Text = "DECLINED";
-                    btnStatus.BackColor = Color.DarkRed;
-                    break;
-                case "DECLINED":
-                    btnStatus.Text = "OPEN";
-                    btnStatus.BackColor = Color.Red;
-                    break;
+                MessageBox.Show("Not enough quantity in the warehouse.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
             }
-            // Update the status in the database if needed
+
+            replenishmentRequest.Status = "CLOSED";
+            replenishmentRequest.ApprovedDate = DateTime.Now;
+            replenishmentRequest.ApprovedBy = $"{loggedInUser.FirstName} {loggedInUser.LastName}";
+            replenishmentRequestService.UpdateRequest(replenishmentRequest);
+
+            product.WarehouseQuantity -= replenishmentRequest.RequestedQuantity;
+            product.StoreQuantity += replenishmentRequest.RequestedQuantity;
+            productService.Update(product);
+
+            label6.Text = "Status: " + replenishmentRequest.Status;
+            SetButtonVisibility();
+        }
+
+        private void btnReject_Click(object sender, EventArgs e)
+        {
+            replenishmentRequest.Status = "DECLINED";
+            replenishmentRequest.ApprovedDate = DateTime.Now;
+            replenishmentRequest.ApprovedBy = $"{loggedInUser.FirstName} {loggedInUser.LastName}";
+            replenishmentRequestService.UpdateRequest(replenishmentRequest);
+            label6.Text = "Status: " + replenishmentRequest.Status;
+            SetButtonVisibility();
+        }
+
+        private void btnRemove_Click(object sender, EventArgs e)
+        {
+            this.Parent.Controls.Remove(this);
         }
 
         private void label2_Click(object sender, EventArgs e)

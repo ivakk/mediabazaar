@@ -2,15 +2,8 @@
 {
     partial class ReplenishmentRequestsForm
     {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -22,52 +15,35 @@
 
         #region Windows Form Designer generated code
 
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
-            flpMain = new FlowLayoutPanel();
-            SuspendLayout();
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 30F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(12, 9);
-            label1.Name = "label1";
-            label1.Size = new Size(458, 54);
-            label1.TabIndex = 0;
-            label1.Text = "Replenishment Requests";
+            this.flpMain = new System.Windows.Forms.FlowLayoutPanel();
+            this.SuspendLayout();
             // 
             // flpMain
             // 
-            flpMain.Location = new Point(12, 66);
-            flpMain.Name = "flpMain";
-            flpMain.Size = new Size(1410, 883);
-            flpMain.TabIndex = 1;
+            this.flpMain.AutoScroll = true;
+            this.flpMain.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flpMain.Location = new System.Drawing.Point(0, 0);
+            this.flpMain.Name = "flpMain";
+            this.flpMain.Size = new System.Drawing.Size(800, 450);
+            this.flpMain.TabIndex = 0;
             // 
             // ReplenishmentRequestsForm
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1434, 961);
-            Controls.Add(flpMain);
-            Controls.Add(label1);
-            FormBorderStyle = FormBorderStyle.None;
-            Name = "ReplenishmentRequestsForm";
-            StartPosition = FormStartPosition.CenterScreen;
-            Text = "ReplenishmentRequestsForm";
-            Load += ReplenishmentRequestsForm_Load;
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.flpMain);
+            this.Name = "ReplenishmentRequestsForm";
+            this.Text = "Replenishment Requests";
+            this.Load += new System.EventHandler(this.ReplenishmentRequestsForm_Load);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
 
-        private Label label1;
-        private FlowLayoutPanel flpMain;
+        private System.Windows.Forms.FlowLayoutPanel flpMain;
     }
 }

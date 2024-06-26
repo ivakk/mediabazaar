@@ -1,72 +1,87 @@
 ﻿using MP_BusinessLogic.Entities;
-using MP_DataAccess.DALManagers;
-using System.Data.SqlClient;
 using MP_BusinessLogic.InterfacesDal;
+using System.Collections.Generic;
+using System.Data.SqlClient;
 
-public class ReplenishmentRequestDAL : Connection, IReplenishmentRequestDAL
+namespace MP_DataAccess.DALManagers
 {
-    private readonly string tableName = "ReplenishmentRequests";
-
-    public void CreateRequest(ReplenishmentRequest replenishmentRequest)
+    public class ReplenishmentRequestDAL : Connection, IReplenishmentRequestDAL
     {
-        string query = $"INSERT INTO {tableName} (ProductId, RequestedQuantity, Status, RequestDate) " +
-                       $"VALUES (@ProductId, @RequestedQuantity, @Status, @RequestDate)";
-
-        connection.Open();
-        SqlCommand command = new SqlCommand(query, base.connection);
-        command.Parameters.AddWithValue("@ProductId", replenishmentRequest.ProductId);
-        command.Parameters.AddWithValue("@RequestedQuantity", replenishmentRequest.RequestedQuantity);
-        command.Parameters.AddWithValue("@Status", replenishmentRequest.Status);
-        command.Parameters.AddWithValue("@RequestDate", replenishmentRequest.RequestDate);
-
-        try
+        public List<ReplenishmentRequest> GetAllRequests()
         {
-            command.ExecuteNonQuery();
-        }
-        catch (SqlException e)
-        {
-            Console.WriteLine(e.Message);
-        }
-        finally
-        {
-            connection.Close();
-        }
-    }
-
-    public List<ReplenishmentRequest> GetAllRequests()
-    {
-        string query = $"SELECT * FROM {tableName}";
-        List<ReplenishmentRequest> requests = new List<ReplenishmentRequest>();
-
-        connection.Open();
-        SqlCommand command = new SqlCommand(query, base.connection);
-
-        try
-        {
-            using SqlDataReader reader = command.ExecuteReader();
+            List<ReplenishmentRequest> requests = new List<ReplenishmentRequest>();
+            string query = "SELECT * FROM ReplenishmentRequests";
+            SqlCommand command = new SqlCommand(query, connection);
+            connection.Open();
+            SqlDataReader reader = command.ExecuteReader();
             while (reader.Read())
             {
-                requests.Add(new ReplenishmentRequest
+                ReplenishmentRequest request = new ReplenishmentRequest
                 {
                     Id = (int)reader["Id"],
                     ProductId = (int)reader["ProductId"],
                     RequestedQuantity = (int)reader["RequestedQuantity"],
-                    Status = (string)reader["Status"],
+                    Status = reader["Status"].ToString(),
                     RequestDate = (DateTime)reader["RequestDate"],
                     ApprovedDate = reader["ApprovedDate"] as DateTime?,
-                    ApprovedBy = reader["ApprovedBy"] as string
-                });
+                    ApprovedBy = reader["ApprovedBy"]?.ToString()
+                };
+                requests.Add(request);
             }
+            connection.Close();
+            return requests;
         }
-        catch (SqlException e)
+
+        public List<ReplenishmentRequest> GetRequestsByProductId(int productId)
         {
-            Console.WriteLine(e.Message);
+            List<ReplenishmentRequest> requests = new List<ReplenishmentRequest>();
+            string query = "SELECT * FROM ReplenishmentRequests WHERE ProductId = @ProductId AND Status = 'OPEN'";
+            SqlCommand command = new SqlCommand(query, connection);
+            command.Parameters.AddWithValue("@ProductId", productId);
+            connection.Open();
+            SqlDataReader reader = command.ExecuteReader();
+            while (reader.Read())
+            {
+                ReplenishmentRequest request = new ReplenishmentRequest
+                {
+                    Id = (int)reader["Id"],
+                    ProductId = (int)reader["ProductId"],
+                    RequestedQuantity = (int)reader["RequestedQuantity"],
+                    Status = reader["Status"].ToString(),
+                    RequestDate = (DateTime)reader["RequestDate"],
+                    ApprovedDate = reader["ApprovedDate"] as DateTime?,
+                    ApprovedBy = reader["ApprovedBy"]?.ToString()
+                };
+                requests.Add(request);
+            }
+            connection.Close();
+            return requests;
         }
-        finally
+
+        public void CreateRequest(ReplenishmentRequest replenishmentRequest)
         {
+            string query = "INSERT INTO ReplenishmentRequests (ProductId, RequestedQuantity, Status, RequestDate) VALUES (@ProductId, @RequestedQuantity, @Status, @RequestDate)";
+            SqlCommand command = new SqlCommand(query, connection);
+            command.Parameters.AddWithValue("@ProductId", replenishmentRequest.ProductId);
+            command.Parameters.AddWithValue("@RequestedQuantity", replenishmentRequest.RequestedQuantity);
+            command.Parameters.AddWithValue("@Status", replenishmentRequest.Status);
+            command.Parameters.AddWithValue("@RequestDate", replenishmentRequest.RequestDate);
+            connection.Open();
+            command.ExecuteNonQuery();
             connection.Close();
         }
 
-        return requests;
+        public void UpdateRequest(ReplenishmentRequest replenishmentRequest)
+        {
+            string query = "UPDATE ReplenishmentRequests SET Status = @Status, ApprovedDate = @ApprovedDate, ApprovedBy = @ApprovedBy WHERE Id = @Id";
+            SqlCommand command = new SqlCommand(query, connection);
+            command.Parameters.AddWithValue("@Status", replenishmentRequest.Status);
+            command.Parameters.AddWithValue("@ApprovedDate", (object)replenishmentRequest.ApprovedDate ?? DBNull.Value);
+            command.Parameters.AddWithValue("@ApprovedBy", (object)replenishmentRequest.ApprovedBy ?? DBNull.Value);
+            command.Parameters.AddWithValue("@Id", replenishmentRequest.Id);
+            connection.Open();
+            command.ExecuteNonQuery();
+            connection.Close();
+        }
     }
 }

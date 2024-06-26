@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ivk\\Desktop\\n\\media-bazzar\\MediaBazar\\MP-SchedulingService\\MP-SchedulingService.csproj": {}
+    "D:\\Software-S2\\media-bazzarNew\\MediaBazar\\MP-SchedulingService\\MP-SchedulingService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ivk\\Desktop\\n\\media-bazzar\\MediaBazar\\MP-SchedulingDAL\\MP-SchedulingDAL.csproj": {
+    "D:\\Software-S2\\media-bazzarNew\\MediaBazar\\MP-SchedulingDAL\\MP-SchedulingDAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ivk\\Desktop\\n\\media-bazzar\\MediaBazar\\MP-SchedulingDAL\\MP-SchedulingDAL.csproj",
+        "projectUniqueName": "D:\\Software-S2\\media-bazzarNew\\MediaBazar\\MP-SchedulingDAL\\MP-SchedulingDAL.csproj",
         "projectName": "MP-SchedulingDAL",
-        "projectPath": "C:\\Users\\ivk\\Desktop\\n\\media-bazzar\\MediaBazar\\MP-SchedulingDAL\\MP-SchedulingDAL.csproj",
-        "packagesPath": "C:\\Users\\ivk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ivk\\Desktop\\n\\media-bazzar\\MediaBazar\\MP-SchedulingDAL\\obj\\",
+        "projectPath": "D:\\Software-S2\\media-bazzarNew\\MediaBazar\\MP-SchedulingDAL\\MP-SchedulingDAL.csproj",
+        "packagesPath": "C:\\Users\\ivayl\\.nuget\\packages\\",
+        "outputPath": "D:\\Software-S2\\media-bazzarNew\\MediaBazar\\MP-SchedulingDAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ivk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ivayl\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -74,21 +74,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ivk\\Desktop\\n\\media-bazzar\\MediaBazar\\MP-SchedulingService\\MP-SchedulingService.csproj": {
+    "D:\\Software-S2\\media-bazzarNew\\MediaBazar\\MP-SchedulingService\\MP-SchedulingService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ivk\\Desktop\\n\\media-bazzar\\MediaBazar\\MP-SchedulingService\\MP-SchedulingService.csproj",
+        "projectUniqueName": "D:\\Software-S2\\media-bazzarNew\\MediaBazar\\MP-SchedulingService\\MP-SchedulingService.csproj",
         "projectName": "MP-SchedulingService",
-        "projectPath": "C:\\Users\\ivk\\Desktop\\n\\media-bazzar\\MediaBazar\\MP-SchedulingService\\MP-SchedulingService.csproj",
-        "packagesPath": "C:\\Users\\ivk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ivk\\Desktop\\n\\media-bazzar\\MediaBazar\\MP-SchedulingService\\obj\\",
+        "projectPath": "D:\\Software-S2\\media-bazzarNew\\MediaBazar\\MP-SchedulingService\\MP-SchedulingService.csproj",
+        "packagesPath": "C:\\Users\\ivayl\\.nuget\\packages\\",
+        "outputPath": "D:\\Software-S2\\media-bazzarNew\\MediaBazar\\MP-SchedulingService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ivk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ivayl\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -102,8 +102,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\ivk\\Desktop\\n\\media-bazzar\\MediaBazar\\MP-SchedulingDAL\\MP-SchedulingDAL.csproj": {
-                "projectPath": "C:\\Users\\ivk\\Desktop\\n\\media-bazzar\\MediaBazar\\MP-SchedulingDAL\\MP-SchedulingDAL.csproj"
+              "D:\\Software-S2\\media-bazzarNew\\MediaBazar\\MP-SchedulingDAL\\MP-SchedulingDAL.csproj": {
+                "projectPath": "D:\\Software-S2\\media-bazzarNew\\MediaBazar\\MP-SchedulingDAL\\MP-SchedulingDAL.csproj"
               }
             }
           }
@@ -144,7 +144,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
         }
       }
     }

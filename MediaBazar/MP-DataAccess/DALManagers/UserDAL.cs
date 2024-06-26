@@ -1,4 +1,5 @@
 ﻿
+using MP_BusinessLogic.Entities;
 using MP_BusinessLogic.InterfacesDal;
 using MP_BusinessLogic.InterfacesLL;
 using MP_EntityLibrary;
@@ -722,9 +723,9 @@ namespace MP_DataAccess.DALManagers
             }
         }
 
-        public bool? GetLatestCheckStatus(int userId)
+        public CheckStatus GetLatestCheckStatus(int userId)
         {
-            string query = "SELECT TOP 1 IsCheckIn FROM EmployeeCheckRecords WHERE UserId = @userId ORDER BY CheckTime DESC";
+            string query = "SELECT TOP 1 IsCheckIn, CheckTime FROM EmployeeCheckRecords WHERE UserId = @userId ORDER BY CheckTime DESC";
             using (SqlCommand command = new SqlCommand(query, connection))
             {
                 command.Parameters.AddWithValue("@userId", userId);
@@ -732,12 +733,18 @@ namespace MP_DataAccess.DALManagers
                 connection.Open();
                 try
                 {
-                    var result = command.ExecuteScalar();
-                    if (result != null)
+                    using (SqlDataReader reader = command.ExecuteReader())
                     {
-                        return (bool)result;
+                        if (reader.Read())
+                        {
+                            return new CheckStatus
+                            {
+                                IsCheckedIn = (bool)reader["IsCheckIn"],
+                                CheckTime = (DateTime)reader["CheckTime"]
+                            };
+                        }
+                        return null;
                     }
-                    return null;
                 }
                 catch (SqlException e)
                 {

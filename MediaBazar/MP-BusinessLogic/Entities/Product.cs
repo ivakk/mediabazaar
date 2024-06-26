@@ -18,7 +18,7 @@ namespace MP_EntityLibrary
         public string Model { get; private set; }
         public string Desciption { get; private set; }
         public decimal Price { get; private set; }
-        public int WarehouseQuantity { get; private set; }
+        public int WarehouseQuantity { get;  set; }
         public int StoreQuantity { get; set; }
         public string UPCcode { get; set; }
         public decimal Weight { get; set;}
@@ -61,6 +61,15 @@ namespace MP_EntityLibrary
         public bool IsBelowThreshold(int threshold)
         {
             return StoreQuantity < threshold;
+        }
+        public void IncreaseStoreQuantity(int quantity)
+        {
+            StoreQuantity += quantity;
+        }
+
+        public void DecreaseWarehouseQuantity(int quantity)
+        {
+            WarehouseQuantity -= quantity;
         }
     }
 }

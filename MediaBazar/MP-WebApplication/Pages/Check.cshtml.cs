@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using MP_BusinessLogic.Entities;
 using MP_BusinessLogic.InterfacesLL;
 using System;
-using System.Linq;
 
 public class CheckModel : PageModel
 {
@@ -14,15 +14,18 @@ public class CheckModel : PageModel
     }
 
     [BindProperty]
-    public bool IsCheckedIn { get; set; }
+    public CheckStatus CheckStatus { get; set; }
 
     public void OnGet()
     {
         try
         {
             int userId = int.Parse(User.FindFirst("id").Value);
-            var latestStatus = _userService.GetLatestCheckStatus(userId);
-            IsCheckedIn = latestStatus ?? false;
+            CheckStatus = _userService.GetLatestCheckStatus(userId);
+            if (CheckStatus == null)
+            {
+                CheckStatus = new CheckStatus { IsCheckedIn = false, CheckTime = null };
+            }
         }
         catch (NullReferenceException)
         {
@@ -37,7 +40,7 @@ public class CheckModel : PageModel
         {
             int userId = int.Parse(User.FindFirst("id").Value);
             _userService.CheckIn(userId);
-            IsCheckedIn = true;
+            CheckStatus = new CheckStatus { IsCheckedIn = true, CheckTime = DateTime.Now };
             return RedirectToPage();
         }
         catch (NullReferenceException)
@@ -53,7 +56,7 @@ public class CheckModel : PageModel
         {
             int userId = int.Parse(User.FindFirst("id").Value);
             _userService.CheckOut(userId);
-            IsCheckedIn = false;
+            CheckStatus = new CheckStatus { IsCheckedIn = false, CheckTime = DateTime.Now };
             return RedirectToPage();
         }
         catch (NullReferenceException)

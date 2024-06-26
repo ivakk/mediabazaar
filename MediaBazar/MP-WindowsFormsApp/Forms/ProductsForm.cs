@@ -5,6 +5,7 @@ using MP_DataAccess.DALManagers;
 using MP_EntityLibrary;
 using MP_WindowsFormsApp.Forms.ProductSubForms;
 using System;
+using System.Collections.Generic;
 using System.Windows.Forms;
 
 namespace MP_WindowsFormsApp.Forms
@@ -96,10 +97,14 @@ namespace MP_WindowsFormsApp.Forms
             foreach (DataGridViewRow row in dgvProducts.Rows)
             {
                 Product product = (Product)row.DataBoundItem;
-                if (product.StoreQuantity < 18) // Assuming threshold is 5
+                if (product.StoreQuantity < 17) // Assuming threshold is 5
                 {
-                    CreateReplenishmentRequest(product);
-                    MessageBox.Show($"Product {product.Brand.Name}: {product.Model} is below the threshold and a replenishment request has been created.");
+                    var existingRequests = replenishmentRequestService.GetRequestsByProductId(product.Id);
+                    if (existingRequests.Count == 0)
+                    {
+                        CreateReplenishmentRequest(product);
+                        MessageBox.Show($"Product {product.Brand.Name}: {product.Model} is below the threshold and a replenishment request has been created.");
+                    }
                 }
             }
         }

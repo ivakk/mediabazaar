@@ -425,6 +425,17 @@ namespace MP_DataAccess.DALManagers
             }
             return stats;
         }
+        public void UpdateQuantities(int productId, int storeQuantity, int warehouseQuantity)
+        {
+            string query = "UPDATE Products SET StoreQuantity = @StoreQuantity, WarehouseQuantity = @WarehouseQuantity WHERE productId = @Id";
+            SqlCommand command = new SqlCommand(query, connection);
+            command.Parameters.AddWithValue("@StoreQuantity", storeQuantity);
+            command.Parameters.AddWithValue("@WarehouseQuantity", warehouseQuantity);
+            command.Parameters.AddWithValue("@Id", productId);
+            connection.Open();
+            command.ExecuteNonQuery();
+            connection.Close();
+        }
 
     }
 }

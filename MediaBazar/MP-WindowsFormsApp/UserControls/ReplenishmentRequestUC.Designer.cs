@@ -33,7 +33,9 @@
             label3 = new Label();
             label4 = new Label();
             label5 = new Label();
-            btnStatus = new Button();
+            btnApprove = new Button();
+            btnReject = new Button();
+            btnRemove = new Button();
             label6 = new Label();
             label7 = new Label();
             SuspendLayout();
@@ -89,28 +91,56 @@
             label5.TabIndex = 4;
             label5.Text = "Price: 0.00";
             // 
-            // btnStatus
+            // btnApprove
             // 
-            btnStatus.BackColor = Color.Red;
-            btnStatus.FlatStyle = FlatStyle.Flat;
-            btnStatus.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
-            btnStatus.ForeColor = Color.Black;
-            btnStatus.Location = new Point(492, 50);
-            btnStatus.Name = "btnStatus";
-            btnStatus.Size = new Size(176, 58);
-            btnStatus.TabIndex = 12;
-            btnStatus.Text = "OPEN";
-            btnStatus.UseVisualStyleBackColor = false;
-            btnStatus.Click += btnAdd_Click;
+            btnApprove.BackColor = Color.Green;
+            btnApprove.FlatStyle = FlatStyle.Flat;
+            btnApprove.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
+            btnApprove.ForeColor = Color.Black;
+            btnApprove.Location = new Point(492, 50);
+            btnApprove.Name = "btnApprove";
+            btnApprove.Size = new Size(176, 58);
+            btnApprove.TabIndex = 12;
+            btnApprove.Text = "Approve";
+            btnApprove.UseVisualStyleBackColor = false;
+            btnApprove.Click += btnApprove_Click;
+            // 
+            // btnReject
+            // 
+            btnReject.BackColor = Color.DarkRed;
+            btnReject.FlatStyle = FlatStyle.Flat;
+            btnReject.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
+            btnReject.ForeColor = Color.Black;
+            btnReject.Location = new Point(492, 120);
+            btnReject.Name = "btnReject";
+            btnReject.Size = new Size(176, 58);
+            btnReject.TabIndex = 13;
+            btnReject.Text = "Reject";
+            btnReject.UseVisualStyleBackColor = false;
+            btnReject.Click += btnReject_Click;
+            // 
+            // btnRemove
+            // 
+            btnRemove.BackColor = Color.Gray;
+            btnRemove.FlatStyle = FlatStyle.Flat;
+            btnRemove.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
+            btnRemove.ForeColor = Color.Black;
+            btnRemove.Location = new Point(492, 190);
+            btnRemove.Name = "btnRemove";
+            btnRemove.Size = new Size(176, 58);
+            btnRemove.TabIndex = 16;
+            btnRemove.Text = "Remove";
+            btnRemove.UseVisualStyleBackColor = false;
+            btnRemove.Click += btnRemove_Click;
             // 
             // label6
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI", 15F);
-            label6.Location = new Point(392, 64);
+            label6.Location = new Point(144, 120);
             label6.Name = "label6";
             label6.Size = new Size(70, 28);
-            label6.TabIndex = 13;
+            label6.TabIndex = 14;
             label6.Text = "Status:";
             // 
             // label7
@@ -120,7 +150,7 @@
             label7.Location = new Point(492, 17);
             label7.Name = "label7";
             label7.Size = new Size(103, 28);
-            label7.TabIndex = 14;
+            label7.TabIndex = 15;
             label7.Text = "Amount: 0";
             // 
             // ReplenishmentRequestUC
@@ -130,14 +160,16 @@
             BackColor = Color.LightGray;
             Controls.Add(label7);
             Controls.Add(label6);
-            Controls.Add(btnStatus);
+            Controls.Add(btnApprove);
+            Controls.Add(btnReject);
+            Controls.Add(btnRemove);
             Controls.Add(label5);
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "ReplenishmentRequestUC";
-            Size = new Size(700, 150);
+            Size = new Size(700, 250);
             Load += ReplenishmentRequestUC_Load;
             ResumeLayout(false);
             PerformLayout();
@@ -150,7 +182,9 @@
         private Label label3;
         private Label label4;
         private Label label5;
-        private Button btnStatus;
+        private Button btnApprove;
+        private Button btnReject;
+        private Button btnRemove;
         private Label label6;
         private Label label7;
     }

@@ -59,7 +59,10 @@ namespace MP_BusinessLogic.Services
         {
             return controller.GetTotalStockValue();
         }
-
+        public void UpdateQuantities(int productId, int storeQuantity, int warehouseQuantity)
+        {
+            controller.UpdateQuantities(productId, storeQuantity, warehouseQuantity);
+        }
         public Dictionary<string, (int Store, int Warehouse)> GetWarehouseStoreQuantities() { return controller.GetWarehouseStoreQuantities(); }
 
         public Dictionary<string, (int Store, int Warehouse)> GetWarehouseStoreQuantitiesByCategoryAndBrand(string category, string brand) { return controller.GetWarehouseStoreQuantitiesByCategoryAndBrand(category, brand); }

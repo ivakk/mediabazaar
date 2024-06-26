@@ -4,19 +4,37 @@
     ViewData["Title"] = "Check";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Check</h1>
-
-    @if (Model.IsCheckedIn)
-    {
-        <form method="post" asp-page-handler="CheckOut">
-            <button type="submit" class="btn btn-danger">Check Out</button>
-        </form>
-    }
-    else
-    {
-        <form method="post" asp-page-handler="CheckIn">
-            <button type="submit" class="btn btn-success">Check In</button>
-        </form>
-    }
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-lg border-0 rounded-lg">
+                <div class="card-header bg-danger text-white text-center">
+                    <h2 class="my-2">Check Status</h2>
+                </div>
+                <div class="card-body text-center">
+                    @if (Model.CheckStatus.IsCheckedIn)
+                    {
+                        <div class="alert alert-success" role="alert">
+                            <h4 class="alert-heading">Checked In</h4>
+                            <p>Time: @Model.CheckStatus.CheckTime?.ToString("g")</p>
+                        </div>
+                        <form method="post" asp-page-handler="CheckOut">
+                            <button type="submit" class="btn btn-danger btn-lg">Check Out</button>
+                        </form>
+                    }
+                    else
+                    {
+                        <div class="alert alert-warning" role="alert">
+                            <h4 class="alert-heading">Checked Out</h4>
+                            <p>Time: @Model.CheckStatus.CheckTime?.ToString("g")</p>
+                        </div>
+                        <form method="post" asp-page-handler="CheckIn">
+                            <button type="submit" class="btn btn-success btn-lg">Check In</button>
+                        </form>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+    

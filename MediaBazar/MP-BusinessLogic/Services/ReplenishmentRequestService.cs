@@ -1,11 +1,7 @@
 ﻿using MP_BusinessLogic.Entities;
 using MP_BusinessLogic.InterfacesDal;
 using MP_BusinessLogic.InterfacesLL;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MP_BusinessLogic.Services
 {
@@ -17,13 +13,25 @@ namespace MP_BusinessLogic.Services
         {
             this.replenishmentRequestDAL = replenishmentRequestDAL;
         }
+
         public List<ReplenishmentRequest> GetAllRequests()
         {
             return replenishmentRequestDAL.GetAllRequests();
         }
+
         public void CreateRequest(ReplenishmentRequest replenishmentRequest)
         {
             replenishmentRequestDAL.CreateRequest(replenishmentRequest);
+        }
+
+        public void UpdateRequest(ReplenishmentRequest replenishmentRequest)
+        {
+            replenishmentRequestDAL.UpdateRequest(replenishmentRequest);
+        }
+
+        public List<ReplenishmentRequest> GetRequestsByProductId(int productId)
+        {
+            return replenishmentRequestDAL. GetRequestsByProductId(productId);
         }
     }
 }

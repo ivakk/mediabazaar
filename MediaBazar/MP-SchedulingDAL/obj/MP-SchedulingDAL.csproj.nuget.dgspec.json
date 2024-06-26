@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ivk\\Desktop\\n\\media-bazzar\\MediaBazar\\MP-SchedulingDAL\\MP-SchedulingDAL.csproj": {}
+    "D:\\Software-S2\\media-bazzarNew\\MediaBazar\\MP-SchedulingDAL\\MP-SchedulingDAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ivk\\Desktop\\n\\media-bazzar\\MediaBazar\\MP-SchedulingDAL\\MP-SchedulingDAL.csproj": {
+    "D:\\Software-S2\\media-bazzarNew\\MediaBazar\\MP-SchedulingDAL\\MP-SchedulingDAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ivk\\Desktop\\n\\media-bazzar\\MediaBazar\\MP-SchedulingDAL\\MP-SchedulingDAL.csproj",
+        "projectUniqueName": "D:\\Software-S2\\media-bazzarNew\\MediaBazar\\MP-SchedulingDAL\\MP-SchedulingDAL.csproj",
         "projectName": "MP-SchedulingDAL",
-        "projectPath": "C:\\Users\\ivk\\Desktop\\n\\media-bazzar\\MediaBazar\\MP-SchedulingDAL\\MP-SchedulingDAL.csproj",
-        "packagesPath": "C:\\Users\\ivk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ivk\\Desktop\\n\\media-bazzar\\MediaBazar\\MP-SchedulingDAL\\obj\\",
+        "projectPath": "D:\\Software-S2\\media-bazzarNew\\MediaBazar\\MP-SchedulingDAL\\MP-SchedulingDAL.csproj",
+        "packagesPath": "C:\\Users\\ivayl\\.nuget\\packages\\",
+        "outputPath": "D:\\Software-S2\\media-bazzarNew\\MediaBazar\\MP-SchedulingDAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ivk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ivayl\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -74,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
         }
       }
     }
