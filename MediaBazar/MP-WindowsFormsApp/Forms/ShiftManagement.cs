@@ -14,6 +14,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using MP_SchedulingService;
 using MP_SchedulingDAL;
+using System.Diagnostics;
 
 namespace MP_WindowsFormsApp.Forms
 {
@@ -46,33 +47,33 @@ namespace MP_WindowsFormsApp.Forms
                     UserControls[h].Add(new UserControlShift(DateTime.Now, new List<Shift>(), this, "", h));
                 }
             }
-
-
         }
+
         private void PlanningWeekly_Load(object sender, EventArgs e)
         {
             weekShifts = shiftsManager.GetShiftsForWeek(dateOfFirstDay);
             LoadCalendar(dateOfFirstDay);
             LoadDepartments();
         }
+
         private void btnPrevious_Click(object sender, EventArgs e)
         {
-
             dateOfFirstDay = dateOfFirstDay.AddDays(-7);
             AutoScheduleStart.Value = dateOfFirstDay;
             AutoScheduleEnd.Value = dateOfFirstDay.AddDays(6);
             weekShifts = shiftsManager.GetShiftsForWeek(dateOfFirstDay);
             LoadCalendar(dateOfFirstDay);
         }
+
         private void btnNext_Click(object sender, EventArgs e)
         {
-
             dateOfFirstDay = dateOfFirstDay.AddDays(7);
             AutoScheduleStart.Value = dateOfFirstDay;
             AutoScheduleEnd.Value = dateOfFirstDay.AddDays(6);
             weekShifts = shiftsManager.GetShiftsForWeek(dateOfFirstDay);
             LoadCalendar(dateOfFirstDay);
         }
+
         private void dgvUsers_SelectionChanged(object sender, EventArgs e)
         {
             User user = GetSelectedUser();
@@ -85,10 +86,12 @@ namespace MP_WindowsFormsApp.Forms
                 lblSelectedEmployee.Text = "NONE!";
             }
         }
+
         private void btnSearch_Click(object sender, EventArgs e)
         {
             LoadUsers(userService.GetBySearch(tbSearch.Text));
         }
+
         private void btnDepartmentSearch_Click(object sender, EventArgs e)
         {
             Department dep = (Department)cboDepartmens.SelectedItem;
@@ -97,6 +100,7 @@ namespace MP_WindowsFormsApp.Forms
             weekShifts = weekShifts.Where(shift => shift.User.Department.Id == dep.Id).ToList();
             LoadCalendar(dateOfFirstDay);
         }
+
         private void btnCreateShift_Click(object sender, EventArgs e)
         {
             try
@@ -107,12 +111,19 @@ namespace MP_WindowsFormsApp.Forms
                 newShift.EndTime = dtpEnd.Value;
                 newShift.Description = tbDescription.Text;
                 newShift.Type = "Shift";
-                shiftsManager.CreateShift(newShift);
                 foreach (Shift shift in selectedShifts)
                 {
-                    if (shift.User.Id == GetSelectedUser().Id &&
-                        shift.Type == "Availability")
-                        shiftsManager.DeleteShift(shift.ShiftId);
+                    if (shift.User.Id == GetSelectedUser().Id && shift.Type == "Availability")
+                    {
+                        if (shiftsManager.UpdateShiftStatus(shift.ShiftId, 1))
+                        {
+                            MessageBox.Show("Shift accepted successfully.");
+                        }
+                        else
+                        {
+                            MessageBox.Show("Unable to accept shift. Constraints not met.");
+                        }
+                    }
                 }
 
                 weekShifts = shiftsManager.GetShiftsForWeek(dateOfFirstDay);
@@ -142,10 +153,10 @@ namespace MP_WindowsFormsApp.Forms
                 autoSchedulingPreview.Show();
             }
         }
-        //CUSTOM METHODS
+
+        // CUSTOM METHODS
         public void LoadCalendar(DateTime dateOfFirstDay)
         {
-            System.Diagnostics.Debug.WriteLine("Load Calendar!");
             List<string> days = new List<string>() { "monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday" };
             dayContainer.Controls.Clear();
             for (int h = 0; h < 3; h++)
@@ -158,7 +169,6 @@ namespace MP_WindowsFormsApp.Forms
                                                 days[d], h);
                     dayContainer.Controls.Add(UserControls[h][d]);
                 }
-
             }
 
             lblDate1.Text = dateOfFirstDay.AddDays(0).ToString("dd MM");
@@ -169,6 +179,7 @@ namespace MP_WindowsFormsApp.Forms
             lblDate6.Text = dateOfFirstDay.AddDays(5).ToString("dd MM");
             lblDate7.Text = dateOfFirstDay.AddDays(6).ToString("dd MM");
         }
+
         private User GetSelectedUser()
         {
             try
@@ -182,6 +193,7 @@ namespace MP_WindowsFormsApp.Forms
                 return null;
             }
         }
+
         public void RefreshAllColors()
         {
             for (int h = 0; h < 3; h++)
@@ -192,6 +204,7 @@ namespace MP_WindowsFormsApp.Forms
                 }
             }
         }
+
         private List<Shift> CheckForShift(DateTime dateTime)
         {
             List<Shift> list = new List<Shift>();
@@ -208,11 +221,13 @@ namespace MP_WindowsFormsApp.Forms
             }
             return list;
         }
+
         public void LoadUsers(List<User> users)
         {
             dgvAvailableUsers.Controls.Clear();
             dgvAvailableUsers.DataSource = users;
         }
+
         public void LoadDepartments()
         {
             cboDepartmens.Items.Clear();
@@ -221,7 +236,5 @@ namespace MP_WindowsFormsApp.Forms
                 cboDepartmens.Items.Add(dep);
             }
         }
-
-
     }
 }

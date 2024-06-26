@@ -59,7 +59,7 @@ namespace MP_WindowsFormsApp
 
             menuButtons.Add(new MenuButton("Products", productForm, this));
             menuButtons.Add(new MenuButton("Replenishment", replenishmentRequestsForm, this));
-            menuButtons.Add(new MenuButton("Scheduling", scheduleForm, this));
+            menuButtons.Add(new MenuButton("Scheduling", shiftManagementForm, this));
             menuButtons.Add(new MenuButton("Departments", departmentForm, this));
 
             LoadMenuButtons();
@@ -68,7 +68,7 @@ namespace MP_WindowsFormsApp
             {
                 { "Products", productForm },
                 { "Employees", userForm },
-                { "Scheduling", scheduleForm },
+                { "Scheduling", shiftManagementForm },
                 { "Departments", departmentForm }
             };
         }
@@ -87,8 +87,6 @@ namespace MP_WindowsFormsApp
         {
             flpMenu.Controls.Clear();
             loggedInUser = userService.GetUserById(loggedInUser.Id);
-
-            MessageBox.Show("User position is " + loggedInUser.Position.ToString() + loggedInUser.Department.ToString());
 
             foreach (MenuButton button in menuButtons)
             {

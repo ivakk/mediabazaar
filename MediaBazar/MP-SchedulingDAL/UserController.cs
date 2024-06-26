@@ -11,7 +11,7 @@ namespace MP_SchedulingDAL
 {
     public class UserController: Connection {
 
-        private readonly string tableName = "Users";
+        private readonly string tableName = "Employees";
         public UserController() { }
 
         /**

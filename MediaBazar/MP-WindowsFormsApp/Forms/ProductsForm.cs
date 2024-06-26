@@ -38,8 +38,6 @@ namespace MP_WindowsFormsApp.Forms
             // Check if the logged-in user is a worker in the depot department
             var loggedInUser = mainForm.loggedInUser;
 
-            MessageBox.Show(loggedInUser.Department.Name);
-
             if (loggedInUser != null &&
                 loggedInUser.Position.ToLower().Trim() == "worker" &&
                 (loggedInUser.Department.Name.ToLower().Trim() == "depot" || loggedInUser.Department.Name.ToLower().Trim() == "sales"))

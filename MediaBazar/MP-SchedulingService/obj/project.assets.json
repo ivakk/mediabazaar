@@ -6186,19 +6186,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ivayl\\.nuget\\packages\\": {}
+    "C:\\Users\\ivk\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Software-S2\\media-bazzarNew\\MediaBazar\\MP-SchedulingService\\MP-SchedulingService.csproj",
+      "projectUniqueName": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-SchedulingService\\MP-SchedulingService.csproj",
       "projectName": "MP-SchedulingService",
-      "projectPath": "D:\\Software-S2\\media-bazzarNew\\MediaBazar\\MP-SchedulingService\\MP-SchedulingService.csproj",
-      "packagesPath": "C:\\Users\\ivayl\\.nuget\\packages\\",
-      "outputPath": "D:\\Software-S2\\media-bazzarNew\\MediaBazar\\MP-SchedulingService\\obj\\",
+      "projectPath": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-SchedulingService\\MP-SchedulingService.csproj",
+      "packagesPath": "C:\\Users\\ivk\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-SchedulingService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ivayl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ivk\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6212,8 +6212,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Software-S2\\media-bazzarNew\\MediaBazar\\MP-SchedulingDAL\\MP-SchedulingDAL.csproj": {
-              "projectPath": "D:\\Software-S2\\media-bazzarNew\\MediaBazar\\MP-SchedulingDAL\\MP-SchedulingDAL.csproj"
+            "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-SchedulingDAL\\MP-SchedulingDAL.csproj": {
+              "projectPath": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-SchedulingDAL\\MP-SchedulingDAL.csproj"
             }
           }
         }
@@ -6254,7 +6254,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

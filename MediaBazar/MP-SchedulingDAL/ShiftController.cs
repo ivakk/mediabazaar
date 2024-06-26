@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -57,7 +59,7 @@ namespace MP_SchedulingDAL
 
             // Open the connection
             connection.Open();
-
+            Shift shift = null;
             SqlCommand command = new SqlCommand(query, base.connection);
 
             try
@@ -69,9 +71,10 @@ namespace MP_SchedulingDAL
                 using SqlDataReader reader = command.ExecuteReader();
                 while (reader.Read())
                 {
-                    return new Shift((int)reader.GetValue(0), userController.GetUserById((int)reader.GetValue(1)),
+                    shift = new Shift((int)reader.GetValue(0), userController.GetUserById((int)reader.GetValue(1)),
                         (DateTime)reader.GetValue(2), (DateTime)reader.GetValue(3), (string)reader.GetValue(4),
                         (string)reader.GetValue(5), (int)reader.GetValue(6));
+                    
                 }
             }
             catch (SqlException e)
@@ -81,9 +84,9 @@ namespace MP_SchedulingDAL
             }
             finally
             {
-                connection.Close();
-            }
-            return new Shift();
+               connection.Close();
+           }
+            return shift;
         }
         public List<Shift> GetAllShiftsOfUser(int userId)
         {
@@ -239,18 +242,11 @@ namespace MP_SchedulingDAL
         }
         public bool CreateShift(Shift shift)
         {
-
-            // Set up the query
             string query = $"INSERT INTO {tableName} (userId, startTime, endTime, description, shiftType, accepted) " +
-                            $"VALUES ( @userId, @startTime, @endTime, @description, @type, @accepted)";
+                            $"VALUES (@userId, @startTime, @endTime, @description, @type, @accepted)";
 
-            // Open the connection
             connection.Open();
-
-            // Creating Command string to combine the query and the connection String
             SqlCommand command = new SqlCommand(query, base.connection);
-
-            // Add the parameters
             command.Parameters.AddWithValue("@userId", shift.User.Id);
             command.Parameters.AddWithValue("@startTime", shift.StartTime);
             command.Parameters.AddWithValue("@endTime", shift.EndTime);
@@ -260,21 +256,143 @@ namespace MP_SchedulingDAL
 
             try
             {
-                // Execute the query and get the data
-                using SqlDataReader reader = command.ExecuteReader();
-
+                command.ExecuteNonQuery();
                 connection.Close();
                 return true;
             }
             catch (SqlException e)
             {
-                // Handle any errors that may have occurred.
                 Console.WriteLine(e.Message);
-
                 connection.Close();
                 return false;
             }
         }
+
+        public bool UpdateShiftStatus(int shiftId, int status)
+        {
+            Shift shift = GetShiftById(shiftId);
+            if (shift != null && IsShiftAllowed(shift))
+            {
+                string query = $"UPDATE {tableName} SET accepted = @status WHERE shiftId = @shiftId";
+
+                connection.Open();
+                SqlCommand command = new SqlCommand(query, base.connection);
+                command.Parameters.AddWithValue("@shiftId", shiftId);
+                command.Parameters.AddWithValue("@status", status);
+
+                try
+                {
+                    command.ExecuteNonQuery();
+                    connection.Close();
+                    return true;
+                }
+                catch (SqlException e)
+                {
+                    Console.WriteLine(e.Message);
+                    connection.Close();
+                    return false;
+                }
+                catch (Exception ex)
+                {
+                    Debug.WriteLine(ex.ToString());
+                    return false;
+                }
+            }
+            else
+            {
+                Console.WriteLine("Shift constraints not met.");
+                return false;
+            }
+        }
+
+        private bool IsShiftAllowed(Shift shift)
+        {
+            if (HasReachedMaxShiftsForDay(shift.User.Id, shift.StartTime))
+            {
+                return false;
+            }
+
+            if (!IsAdjacentShift(shift.User.Id, shift))
+            {
+                return false;
+            }
+
+            return true;
+        }
+
+        public bool HasReachedMaxShiftsForDay(int userId, DateTime shiftStartTime)
+        {
+            string query = $"SELECT COUNT(*) FROM {tableName} WHERE userId = @userId AND CAST(startTime AS DATE) = @shiftDate AND accepted = '1'";
+            SqlCommand command = new SqlCommand(query, base.connection);
+            command.Parameters.AddWithValue("@userId", userId);
+            command.Parameters.AddWithValue("@shiftDate", shiftStartTime.Date);
+            int shiftCount = 0;
+            try
+            {
+                connection.Open();
+                shiftCount = (int)command.ExecuteScalar();
+            }
+            catch(Exception ex)
+            {
+                Debug.WriteLine(ex.ToString());
+            }
+            connection.Close();
+
+            return shiftCount >= 2;
+        }
+
+        public bool IsAdjacentShift(int userId, Shift shiftToBeScheduled)
+        {
+            // Retrieve all shifts for the user on the specific day
+            string query = $"SELECT startTime, endTime FROM {tableName} WHERE userId = @userId AND accepted = 1";
+            SqlCommand command = new SqlCommand(query, base.connection);
+            command.Parameters.AddWithValue("@userId", userId);
+
+            List<Shift> userShifts = new List<Shift>();
+
+            try
+            {
+                connection.Open();
+                using SqlDataReader reader = command.ExecuteReader();
+                while (reader.Read())
+                {
+                    DateTime startTime = reader.GetDateTime(0);
+                    DateTime endTime = reader.GetDateTime(1);
+                    userShifts.Add(new Shift { StartTime = startTime, EndTime = endTime });
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.ToString());
+            }
+            finally
+            {
+                connection.Close();
+            }
+
+            // Filter the shifts for the specific day
+            var shiftsOnDay = userShifts.Where(s => s.StartTime.Date == shiftToBeScheduled.StartTime.Date).ToList();
+
+            // Check if the new shift is adjacent to any existing shifts
+            if(shiftsOnDay.Count > 0 )
+            {
+                foreach (var shift in shiftsOnDay)
+                {
+                    if (shift.EndTime == shiftToBeScheduled.StartTime || shift.StartTime == shiftToBeScheduled.EndTime)
+                    {
+                        return true;
+                    }
+                }
+            }
+            else
+            {
+                return true;
+            }
+            
+
+            return false;
+        }
+
         public void DeleteShift(int shiftId)
         {
             // Set up the query
@@ -302,75 +420,6 @@ namespace MP_SchedulingDAL
             finally
             {
                 connection.Close();
-            }
-        }
-
-        public bool UpdateShiftStatus(int shiftId, int status)
-        {
-            string query =
-                $"UPDATE {tableName} " +
-                $"SET accepted = @status " +
-                $"WHERE shiftId = @shiftId";
-
-            // Open the connection
-            connection.Open();
-
-            // Creating Command string to combine the query and the connection String
-            SqlCommand command = new SqlCommand(query, base.connection);
-
-            try
-            {
-                // Add the parameters
-                command.Parameters.AddWithValue("@shiftId", shiftId);
-                command.Parameters.AddWithValue("@status", status);
-
-
-                // Execute the query and get the data
-                using SqlDataReader reader = command.ExecuteReader();
-
-                connection.Close();
-                return true;
-            }
-            catch (SqlException e)
-            {
-                // Handle any errors that may have occurred.
-                Console.WriteLine(e.Message);
-                connection.Close();
-                return false;
-            }
-        }
-        public bool UpdateShiftType(int shiftId, string type)
-        {
-            string query =
-                $"UPDATE {tableName} " +
-                $"SET shiftType = @type " +
-                $"WHERE shiftId = @shiftId";
-
-            // Open the connection
-            connection.Open();
-
-            // Creating Command string to combine the query and the connection String
-            SqlCommand command = new SqlCommand(query, base.connection);
-
-            try
-            {
-                // Add the parameters
-                command.Parameters.AddWithValue("@shiftId", shiftId);
-                command.Parameters.AddWithValue("@type", type);
-
-
-                // Execute the query and get the data
-                using SqlDataReader reader = command.ExecuteReader();
-
-                connection.Close();
-                return true;
-            }
-            catch (SqlException e)
-            {
-                // Handle any errors that may have occurred.
-                Console.WriteLine(e.Message);
-                connection.Close();
-                return false;
             }
         }
     }
