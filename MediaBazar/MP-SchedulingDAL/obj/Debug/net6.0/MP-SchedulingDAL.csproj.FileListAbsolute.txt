@@ -22,3 +22,15 @@ C:\Users\ivk\Desktop\r\media-bazzar\MediaBazar\MP-SchedulingDAL\obj\Debug\net6.0
 C:\Users\ivk\Desktop\r\media-bazzar\MediaBazar\MP-SchedulingDAL\obj\Debug\net6.0\refint\MP-SchedulingDAL.dll
 C:\Users\ivk\Desktop\r\media-bazzar\MediaBazar\MP-SchedulingDAL\obj\Debug\net6.0\MP-SchedulingDAL.pdb
 C:\Users\ivk\Desktop\r\media-bazzar\MediaBazar\MP-SchedulingDAL\obj\Debug\net6.0\ref\MP-SchedulingDAL.dll
+D:\uni\bvcxza\MediaBazar\MP-SchedulingDAL\bin\Debug\net6.0\MP-SchedulingDAL.deps.json
+D:\uni\bvcxza\MediaBazar\MP-SchedulingDAL\bin\Debug\net6.0\MP-SchedulingDAL.dll
+D:\uni\bvcxza\MediaBazar\MP-SchedulingDAL\bin\Debug\net6.0\MP-SchedulingDAL.pdb
+D:\uni\bvcxza\MediaBazar\MP-SchedulingDAL\obj\Debug\net6.0\MP-SchedulingDAL.csproj.AssemblyReference.cache
+D:\uni\bvcxza\MediaBazar\MP-SchedulingDAL\obj\Debug\net6.0\MP-SchedulingDAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\uni\bvcxza\MediaBazar\MP-SchedulingDAL\obj\Debug\net6.0\MP-SchedulingDAL.AssemblyInfoInputs.cache
+D:\uni\bvcxza\MediaBazar\MP-SchedulingDAL\obj\Debug\net6.0\MP-SchedulingDAL.AssemblyInfo.cs
+D:\uni\bvcxza\MediaBazar\MP-SchedulingDAL\obj\Debug\net6.0\MP-SchedulingDAL.csproj.CoreCompileInputs.cache
+D:\uni\bvcxza\MediaBazar\MP-SchedulingDAL\obj\Debug\net6.0\MP-SchedulingDAL.dll
+D:\uni\bvcxza\MediaBazar\MP-SchedulingDAL\obj\Debug\net6.0\refint\MP-SchedulingDAL.dll
+D:\uni\bvcxza\MediaBazar\MP-SchedulingDAL\obj\Debug\net6.0\MP-SchedulingDAL.pdb
+D:\uni\bvcxza\MediaBazar\MP-SchedulingDAL\obj\Debug\net6.0\ref\MP-SchedulingDAL.dll

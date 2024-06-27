@@ -47,6 +47,18 @@ namespace MP_WindowsFormsApp.Forms
                     UserControls[h].Add(new UserControlShift(DateTime.Now, new List<Shift>(), this, "", h));
                 }
             }
+
+            var loggedInUser = layoutForm.loggedInUser;
+
+            if (loggedInUser != null &&
+                loggedInUser.Position.ToLower().Trim() == "worker")
+            {
+                groupBox1.Visible = false;
+                groupBox3.Visible = false;
+                label2.Visible = false;
+                cboDepartmens.Visible = false;
+                btnDepartmentSearch.Visible = false;
+            }
         }
 
         private void PlanningWeekly_Load(object sender, EventArgs e)

@@ -24,6 +24,8 @@ namespace MP_WindowsFormsApp.Forms
         {
             InitializeComponent();
             this.mainForm = mainForm;
+
+            
         }
         private void Schedule_Load(object sender, EventArgs e)
         {

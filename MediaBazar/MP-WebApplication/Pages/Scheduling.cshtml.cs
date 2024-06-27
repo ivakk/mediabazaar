@@ -74,7 +74,7 @@ namespace MP_WebApplication.Pages
                     shiftController.CreateShift(NewShift);
                 }
 
-                Response.Redirect("/");
+                Response.Redirect("/Scheduling");
             }
             else
             {
