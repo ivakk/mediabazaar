@@ -30,7 +30,7 @@ namespace MP_WindowsFormsApp.Forms
         {
             InitializeComponent();
             weekShifts = shifts;
-            dateOfFirstDay = DateTime.Today.AddDays(-(int)DateTime.Today.DayOfWeek + (int)DayOfWeek.Monday); ;
+            dateOfFirstDay = DateTime.Today.AddDays(-(int)DateTime.Today.DayOfWeek + (int)DayOfWeek.Monday);
             UserControls = new List<List<UserControlShiftPreview>>();
             for (int h = 0; h < 3; h++)
             {
@@ -48,6 +48,7 @@ namespace MP_WindowsFormsApp.Forms
 
         private void AutoSchedulingPreview_Load(object sender, EventArgs e)
         {
+            FilterValidShifts();
             LoadCalendar(dateOfFirstDay);
         }
         private void btnPrevious_Click(object sender, EventArgs e)
@@ -93,6 +94,7 @@ namespace MP_WindowsFormsApp.Forms
                                 ));
             }
 
+            FilterValidShifts();
             LoadCalendar(dateOfFirstDay);
         }
         //CUSTOM METHODS
@@ -177,6 +179,65 @@ namespace MP_WindowsFormsApp.Forms
             shiftService.SaveAutoScheduling(start, end, weekShifts);
             form.menuButtons.Where(mb => mb.ButtonText == "Scheduling").ToList()[0].Button_Click(sender, e);
             form.shiftManagementForm.LoadCalendar(form.shiftManagementForm.dateOfFirstDay);
+        }
+
+        private void FilterValidShifts()
+        {
+            // Filter shifts to ensure no user has more than 2 shifts per day and at least one of them is scheduled
+            var validShifts = new List<Shift>();
+
+            foreach (var userGroup in weekShifts.GroupBy(s => s.User.Id))
+            {
+                var userShifts = userGroup.ToList();
+                var dailyShifts = userShifts.GroupBy(s => s.StartTime.Date);
+
+                foreach (var dayGroup in dailyShifts)
+                {
+                    var shiftsInDay = dayGroup.ToList();
+
+                    if (shiftsInDay.Count == 1)
+                    {
+                        // If there is only one shift in a day, it is valid
+                        validShifts.AddRange(shiftsInDay);
+                    }
+                    else if (shiftsInDay.Count == 2)
+                    {
+                        // If there are exactly two shifts, ensure they are adjacent
+                        shiftsInDay = shiftsInDay.OrderBy(s => s.StartTime).ToList();
+                        if (shiftsInDay[0].EndTime == shiftsInDay[1].StartTime)
+                        {
+                            validShifts.AddRange(shiftsInDay);
+                        }
+                        else
+                        {
+                            // If not adjacent, add only the first shift
+                            validShifts.Add(shiftsInDay[0]);
+                        }
+                    }
+                    else if (shiftsInDay.Count > 2)
+                    {
+                        // If there are more than 2 shifts, consider only adjacent shifts or the first one
+                        shiftsInDay = shiftsInDay.OrderBy(s => s.StartTime).ToList();
+                        bool added = false;
+                        for (int i = 0; i < shiftsInDay.Count - 1; i++)
+                        {
+                            if (shiftsInDay[i].EndTime == shiftsInDay[i + 1].StartTime)
+                            {
+                                validShifts.Add(shiftsInDay[i]);
+                                validShifts.Add(shiftsInDay[i + 1]);
+                                added = true;
+                                break;
+                            }
+                        }
+                        if (!added)
+                        {
+                            validShifts.Add(shiftsInDay[0]);
+                        }
+                    }
+                }
+            }
+
+            weekShifts = validShifts;
         }
     }
 }

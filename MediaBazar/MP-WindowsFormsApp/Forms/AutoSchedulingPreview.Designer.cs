@@ -102,7 +102,7 @@
             dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = DataGridViewTriState.False;
             dgvScheduledUsers.DefaultCellStyle = dataGridViewCellStyle2;
-            dgvScheduledUsers.Location = new Point(726, 743);
+            dgvScheduledUsers.Location = new Point(663, 743);
             dgvScheduledUsers.Margin = new Padding(2);
             dgvScheduledUsers.MultiSelect = false;
             dgvScheduledUsers.Name = "dgvScheduledUsers";
@@ -110,7 +110,7 @@
             dgvScheduledUsers.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
             dgvScheduledUsers.RowTemplate.Height = 33;
             dgvScheduledUsers.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dgvScheduledUsers.Size = new Size(406, 246);
+            dgvScheduledUsers.Size = new Size(343, 246);
             dgvScheduledUsers.TabIndex = 111;
             // 
             // groupBox1
@@ -169,11 +169,11 @@
             groupBox2.Controls.Add(dtpStart);
             groupBox2.Controls.Add(btnCreateShift);
             groupBox2.Controls.Add(label33);
-            groupBox2.Location = new Point(1136, 743);
+            groupBox2.Location = new Point(1010, 743);
             groupBox2.Margin = new Padding(2);
             groupBox2.Name = "groupBox2";
             groupBox2.Padding = new Padding(2);
-            groupBox2.Size = new Size(436, 246);
+            groupBox2.Size = new Size(418, 246);
             groupBox2.TabIndex = 96;
             groupBox2.TabStop = false;
             // 
@@ -356,7 +356,7 @@
             dgvAvailableUsers.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
             dgvAvailableUsers.RowTemplate.Height = 33;
             dgvAvailableUsers.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dgvAvailableUsers.Size = new Size(406, 246);
+            dgvAvailableUsers.Size = new Size(343, 246);
             dgvAvailableUsers.TabIndex = 92;
             dgvAvailableUsers.SelectionChanged += dgvAvailableUsers_SelectionChanged;
             // 
@@ -373,7 +373,7 @@
             btnNext.BackColor = Color.FromArgb(204, 43, 29);
             btnNext.Font = new Font("Arial", 20F, FontStyle.Regular, GraphicsUnit.Point);
             btnNext.ForeColor = SystemColors.ButtonHighlight;
-            btnNext.Location = new Point(1380, 115);
+            btnNext.Location = new Point(1260, 55);
             btnNext.Margin = new Padding(2);
             btnNext.Name = "btnNext";
             btnNext.Size = new Size(158, 47);
@@ -398,7 +398,7 @@
             btnPrevious.BackColor = Color.FromArgb(204, 43, 29);
             btnPrevious.Font = new Font("Arial", 20F, FontStyle.Regular, GraphicsUnit.Point);
             btnPrevious.ForeColor = SystemColors.ButtonHighlight;
-            btnPrevious.Location = new Point(33, 115);
+            btnPrevious.Location = new Point(137, 55);
             btnPrevious.Margin = new Padding(2);
             btnPrevious.Name = "btnPrevious";
             btnPrevious.Size = new Size(152, 47);

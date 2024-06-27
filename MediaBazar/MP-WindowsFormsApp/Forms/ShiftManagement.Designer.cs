@@ -93,7 +93,7 @@
             btnNext.BackColor = Color.FromArgb(204, 43, 29);
             btnNext.Font = new Font("Arial", 20F, FontStyle.Regular, GraphicsUnit.Point);
             btnNext.ForeColor = SystemColors.ButtonHighlight;
-            btnNext.Location = new Point(1372, 115);
+            btnNext.Location = new Point(285, 51);
             btnNext.Margin = new Padding(2);
             btnNext.Name = "btnNext";
             btnNext.Size = new Size(158, 47);
@@ -118,7 +118,7 @@
             btnPrevious.BackColor = Color.FromArgb(204, 43, 29);
             btnPrevious.Font = new Font("Arial", 20F, FontStyle.Regular, GraphicsUnit.Point);
             btnPrevious.ForeColor = SystemColors.ButtonHighlight;
-            btnPrevious.Location = new Point(25, 115);
+            btnPrevious.Location = new Point(129, 51);
             btnPrevious.Margin = new Padding(2);
             btnPrevious.Name = "btnPrevious";
             btnPrevious.Size = new Size(152, 47);
@@ -302,11 +302,11 @@
             groupBox2.Controls.Add(dtpStart);
             groupBox2.Controls.Add(btnCreateShift);
             groupBox2.Controls.Add(label33);
-            groupBox2.Location = new Point(1128, 743);
+            groupBox2.Location = new Point(1022, 743);
             groupBox2.Margin = new Padding(2);
             groupBox2.Name = "groupBox2";
             groupBox2.Padding = new Padding(2);
-            groupBox2.Size = new Size(436, 246);
+            groupBox2.Size = new Size(419, 246);
             groupBox2.TabIndex = 65;
             groupBox2.TabStop = false;
             // 
@@ -456,7 +456,7 @@
             dgvAvailableUsers.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
             dgvAvailableUsers.RowTemplate.Height = 33;
             dgvAvailableUsers.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dgvAvailableUsers.Size = new Size(406, 246);
+            dgvAvailableUsers.Size = new Size(353, 246);
             dgvAvailableUsers.TabIndex = 63;
             dgvAvailableUsers.SelectionChanged += dgvUsers_SelectionChanged;
             // 
@@ -673,7 +673,7 @@
             dataGridViewCellStyle4.SelectionForeColor = SystemColors.HighlightText;
             dataGridViewCellStyle4.WrapMode = DataGridViewTriState.False;
             dgvScheduledUsers.DefaultCellStyle = dataGridViewCellStyle4;
-            dgvScheduledUsers.Location = new Point(718, 743);
+            dgvScheduledUsers.Location = new Point(665, 743);
             dgvScheduledUsers.Margin = new Padding(2);
             dgvScheduledUsers.MultiSelect = false;
             dgvScheduledUsers.Name = "dgvScheduledUsers";
@@ -681,7 +681,7 @@
             dgvScheduledUsers.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
             dgvScheduledUsers.RowTemplate.Height = 33;
             dgvScheduledUsers.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dgvScheduledUsers.Size = new Size(406, 246);
+            dgvScheduledUsers.Size = new Size(353, 246);
             dgvScheduledUsers.TabIndex = 85;
             // 
             // label7
@@ -700,7 +700,7 @@
             label10.AutoSize = true;
             label10.BackColor = SystemColors.ControlDarkDark;
             label10.Font = new Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
-            label10.Location = new Point(727, 945);
+            label10.Location = new Point(676, 945);
             label10.Name = "label10";
             label10.Size = new Size(146, 37);
             label10.TabIndex = 87;
