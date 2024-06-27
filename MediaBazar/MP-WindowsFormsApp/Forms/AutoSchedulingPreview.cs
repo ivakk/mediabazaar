@@ -169,13 +169,13 @@ namespace MP_WindowsFormsApp.Forms
 
         private void btnDisregard_Click(object sender, EventArgs e)
         {
-            form.menuButtons.Where(mb => mb.ButtonText == "Shifts").ToList()[0].Button_Click(sender, e);
+            form.menuButtons.Where(mb => mb.ButtonText == "Scheduling").ToList()[0].Button_Click(sender, e);
         }
 
         private void btnSave_Click(object sender, EventArgs e)
         {
             shiftService.SaveAutoScheduling(start, end, weekShifts);
-            form.menuButtons.Where(mb => mb.ButtonText == "Shifts").ToList()[0].Button_Click(sender, e);
+            form.menuButtons.Where(mb => mb.ButtonText == "Scheduling").ToList()[0].Button_Click(sender, e);
             form.shiftManagementForm.LoadCalendar(form.shiftManagementForm.dateOfFirstDay);
         }
     }

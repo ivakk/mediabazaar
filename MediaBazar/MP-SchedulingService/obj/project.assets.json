@@ -6186,19 +6186,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\ivk\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\uni\\bvcxza\\MediaBazar\\MP-SchedulingService\\MP-SchedulingService.csproj",
+      "projectUniqueName": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-SchedulingService\\MP-SchedulingService.csproj",
       "projectName": "MP-SchedulingService",
-      "projectPath": "D:\\uni\\bvcxza\\MediaBazar\\MP-SchedulingService\\MP-SchedulingService.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\uni\\bvcxza\\MediaBazar\\MP-SchedulingService\\obj\\",
+      "projectPath": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-SchedulingService\\MP-SchedulingService.csproj",
+      "packagesPath": "C:\\Users\\ivk\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-SchedulingService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ivk\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6212,8 +6212,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\uni\\bvcxza\\MediaBazar\\MP-SchedulingDAL\\MP-SchedulingDAL.csproj": {
-              "projectPath": "D:\\uni\\bvcxza\\MediaBazar\\MP-SchedulingDAL\\MP-SchedulingDAL.csproj"
+            "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-SchedulingDAL\\MP-SchedulingDAL.csproj": {
+              "projectPath": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-SchedulingDAL\\MP-SchedulingDAL.csproj"
             }
           }
         }
@@ -6222,6 +6222,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -6249,7 +6254,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

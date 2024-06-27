@@ -56,7 +56,7 @@
             }
         }
 
-        @if (@shift.Type == "Availability")
+        @if (@shift.State == 0)
         {
             <script>
                 events.push({
@@ -67,7 +67,7 @@
                 });
             </script>
         }
-        @if (@shift.Type == "Shift")
+        @if (@shift.State == 1)
         {
             <script>
                 events.push({

@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MP_SchedulingDAL
-build_property.ProjectDir = D:\uni\bvcxza\MediaBazar\MP-SchedulingDAL\
+build_property.ProjectDir = C:\Users\ivk\Desktop\r\media-bazzar\MediaBazar\MP-SchedulingDAL\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

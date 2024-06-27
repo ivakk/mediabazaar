@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\uni\\bvcxza\\MediaBazar\\MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj": {}
+    "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj": {}
   },
   "projects": {
-    "D:\\uni\\bvcxza\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj": {
+    "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\uni\\bvcxza\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj",
+        "projectUniqueName": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj",
         "projectName": "MP-BusinessLogic",
-        "projectPath": "D:\\uni\\bvcxza\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\uni\\bvcxza\\MediaBazar\\MP-BusinessLogic\\obj\\",
+        "projectPath": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\ivk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ivk\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -55,21 +60,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\uni\\bvcxza\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj": {
+    "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\uni\\bvcxza\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj",
         "projectName": "MP-DataAccess",
-        "projectPath": "D:\\uni\\bvcxza\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\uni\\bvcxza\\MediaBazar\\MP-DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj",
+        "packagesPath": "C:\\Users\\ivk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ivk\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -83,8 +88,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\uni\\bvcxza\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj": {
-                "projectPath": "D:\\uni\\bvcxza\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj"
+              "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj": {
+                "projectPath": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj"
               }
             }
           }
@@ -93,6 +98,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -128,21 +138,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\uni\\bvcxza\\MediaBazar\\MP-SchedulingDAL\\MP-SchedulingDAL.csproj": {
+    "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-SchedulingDAL\\MP-SchedulingDAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\uni\\bvcxza\\MediaBazar\\MP-SchedulingDAL\\MP-SchedulingDAL.csproj",
+        "projectUniqueName": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-SchedulingDAL\\MP-SchedulingDAL.csproj",
         "projectName": "MP-SchedulingDAL",
-        "projectPath": "D:\\uni\\bvcxza\\MediaBazar\\MP-SchedulingDAL\\MP-SchedulingDAL.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\uni\\bvcxza\\MediaBazar\\MP-SchedulingDAL\\obj\\",
+        "projectPath": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-SchedulingDAL\\MP-SchedulingDAL.csproj",
+        "packagesPath": "C:\\Users\\ivk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-SchedulingDAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ivk\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -162,6 +172,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -197,21 +212,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\uni\\bvcxza\\MediaBazar\\MP-SchedulingService\\MP-SchedulingService.csproj": {
+    "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-SchedulingService\\MP-SchedulingService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\uni\\bvcxza\\MediaBazar\\MP-SchedulingService\\MP-SchedulingService.csproj",
+        "projectUniqueName": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-SchedulingService\\MP-SchedulingService.csproj",
         "projectName": "MP-SchedulingService",
-        "projectPath": "D:\\uni\\bvcxza\\MediaBazar\\MP-SchedulingService\\MP-SchedulingService.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\uni\\bvcxza\\MediaBazar\\MP-SchedulingService\\obj\\",
+        "projectPath": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-SchedulingService\\MP-SchedulingService.csproj",
+        "packagesPath": "C:\\Users\\ivk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-SchedulingService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ivk\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -225,8 +240,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\uni\\bvcxza\\MediaBazar\\MP-SchedulingDAL\\MP-SchedulingDAL.csproj": {
-                "projectPath": "D:\\uni\\bvcxza\\MediaBazar\\MP-SchedulingDAL\\MP-SchedulingDAL.csproj"
+              "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-SchedulingDAL\\MP-SchedulingDAL.csproj": {
+                "projectPath": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-SchedulingDAL\\MP-SchedulingDAL.csproj"
               }
             }
           }
@@ -235,6 +250,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -262,21 +282,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\uni\\bvcxza\\MediaBazar\\MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj": {
+    "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\uni\\bvcxza\\MediaBazar\\MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj",
+        "projectUniqueName": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj",
         "projectName": "MP-WindowsFormsApp",
-        "projectPath": "D:\\uni\\bvcxza\\MediaBazar\\MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\uni\\bvcxza\\MediaBazar\\MP-WindowsFormsApp\\obj\\",
+        "projectPath": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj",
+        "packagesPath": "C:\\Users\\ivk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ivk\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -290,17 +310,17 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "D:\\uni\\bvcxza\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj": {
-                "projectPath": "D:\\uni\\bvcxza\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj"
+              "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj": {
+                "projectPath": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-BusinessLogic\\MP-BusinessLogic.csproj"
               },
-              "D:\\uni\\bvcxza\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj": {
-                "projectPath": "D:\\uni\\bvcxza\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj"
+              "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj": {
+                "projectPath": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-DataAccess\\MP-DataAccess.csproj"
               },
-              "D:\\uni\\bvcxza\\MediaBazar\\MP-SchedulingDAL\\MP-SchedulingDAL.csproj": {
-                "projectPath": "D:\\uni\\bvcxza\\MediaBazar\\MP-SchedulingDAL\\MP-SchedulingDAL.csproj"
+              "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-SchedulingDAL\\MP-SchedulingDAL.csproj": {
+                "projectPath": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-SchedulingDAL\\MP-SchedulingDAL.csproj"
               },
-              "D:\\uni\\bvcxza\\MediaBazar\\MP-SchedulingService\\MP-SchedulingService.csproj": {
-                "projectPath": "D:\\uni\\bvcxza\\MediaBazar\\MP-SchedulingService\\MP-SchedulingService.csproj"
+              "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-SchedulingService\\MP-SchedulingService.csproj": {
+                "projectPath": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-SchedulingService\\MP-SchedulingService.csproj"
               }
             }
           }
@@ -309,6 +329,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -347,7 +372,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

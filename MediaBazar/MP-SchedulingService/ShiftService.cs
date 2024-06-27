@@ -36,7 +36,7 @@ public class ShiftService
                 foreach (Shift shift in shiftsForSlot)
                 {
                     // If someone is already scheduled, reduce the shift demand
-                    if (shift.Type == "Shift")
+                    if (shift.State == 1)
                     {
                         shiftDemand--;
                         shiftsForSlot.Remove(shift);
@@ -111,7 +111,7 @@ public class ShiftService
         foreach (Shift shift in shifts)
         {
             Shift correspondingShift = currentShifts.Find(s => s.ShiftId == shift.ShiftId);
-            if (shift.Type == "Shift")
+            if (shift.State == 1)
             {
                 shiftController.CreateShift(shift);
                 if (correspondingShift != null && correspondingShift.Type == "Availability")

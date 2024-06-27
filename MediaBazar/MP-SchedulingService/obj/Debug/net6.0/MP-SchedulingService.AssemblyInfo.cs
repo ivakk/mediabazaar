@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MP-SchedulingService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+058b118772b122fec65985d8fc3e51e61266366c")]
 [assembly: System.Reflection.AssemblyProductAttribute("MP-SchedulingService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MP-SchedulingService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
