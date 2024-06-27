@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DCF277C3-9C3A-40B4-B52D-C8FC0AAB11CF}|MP-SchedulingDAL\\MP-SchedulingDAL.csproj|C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\mp-schedulingdal\\shiftcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCF277C3-9C3A-40B4-B52D-C8FC0AAB11CF}|MP-SchedulingDAL\\MP-SchedulingDAL.csproj|solutionrelative:mp-schedulingdal\\shiftcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9B094EAD-9561-47A2-B591-1392CBBB6540}|MP-SchedulingService\\MP-SchedulingService.csproj|C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\mp-schedulingservice\\shiftservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B094EAD-9561-47A2-B591-1392CBBB6540}|MP-SchedulingService\\MP-SchedulingService.csproj|solutionrelative:mp-schedulingservice\\shiftservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,8 +11,28 @@
       "RelativeMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|solutionrelative:mp-windowsformsapp\\forms\\autoschedulingpreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\mp-windowsformsapp\\forms\\shiftmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|solutionrelative:mp-windowsformsapp\\forms\\shiftmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60CC6C35-5403-41F4-B46F-519267B13D9E}|MP-WebApplication\\MP-WebApplication.csproj|C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\mp-webapplication\\pages\\scheduling.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60CC6C35-5403-41F4-B46F-519267B13D9E}|MP-WebApplication\\MP-WebApplication.csproj|solutionrelative:mp-webapplication\\pages\\scheduling.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|c:\\users\\ivk\\desktop\\r\\media-bazzar\\mediabazar\\mp-windowsformsapp\\forms\\autoschedulingpreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|solutionrelative:mp-windowsformsapp\\forms\\autoschedulingpreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\mp-windowsformsapp\\usercontrols\\usercontrolshiftpreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|solutionrelative:mp-windowsformsapp\\usercontrols\\usercontrolshiftpreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|c:\\users\\ivk\\desktop\\r\\media-bazzar\\mediabazar\\mp-windowsformsapp\\usercontrols\\usercontrolshift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|solutionrelative:mp-windowsformsapp\\usercontrols\\usercontrolshift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCF277C3-9C3A-40B4-B52D-C8FC0AAB11CF}|MP-SchedulingDAL\\MP-SchedulingDAL.csproj|C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\mp-schedulingdal\\shiftcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCF277C3-9C3A-40B4-B52D-C8FC0AAB11CF}|MP-SchedulingDAL\\MP-SchedulingDAL.csproj|solutionrelative:mp-schedulingdal\\shiftcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\mp-windowsformsapp\\forms\\autoschedulingpreview.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,24 +43,12 @@
       "RelativeMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|solutionrelative:mp-windowsformsapp\\usercontrols\\menubutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\mp-windowsformsapp\\forms\\shiftmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|solutionrelative:mp-windowsformsapp\\forms\\shiftmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{60CC6C35-5403-41F4-B46F-519267B13D9E}|MP-WebApplication\\MP-WebApplication.csproj|C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\mp-webapplication\\pages\\scheduling.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{60CC6C35-5403-41F4-B46F-519267B13D9E}|MP-WebApplication\\MP-WebApplication.csproj|solutionrelative:mp-webapplication\\pages\\scheduling.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60CC6C35-5403-41F4-B46F-519267B13D9E}|MP-WebApplication\\MP-WebApplication.csproj|C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\mp-webapplication\\pages\\scheduling.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60CC6C35-5403-41F4-B46F-519267B13D9E}|MP-WebApplication\\MP-WebApplication.csproj|solutionrelative:mp-webapplication\\pages\\scheduling.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{60CC6C35-5403-41F4-B46F-519267B13D9E}|MP-WebApplication\\MP-WebApplication.csproj|C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\mp-webapplication\\pages\\statistic.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{60CC6C35-5403-41F4-B46F-519267B13D9E}|MP-WebApplication\\MP-WebApplication.csproj|solutionrelative:mp-webapplication\\pages\\statistic.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|c:\\users\\ivk\\desktop\\r\\media-bazzar\\mediabazar\\mp-windowsformsapp\\usercontrols\\usercontrolshift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|solutionrelative:mp-windowsformsapp\\usercontrols\\usercontrolshift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9B094EAD-9561-47A2-B591-1392CBBB6540}|MP-SchedulingService\\MP-SchedulingService.csproj|C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\mp-schedulingservice\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -101,10 +105,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\mp-windowsformsapp\\usercontrols\\usercontrolshiftpreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|solutionrelative:mp-windowsformsapp\\usercontrols\\usercontrolshiftpreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\mp-windowsformsapp\\usercontrols\\usercontrolshiftpreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF6E30D4-B34E-4E70-A700-5062AEE5E122}|MP-WindowsFormsApp\\MP-WindowsFormsApp.csproj|solutionrelative:mp-windowsformsapp\\usercontrols\\usercontrolshiftpreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DCF277C3-9C3A-40B4-B52D-C8FC0AAB11CF}|MP-SchedulingDAL\\MP-SchedulingDAL.csproj|C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\mp-schedulingdal\\shift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -501,11 +501,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "ProductsForm.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\ProductsForm.cs",
               "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Forms\\ProductsForm.cs",
@@ -518,7 +518,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "MainForm.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\MainForm.cs",
               "RelativeDocumentMoniker": "MP-WindowsFormsApp\\MainForm.cs",
@@ -531,7 +531,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "LoginForm.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\LoginForm.cs",
               "RelativeDocumentMoniker": "MP-WindowsFormsApp\\LoginForm.cs",
@@ -622,84 +622,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ShiftService.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-SchedulingService\\ShiftService.cs",
               "RelativeDocumentMoniker": "MP-SchedulingService\\ShiftService.cs",
               "ToolTip": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-SchedulingService\\ShiftService.cs",
               "RelativeToolTip": "MP-SchedulingService\\ShiftService.cs",
-              "ViewState": "AQIAAEoAAAAAAAAAAAAcwHoAAAAAAAAA",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAkwGsAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-25T23:27:20.937Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ShiftController.cs",
-              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-SchedulingDAL\\ShiftController.cs",
-              "RelativeDocumentMoniker": "MP-SchedulingDAL\\ShiftController.cs",
-              "ToolTip": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-SchedulingDAL\\ShiftController.cs",
-              "RelativeToolTip": "MP-SchedulingDAL\\ShiftController.cs",
-              "ViewState": "AQIAACgBAAAAAAAAAAAowEsBAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T23:26:18.595Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "AutoSchedulingPreview.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\AutoSchedulingPreview.cs",
               "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Forms\\AutoSchedulingPreview.cs",
               "ToolTip": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\AutoSchedulingPreview.cs*",
               "RelativeToolTip": "MP-WindowsFormsApp\\Forms\\AutoSchedulingPreview.cs*",
-              "ViewState": "AQIAABEAAAAAAAAAAAAQwE4AAAApAAAA",
+              "ViewState": "AQIAAJUAAAAAAAAAAAAqwLAAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-25T23:45:21.931Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AutoSchedulingPreview.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\AutoSchedulingPreview.cs",
-              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Forms\\AutoSchedulingPreview.cs",
-              "ToolTip": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\AutoSchedulingPreview.cs [Design]*",
-              "RelativeToolTip": "MP-WindowsFormsApp\\Forms\\AutoSchedulingPreview.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T08:59:20.48Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AutoSchedulingPreview.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\AutoSchedulingPreview.Designer.cs",
-              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Forms\\AutoSchedulingPreview.Designer.cs",
-              "ToolTip": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\AutoSchedulingPreview.Designer.cs*",
-              "RelativeToolTip": "MP-WindowsFormsApp\\Forms\\AutoSchedulingPreview.Designer.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T23:46:04.549Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MenuButton.cs",
-              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\MenuButton.cs",
-              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\UserControls\\MenuButton.cs",
-              "ToolTip": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\MenuButton.cs",
-              "RelativeToolTip": "MP-WindowsFormsApp\\UserControls\\MenuButton.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T07:18:36.146Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "ShiftManagement.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\ShiftManagement.cs",
               "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Forms\\ShiftManagement.cs",
@@ -712,7 +661,97 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Scheduling.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-WebApplication\\Pages\\Scheduling.cshtml.cs",
+              "RelativeDocumentMoniker": "MP-WebApplication\\Pages\\Scheduling.cshtml.cs",
+              "ToolTip": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-WebApplication\\Pages\\Scheduling.cshtml.cs",
+              "RelativeToolTip": "MP-WebApplication\\Pages\\Scheduling.cshtml.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAArwEcAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T00:03:37.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AutoSchedulingPreview.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\AutoSchedulingPreview.cs",
+              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Forms\\AutoSchedulingPreview.cs",
+              "ToolTip": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\AutoSchedulingPreview.cs [Design]*",
+              "RelativeToolTip": "MP-WindowsFormsApp\\Forms\\AutoSchedulingPreview.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T08:59:20.48Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserControlShiftPreview.cs",
+              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\UserControlShiftPreview.cs",
+              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\UserControls\\UserControlShiftPreview.cs",
+              "ToolTip": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\UserControlShiftPreview.cs",
+              "RelativeToolTip": "MP-WindowsFormsApp\\UserControls\\UserControlShiftPreview.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAIwCkAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T23:43:25.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserControlShift.cs",
+              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\UserControlShift.cs",
+              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\UserControls\\UserControlShift.cs",
+              "ToolTip": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\UserControlShift.cs",
+              "RelativeToolTip": "MP-WindowsFormsApp\\UserControls\\UserControlShift.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAUwHIAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T23:43:01.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "ShiftController.cs",
+              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-SchedulingDAL\\ShiftController.cs",
+              "RelativeDocumentMoniker": "MP-SchedulingDAL\\ShiftController.cs",
+              "ToolTip": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-SchedulingDAL\\ShiftController.cs",
+              "RelativeToolTip": "MP-SchedulingDAL\\ShiftController.cs",
+              "ViewState": "AQIAACgBAAAAAAAAAAAowEsBAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T23:26:18.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AutoSchedulingPreview.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\AutoSchedulingPreview.Designer.cs",
+              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Forms\\AutoSchedulingPreview.Designer.cs",
+              "ToolTip": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Forms\\AutoSchedulingPreview.Designer.cs*",
+              "RelativeToolTip": "MP-WindowsFormsApp\\Forms\\AutoSchedulingPreview.Designer.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T23:46:04.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MenuButton.cs",
+              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\MenuButton.cs",
+              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\UserControls\\MenuButton.cs",
+              "ToolTip": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\MenuButton.cs",
+              "RelativeToolTip": "MP-WindowsFormsApp\\UserControls\\MenuButton.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T07:18:36.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Scheduling.cshtml",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-WebApplication\\Pages\\Scheduling.cshtml",
               "RelativeDocumentMoniker": "MP-WebApplication\\Pages\\Scheduling.cshtml",
@@ -725,20 +764,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Scheduling.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-WebApplication\\Pages\\Scheduling.cshtml.cs",
-              "RelativeDocumentMoniker": "MP-WebApplication\\Pages\\Scheduling.cshtml.cs",
-              "ToolTip": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-WebApplication\\Pages\\Scheduling.cshtml.cs",
-              "RelativeToolTip": "MP-WebApplication\\Pages\\Scheduling.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwFEAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T00:03:37.286Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Statistic.cshtml",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-WebApplication\\Pages\\Statistic.cshtml",
               "RelativeDocumentMoniker": "MP-WebApplication\\Pages\\Statistic.cshtml",
@@ -751,20 +777,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UserControlShift.cs",
-              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\UserControlShift.cs",
-              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\UserControls\\UserControlShift.cs",
-              "ToolTip": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\UserControlShift.cs",
-              "RelativeToolTip": "MP-WindowsFormsApp\\UserControls\\UserControlShift.cs",
-              "ViewState": "AQIAAE0AAAAAAAAAAADwv2oAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T23:43:01.048Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-SchedulingService\\UserService.cs",
               "RelativeDocumentMoniker": "MP-SchedulingService\\UserService.cs",
@@ -776,7 +789,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Profile.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-WebApplication\\Pages\\Profile.cshtml.cs",
               "RelativeDocumentMoniker": "MP-WebApplication\\Pages\\Profile.cshtml.cs",
@@ -789,7 +802,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Statistic.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-WebApplication\\Pages\\Statistic.cshtml.cs",
               "RelativeDocumentMoniker": "MP-WebApplication\\Pages\\Statistic.cshtml.cs",
@@ -801,7 +814,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "ShiftSlot.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-SchedulingDAL\\ShiftSlot.cs",
               "RelativeDocumentMoniker": "MP-SchedulingDAL\\ShiftSlot.cs",
@@ -813,7 +826,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "ReplenishmentRequestUC.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\ReplenishmentRequestUC.cs",
               "RelativeDocumentMoniker": "MP-WindowsFormsApp\\UserControls\\ReplenishmentRequestUC.cs",
@@ -825,7 +838,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\Program.cs",
               "RelativeDocumentMoniker": "MP-WindowsFormsApp\\Program.cs",
@@ -837,7 +850,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "UserControlDays.cs",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\UserControlDays.cs",
               "RelativeDocumentMoniker": "MP-WindowsFormsApp\\UserControls\\UserControlDays.cs",
@@ -849,7 +862,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "UserControlDays.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\UserControlDays.cs",
               "RelativeDocumentMoniker": "MP-WindowsFormsApp\\UserControls\\UserControlDays.cs",
@@ -860,7 +873,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "UserControlBlank.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\UserControlBlank.cs",
               "RelativeDocumentMoniker": "MP-WindowsFormsApp\\UserControls\\UserControlBlank.cs",
@@ -871,7 +884,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "UserControlShift.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\UserControlShift.cs",
               "RelativeDocumentMoniker": "MP-WindowsFormsApp\\UserControls\\UserControlShift.cs",
@@ -882,26 +895,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "UserControlShiftPreview.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\UserControlShiftPreview.cs",
               "RelativeDocumentMoniker": "MP-WindowsFormsApp\\UserControls\\UserControlShiftPreview.cs",
               "ToolTip": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\UserControlShiftPreview.cs [Design]",
               "RelativeToolTip": "MP-WindowsFormsApp\\UserControls\\UserControlShiftPreview.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T21:59:47.146Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "UserControlShiftPreview.cs",
-              "DocumentMoniker": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\UserControlShiftPreview.cs",
-              "RelativeDocumentMoniker": "MP-WindowsFormsApp\\UserControls\\UserControlShiftPreview.cs",
-              "ToolTip": "C:\\Users\\ivk\\Desktop\\r\\media-bazzar\\MediaBazar\\MP-WindowsFormsApp\\UserControls\\UserControlShiftPreview.cs",
-              "RelativeToolTip": "MP-WindowsFormsApp\\UserControls\\UserControlShiftPreview.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T23:43:25.475Z"
+              "WhenOpened": "2024-06-26T21:59:47.146Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -1319,7 +1321,8 @@
               "RelativeToolTip": "MP-WindowsFormsApp\\UserControls\\UserControlShiftPreview.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T23:44:12.098Z"
+              "WhenOpened": "2024-06-25T23:44:12.098Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

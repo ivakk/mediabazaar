@@ -113,9 +113,7 @@ public class ShiftService
             Shift correspondingShift = currentShifts.Find(s => s.ShiftId == shift.ShiftId);
             if (shift.State == 1)
             {
-                shiftController.CreateShift(shift);
-                if (correspondingShift != null && correspondingShift.Type == "Availability")
-                    shiftController.DeleteShift(shift.ShiftId);
+                shiftController.UpdateShiftStatus(shift.ShiftId, 1);
             }
         }
     }

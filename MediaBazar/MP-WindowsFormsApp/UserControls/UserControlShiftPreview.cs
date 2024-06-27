@@ -39,10 +39,10 @@ namespace MP_WindowsFormsApp.UserControls
             }
             ShiftDemand.Value = shiftDemand;
 
-            if (shifts.Where(s => s.Type == "Shift").Count() > 1)
+            if (shifts.Where(s => s.State == 1).Count() > 1)
             {
-                ShiftDemand.Value = shifts.Where(s => s.Type == "Shift").Count();
-                shiftDemand = shifts.Where(s => s.Type == "Shift").Count();
+                ShiftDemand.Value = shifts.Where(s => s.State == 1).Count();
+                shiftDemand = shifts.Where(s => s.State == 1).Count();
             }
 
             this.shifts = shifts;
@@ -81,7 +81,7 @@ namespace MP_WindowsFormsApp.UserControls
             button1.Text = "\n";
             foreach (Shift shift in this.shifts)
             {
-                if (shift.Type == "Shift")
+                if (shift.State == 1)
                 {
                     button1.Text += $"{shift.User.FirstName} {shift.User.LastName}\n";
                 }
@@ -104,15 +104,15 @@ namespace MP_WindowsFormsApp.UserControls
 
             if (shifts != null)
             {
-                if (shifts.Where(s => s.Type == "Shift").Count() > shiftDemand)
+                if (shifts.Where(s => s.State == 1).Count() > shiftDemand)
                 {
                     button1.BackColor = this.colorIncomplete;
                 }
-                else if (shifts.Where(s => s.Type == "Shift").Count() == shiftDemand)
+                else if (shifts.Where(s => s.State == 1).Count() == shiftDemand)
                 {
                     button1.BackColor = this.color;
                 }
-                else if (shifts.Where(s => s.Type == "Shift").Count() < shiftDemand)
+                else if (shifts.Where(s => s.State == 1).Count() < shiftDemand)
                 {
                     button1.BackColor = this.colorOvercomplete;
                 }
@@ -143,7 +143,7 @@ namespace MP_WindowsFormsApp.UserControls
                 {
                     if (shift.Type == "Availability")
                         availableUsers.Add(shift.User);
-                    else if (shift.Type == "Shift")
+                    else if (shift.State == 1)
                         scheduledUsers.Add(shift.User);
                 }
             }
