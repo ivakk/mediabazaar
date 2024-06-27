@@ -33,7 +33,7 @@ public class ShiftService
                 bool emptyCycle = false;
                 User minHoursWorkedUser = new User() { HoursWorked = 100 };
 
-                foreach (Shift shift in shiftsForSlot)
+                foreach (Shift shift in shiftsForSlot.ToList())
                 {
                     // If someone is already scheduled, reduce the shift demand
                     if (shift.State == 1)
@@ -44,16 +44,17 @@ public class ShiftService
                         break;
                     }
 
-                    User userOfShift = userList.Where(u => u.Id == shift.User.Id).ToList()[0];
+                    User userOfShift = userList.FirstOrDefault(u => u.Id == shift.User.Id);
 
                     // Check if the user has reached the maximum shifts for the day
                     if (shiftController.HasReachedMaxShiftsForDay(shift.User.Id, slot.StartTime))
                     {
+                        shiftsForSlot.Remove(shift);
                         continue;
                     }
 
                     // If this shift's user has less hours than the current minimum
-                    if (userOfShift.HoursWorked < minHoursWorkedUser.HoursWorked)
+                    if (userOfShift != null && userOfShift.HoursWorked < minHoursWorkedUser.HoursWorked)
                     {
                         minHoursWorkedUser = userOfShift;
                     }
@@ -68,10 +69,10 @@ public class ShiftService
                         break;
                     }
 
-                    Shift shiftToBeScheduled = shiftsForSlot.Where(s => s.User.Id == minHoursWorkedUser.Id).ToList()[0];
+                    Shift shiftToBeScheduled = shiftsForSlot.FirstOrDefault(s => s.User.Id == minHoursWorkedUser.Id);
 
                     // Ensure the shift is adjacent to an existing shift for this user
-                    if (!shiftController.IsAdjacentShift(minHoursWorkedUser.Id, shiftToBeScheduled))
+                    if (shiftToBeScheduled == null || !shiftController.IsShiftAllowed(shiftToBeScheduled))
                     {
                         shiftsForSlot.Remove(shiftToBeScheduled);
                         continue;
@@ -83,7 +84,6 @@ public class ShiftService
                         if (shiftList[i].ShiftId == shiftToBeScheduled.ShiftId)
                         {
                             shiftList[i].State = 1;
-                            shiftList[i].Type = "Shift";
                             break;
                         }
                     }

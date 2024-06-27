@@ -305,7 +305,7 @@ namespace MP_SchedulingDAL
             }
         }
 
-        private bool IsShiftAllowed(Shift shift)
+        public bool IsShiftAllowed(Shift shift)
         {
             if (HasReachedMaxShiftsForDay(shift.User.Id, shift.StartTime))
             {
